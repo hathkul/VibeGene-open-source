@@ -1,0 +1,4855 @@
+{
+  "AanI": {
+    "thermoName": "AanI",
+    "alias": "PsiI",
+    "recognitionRaw": "TTA^TAA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AarI": {
+    "thermoName": "AarI",
+    "alias": null,
+    "recognitionRaw": "CACCTGC(4/8)^",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "AarI +oligo",
+    "bufferActivity": {
+      "b": "NR (+oligo)",
+      "g": "NR (+oligo)",
+      "o": "0-20 (+oligo)",
+      "r": "0-20 (+oligo)",
+      "tango": "NR (+oligo)"
+    },
+    "tango2x": "50-100 (+oligo)",
+    "doubleDigest": "2X (+oligo)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AatII": {
+    "thermoName": "AatII",
+    "alias": null,
+    "recognitionRaw": "GACGT^C",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc65I": {
+    "thermoName": "Acc65I",
+    "alias": "Asp718I",
+    "recognitionRaw": "G^GTACC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "20-50",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AdeI": {
+    "thermoName": "AdeI",
+    "alias": "DraIII",
+    "recognitionRaw": "CACNNN^GTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "100",
+      "o": "20-50",
+      "r": "100",
+      "tango": "100*"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AjiI": {
+    "thermoName": "AjiI",
+    "alias": "BmgBI",
+    "recognitionRaw": "CAC^GTC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "AjiI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "20-50*",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "20-50*",
+    "doubleDigest": "2X*",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AjuI": {
+    "thermoName": "AjuI",
+    "alias": null,
+    "recognitionRaw": "^(7/12)GAA(N)7TTGG(11/6)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "R +SAM",
+    "bufferActivity": {
+      "b": "0-20 (+SAM)",
+      "g": "50-100 (+SAM)",
+      "o": "20-50 (+SAM)",
+      "r": "100 (+SAM)",
+      "tango": "50-100 (+SAM)"
+    },
+    "tango2x": "50-100 (+SAM)",
+    "doubleDigest": "1X or 2X (+SAM)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AloI": {
+    "thermoName": "AloI",
+    "alias": null,
+    "recognitionRaw": "^(7/12-13)GAAC(N)6TCC(12-13/7)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "thermoName": "AluI",
+    "alias": null,
+    "recognitionRaw": "AG^CT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Alw21I": {
+    "thermoName": "Alw21I",
+    "alias": "BsiHKAI",
+    "recognitionRaw": "GWGCW^C",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Alw26I": {
+    "thermoName": "Alw26I",
+    "alias": null,
+    "recognitionRaw": "GTCTC(1/5)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Alw44I": {
+    "thermoName": "Alw44I",
+    "alias": null,
+    "recognitionRaw": "G^TGCAC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "thermoName": "ApaI",
+    "alias": null,
+    "recognitionRaw": "GGGCC^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "thermoName": "BamHI",
+    "alias": null,
+    "recognitionRaw": "G^GATCC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "BamHI",
+    "bufferActivity": {
+      "b": "20-50*",
+      "g": "100",
+      "o": "20-50",
+      "r": "50-100*",
+      "tango": "100*"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BauI": {
+    "thermoName": "BauI",
+    "alias": "BssSI",
+    "recognitionRaw": "CACGAG(-5/-1)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BclI": {
+    "thermoName": "BclI",
+    "alias": null,
+    "recognitionRaw": "T^GATCA",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100*"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BcnI": {
+    "thermoName": "BcnI",
+    "alias": "NciI",
+    "recognitionRaw": "CC^SGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BcuI": {
+    "thermoName": "BcuI",
+    "alias": "SpeI",
+    "recognitionRaw": "A^CTAGT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BfmI": {
+    "thermoName": "BfmI",
+    "alias": "SfcI",
+    "recognitionRaw": "C^TRYAG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BfuI": {
+    "thermoName": "BfuI",
+    "alias": "BciVI",
+    "recognitionRaw": "GTATCC(6/5)^",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "BfuI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "NR"
+    },
+    "tango2x": "50-100*",
+    "doubleDigest": "2X*",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "thermoName": "BglI",
+    "alias": null,
+    "recognitionRaw": "GCCNNNN^NGGC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "100",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "thermoName": "BglII",
+    "alias": null,
+    "recognitionRaw": "A^GATCT",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "0-20"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bme1390I": {
+    "thermoName": "Bme1390I",
+    "alias": "ScrFI",
+    "recognitionRaw": "CC^NGG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "100",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BoxI": {
+    "thermoName": "BoxI",
+    "alias": "PshAI",
+    "recognitionRaw": "GACNN^NNGTC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BpiI": {
+    "thermoName": "BpiI",
+    "alias": "BbsI",
+    "recognitionRaw": "GAAGAC(2/6)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BplI": {
+    "thermoName": "BplI",
+    "alias": null,
+    "recognitionRaw": "^(8/13)GAG(N)5CTC(13/8)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20 (+SAM)",
+      "g": "20-50 (+SAM)",
+      "o": "0-20 (+SAM)",
+      "r": "0-20 (+SAM)",
+      "tango": "100 (+SAM)"
+    },
+    "tango2x": "20-50 (+SAM)",
+    "doubleDigest": "1X (+SAM)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu10I": {
+    "thermoName": "Bpu10I",
+    "alias": null,
+    "recognitionRaw": "CCTNAGC(-5/-2)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Bpu10I",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50*",
+      "o": "50-100*",
+      "r": "100*",
+      "tango": "50-100*"
+    },
+    "tango2x": "100*",
+    "doubleDigest": "1X* or 2X*",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu1102I": {
+    "thermoName": "Bpu1102I",
+    "alias": "BlpI",
+    "recognitionRaw": "GC^TNAGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseDI": {
+    "thermoName": "BseDI",
+    "alias": "BsaJI",
+    "recognitionRaw": "C^CNNGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseGI": {
+    "thermoName": "BseGI",
+    "alias": "BtsCI",
+    "recognitionRaw": "GGATG(2/0)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseJI": {
+    "thermoName": "BseJI",
+    "alias": "BsaBI",
+    "recognitionRaw": "GATNN^NNATC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "100*",
+      "o": "100",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "100*",
+    "doubleDigest": "2X*",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseLI": {
+    "thermoName": "BseLI",
+    "alias": "BslI",
+    "recognitionRaw": "CCNNNNN^NNGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseMI": {
+    "thermoName": "BseMI",
+    "alias": "BsrDI",
+    "recognitionRaw": "GCAATG(2/0)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseMII": {
+    "thermoName": "BseMII",
+    "alias": "BspCNI",
+    "recognitionRaw": "CTCAG(10/8)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100 (+SAM)",
+      "g": "50-100 (+SAM)",
+      "o": "50-100 (+SAM)",
+      "r": "50-100 (+SAM)",
+      "tango": "100 (+SAM)"
+    },
+    "tango2x": "50-100 (+SAM)",
+    "doubleDigest": "1X or 2X (+SAM)",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseNI": {
+    "thermoName": "BseNI",
+    "alias": "BsrI",
+    "recognitionRaw": "ACTGG(1/-1)^",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseSI": {
+    "thermoName": "BseSI",
+    "alias": "Bme1580I",
+    "recognitionRaw": "GKGCM^C",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseXI": {
+    "thermoName": "BseXI",
+    "alias": "BbvI",
+    "recognitionRaw": "GCAGC(8/12)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "BseXI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "NR",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsh1236I": {
+    "thermoName": "Bsh1236I",
+    "alias": "BstUI",
+    "recognitionRaw": "CG^CG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsh1285I": {
+    "thermoName": "Bsh1285I",
+    "alias": "BsiEI",
+    "recognitionRaw": "CGRY^CG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "20-50",
+      "r": "0-20",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BshNI": {
+    "thermoName": "BshNI",
+    "alias": "BanI",
+    "recognitionRaw": "G^GYRCC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "0-20"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BshTI": {
+    "thermoName": "BshTI",
+    "alias": "AgeI",
+    "recognitionRaw": "A^CCGGT",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp119I": {
+    "thermoName": "Bsp119I",
+    "alias": "BstBI",
+    "recognitionRaw": "TT^CGAA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp120I": {
+    "thermoName": "Bsp120I",
+    "alias": "PspOMI",
+    "recognitionRaw": "G^GGCCC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1407I": {
+    "thermoName": "Bsp1407I",
+    "alias": "BsrGI",
+    "recognitionRaw": "T^GTACA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp143I": {
+    "thermoName": "Bsp143I",
+    "alias": "Sau3AI",
+    "recognitionRaw": "^GATC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Bsp143I",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp68I": {
+    "thermoName": "Bsp68I",
+    "alias": "NruI",
+    "recognitionRaw": "TCG^CGA",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspLI": {
+    "thermoName": "BspLI",
+    "alias": "NlaIV",
+    "recognitionRaw": "GGN^NCC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspOI": {
+    "thermoName": "BspOI",
+    "alias": "BmtI",
+    "recognitionRaw": "GCTAG^C",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspPI": {
+    "thermoName": "BspPI",
+    "alias": "AlwI",
+    "recognitionRaw": "GGATC(4/5)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspTI": {
+    "thermoName": "BspTI",
+    "alias": "AflII",
+    "recognitionRaw": "C^TTAAG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst1107I": {
+    "thermoName": "Bst1107I",
+    "alias": "BstZ17I",
+    "recognitionRaw": "GTA^TAC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "thermoName": "BstXI",
+    "alias": null,
+    "recognitionRaw": "CCANNNNN^NTGG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "100",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsu15I": {
+    "thermoName": "Bsu15I",
+    "alias": "ClaI",
+    "recognitionRaw": "AT^CGAT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsuRI": {
+    "thermoName": "BsuRI",
+    "alias": "HaeIII",
+    "recognitionRaw": "GG^CC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BveI": {
+    "thermoName": "BveI",
+    "alias": "BspMI",
+    "recognitionRaw": "ACCTGC(4/8)^",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "O +oligo",
+    "bufferActivity": {
+      "b": "0-20 (+oligo)",
+      "g": "20-50 (+oligo)",
+      "o": "100 (+oligo)",
+      "r": "20-50 (+oligo)",
+      "tango": "50-100 (+oligo)"
+    },
+    "tango2x": "100 (+oligo)",
+    "doubleDigest": "1X or 2X (+oligo)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CaiI": {
+    "thermoName": "CaiI",
+    "alias": "AlwNI",
+    "recognitionRaw": "CAGNNN^CTG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Cfr10I": {
+    "thermoName": "Cfr10I",
+    "alias": "BsrFI",
+    "recognitionRaw": "R^CCGGY",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Cfr10I",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Cfr13I": {
+    "thermoName": "Cfr13I",
+    "alias": "Sau96I",
+    "recognitionRaw": "G^GNCC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Cfr42I": {
+    "thermoName": "Cfr42I",
+    "alias": "SacII",
+    "recognitionRaw": "CCGC^GG",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Cfr9I": {
+    "thermoName": "Cfr9I",
+    "alias": "XmaI",
+    "recognitionRaw": "C^CCGGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Cfr9I",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CpoI": {
+    "thermoName": "CpoI",
+    "alias": "RsrII",
+    "recognitionRaw": "CG^GWCCG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CseI": {
+    "thermoName": "CseI",
+    "alias": "HgaI",
+    "recognitionRaw": "GACGC(5/10)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "50-100*",
+      "o": "50-100",
+      "r": "100",
+      "tango": "100*"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Csp6I": {
+    "thermoName": "Csp6I",
+    "alias": "CviQI",
+    "recognitionRaw": "G^TAC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DpnI": {
+    "thermoName": "DpnI",
+    "alias": null,
+    "recognitionRaw": "Gm6A^TC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "thermoName": "DraI",
+    "alias": null,
+    "recognitionRaw": "TTT^AAA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eam1104I": {
+    "thermoName": "Eam1104I",
+    "alias": "EarI",
+    "recognitionRaw": "CTCTTC(1/4)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eam1105I": {
+    "thermoName": "Eam1105I",
+    "alias": "AhdI",
+    "recognitionRaw": "GACNNN^NNGTC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Eam1105I",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ecl136II": {
+    "thermoName": "Ecl136II",
+    "alias": "EcoICRI",
+    "recognitionRaw": "GAG^CTC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Ecl136II",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco105I": {
+    "thermoName": "Eco105I",
+    "alias": "SnaBI",
+    "recognitionRaw": "TAC^GTA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100*",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco130I": {
+    "thermoName": "Eco130I",
+    "alias": "StyI",
+    "recognitionRaw": "C^CWWGG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco147I": {
+    "thermoName": "Eco147I",
+    "alias": "StuI",
+    "recognitionRaw": "AGG^CCT",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco24I": {
+    "thermoName": "Eco24I",
+    "alias": "BanII",
+    "recognitionRaw": "GRGCY^C",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco31I": {
+    "thermoName": "Eco31I",
+    "alias": "BsaI",
+    "recognitionRaw": "GGTCTC(1/5)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco32I": {
+    "thermoName": "Eco32I",
+    "alias": "EcoRV",
+    "recognitionRaw": "GAT^ATC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco47I": {
+    "thermoName": "Eco47I",
+    "alias": "AvaII",
+    "recognitionRaw": "G^GWCC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco47III": {
+    "thermoName": "Eco47III",
+    "alias": "AfeI",
+    "recognitionRaw": "AGC^GCT",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco52I": {
+    "thermoName": "Eco52I",
+    "alias": "EagI",
+    "recognitionRaw": "C^GGCCG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Eco52I",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco57I": {
+    "thermoName": "Eco57I",
+    "alias": "AcuI",
+    "recognitionRaw": "CTGAAG(16/14)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "G +SAM",
+    "bufferActivity": {
+      "b": "100 (+SAM)",
+      "g": "100 (+SAM)",
+      "o": "20-50 (+SAM)",
+      "r": "20-50 (+SAM)",
+      "tango": "50-100 (+SAM)"
+    },
+    "tango2x": "50-100 (+SAM)",
+    "doubleDigest": "1X or 2X (+SAM)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco72I": {
+    "thermoName": "Eco72I",
+    "alias": "PmlI",
+    "recognitionRaw": "CAC^GTG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco81I": {
+    "thermoName": "Eco81I",
+    "alias": "Bsu36I",
+    "recognitionRaw": "CC^TNAGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco88I": {
+    "thermoName": "Eco88I",
+    "alias": "AvaI",
+    "recognitionRaw": "C^YCGRG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco91I": {
+    "thermoName": "Eco91I",
+    "alias": "BstEII",
+    "recognitionRaw": "G^GTNACC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "NR"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoO109I": {
+    "thermoName": "EcoO109I",
+    "alias": "DraII",
+    "recognitionRaw": "RG^GNCCY",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "thermoName": "EcoRI",
+    "alias": null,
+    "recognitionRaw": "G^AATTC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "EcoRI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "NR",
+      "o": "100",
+      "r": "100*",
+      "tango": "NR"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRII": {
+    "thermoName": "EcoRII",
+    "alias": null,
+    "recognitionRaw": "^CCWGG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "100",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EheI": {
+    "thermoName": "EheI",
+    "alias": "SfoI",
+    "recognitionRaw": "GGC^GCC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Esp3I": {
+    "thermoName": "Esp3I",
+    "alias": "BsmBI",
+    "recognitionRaw": "CGTCTC(1/5)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100 (+DTT)",
+      "g": "20-50 (+DTT)",
+      "o": "0-20 (+DTT)",
+      "r": "0-20 (+DTT)",
+      "tango": "100 (+DDT)"
+    },
+    "tango2x": "0-20 (+DTT)",
+    "doubleDigest": "1X (+DDT)",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FaqI": {
+    "thermoName": "FaqI",
+    "alias": "BsmFI",
+    "recognitionRaw": "GGGAC(10/14)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50 (+SAM)",
+      "g": "20-50 (+SAM)",
+      "o": "0-20 (+SAM)",
+      "r": "0-20 (+SAM)",
+      "tango": "100 (+SAM)"
+    },
+    "tango2x": "50-100 (+SAM)",
+    "doubleDigest": "1X (+SAM)",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FspAI": {
+    "thermoName": "FspAI",
+    "alias": null,
+    "recognitionRaw": "RTGC^GCAY",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "50-100",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FspBI": {
+    "thermoName": "FspBI",
+    "alias": "BfaI",
+    "recognitionRaw": "C^TAG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "GsuI": {
+    "thermoName": "GsuI",
+    "alias": "BpmI",
+    "recognitionRaw": "CTGGAG(16/14)^",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HhaI": {
+    "thermoName": "HhaI",
+    "alias": null,
+    "recognitionRaw": "GCG^C",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hin1I": {
+    "thermoName": "Hin1I",
+    "alias": "BsaHI",
+    "recognitionRaw": "GR^CGYC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "20-50"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hin1II": {
+    "thermoName": "Hin1II",
+    "alias": "NlaIII",
+    "recognitionRaw": "CATG^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hin6I": {
+    "thermoName": "Hin6I",
+    "alias": "HinP1I",
+    "recognitionRaw": "G^CGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HincII": {
+    "thermoName": "HincII",
+    "alias": "HindII",
+    "recognitionRaw": "GTY^RAC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "thermoName": "HindIII",
+    "alias": null,
+    "recognitionRaw": "A^AGCTT",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "thermoName": "HinfI",
+    "alias": null,
+    "recognitionRaw": "G^ANTC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "thermoName": "HpaII",
+    "alias": null,
+    "recognitionRaw": "C^CGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HphI": {
+    "thermoName": "HphI",
+    "alias": null,
+    "recognitionRaw": "GGTGA(8/7)^",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hpy8I": {
+    "thermoName": "Hpy8I",
+    "alias": "MjaIV",
+    "recognitionRaw": "GTN^NAC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpyF10VI": {
+    "thermoName": "HpyF10VI",
+    "alias": "MwoI",
+    "recognitionRaw": "GCNNNNN^NNGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpyF3I": {
+    "thermoName": "HpyF3I",
+    "alias": "DdeI",
+    "recognitionRaw": "C^TNAG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "I-SceI": {
+    "thermoName": "I-SceI",
+    "alias": null,
+    "recognitionRaw": "TAGGG ATAA^CAGGGTAATATCCC?TATT GTCCCATTA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Kpn2I": {
+    "thermoName": "Kpn2I",
+    "alias": "BspEI",
+    "recognitionRaw": "T^CCGGA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "thermoName": "KpnI",
+    "alias": null,
+    "recognitionRaw": "GGTAC^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "KpnI",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KspAI": {
+    "thermoName": "KspAI",
+    "alias": "HpaI",
+    "recognitionRaw": "GTT^AAC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100*",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100*"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X* or 2X*",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "LguI": {
+    "thermoName": "LguI",
+    "alias": "SapI",
+    "recognitionRaw": "GCTCTTC(1/4)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Lsp1109I": {
+    "thermoName": "Lsp1109I",
+    "alias": "BbvI",
+    "recognitionRaw": "GCAGC(8/12)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Lsp1109I",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50*",
+      "o": "50-100*",
+      "r": "100",
+      "tango": "20-50*"
+    },
+    "tango2x": "20-50*",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "LweI": {
+    "thermoName": "LweI",
+    "alias": "SfaNI",
+    "recognitionRaw": "GCATC(5/9)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MauBI": {
+    "thermoName": "MauBI",
+    "alias": null,
+    "recognitionRaw": "CG^CGCGCG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MbiI": {
+    "thermoName": "MbiI",
+    "alias": "BsrBI",
+    "recognitionRaw": "CCGCTC(-3/-3)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboI": {
+    "thermoName": "MboI",
+    "alias": null,
+    "recognitionRaw": "^GATC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboII": {
+    "thermoName": "MboII",
+    "alias": null,
+    "recognitionRaw": "GAAGA(8/7)^",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MlsI": {
+    "thermoName": "MlsI",
+    "alias": "MscI",
+    "recognitionRaw": "TGG^CCA",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "thermoName": "MluI",
+    "alias": null,
+    "recognitionRaw": "A^CGCGT",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MnlI": {
+    "thermoName": "MnlI",
+    "alias": null,
+    "recognitionRaw": "CCTC(7/6)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "20-50"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Mph1103I": {
+    "thermoName": "Mph1103I",
+    "alias": "NsiI",
+    "recognitionRaw": "ATGCA^T",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MreI": {
+    "thermoName": "MreI",
+    "alias": "Sse232I",
+    "recognitionRaw": "CG^CCGGCG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "thermoName": "MspI",
+    "alias": "HpaII",
+    "recognitionRaw": "C^CGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MssI": {
+    "thermoName": "MssI",
+    "alias": "PmeI",
+    "recognitionRaw": "GTTT^AAAC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MunI": {
+    "thermoName": "MunI",
+    "alias": "MfeI",
+    "recognitionRaw": "C^AATTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Mva1269I": {
+    "thermoName": "Mva1269I",
+    "alias": "BsmI",
+    "recognitionRaw": "GAATGC(1/-1)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MvaI": {
+    "thermoName": "MvaI",
+    "alias": "BstNI",
+    "recognitionRaw": "CC^WGG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50*"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Nb.Bpu10I": {
+    "thermoName": "Nb.Bpu10I",
+    "alias": null,
+    "recognitionRaw": "CCTNA GCGGANT?CG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Nb.Mva1269I": {
+    "thermoName": "Nb.Mva1269I",
+    "alias": null,
+    "recognitionRaw": "GAATG CCTTAC?G",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "thermoName": "NcoI",
+    "alias": null,
+    "recognitionRaw": "C^CATGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "thermoName": "NdeI",
+    "alias": null,
+    "recognitionRaw": "CA^TATG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "50-100",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI": {
+    "thermoName": "NheI",
+    "alias": null,
+    "recognitionRaw": "G^CTAGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NmuCI": {
+    "thermoName": "NmuCI",
+    "alias": "Tsp45I",
+    "recognitionRaw": "^GTSAC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI": {
+    "thermoName": "NotI",
+    "alias": null,
+    "recognitionRaw": "GC^GGCCGC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NsbI": {
+    "thermoName": "NsbI",
+    "alias": "FspI",
+    "recognitionRaw": "TGC^GCA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Nt.Bpu10I": {
+    "thermoName": "Nt.Bpu10I",
+    "alias": null,
+    "recognitionRaw": "CC^TNAGCGG ANTCG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "OliI": {
+    "thermoName": "OliI",
+    "alias": "AleI",
+    "recognitionRaw": "CACNN^NNGTG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PacI": {
+    "thermoName": "PacI",
+    "alias": null,
+    "recognitionRaw": "TTAAT^TAA",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "PacI",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "0-20"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "NR",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PaeI": {
+    "thermoName": "PaeI",
+    "alias": "SphI",
+    "recognitionRaw": "GCATG^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PagI": {
+    "thermoName": "PagI",
+    "alias": "BspHI",
+    "recognitionRaw": "T^CATGA",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "100",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PasI": {
+    "thermoName": "PasI",
+    "alias": null,
+    "recognitionRaw": "CC^CWGGG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "PasI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "NR",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PauI": {
+    "thermoName": "PauI",
+    "alias": "BssHII",
+    "recognitionRaw": "G^CGCGC",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PdiI": {
+    "thermoName": "PdiI",
+    "alias": "NaeI",
+    "recognitionRaw": "GCC^GGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PdmI": {
+    "thermoName": "PdmI",
+    "alias": "XmnI",
+    "recognitionRaw": "GAANN^NNTTC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PfeI": {
+    "thermoName": "PfeI",
+    "alias": "TfiI",
+    "recognitionRaw": "G^AWTC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Pfl23II": {
+    "thermoName": "Pfl23II",
+    "alias": "BsiWI",
+    "recognitionRaw": "C^GTACG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PfoI": {
+    "thermoName": "PfoI",
+    "alias": null,
+    "recognitionRaw": "T^CCNGGA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ppu21I": {
+    "thermoName": "Ppu21I",
+    "alias": "BsaAI",
+    "recognitionRaw": "YAC^GTR",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Ppu21I",
+    "bufferActivity": {
+      "b": "50-100*",
+      "g": "100*",
+      "o": "20-50",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PscI": {
+    "thermoName": "PscI",
+    "alias": "PciI",
+    "recognitionRaw": "A^CATGT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp1406I": {
+    "thermoName": "Psp1406I",
+    "alias": "AclI",
+    "recognitionRaw": "AA^CGTT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp5II": {
+    "thermoName": "Psp5II",
+    "alias": "PpuMI",
+    "recognitionRaw": "RG^GWCCY",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "thermoName": "PstI",
+    "alias": null,
+    "recognitionRaw": "CTGCA^G",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PsuI": {
+    "thermoName": "PsuI",
+    "alias": "BstYI",
+    "recognitionRaw": "R^GATCY",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PsyI": {
+    "thermoName": "PsyI",
+    "alias": "Tth111I",
+    "recognitionRaw": "GACN^NNGTC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "thermoName": "PvuI",
+    "alias": null,
+    "recognitionRaw": "CGAT^CG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "thermoName": "PvuII",
+    "alias": null,
+    "recognitionRaw": "CAG^CTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100*",
+      "g": "100",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "20-50*"
+    },
+    "tango2x": "20-50*",
+    "doubleDigest": "1X* or 2X*",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "thermoName": "RsaI",
+    "alias": null,
+    "recognitionRaw": "GT^AC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RseI": {
+    "thermoName": "RseI",
+    "alias": "MslI",
+    "recognitionRaw": "CAYNN^NNRTG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "thermoName": "SacI",
+    "alias": null,
+    "recognitionRaw": "GAGCT^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SacI",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "thermoName": "SalI",
+    "alias": null,
+    "recognitionRaw": "G^TCGAC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SatI": {
+    "thermoName": "SatI",
+    "alias": "Fnu4HI",
+    "recognitionRaw": "GC^NGC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI": {
+    "thermoName": "ScaI",
+    "alias": null,
+    "recognitionRaw": "AGT^ACT",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "ScaI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "0-20"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "NR",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SchI": {
+    "thermoName": "SchI",
+    "alias": "MlyI",
+    "recognitionRaw": "GAGTC(5/5)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SdaI": {
+    "thermoName": "SdaI",
+    "alias": "SbfI",
+    "recognitionRaw": "CCTGCA^GG",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SdaI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "NR",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "NR"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SduI": {
+    "thermoName": "SduI",
+    "alias": "Bsp1286I",
+    "recognitionRaw": "GDGCH^C",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SduI",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "50-100*",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfaAI": {
+    "thermoName": "SfaAI",
+    "alias": "AsiSI",
+    "recognitionRaw": "GCGAT^CGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "thermoName": "SfiI",
+    "alias": null,
+    "recognitionRaw": "GGCCNNNN^NGGCC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "20-50",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SgeI": {
+    "thermoName": "SgeI",
+    "alias": null,
+    "recognitionRaw": "m5CNNG(9/13)^",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SgeI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "NR",
+      "tango": "NR"
+    },
+    "tango2x": "NR",
+    "doubleDigest": "NR",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Requires 5-methylcytosine (m⁵C)",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SgrDI": {
+    "thermoName": "SgrDI",
+    "alias": null,
+    "recognitionRaw": "CG^TCGACG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "100",
+      "tango": "NR"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SgsI": {
+    "thermoName": "SgsI",
+    "alias": "AscI",
+    "recognitionRaw": "GG^CGCGCC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "thermoName": "SmaI",
+    "alias": null,
+    "recognitionRaw": "CCC^GGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiI": {
+    "thermoName": "SmiI",
+    "alias": "SwaI",
+    "recognitionRaw": "ATTT^AAAT",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmoI": {
+    "thermoName": "SmoI",
+    "alias": "SmlI",
+    "recognitionRaw": "C^TYRAG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SsiI": {
+    "thermoName": "SsiI",
+    "alias": "AciI",
+    "recognitionRaw": "CCGC(-3/-1)^",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "20-50",
+      "o": "100",
+      "r": "50-100",
+      "tango": "NR"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspDI": {
+    "thermoName": "SspDI",
+    "alias": "KasI",
+    "recognitionRaw": "G^GCGCC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "0-20",
+      "o": "NR",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "thermoName": "SspI",
+    "alias": null,
+    "recognitionRaw": "AAT^ATT",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaaI": {
+    "thermoName": "TaaI",
+    "alias": "HpyCH4III",
+    "recognitionRaw": "ACN^GT",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaiI": {
+    "thermoName": "TaiI",
+    "alias": "MaeII",
+    "recognitionRaw": "ACGT^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "thermoName": "TaqI",
+    "alias": null,
+    "recognitionRaw": "T^CGA",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "TaqI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "20-50"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TasI": {
+    "thermoName": "TasI",
+    "alias": "Tsp509I",
+    "recognitionRaw": "^AATT",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TatI": {
+    "thermoName": "TatI",
+    "alias": null,
+    "recognitionRaw": "W^GTACW",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "NR",
+      "g": "50-100*",
+      "o": "0-20",
+      "r": "20-50",
+      "tango": "100*"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X*",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TauI": {
+    "thermoName": "TauI",
+    "alias": null,
+    "recognitionRaw": "GCSG^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "20-50"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tru1I": {
+    "thermoName": "Tru1I",
+    "alias": "MseI",
+    "recognitionRaw": "T^TAA",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TscAI": {
+    "thermoName": "TscAI",
+    "alias": "TspRI",
+    "recognitionRaw": "CASTG(2/-7)^",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Van91I": {
+    "thermoName": "Van91I",
+    "alias": "PflMI",
+    "recognitionRaw": "CCANNNN^NTGG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VspI": {
+    "thermoName": "VspI",
+    "alias": "AseI",
+    "recognitionRaw": "AT^TAAT",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "100",
+      "r": "20-50",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XagI": {
+    "thermoName": "XagI",
+    "alias": "EcoNI",
+    "recognitionRaw": "CCTNN^NNNAGG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XapI": {
+    "thermoName": "XapI",
+    "alias": "ApoI",
+    "recognitionRaw": "R^AATTY",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "thermoName": "XbaI",
+    "alias": null,
+    "recognitionRaw": "T^CTAGA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "20-50",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XceI": {
+    "thermoName": "XceI",
+    "alias": "NspI",
+    "recognitionRaw": "RCATG^Y",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "thermoName": "XhoI",
+    "alias": null,
+    "recognitionRaw": "C^TCGAG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmaJI": {
+    "thermoName": "XmaJI",
+    "alias": "AvrII",
+    "recognitionRaw": "C^CTAGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "50-100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmiI": {
+    "thermoName": "XmiI",
+    "alias": "AccI",
+    "recognitionRaw": "GT^MKAC",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "Buffer B (blue)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AlfI": {
+    "thermoName": "AlfI",
+    "alias": null,
+    "recognitionRaw": "^(10/12)GCA(N)6TGC(12/10)^",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "100",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65° C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI-HF": {
+    "thermoName": "BamHI",
+    "alias": null,
+    "recognitionRaw": "G^GATCC",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "BamHI",
+    "bufferActivity": {
+      "b": "20-50*",
+      "g": "100",
+      "o": "20-50",
+      "r": "50-100*",
+      "tango": "100*"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BbsI-HF": {
+    "thermoName": "BpiI",
+    "alias": "BbsI",
+    "recognitionRaw": "GAAGAC(2/6)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "50-100",
+      "r": "50-100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsaI-HFv2": {
+    "thermoName": "Eco31I",
+    "alias": "BsaI",
+    "recognitionRaw": "GGTCTC(1/5)^",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraIII-HF": {
+    "thermoName": "AdeI",
+    "alias": "DraIII",
+    "recognitionRaw": "CACNNN^GTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "100",
+      "o": "20-50",
+      "r": "100",
+      "tango": "100*"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X* or 2X",
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI-HF": {
+    "thermoName": "EcoRI",
+    "alias": null,
+    "recognitionRaw": "G^AATTC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "EcoRI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "NR",
+      "o": "100",
+      "r": "100*",
+      "tango": "NR"
+    },
+    "tango2x": "100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII-HF": {
+    "thermoName": "HindIII",
+    "alias": null,
+    "recognitionRaw": "A^AGCTT",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI-HF": {
+    "thermoName": "Acc65I",
+    "alias": "Asp718I",
+    "recognitionRaw": "G^GTACC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "20-50",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MfeI-HF": {
+    "thermoName": "MunI",
+    "alias": "MfeI",
+    "recognitionRaw": "C^AATTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI-HF": {
+    "thermoName": "MluI",
+    "alias": null,
+    "recognitionRaw": "A^CGCGT",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "20-50"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI-HF": {
+    "thermoName": "NcoI",
+    "alias": null,
+    "recognitionRaw": "C^CATGG",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "20-50",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI-HF": {
+    "thermoName": "NheI",
+    "alias": null,
+    "recognitionRaw": "G^CTAGC",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI-HF": {
+    "thermoName": "NotI",
+    "alias": null,
+    "recognitionRaw": "GC^GGCCGC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI-HF": {
+    "thermoName": "PstI",
+    "alias": null,
+    "recognitionRaw": "CTGCA^G",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "50-100",
+      "o": "100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI-HF": {
+    "thermoName": "PvuI",
+    "alias": null,
+    "recognitionRaw": "CGAT^CG",
+    "preferredBuffer": "r",
+    "suppliedBuffer": "Buffer R (red)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "20-50",
+      "o": "50-100",
+      "r": "100",
+      "tango": "50-100"
+    },
+    "tango2x": "100",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII-HF": {
+    "thermoName": "PvuII",
+    "alias": null,
+    "recognitionRaw": "CAG^CTG",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "50-100*",
+      "g": "100",
+      "o": "20-50",
+      "r": "50-100",
+      "tango": "20-50*"
+    },
+    "tango2x": "20-50*",
+    "doubleDigest": "1X* or 2X*",
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI-HF": {
+    "thermoName": "SacI",
+    "alias": null,
+    "recognitionRaw": "GAGCT^C",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SacI",
+    "bufferActivity": {
+      "b": "50-100",
+      "g": "20-50",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "50-100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI-HF": {
+    "thermoName": "SalI",
+    "alias": null,
+    "recognitionRaw": "G^TCGAC",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "Buffer O (orange)",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "100",
+      "r": "20-50",
+      "tango": "0-20"
+    },
+    "tango2x": "50-100",
+    "doubleDigest": "2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI-HF": {
+    "thermoName": "ScaI",
+    "alias": null,
+    "recognitionRaw": "AGT^ACT",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "ScaI",
+    "bufferActivity": {
+      "b": "0-20",
+      "g": "0-20",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "0-20"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "NR",
+    "heatInactivation": "80°C (10u)",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI-HF": {
+    "thermoName": "SspI",
+    "alias": null,
+    "recognitionRaw": "AAT^ATT",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "Buffer G (green)",
+    "bufferActivity": {
+      "b": "20-50",
+      "g": "100",
+      "o": "0-20",
+      "r": "50-100",
+      "tango": "100"
+    },
+    "tango2x": "20-50",
+    "doubleDigest": "1X or 2X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StyI-HF": {
+    "thermoName": "Eco105I",
+    "alias": "SnaBI",
+    "recognitionRaw": "TAC^GTA",
+    "preferredBuffer": "tango",
+    "suppliedBuffer": "Buffer Tango (yellow)",
+    "bufferActivity": {
+      "b": "100*",
+      "g": "50-100",
+      "o": "0-20",
+      "r": "0-20",
+      "tango": "100"
+    },
+    "tango2x": "0-20",
+    "doubleDigest": "1X",
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

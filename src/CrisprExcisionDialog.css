@@ -1,0 +1,7 @@
+.crispr-excision-dialog { overflow-y: auto; }
+.crispr-junction-cuts, .crispr-junction-ends { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.crispr-junction-cuts fieldset { display: grid; gap: 6px; border: 1px solid var(--vg-border); border-radius: 5px; min-width: 0; }
+.crispr-junction-cuts label, .crispr-junction-ends label { display: grid; gap: 4px; }
+.crispr-junction-preview { border: 1px solid var(--vg-border); border-radius: 5px; padding: 8px; line-height: 1.5; overflow-wrap: anywhere; }
+.crispr-junction-error { color: var(--vg-danger-ink); }
+@media (max-width: 600px) { .crispr-junction-cuts, .crispr-junction-ends { grid-template-columns: 1fr; } }

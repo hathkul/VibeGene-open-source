@@ -1,0 +1,1411 @@
+{
+  "StuI": {
+    "jenaName": "SseBI",
+    "catalogName": "StuI",
+    "alsoKnownAs": "SseBI",
+    "catalogNumber": "EN-138",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "75-100",
+      "b3": "100",
+      "b4": "50-75",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-138-ssebi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseAI": {
+    "jenaName": "BseAI",
+    "catalogName": "BseAI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-107",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10",
+      "b2": "50",
+      "b3": "75-100",
+      "b4": "50-75",
+      "b5": "10",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 55,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-107-bseai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI": {
+    "jenaName": "ScaI",
+    "catalogName": "ScaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-131",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "50-75",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "25",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-131-scai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "jenaName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-119",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "25-50",
+      "b3": "<10",
+      "b4": "<10",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/k-enzymes/en-119-kpni",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "jenaName": "RsaI",
+    "catalogName": "RsaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-129",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "100",
+      "b3": "50",
+      "b4": "<10",
+      "b5": "<10",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/r-enzymes/en-129-rsai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaII": {
+    "jenaName": "AvaII",
+    "catalogName": "AvaII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2007",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50",
+      "b2": "50",
+      "b3": "10",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/a-enzymes/en-e2007-avaii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Vha464I": {
+    "jenaName": "MspCI",
+    "catalogName": "Vha464I",
+    "alsoKnownAs": "MspCI",
+    "catalogNumber": "EN-121",
+    "preferredBuffer": "ub2",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "25-50",
+      "b3": "50-75",
+      "b4": "100",
+      "b5": "50",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/m-enzymes/en-121-mspci",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PinAI": {
+    "jenaName": "CspAI",
+    "catalogName": "PinAI",
+    "alsoKnownAs": "CspAI",
+    "catalogNumber": "EN-113",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50",
+      "b2": "<10",
+      "b3": "<10",
+      "b4": "<10",
+      "b5": "<10",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/c-enzymes/en-113-cspai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "jenaName": "DraI",
+    "catalogName": "DraI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2145",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "100",
+      "b3": "75",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/d-enzymes/en-e2145-drai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SpeI": {
+    "jenaName": "SpeI",
+    "catalogName": "SpeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2398",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75",
+      "b2": "100",
+      "b3": "50",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-e2398-spei",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MvaI": {
+    "jenaName": "BseBI",
+    "catalogName": "MvaI",
+    "alsoKnownAs": "BseBI",
+    "catalogNumber": "EN-108",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "100",
+      "b3": "50",
+      "b4": "25-50",
+      "b5": "<10",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-108-bsebi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "jenaName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-101",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "100",
+      "b3": "75",
+      "b4": "10-25",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/a-enzymes/en-101-alui",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaI": {
+    "jenaName": "AvaI",
+    "catalogName": "AvaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2006",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25",
+      "b2": "100",
+      "b3": "50",
+      "b5": "25",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/a-enzymes/en-e2006-avai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "jenaName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2015",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25",
+      "b2": "50",
+      "b3": "0",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 25,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/a-enzymes/en-e2015-apai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau96I": {
+    "jenaName": "PspPI",
+    "catalogName": "Sau96I",
+    "alsoKnownAs": "PspPI",
+    "catalogNumber": "EN-126",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "100",
+      "b3": "50",
+      "b4": "25-50",
+      "b5": "10",
+      "ub": "100"
+    },
+    "heatInactivation": "55°C for 15 min",
+    "incubationC": 25,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/p-enzymes/en-126-psppi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "jenaName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-103",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75",
+      "b2": "75-100",
+      "b3": "100",
+      "b4": "50-75",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-103-bamhi",
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanII": {
+    "jenaName": "BanII",
+    "catalogName": "BanII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2060",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75",
+      "b2": "25",
+      "b3": "50",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-e2060-banii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ClaI": {
+    "jenaName": "BseCI",
+    "catalogName": "ClaI",
+    "alsoKnownAs": "BseCI",
+    "catalogNumber": "EN-109",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10",
+      "b2": "50",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 55,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-109-bseci",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NarI": {
+    "jenaName": "NarI",
+    "catalogName": "NarI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2291",
+    "preferredBuffer": "ub05",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "50",
+      "b3": "50",
+      "b5": "75",
+      "ub05": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-e2291-nari",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "jenaName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-137",
+    "preferredBuffer": "ub2",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "100",
+      "b3": "50",
+      "b4": "50",
+      "b5": "50",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-137-sphi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BclI": {
+    "jenaName": "BclI",
+    "catalogName": "BclI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-104",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "100",
+      "b3": "75",
+      "b4": "50-75",
+      "b5": "10-25",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-104-bcli",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "jenaName": "BglI",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-105",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "75-100",
+      "b3": "75-100",
+      "b4": "75-100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-105-bgli",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "jenaName": "BglII",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-106",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10",
+      "b2": "75",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "10",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-106-bglii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "jenaName": "PvuI",
+    "catalogName": "PvuI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2320",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25",
+      "b2": "75",
+      "b3": "100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/p-enzymes/en-e2320-pvui",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FokI": {
+    "jenaName": "FokI",
+    "catalogName": "FokI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2710",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "0",
+      "b2": "100",
+      "b3": "0",
+      "b5": "0",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/f-enzymes/en-e2710-foki",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssHII": {
+    "jenaName": "BssHII",
+    "catalogName": "BssHII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2115",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "100",
+      "b3": "100",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 50,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-e2115-bsshii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "jenaName": "BshFI",
+    "catalogName": "HaeIII",
+    "alsoKnownAs": "BshFI",
+    "catalogNumber": "EN-110",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "75-100",
+      "b3": "75",
+      "b4": "50-75",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-110-bshfi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "jenaName": "NcoI",
+    "catalogName": "NcoI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-123",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "75-100",
+      "b3": "100",
+      "b4": "100",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-123-ncoi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "jenaName": "NruI",
+    "catalogName": "NruI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-125",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "<10",
+      "b3": "75",
+      "b4": "50-75",
+      "b5": "10",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-125-nrui",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "jenaName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-127",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "50-75",
+      "b3": "75-100",
+      "b4": "50-75",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "55°C for 15 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/p-enzymes/en-127-psti",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "jenaName": "SlaI",
+    "catalogName": "XhoI",
+    "alsoKnownAs": "SlaI",
+    "catalogNumber": "EN-134",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "75",
+      "b3": "75-100",
+      "b4": "100",
+      "b5": "10-25",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-134-slai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StyI": {
+    "jenaName": "StyI",
+    "catalogName": "StyI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-141",
+    "preferredBuffer": "ub2",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "75-100",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "<10",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-141-styi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstEII": {
+    "jenaName": "BstEII",
+    "catalogName": "BstEII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-144",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50",
+      "b2": "50-75",
+      "b3": "75-100",
+      "b4": "50",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-144-bsteii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DpnI": {
+    "jenaName": "DpnI",
+    "catalogName": "DpnI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-160",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "75-100",
+      "b3": "50-75",
+      "b4": "10",
+      "b5": "75-100",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/d-enzymes/en-160-dpni",
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SnaBI": {
+    "jenaName": "SnaBI",
+    "catalogName": "SnaBI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-136",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "50",
+      "b3": "25",
+      "b4": "<10",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-136-snabi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "jenaName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2118",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<25",
+      "b2": "100",
+      "b3": "100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 50,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/b-enzymes/en-e2118-bstxi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI": {
+    "jenaName": "NotI",
+    "catalogName": "NotI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-124",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "25-50",
+      "b3": "75-100",
+      "b4": "75",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-124-noti",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sfr303I": {
+    "jenaName": "SgrBI",
+    "catalogName": "Sfr303I",
+    "alsoKnownAs": "SgrBI",
+    "catalogNumber": "EN-133",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "75",
+      "b3": "50-75",
+      "b4": "25-50",
+      "b5": "<10",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-133-sgrbi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "jenaName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-135",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "<10",
+      "b3": "<10",
+      "b4": "<10",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 25,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-135-smai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "jenaName": "SstI",
+    "catalogName": "SacI",
+    "alsoKnownAs": "SstI",
+    "catalogNumber": "EN-140",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "25-50",
+      "b3": "25",
+      "b4": "<10",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-140-ssti",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRV": {
+    "jenaName": "EcoRV",
+    "catalogName": "EcoRV",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-115",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "100",
+      "b3": "50",
+      "b4": "<10",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/e-enzymes/en-115-ecorv",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "jenaName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-114",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "50-75",
+      "b3": "75",
+      "b4": "50-75",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/e-enzymes/en-114-ecori",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "jenaName": "NdeI",
+    "catalogName": "NdeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2293",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50",
+      "b2": "100",
+      "b3": "75",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-e2293-ndei",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HincII": {
+    "jenaName": "HincII",
+    "catalogName": "HincII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2200",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50",
+      "b2": "50",
+      "b3": "50",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/h-enzymes/en-e2200-hincii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "jenaName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-116",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "100",
+      "b3": "10-25",
+      "b4": "10-25",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/h-enzymes/en-116-hindiii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "jenaName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-117",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "50",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/h-enzymes/en-117-hinfi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "jenaName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-118",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "10-25",
+      "b3": "10-25",
+      "b4": "10-25",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/h-enzymes/en-118-hpai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "jenaName": "HpaII",
+    "catalogName": "HpaII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2260",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "75",
+      "b3": "25",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/h-enzymes/en-e2260-hpaii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboII": {
+    "jenaName": "MboII",
+    "catalogName": "MboII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2284",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "50",
+      "b3": "25",
+      "b5": "100",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/m-enzymes/en-e2284-mboii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MnlI": {
+    "jenaName": "MnlI",
+    "catalogName": "MnlI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-E2289",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75",
+      "b2": "100",
+      "b3": "50",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/m-enzymes/en-e2289-mnli",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NaeI": {
+    "jenaName": "NaeI",
+    "catalogName": "NaeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-122",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "100",
+      "b2": "25-50",
+      "b3": "25",
+      "b4": "<10",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/n-enzymes/en-122-naei",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "jenaName": "PvuII",
+    "catalogName": "PvuII",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-128",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "25-50",
+      "b2": "100",
+      "b3": "100",
+      "b4": "25-50",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/p-enzymes/en-128-pvuii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "jenaName": "SalI",
+    "catalogName": "SalI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-130",
+    "preferredBuffer": "ub2",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "<10",
+      "b2": "25-50",
+      "b3": "50",
+      "b4": "100",
+      "b5": "<10",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-130-sali",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "jenaName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-132",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "75-100",
+      "b2": "100",
+      "b3": "25-50",
+      "b4": "10-25",
+      "b5": "75-100",
+      "ub": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "incubationMinutes": 60,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-132-sfii",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "jenaName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-139",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "50-75",
+      "b3": "100",
+      "b4": "75-100",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/s-enzymes/en-139-sspi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "jenaName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-142",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "10-25",
+      "b2": "50-75",
+      "b3": "75-100",
+      "b4": "50-75",
+      "b5": "50",
+      "ub": "100"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 65,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/t-enzymes/en-142-taqi",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "jenaName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "EN-143",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10× Universal Buffer (UB)",
+    "bufferActivity": {
+      "b1": "50-75",
+      "b2": "100",
+      "b3": "75",
+      "b4": "75",
+      "b5": "75",
+      "ub": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 10,
+    "productUrl": "https://www.jenabioscience.com/molecular-biology/enzymes-protein-markers/restriction-enzymes/x-enzymes/en-143-xbai",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

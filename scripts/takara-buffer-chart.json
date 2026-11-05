@@ -1,0 +1,2256 @@
+{
+  "AatII": {
+    "takaraName": "AatII",
+    "catalogName": "AatII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AatII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccI": {
+    "takaraName": "AccI",
+    "catalogName": "AccI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "20",
+      "m": "100",
+      "h": "<20",
+      "k": "<20*",
+      "t": "160",
+      "basal": "80"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AccI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccII": {
+    "takaraName": "AccII",
+    "catalogName": "AccII",
+    "alsoKnownAs": "MvnI",
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "260*",
+      "m": "100",
+      "h": "<20",
+      "k": "20",
+      "t": "200",
+      "basal": "160"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/accii-(mvni)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccIII": {
+    "takaraName": "AccIII",
+    "catalogName": "AccIII",
+    "alsoKnownAs": "MroI",
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20*",
+      "h": "20",
+      "k": "80*",
+      "t": "<20*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/acciii-(mroi)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AfaI": {
+    "takaraName": "AfaI",
+    "catalogName": "AfaI",
+    "alsoKnownAs": "RsaI",
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "60",
+      "m": "60",
+      "h": "40",
+      "k": "60",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/afai-(rsai)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AflII": {
+    "takaraName": "AflII",
+    "catalogName": "AflII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "20",
+      "m": "80*",
+      "h": "<20",
+      "k": "<20",
+      "t": "140",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AflII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "takaraName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "100",
+      "h": "<20",
+      "k": "40",
+      "t": "200",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AluI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Aor13HI": {
+    "takaraName": "Aor13HI",
+    "catalogName": "Aor13HI",
+    "alsoKnownAs": "MroI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "<20",
+      "k": "80*",
+      "t": "80",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/aor13hi-(mroi)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Aor51HI": {
+    "takaraName": "Aor51HI",
+    "catalogName": "Aor51HI",
+    "alsoKnownAs": "AfeI",
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80",
+      "m": "100",
+      "h": "<20",
+      "k": "20",
+      "t": "120",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/aor51hi-(afei)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "takaraName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "<20",
+      "h": "<20",
+      "k": "<20",
+      "t": "<20",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=ApaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaLI": {
+    "takaraName": "ApaLI",
+    "catalogName": "ApaLI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "20",
+      "h": "<20",
+      "k": "<20",
+      "t": "120",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=ApaLI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaI": {
+    "takaraName": "AvaI",
+    "catalogName": "AvaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "100",
+      "h": "20",
+      "k": "40",
+      "t": "100",
+      "basal": "120"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AvaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaII": {
+    "takaraName": "AvaII",
+    "catalogName": "AvaII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80",
+      "m": "100",
+      "h": "<20",
+      "k": "20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=AvaII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BalI": {
+    "takaraName": "BalI",
+    "catalogName": "BalI",
+    "alsoKnownAs": "MluNI",
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "20",
+      "m": "20",
+      "h": "<20",
+      "k": "<20",
+      "t": "40",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bali-(mluni)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "takaraName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20",
+      "h": "40",
+      "k": "100",
+      "t": "<20*",
+      "basal": "80"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BamHI",
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanII": {
+    "takaraName": "BanII",
+    "catalogName": "BanII",
+    "alsoKnownAs": "Bsh1236I",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "120*",
+      "m": "120*",
+      "h": "100",
+      "k": "80",
+      "t": "100*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/banii-(bsh1236i)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BcnI": {
+    "takaraName": "BcnI",
+    "catalogName": "BcnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "40",
+      "k": "60",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BcnI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "takaraName": "BglI",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "20",
+      "k": "40",
+      "t": "<20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BglI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "takaraName": "BglII",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "100",
+      "k": "100*",
+      "t": "60*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BglII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BlnI": {
+    "takaraName": "BlnI",
+    "catalogName": "BlnI",
+    "alsoKnownAs": "AvrII",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "40",
+      "k": "100",
+      "t": "20",
+      "basal": "120"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/blni-(avrii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmeT110I": {
+    "takaraName": "BmeT110I",
+    "catalogName": "BmeT110I",
+    "alsoKnownAs": "AvaI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "20",
+      "k": "100",
+      "t": "<20",
+      "basal": "140"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bmet110i-(avai)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmgT120I": {
+    "takaraName": "BmgT120I",
+    "catalogName": "BmgT120I",
+    "alsoKnownAs": "Sau96I",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "100",
+      "k": "40",
+      "t": "<20",
+      "basal": "240"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bmgt120i-(sau96i)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu1102I": {
+    "takaraName": "Bpu1102I",
+    "catalogName": "Bpu1102I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "<20",
+      "k": "40",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Bpu1102I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspT104I": {
+    "takaraName": "BspT104I",
+    "catalogName": "BspT104I",
+    "alsoKnownAs": "SfuI",
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "120"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bspt104i-(sfui)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspT107I": {
+    "takaraName": "BspT107I",
+    "catalogName": "BspT107I",
+    "alsoKnownAs": "BanI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "80",
+      "k": "100",
+      "t": "20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bspt107i-(bani)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1286I": {
+    "takaraName": "Bsp1286I",
+    "catalogName": "Bsp1286I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "20",
+      "h": "<20",
+      "k": "<20",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Bsp1286I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1407I": {
+    "takaraName": "Bsp1407I",
+    "catalogName": "Bsp1407I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "20",
+      "m": "60",
+      "h": "20",
+      "k": "20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Bsp1407I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssHII": {
+    "takaraName": "BssHII",
+    "catalogName": "BssHII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "100",
+      "m": "100",
+      "h": "60",
+      "k": "20",
+      "t": "140",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BssHII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstPI": {
+    "takaraName": "BstPI",
+    "catalogName": "BstPI",
+    "alsoKnownAs": "BstEII",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "60*",
+      "h": "100",
+      "k": "100*",
+      "t": "100*",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/bstpi-(bsteii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "takaraName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "40",
+      "h": "100",
+      "k": "<20",
+      "t": "<20",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=BstXI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst1107I": {
+    "takaraName": "Bst1107I",
+    "catalogName": "Bst1107I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "60",
+      "h": "100",
+      "k": "100",
+      "t": "40",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Bst1107I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Cfr10I": {
+    "takaraName": "Cfr10I",
+    "catalogName": "Cfr10I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20*",
+      "h": "<20*",
+      "k": "40",
+      "t": "20*",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Cfr10I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ClaI": {
+    "takaraName": "ClaI",
+    "catalogName": "ClaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "40",
+      "m": "100",
+      "h": "120",
+      "k": "100",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=ClaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CpoI": {
+    "takaraName": "CpoI",
+    "catalogName": "CpoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "80",
+      "k": "100",
+      "t": "<20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=CpoI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "takaraName": "DraI",
+    "catalogName": "DraI",
+    "alsoKnownAs": "AhaIII",
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "100",
+      "m": "100",
+      "h": "60",
+      "k": "100",
+      "t": "80",
+      "basal": "80"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/drai-(ahaiii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EaeI": {
+    "takaraName": "EaeI",
+    "catalogName": "EaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "60",
+      "m": "100",
+      "h": "<20",
+      "k": "<20",
+      "t": "120",
+      "basal": "160"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=EaeI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoO65I": {
+    "takaraName": "EcoO65I",
+    "catalogName": "EcoO65I",
+    "alsoKnownAs": "BstEII",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "60*",
+      "h": "60*",
+      "k": "40",
+      "t": "40",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/ecoo65i-(bsteii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoO109I": {
+    "takaraName": "EcoO109I",
+    "catalogName": "EcoO109I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "160"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=EcoO109I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "takaraName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "100*",
+      "h": "100",
+      "k": "120*",
+      "t": "80*",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=EcoRI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRVI": {
+    "takaraName": "EcoRVI",
+    "catalogName": "EcoRVI",
+    "alsoKnownAs": "EcoRV",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "40*",
+      "h": "100",
+      "k": "120*",
+      "t": "40*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/ecorvi-(ecorv)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoT14I": {
+    "takaraName": "EcoT14I",
+    "catalogName": "EcoT14I",
+    "alsoKnownAs": "ErhI",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "40*",
+      "h": "100",
+      "k": "120",
+      "t": "60*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/ecot14i-(erhi)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoT22I": {
+    "takaraName": "EcoT22I",
+    "catalogName": "EcoT22I",
+    "alsoKnownAs": "NsiI",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20",
+      "h": "100",
+      "k": "140*",
+      "t": "20*",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/ecot22i-(nsii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco52I": {
+    "takaraName": "Eco52I",
+    "catalogName": "Eco52I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "<20",
+      "k": "<20",
+      "t": "<20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Eco52I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco81I": {
+    "takaraName": "Eco81I",
+    "catalogName": "Eco81I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "100",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "160"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Eco81I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FbaI": {
+    "takaraName": "FbaI",
+    "catalogName": "FbaI",
+    "alsoKnownAs": "BclI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20*",
+      "h": "80*",
+      "k": "100",
+      "t": "20*",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/fbai-(bcli)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FokI": {
+    "takaraName": "FokI",
+    "catalogName": "FokI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "60*",
+      "h": "<20",
+      "k": "<20",
+      "t": "200*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=FokI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeII": {
+    "takaraName": "HaeII",
+    "catalogName": "HaeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80",
+      "m": "100",
+      "h": "<20",
+      "k": "80",
+      "t": "140",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HaeII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "takaraName": "HaeIII",
+    "catalogName": "HaeIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "60",
+      "m": "100",
+      "h": "100",
+      "k": "60",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HaeIII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HapII": {
+    "takaraName": "HapII",
+    "catalogName": "HapII",
+    "alsoKnownAs": "HpaII",
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "80"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/hapii-(hpaii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HhaI": {
+    "takaraName": "HhaI",
+    "catalogName": "HhaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80",
+      "m": "100",
+      "h": "100",
+      "k": "120",
+      "t": "120",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HhaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HincII": {
+    "takaraName": "HincII",
+    "catalogName": "HincII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "20",
+      "m": "100",
+      "h": "20",
+      "k": "40",
+      "t": "100",
+      "basal": "80"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HincII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "takaraName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "60*",
+      "m": "100",
+      "h": "<20",
+      "k": "200",
+      "t": "100*",
+      "basal": "80"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HindIII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "takaraName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "80",
+      "m": "100",
+      "h": "100",
+      "k": "160",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HinfI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hin1I": {
+    "takaraName": "Hin1I",
+    "catalogName": "Hin1I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "40",
+      "m": "80*",
+      "h": "<20",
+      "k": "20",
+      "t": "60",
+      "basal": "160"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Hin1I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "takaraName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "40*",
+      "h": "20",
+      "k": "100",
+      "t": "80*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=HpaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "takaraName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "100*",
+      "basal": "80"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=KpnI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboI": {
+    "takaraName": "MboI",
+    "catalogName": "MboI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "20",
+      "m": "40",
+      "h": "60",
+      "k": "100",
+      "t": "40",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MboI",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboII": {
+    "takaraName": "MboII",
+    "catalogName": "MboII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MboII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MflI": {
+    "takaraName": "MflI",
+    "catalogName": "MflI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "80",
+      "h": "<20",
+      "k": "<20",
+      "t": "80",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MflI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "takaraName": "MluI",
+    "catalogName": "MluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "60",
+      "m": "60",
+      "h": "100",
+      "k": "100*",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MluI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "takaraName": "MspI",
+    "catalogName": "MspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "80",
+      "m": "80",
+      "h": "<20",
+      "k": "100",
+      "t": "100",
+      "basal": "80"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MspI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MunI": {
+    "takaraName": "MunI",
+    "catalogName": "MunI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "200*",
+      "m": "100*",
+      "h": "<20",
+      "k": "<20",
+      "t": "160",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MunI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MvaI": {
+    "takaraName": "MvaI",
+    "catalogName": "MvaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "40*",
+      "h": "80",
+      "k": "100",
+      "t": "20*",
+      "basal": "120"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=MvaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NaeI": {
+    "takaraName": "NaeI",
+    "catalogName": "NaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "<20",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "120"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NaeI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "takaraName": "NcoI",
+    "catalogName": "NcoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "40*",
+      "m": "60*",
+      "h": "20",
+      "k": "60*",
+      "t": "60*",
+      "basal": "160"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NcoI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "takaraName": "NdeI",
+    "catalogName": "NdeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "40",
+      "h": "100",
+      "k": "100",
+      "t": "80",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NdeI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI": {
+    "takaraName": "NheI",
+    "catalogName": "NheI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "120*",
+      "m": "100",
+      "h": "<20",
+      "k": "<20",
+      "t": "160*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NheI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI": {
+    "takaraName": "NotI",
+    "catalogName": "NotI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20*",
+      "h": "20*",
+      "k": "<20",
+      "t": "<20*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NotI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "takaraName": "NruI",
+    "catalogName": "NruI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "0",
+      "m": "<20",
+      "h": "20",
+      "k": "20",
+      "t": "<20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NruI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NsbI": {
+    "takaraName": "NsbI",
+    "catalogName": "NsbI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "40",
+      "m": "20",
+      "h": "<20",
+      "k": "60",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=NsbI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PmaCI": {
+    "takaraName": "PmaCI",
+    "catalogName": "PmaCI",
+    "alsoKnownAs": "XmaI",
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "80",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/pmaci-(xmai)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PshAI": {
+    "takaraName": "PshAI",
+    "catalogName": "PshAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "20",
+      "m": "40",
+      "h": "<20",
+      "k": "100",
+      "t": "60",
+      "basal": "160"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=PshAI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PshBI": {
+    "takaraName": "PshBI",
+    "catalogName": "PshBI",
+    "alsoKnownAs": "AseI",
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "40*",
+      "h": "20",
+      "k": "40",
+      "t": "40",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/pshbi-(asei)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp1406I": {
+    "takaraName": "Psp1406I",
+    "catalogName": "Psp1406I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "20",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Psp1406I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "takaraName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "60*",
+      "h": "100",
+      "k": "80",
+      "t": "20*",
+      "basal": "80"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=PstI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "takaraName": "PvuI",
+    "catalogName": "PvuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "20*",
+      "h": "40*",
+      "k": "80*",
+      "t": "40*",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=PvuI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "takaraName": "PvuII",
+    "catalogName": "PvuII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80*",
+      "m": "100",
+      "h": "40",
+      "k": "<20",
+      "t": "40*",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=PvuII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "takaraName": "SacI",
+    "catalogName": "SacI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "10× Universal Buffer L",
+    "bufferActivity": {
+      "l": "100",
+      "m": "60",
+      "h": "<20",
+      "k": "<20",
+      "t": "80",
+      "basal": "80"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SacI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacII": {
+    "takaraName": "SacII",
+    "catalogName": "SacII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "40",
+      "m": "20",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "40"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SacII",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "takaraName": "SalI",
+    "catalogName": "SalI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "100",
+      "k": "20*",
+      "t": "<20",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SalI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau3AI": {
+    "takaraName": "Sau3AI",
+    "catalogName": "Sau3AI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "60*",
+      "m": "80",
+      "h": "100",
+      "k": "<20",
+      "t": "80*",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Sau3AI",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI": {
+    "takaraName": "ScaI",
+    "catalogName": "ScaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "<20*",
+      "h": "100",
+      "k": "60*",
+      "t": "<20*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=ScaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "takaraName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "40*",
+      "m": "100",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SfiI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "takaraName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "t",
+    "suppliedBuffer": "10× Universal Buffer T + BSA",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "<20",
+      "k": "<20",
+      "t": "100",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SmaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiI": {
+    "takaraName": "SmiI",
+    "catalogName": "SmiI",
+    "alsoKnownAs": "SwaI",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<10",
+      "m": "<20",
+      "h": "100",
+      "k": "40",
+      "t": "<10",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/smii-(swai)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SnaBI": {
+    "takaraName": "SnaBI",
+    "catalogName": "SnaBI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "40*",
+      "h": "<20",
+      "k": "<20",
+      "t": "40*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SnaBI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SpeI": {
+    "takaraName": "SpeI",
+    "catalogName": "SpeI",
+    "alsoKnownAs": "AhlI",
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "80*",
+      "m": "100",
+      "h": "80",
+      "k": "100",
+      "t": "80*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/spei-(ahli)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "takaraName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "40*",
+      "h": "100",
+      "k": "120",
+      "t": "20*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SphI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sse8387I": {
+    "takaraName": "Sse8387I",
+    "catalogName": "Sse8387I",
+    "alsoKnownAs": "SbfI",
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "120*",
+      "m": "60*",
+      "h": "<20",
+      "k": "<20",
+      "t": "60*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/sse8387i-(sbfi)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "takaraName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20*",
+      "m": "60*",
+      "h": "40",
+      "k": "100*",
+      "t": "80*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=SspI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StuI": {
+    "takaraName": "StuI",
+    "catalogName": "StuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "60",
+      "m": "100",
+      "h": "60",
+      "k": "80",
+      "t": "140",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=StuI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "takaraName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "40",
+      "m": "80",
+      "h": "60",
+      "k": "60",
+      "t": "80",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.takarabio.com/us/search?q=TaqI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tth111I": {
+    "takaraName": "Tth111I",
+    "catalogName": "Tth111I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "20*",
+      "m": "80",
+      "h": "40",
+      "k": "100",
+      "t": "80*",
+      "basal": "120"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Tth111I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Van91I": {
+    "takaraName": "Van91I",
+    "catalogName": "Van91I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "20*",
+      "h": "60",
+      "k": "100",
+      "t": "60*",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=Van91I",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VpaK11BI": {
+    "takaraName": "VpaK11BI",
+    "catalogName": "VpaK11BI",
+    "alsoKnownAs": "AvaII",
+    "preferredBuffer": "basal",
+    "suppliedBuffer": "Basal buffer (enzyme-specific)",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "<20",
+      "h": "60",
+      "k": "40*",
+      "t": "<20",
+      "basal": "100"
+    },
+    "heatInactivation": "60°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/vpak11bi-(avaii)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "takaraName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "10× Universal Buffer M",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "80*",
+      "h": "20",
+      "k": "<20",
+      "t": "120",
+      "basal": "120"
+    },
+    "heatInactivation": "70°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=XbaI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "takaraName": "XhoI",
+    "catalogName": "XhoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Universal Buffer H",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "60",
+      "h": "100",
+      "k": "160",
+      "t": "60",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/us/search?q=XhoI",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XspI": {
+    "takaraName": "XspI",
+    "catalogName": "XspI",
+    "alsoKnownAs": "MaeI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Universal Buffer K",
+    "bufferActivity": {
+      "l": "<20",
+      "m": "60",
+      "h": "<20",
+      "k": "100",
+      "t": "160",
+      "basal": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.takarabio.com/products/cloning/restriction-enzymes/xspi-(maei)",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

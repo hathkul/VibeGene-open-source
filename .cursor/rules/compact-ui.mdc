@@ -1,0 +1,29 @@
+---
+description: Keep dialogs and lists compact; never wrap labels into stacked cards
+alwaysApply: true
+---
+
+# Compact UI
+
+Dense scientific data belongs in compact rows, not cards. Default to a table or a single-line toolbar.
+
+- One record = one row. Path, status, and actions stay on that row.
+- Do not stack a title, subtitle, extra paths, and radios as separate block elements per item.
+- Do not use `overflow-wrap: anywhere` or `word-break: break-all` on names/paths. Use `white-space: nowrap`, `overflow: hidden`, and `text-overflow: ellipsis`, with the full string in `title`.
+- Radio/checkbox groups are horizontal (`flex-direction: row`, `white-space: nowrap`). Never one option per line unless the control is a full-width settings form.
+- Global `label { display: grid }` and `input { width: 100%; padding: 5px 7px }` will stretch radios across the cell and pile labels on top of each other. Inline radios must reset: `label { display: inline-flex; width: auto }`, `input[type=radio] { width: 13px; height: 13px; padding: 0; flex: none }`.
+- Give the actions column a fixed width that fits every control. Do not put `overflow: hidden` on a cell that contains radios or buttons.
+- Do not wrap a list in padded bordered cards with `flex-wrap`. If it looks like a spreadsheet, make a `<table>`.
+- Shorten in-row labels so they fit: `Keep database` / `Use folder` when a folder file exists, `Keep` / `Remove` when it does not.
+- Summary stats are one inline nowrap line, not a wrapping grid of boxes.
+
+```css
+/* BAD: inherits form input width/padding; labels overlap; rows become huge */
+label { display: grid; }
+input { width: 100%; padding: 5px 7px; }
+
+/* GOOD: compact inline radios in a fixed actions column */
+.choices { display: flex; flex-wrap: nowrap; gap: 12px; }
+.choices label { display: inline-flex; width: auto; align-items: center; gap: 5px; }
+.choices input[type='radio'] { width: 13px; height: 13px; padding: 0; flex: none; }
+```

@@ -1,0 +1,42 @@
+{
+  "maxNewSourceLines": 1000,
+  "legacyLargeFileHeadroom": {
+    "minimumLines": 100,
+    "percent": 5,
+    "roundToLines": 50
+  },
+  "maxLinesByFile": {
+    "src/domain/parsers.ts": 150,
+    "src/domain/primerSequenceLayout.ts": 125
+  },
+  "legacyLargeFileBaselines": {
+    "src/AgaroseGelDialog.tsx": 2053,
+    "src/App.tsx": 4237,
+    "src/DatabaseManagerDialog.tsx": 2982,
+    "src/GatewayCloningDialog.tsx": 3378,
+    "src/GibsonAssemblyDialog.tsx": 3039,
+    "src/GuideScanDesignPanel.tsx": 1436,
+    "src/PcrDialog.tsx": 2412,
+    "src/PickPrimersDialog.tsx": 1547,
+    "src/RestrictionCloningDialog.tsx": 2682,
+    "src/TaGcCloningDialog.tsx": 2074,
+    "src/components/HistoryTreePane.tsx": 1204,
+    "src/components/ProteinAlignmentPane.tsx": 1048,
+    "src/components/SequenceAlignmentPane.tsx": 1783,
+    "src/domain/bridgePcr.ts": 1076,
+    "src/domain/circularEllipticRouter.ts": 2799,
+    "src/domain/crossVendorBufferActivity.ts": 1140,
+    "src/domain/dnaEnds.ts": 1070,
+    "src/domain/gatewayBpCloning.ts": 2653,
+    "src/domain/gibsonAssembly.ts": 1835,
+    "src/domain/guidescan/guidescan.test.ts": 2122,
+    "src/domain/mapLayout.ts": 2010,
+    "src/domain/restrictionCloning.ts": 2969,
+    "src/domain/sequenceLabelRouter.ts": 1105,
+    "src/storage/databaseSync.ts": 1188,
+    "src/storage/projects.ts": 1701,
+    "src/presentation/map/TrackMap.tsx": 1782,
+    "src/presentation/map/PlasmidMap.tsx": 3230,
+    "src/presentation/sequence/SequenceRows.tsx": 3770
+  }
+}

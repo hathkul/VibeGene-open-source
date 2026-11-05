@@ -1,0 +1,19 @@
+[[permission]]
+identifier = "allow-take-pending-open-paths"
+description = "Allows reading file paths queued from Open With / document open."
+commands.allow = ["take_pending_open_paths"]
+
+[[permission]]
+identifier = "allow-register-user-file-paths"
+description = "Allows registering dropped file paths for subsequent read_user_file calls."
+commands.allow = ["register_user_file_paths"]
+
+[[permission]]
+identifier = "allow-read-user-file"
+description = "Allows reading bytes for paths previously opened via Open With or drag-and-drop."
+commands.allow = ["read_user_file"]
+
+[[permission]]
+identifier = "allow-ncbi-blast-request"
+description = "Allows the app to relay DNA annotation searches to the fixed NCBI BLAST endpoint."
+commands.allow = ["ncbi_blast_request"]

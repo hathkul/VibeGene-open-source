@@ -1,0 +1,3400 @@
+{
+  "AatII": {
+    "vivantisName": "AatII",
+    "catalogName": "AatII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1100",
+    "recognitionRaw": "5'…GACGT↓C…3' 3' 3'…C↑TGCAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "25",
+      "v4": "50",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1043:aatii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc16I": {
+    "vivantisName": "Acc16I {MstI}",
+    "catalogName": "Acc16I",
+    "alsoKnownAs": "MstI",
+    "catalogNumber": "RE1102",
+    "recognitionRaw": "5'…TGC↓GCA…3' 3' 3'…ACG↑CGT…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1042:acc16i-msti&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc65I": {
+    "vivantisName": "Acc65I {KpnI*}",
+    "catalogName": "Acc65I",
+    "alsoKnownAs": "KpnI",
+    "catalogNumber": "RE1104",
+    "recognitionRaw": "5'…G↓GTACC…3' 3' 3'…CCATG↑G…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "10",
+      "v3": "100",
+      "v4": "100",
+      "v5": "10",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1041:acc65i-kpni&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccB1I": {
+    "vivantisName": "AccB1 I {HgiCI}",
+    "catalogName": "AccB1I",
+    "alsoKnownAs": "HgiCI",
+    "catalogNumber": "RE1106",
+    "recognitionRaw": "5'…G↓GYRCC…3' 3' 3'…CCATG↑G…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer AccB1I, 10X Buffer UB and Viva Buffer A (Diluent)",
+    "enzymeSpecificBuffer": "Buffer AccB1I",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "50",
+      "v5": "75",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1040:accb1-i-hgici&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccBSI": {
+    "vivantisName": "AccBSI {BsrBI}",
+    "catalogName": "AccBSI",
+    "alsoKnownAs": "BsrBI",
+    "catalogNumber": "RE1110",
+    "recognitionRaw": "5'…CCG↓CTC…3' 3' 3'…GGC↑GAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1038:accbsi-bsrbi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AclI": {
+    "vivantisName": "Acl I",
+    "catalogName": "AclI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1112",
+    "recognitionRaw": "5'…AA↓CGTT…3' 3' 3'…TTGC↑AA…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1037:acl-i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcsI": {
+    "vivantisName": "AcsI {ApoI}",
+    "catalogName": "AcsI",
+    "alsoKnownAs": "ApoI",
+    "catalogNumber": "RE1114",
+    "recognitionRaw": "5'…R↓ AATTY…3' 3' 3'…YTTAA↑R…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "25",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1036:acsi-apoi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AfiI": {
+    "vivantisName": "AfiI {BsiYI}",
+    "catalogName": "AfiI",
+    "alsoKnownAs": "BsiYI",
+    "catalogNumber": "RV1116",
+    "recognitionRaw": "5'…CCNNNNN ↓ NNGG…3' 3' 3'…GGNN ↑ NNNNNCC…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "10",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "10",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1035:afii-bsiyi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AhlI": {
+    "vivantisName": "Ahl I {SpeI}",
+    "catalogName": "AhlI",
+    "alsoKnownAs": "SpeI",
+    "catalogNumber": "RE1118",
+    "recognitionRaw": "5'…A↓CTAGT…3' 3' 3'…TGATC↑A…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1034:ahl-i-spei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "vivantisName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1120",
+    "recognitionRaw": "5'…AG↓CT…3' 3' 3'…TC↑GA…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1033:alui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ama87I": {
+    "vivantisName": "Ama87I {AvaI}",
+    "catalogName": "Ama87I",
+    "alsoKnownAs": "AvaI",
+    "catalogNumber": "RE1122",
+    "recognitionRaw": "5'…C↓YCGRG…3' 3' 3'…GRGCY↑C…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer Ama87I, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer Ama87I",
+    "catalogNotes": [
+      "High enzyme concentration may result in star activity."
+    ],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "50",
+      "v4": "100",
+      "v5": "10",
+      "ub": "50",
+      "ub05": "25",
+      "ub15": "50",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1032:ama87i-avai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "vivantisName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1124",
+    "recognitionRaw": "5'…GGGCC↓C…3' 3' 3'…C↑CCGGG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1031:apai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsiGI": {
+    "vivantisName": "AsiGI {AgeI}",
+    "catalogName": "AsiGI",
+    "alsoKnownAs": "AgeI",
+    "catalogNumber": "RE1126",
+    "recognitionRaw": "5'…A↓CCGGT…3' 3' 3'…TGGCC↑A…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "50",
+      "v5": "75",
+      "ub": "75",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1030:asigi-agei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspA2I": {
+    "vivantisName": "AspA2I {Avr II}",
+    "catalogName": "AspA2I",
+    "alsoKnownAs": "AvrII",
+    "catalogNumber": "RE1128",
+    "recognitionRaw": "5'…C↓CTAGG…3' 3' 3'…GGATC↑C…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1029:aspa2i-avr-ii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspLEI": {
+    "vivantisName": "AspLEI {HhaI}",
+    "catalogName": "AspLEI",
+    "alsoKnownAs": "HhaI",
+    "catalogNumber": "RE1130",
+    "recognitionRaw": "5'… GCG↓C…3' 3' 3'…C↑GCG…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "50",
+      "v3": "75",
+      "v4": "25",
+      "v5": "10",
+      "ub": "100",
+      "ub05": "25",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1028:asplei-hhai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspS9I": {
+    "vivantisName": "AspS9I {AsuI}",
+    "catalogName": "AspS9I",
+    "alsoKnownAs": "AsuI",
+    "catalogNumber": "RE1132",
+    "recognitionRaw": "5'…G↓GNCC…3' 3' 3'…CCNG↑G…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "50",
+      "v3": "75",
+      "v4": "100",
+      "v5": "50",
+      "ub": "100",
+      "ub05": "25",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1027:asps9i-asui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsuNHI": {
+    "vivantisName": "AsuNHI {NheI}",
+    "catalogName": "AsuNHI",
+    "alsoKnownAs": "NheI",
+    "catalogNumber": "RE1136",
+    "recognitionRaw": "5'…G↓CTAGC…3' 3' 3'…CGATC↑G…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1025:asunhi-nhei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "vivantisName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1138",
+    "recognitionRaw": "5'…G↓GATCC…3' 3' 3'…CCTAG↑G…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub": "25",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1024:bamhi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bbv12I": {
+    "vivantisName": "Bbv12l {HgiAI}",
+    "catalogName": "Bbv12I",
+    "alsoKnownAs": "HgiAI",
+    "catalogNumber": "RE1140",
+    "recognitionRaw": "5'…GWGCW↓C…3' 3'…C↑WCGWG…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "100",
+      "v4": "75",
+      "v5": "25",
+      "ub": "10",
+      "ub05": "10",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1023:bbv12l-hgiai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "vivantisName": "Bgl I",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1142",
+    "recognitionRaw": "5'…GCCNNNN↓NGGC…3' 3' 3'…CGGN↑NNNNCCG…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer Bgl I, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer Bgl I",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "10",
+      "v3": "10",
+      "v4": "10",
+      "v5": "25",
+      "ub": "25",
+      "ub05": "25",
+      "ub15": "10",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1022:bgl-i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "vivantisName": "Bgl II",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1144",
+    "recognitionRaw": "5'…A↓GATCT…3' 3' 3'…TCTAG↑A…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "100"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1021:bgl-ii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmcAI": {
+    "vivantisName": "BmcAI {ScaI}",
+    "catalogName": "BmcAI",
+    "alsoKnownAs": "ScaI",
+    "catalogNumber": "RV1146",
+    "recognitionRaw": "5'…AGT↓ACT…3' 3' 3'…TCA↑TGA…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1020:bmcai-scai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bme18I": {
+    "vivantisName": "Bme18I {AvaII}",
+    "catalogName": "Bme18I",
+    "alsoKnownAs": "AvaII",
+    "catalogNumber": "RE1148",
+    "recognitionRaw": "5'…G↓GWCC…3' 3' 3'…CCWG↑G…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "10",
+      "v4": "10",
+      "v5": "100",
+      "ub": "25",
+      "ub05": "100",
+      "ub15": "10",
+      "ub2": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1019:bme18i-avaii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmeRI": {
+    "vivantisName": "BmeRI {Eam1105I}",
+    "catalogName": "BmeRI",
+    "alsoKnownAs": "Eam1105I",
+    "catalogNumber": "RV1150",
+    "recognitionRaw": "5'…GACNNN↓NNGTC…3' 3' 3'…CTGNN↑NNNCAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1018:bmeri-eam1105i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmiI": {
+    "vivantisName": "BmiI {NlaIV}",
+    "catalogName": "BmiI",
+    "alsoKnownAs": "NlaIV",
+    "catalogNumber": "RV1152",
+    "recognitionRaw": "5'…GGN↓NCC…3' 3' 3'…CCN↑NGG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "50",
+      "v5": "75",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1017:bmii-nlaiv&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmrFI": {
+    "vivantisName": "BmrFI {ScrFI}",
+    "catalogName": "BmrFI",
+    "alsoKnownAs": "ScrFI",
+    "catalogNumber": "RV1154",
+    "recognitionRaw": "5'…CC↓NGG…3' 3' 3'…GGN↑CC…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1016:bmrfi-scrfi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmtI": {
+    "vivantisName": "BmtI {NheI*}",
+    "catalogName": "BmtI",
+    "alsoKnownAs": "NheI",
+    "catalogNumber": "RE1156",
+    "recognitionRaw": "5'…GCTAG↓C…3' 3' 3'…C↑GATCG…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "25",
+      "v3": "75",
+      "v4": "100",
+      "v5": "75",
+      "ub": "75",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1015:bmti-nhei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu10I": {
+    "vivantisName": "Bpu10I",
+    "catalogName": "Bpu10I",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1158",
+    "recognitionRaw": "5'…CC↓TNAGC…3' 3' 3'…GGANT↑CG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1014:bpu10i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu14I": {
+    "vivantisName": "Bpu14I {Asu II}",
+    "catalogName": "Bpu14I",
+    "alsoKnownAs": "AsuII",
+    "catalogNumber": "RE1160",
+    "recognitionRaw": "5'…TT↓CGAA…3' 3' 3'…AAGC↑TT…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "50",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1013:bpu14i-asu-ii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BpuMI": {
+    "vivantisName": "BpuMI {Cau II}",
+    "catalogName": "BpuMI",
+    "alsoKnownAs": "CauII",
+    "catalogNumber": "RV1162",
+    "recognitionRaw": "5'…CC↓SGG…3' 3' 3'…GGS↑CC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "25",
+      "v4": "75",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "25",
+      "ub15": "75",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1012:bpumi-cau-ii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse118I": {
+    "vivantisName": "Bse118I {Cfr10I}",
+    "catalogName": "Bse118I",
+    "alsoKnownAs": "Cfr10I",
+    "catalogNumber": "RE1168",
+    "recognitionRaw": "5'…R↓CCGGY…3' 3' 3'…YGGCC↑R…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1007:bse118i-cfr10i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse21I": {
+    "vivantisName": "Bse21 I {SauI}",
+    "catalogName": "Bse21I",
+    "alsoKnownAs": "SauI",
+    "catalogNumber": "RE1170",
+    "recognitionRaw": "5'…CC↓TNAGG…3' 3' 3'…GGANT↑CC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1008:bse21-i-saui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsePI": {
+    "vivantisName": "BsePI",
+    "catalogName": "BsePI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1176",
+    "recognitionRaw": "5'…G↓CGCGC…3' 3' 3'…CGCGC↑G…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1006:bsepi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseX3I": {
+    "vivantisName": "BseX3I",
+    "catalogName": "BseX3I",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1178",
+    "recognitionRaw": "5'…C↓GGCCG…3' 3' 3'…GCCGG↑C…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "50",
+      "ub": "75",
+      "ub05": "50",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1005:bsex3i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BshVI": {
+    "vivantisName": "BshVI {ClaI}",
+    "catalogName": "BshVI",
+    "alsoKnownAs": "ClaI",
+    "catalogNumber": "RV1180",
+    "recognitionRaw": "5'…AT↓CGAT…3' 3' 3'…TAGC↑TA…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1004:bshvi-clai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsnI": {
+    "vivantisName": "BsnI {HaeIII}",
+    "catalogName": "BsnI",
+    "alsoKnownAs": "HaeIII",
+    "catalogNumber": "RV1182",
+    "recognitionRaw": "5'…GG↓CC…3' 3' 3'…CC↑GG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1003:bsni-haeiii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp13I": {
+    "vivantisName": "Bsp13I {BspMII}",
+    "catalogName": "Bsp13I",
+    "alsoKnownAs": "BspMII",
+    "catalogNumber": "RE1186",
+    "recognitionRaw": "5'…T↓CCGGA…3' 3' 3'…AGGCC↑T…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer Bsp13I, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer Bsp13I",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1001:bsp13i-bspmii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1720I": {
+    "vivantisName": "Bsp1720I {EspI}",
+    "catalogName": "Bsp1720I",
+    "alsoKnownAs": "EspI",
+    "catalogNumber": "RE1188",
+    "recognitionRaw": "5'…GC↓TNAGC…3' 3' 3'…CGANT↑CG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "75",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=999:bsp1720i-espi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp19I": {
+    "vivantisName": "Bsp19I {NcoI}",
+    "catalogName": "Bsp19I",
+    "alsoKnownAs": "NcoI",
+    "catalogNumber": "RE1190",
+    "recognitionRaw": "5'…C↓CATGG…3' 3' 3'…GGTAC↑C…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer Bsp19I, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer Bsp19I",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "75",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=1000:bsp19i-ncoi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssNAI": {
+    "vivantisName": "BssNAI {SnaI}",
+    "catalogName": "BssNAI",
+    "alsoKnownAs": "SnaI",
+    "catalogNumber": "RE1196",
+    "recognitionRaw": "5'…GTA↓TAC…3' 3' 3'…CAT↑ATG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "50",
+      "v3": "25",
+      "v4": "25",
+      "v5": "25",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=997:bssnai-snai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssNI": {
+    "vivantisName": "BssNI {AcyI}",
+    "catalogName": "BssNI",
+    "alsoKnownAs": "AcyI",
+    "catalogNumber": "RV1194",
+    "recognitionRaw": "5'…GR↓CGYC…3' 3' 3'…CYGC↑RG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "75",
+      "ub": "75",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=996:bssni-acyi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssT1I": {
+    "vivantisName": "BssT1I {StyI}",
+    "catalogName": "BssT1I",
+    "alsoKnownAs": "StyI",
+    "catalogNumber": "RE1198",
+    "recognitionRaw": "5'…C↓CWWGG…3' 3' 3'…GGWWC↑C…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "100",
+      "ub15": "25",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=995:bsst1i-styi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst2UI": {
+    "vivantisName": "Bst2UI {EcoRII*}",
+    "catalogName": "Bst2UI",
+    "alsoKnownAs": "EcoRII",
+    "catalogNumber": "RE1202",
+    "recognitionRaw": "5'…CC↓WGG…3' 3' 3'…GGW↑CC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=994:bst2ui-ecorii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstAUI": {
+    "vivantisName": "BstAUI {Bsp1407I}",
+    "catalogName": "BstAUI",
+    "alsoKnownAs": "Bsp1407I",
+    "catalogNumber": "RE1208",
+    "recognitionRaw": "5'…T↓GTACA…3' 3' 3'…ACATG↑T…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub": "50",
+      "ub05": "25",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=991:bstaui-bsp1407i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstBAI": {
+    "vivantisName": "BstBAI {BsaAI}",
+    "catalogName": "BstBAI",
+    "alsoKnownAs": "BsaAI",
+    "catalogNumber": "RE1210",
+    "recognitionRaw": "5'…YAC↓GTR…3' 3' 3'…RTG↑CAY…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=990:bstbai-bsaai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstDEI": {
+    "vivantisName": "BstDEI {DdeI}",
+    "catalogName": "BstDEI",
+    "alsoKnownAs": "DdeI",
+    "catalogNumber": "RE1212",
+    "recognitionRaw": "5'…C↓TNAG…3' 3' 3'…GANT↑C…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=989:bstdei-ddei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstDSI": {
+    "vivantisName": "BstDSI {DsaI}",
+    "catalogName": "BstDSI",
+    "alsoKnownAs": "DsaI",
+    "catalogNumber": "RE1214",
+    "recognitionRaw": "5'…C↓CRYGG…3' 3' 3'…GGYRC↑C…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=988:bstdsi-dsai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstENI": {
+    "vivantisName": "BstENI {EcoNI}",
+    "catalogName": "BstENI",
+    "alsoKnownAs": "EcoNI",
+    "catalogNumber": "RE1216",
+    "recognitionRaw": "5'…CCTNN↓NNNAGG…3' 3' 3'…GGANNN↑NNTCC…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "25",
+      "ub15": "75",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=987:bsteni-econi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstFNI": {
+    "vivantisName": "BstFNI {FnuDII}",
+    "catalogName": "BstFNI",
+    "alsoKnownAs": "FnuDII",
+    "catalogNumber": "RE1220",
+    "recognitionRaw": "5'…CG↓CG…3' 3' 3'…GC↑GC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=985:bstfni-fnudii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstH2I": {
+    "vivantisName": "BstH2I {HaeII}",
+    "catalogName": "BstH2I",
+    "alsoKnownAs": "HaeII",
+    "catalogNumber": "RE1222",
+    "recognitionRaw": "5'…RGCGC↓Y…3' 3' 3'…Y↑CGCGR…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=984:bsth2i-haeii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstHHI": {
+    "vivantisName": "BstHHI {HhaI}",
+    "catalogName": "BstHHI",
+    "alsoKnownAs": "HhaI",
+    "catalogNumber": "RE1224",
+    "recognitionRaw": "5'…GCG↓C…3' 3' 3'…C↑GCG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=983:bsthhi-hhai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstMCI": {
+    "vivantisName": "BstMCI {McrI}",
+    "catalogName": "BstMCI",
+    "alsoKnownAs": "McrI",
+    "catalogNumber": "RE1230",
+    "recognitionRaw": "5'…CGRY↓CG…3' 3' 3'…GC↑YRGC…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=981:bstmci-mcri&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstNSI": {
+    "vivantisName": "BstNSI {NspI}",
+    "catalogName": "BstNSI",
+    "alsoKnownAs": "NspI",
+    "catalogNumber": "RE1232",
+    "recognitionRaw": "5'…RCATG ↓Y…3' 3' 3'…Y↑GTACR…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "50",
+      "v5": "25",
+      "ub": "25",
+      "ub05": "25",
+      "ub15": "50",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=980:bstnsi-nspi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstPAI": {
+    "vivantisName": "BstPAI {PshAI}",
+    "catalogName": "BstPAI",
+    "alsoKnownAs": "PshAI",
+    "catalogNumber": "RE1234",
+    "recognitionRaw": "5'…GACNN↓NNGTC…3' 3' 3'…CTGNN↑NNCAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=979:bstpai-pshai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstSNI": {
+    "vivantisName": "BstSNI {SnaBI}",
+    "catalogName": "BstSNI",
+    "alsoKnownAs": "SnaBI",
+    "catalogNumber": "RE1236",
+    "recognitionRaw": "5'…TAC↓GTA…3' 3' 3'…ATG↑CAT…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=978:bstsni-snabi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstX2I": {
+    "vivantisName": "BstX2I {XhoII}",
+    "catalogName": "BstX2I",
+    "alsoKnownAs": "XhoII",
+    "catalogNumber": "RE1242",
+    "recognitionRaw": "5'…R↓GATCY…3' 3' 3'…YCTAG↑R…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=977:bstx2i-xhoii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "vivantisName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1240",
+    "recognitionRaw": "5'…CCANNNNN↓NTGG…3' 3' 3'…GGTN↑NNNNNACC…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=976:bstxi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BtuMI": {
+    "vivantisName": "BtuMI {NruI}",
+    "catalogName": "BtuMI",
+    "alsoKnownAs": "NruI",
+    "catalogNumber": "RV1246",
+    "recognitionRaw": "5'…TCG↓CGA…3' 3' 3'…AGC↑GCT…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=975:btumi-nrui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CciNI": {
+    "vivantisName": "CciNI {NotI}",
+    "catalogName": "CciNI",
+    "alsoKnownAs": "NotI",
+    "catalogNumber": "RE1248",
+    "recognitionRaw": "5'5'…GC↓GGCCGC…3' 3' 3'…CGCCGG↑CG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=974:ccini-noti&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DinI": {
+    "vivantisName": "DinI {NorI}",
+    "catalogName": "DinI",
+    "alsoKnownAs": "NorI",
+    "catalogNumber": "RV1252",
+    "recognitionRaw": "5'…GGC↓GCC…3' 3' 3'…CCG↑CGG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=973:dini-nori&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "vivantisName": "DraI {AhaIII}",
+    "catalogName": "DraI",
+    "alsoKnownAs": "AhaIII",
+    "catalogNumber": "RE1254",
+    "recognitionRaw": "5'…TTT↓AAA…3' 3' 3'…AAA↑T TT…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=972:drai-ahaiii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraIII": {
+    "vivantisName": "DraIII",
+    "catalogName": "DraIII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1256",
+    "recognitionRaw": "5'…CACNNN↓GTG…3' 3' 3'…GTG↑NNNCAC…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "5X Buffer DraIII, 10X Buffer UB and Viva Buffer A",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=971:draiii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DseDI": {
+    "vivantisName": "DseD I {DrdI}",
+    "catalogName": "DseDI",
+    "alsoKnownAs": "DrdI",
+    "catalogNumber": "RE1372",
+    "recognitionRaw": "5'…GACNNNN↓NNGTC…3' 3' 3'…CTGNN↑NNNNCAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=970:dsed-i-drdi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoICRI": {
+    "vivantisName": "EcoICRI {SacI}*",
+    "catalogName": "EcoICRI",
+    "alsoKnownAs": "SacI",
+    "catalogNumber": "RE1258",
+    "recognitionRaw": "5'…GAG↓CTC…3' 3' 3'…CTC↑GAG…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=969:ecoicri-saci&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "vivantisName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1260",
+    "recognitionRaw": "5'…G↓AATTC…3' 3' 3'…CTTAA↑G…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer EcoRI, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer EcoRI",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=968:ecori&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRV": {
+    "vivantisName": "EcoRV",
+    "catalogName": "EcoRV",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1262",
+    "recognitionRaw": "5'…GAT↓ATC…3' 3' 3'…CTA↑TAG…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer EcoRV, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer EcoRV",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=967:ecorv&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FauNDI": {
+    "vivantisName": "FauNDI {NdeI}",
+    "catalogName": "FauNDI",
+    "alsoKnownAs": "NdeI",
+    "catalogNumber": "RE1266",
+    "recognitionRaw": "5'…CA↓TATG…3' 3' 3'…GTAT↑AC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=966:faundi-ndei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FblI": {
+    "vivantisName": "FbII {AccI}",
+    "catalogName": "FblI",
+    "alsoKnownAs": "AccI",
+    "catalogNumber": "RE1268",
+    "recognitionRaw": "5'…GT↓MKAC…3' 3'…CAKM↑TG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "10",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=965:fbii-acci&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FriOI": {
+    "vivantisName": "FriOI {HgiJII}",
+    "catalogName": "FriOI",
+    "alsoKnownAs": "HgiJII",
+    "catalogNumber": "RE1272",
+    "recognitionRaw": "5'…GRGCY↓C…3' 3' 3'…C↑YCGRG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [
+      "Enzyme is stable for up to 6 months if properly stored",
+      "It is recommended that the enzyme is kept in small aliquots to avoid repeated freeze-thaw cycles"
+    ],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=963:frioi-hgijii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindII": {
+    "vivantisName": "Hind II",
+    "catalogName": "HindII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1274",
+    "recognitionRaw": "5'…GTY↓RAC…3' 3' 3'…CAR↑YTG…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=962:hind-ii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "vivantisName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1276",
+    "recognitionRaw": "5'…A↓AGCTT…3' 3' 3'…TTCGA↑A…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "50",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=961:hindiii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "vivantisName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1278",
+    "recognitionRaw": "5'…G↓ANTC…3' 3' 3'…CTNA↑G…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "25",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=960:hinfi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "vivantisName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1280",
+    "recognitionRaw": "5'…GTT↓AAC…3' 3' 3'…CAA↑TTG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=959:hpai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "vivantisName": "HpaII",
+    "catalogName": "HpaII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1282",
+    "recognitionRaw": "5'…C ↓ CGG…3' 3' 3'…GGC ↑ C…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent) Blocked by CpG methylation",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=958:hpaii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HspAI": {
+    "vivantisName": "HspA I {HhaI*}",
+    "catalogName": "HspAI",
+    "alsoKnownAs": "HhaI",
+    "catalogNumber": "RE1284",
+    "recognitionRaw": "5'…G↓CGC…3' 3' 3'…CGC↑G…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=957:hspa-i-hhai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "vivantisName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1286",
+    "recognitionRaw": "5'…GGTAC↓C…3' 3' 3'…C↑CATGG…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=956:kpni&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ksp22I": {
+    "vivantisName": "Ksp22I {BcII}",
+    "catalogName": "Ksp22I",
+    "alsoKnownAs": "BcII",
+    "catalogNumber": "RE1288",
+    "recognitionRaw": "5'…T↓GATCA…3' 3' 3'…ACTAG↑T…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "50",
+      "v5": "100",
+      "ub": "50",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=955:ksp22i-bcii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MhlI": {
+    "vivantisName": "MhlI {SduI}",
+    "catalogName": "MhlI",
+    "alsoKnownAs": "SduI",
+    "catalogNumber": "RE1292",
+    "recognitionRaw": "5'…GDGCH↓C…3' 3' 3'…C↑HCGDG…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=953:mhli-sdui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "vivantisName": "MluI",
+    "catalogName": "MluI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1294",
+    "recognitionRaw": "5'…A↓CGCGT…3' 3' 3'…TGCGC↑A…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=952:mlui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MroNI": {
+    "vivantisName": "MroNI {NaeI*}",
+    "catalogName": "MroNI",
+    "alsoKnownAs": "NaeI",
+    "catalogNumber": "RE1298",
+    "recognitionRaw": "5'…G↓CCGGC…3' 3' 3'…CGGCC↑G…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 60,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=950:mroni-naei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MroXI": {
+    "vivantisName": "MroXI {XmnI}",
+    "catalogName": "MroXI",
+    "alsoKnownAs": "XmnI",
+    "catalogNumber": "RE1300",
+    "recognitionRaw": "5'…GAANN↓NNTTC…3' 3' 3'…CTTNN↑NNAAG…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=949:mroxi-xmni&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Msp20I": {
+    "vivantisName": "Msp20I {BalI}",
+    "catalogName": "Msp20I",
+    "alsoKnownAs": "BalI",
+    "catalogNumber": "RE1304",
+    "recognitionRaw": "5'…TGG↓CCA…3' 3' 3'…ACC↑GGT…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=947:msp20i-bali&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspA1I": {
+    "vivantisName": "MspA1I {NspBII}",
+    "catalogName": "MspA1I",
+    "alsoKnownAs": "NspBII",
+    "catalogNumber": "RE1306",
+    "recognitionRaw": "5'…CMG↓CKG…3' 3' 3'…GKC↑GMC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=946:mspa1i-nspbii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "vivantisName": "MspI {HpaII}",
+    "catalogName": "MspI",
+    "alsoKnownAs": "HpaII",
+    "catalogNumber": "RE1302",
+    "recognitionRaw": "5'…C↓CGG…3' 3' 3'…GGC↑C…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=948:mspi-hpaii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PceI": {
+    "vivantisName": "Pce I {StuI}",
+    "catalogName": "PceI",
+    "alsoKnownAs": "StuI",
+    "catalogNumber": "RE1308",
+    "recognitionRaw": "5'…AGG↓CCT…3' 3' 3'…TCC↑GGA…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=945:pce-i-stui&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp124BI": {
+    "vivantisName": "Psp124BI {SacI}",
+    "catalogName": "Psp124BI",
+    "alsoKnownAs": "SacI",
+    "catalogNumber": "RE1312",
+    "recognitionRaw": "5'…GAGCT ↓ C…3 3' 3'…C ↑ TCGAG…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=943:psp124bi-saci&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspCI": {
+    "vivantisName": "PspCI {PmaCI}",
+    "catalogName": "PspCI",
+    "alsoKnownAs": "PmaCI",
+    "catalogNumber": "RE1314",
+    "recognitionRaw": "5'…CAC↓GTG…3' 3' 3'…GTG↑CAC…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=942:pspci-pmaci&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspEI": {
+    "vivantisName": "PspEI {BstEII}",
+    "catalogName": "PspEI",
+    "alsoKnownAs": "BstEII",
+    "catalogNumber": "RE1316",
+    "recognitionRaw": "5'…G↓GTNACC…3' 3' 3'…CCANTG↑G…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "25",
+      "v4": "75",
+      "v5": "25",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=941:pspei-bsteii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspOMI": {
+    "vivantisName": "PspOMI {ApaI*}",
+    "catalogName": "PspOMI",
+    "alsoKnownAs": "ApaI",
+    "catalogNumber": "RE1318",
+    "recognitionRaw": "5'…G↓GGCCC…3' 3' 3'…CCCGG↑G…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=940:pspomi-apai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "vivantisName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1320",
+    "recognitionRaw": "5'…CTGCA↓G…3' 3' 3'…G↑ACGTC…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=939:psti&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "vivantisName": "PvuII",
+    "catalogName": "PvuII",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1322",
+    "recognitionRaw": "5'…CAG↓CTG…3' 3' 3'…GTC↑GAC…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=938:pvuii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "vivantisName": "RsaI",
+    "catalogName": "RsaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1324",
+    "recognitionRaw": "5'…GT↓AC…3' 3' 3'…CA↑TG…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=937:rsai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Rsr2I": {
+    "vivantisName": "Rsr2I {RsrII}",
+    "catalogName": "Rsr2I",
+    "alsoKnownAs": "RsrII",
+    "catalogNumber": "RE1374",
+    "recognitionRaw": "5'…CG↓GWCCG…3' 3' 3'…GCCWG↑GC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "0",
+      "v3": "0",
+      "v4": "0",
+      "v5": "0",
+      "ub": "0",
+      "ub05": "0",
+      "ub15": "0",
+      "ub2": "0"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=936:rsr2i-rsrii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "vivantisName": "SalI",
+    "catalogName": "SalI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1326",
+    "recognitionRaw": "5'…G↓TCGAC…3' 3' 3'…CAGCT↑G…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "0",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "10",
+      "ub15": "100",
+      "ub2": "100"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=935:sali&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SbfI": {
+    "vivantisName": "SbfI {Sse8387I}",
+    "catalogName": "SbfI",
+    "alsoKnownAs": "Sse8387I",
+    "catalogNumber": "RE1328",
+    "recognitionRaw": "5'…CCTGCA↓GG…3' 3' 3'…GG↑ACGTCC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "80°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=934:sbfi-sse8387i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "vivantisName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1330",
+    "recognitionRaw": "5'…GGCCNNNN↓NGGCC…3' 3' 3'…CCGGN↑NNNNCCGG…5'",
+    "preferredBuffer": "v2",
+    "suppliedBuffer": "10X Buffer V2, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "10",
+      "v4": "50",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "100",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 50,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=932:sfii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sfr274I": {
+    "vivantisName": "Sfr274I {XhoI}",
+    "catalogName": "Sfr274I",
+    "alsoKnownAs": "XhoI",
+    "catalogNumber": "RE1332",
+    "recognitionRaw": "5'…C↓TCGAG…3' 3' 3'…GAGCT↑C…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "50",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 50,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=931:sfr274i-xhoi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sfr303I": {
+    "vivantisName": "Sfr303I {SacII}",
+    "catalogName": "Sfr303I",
+    "alsoKnownAs": "SacII",
+    "catalogNumber": "RE1334",
+    "recognitionRaw": "5'…CCGC↓GG…3' 3' 3'…GG↑CGCC…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "100",
+      "ub15": "50",
+      "ub2": "10"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=930:sfr303i-sacii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "vivantisName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1336",
+    "recognitionRaw": "5'…CCC↓GGG…3' 3' 3'…GGG↑CCC…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "10",
+      "v3": "10",
+      "v4": "75",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 25,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=929:smai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiI": {
+    "vivantisName": "SmiI {SwaI}",
+    "catalogName": "SmiI",
+    "alsoKnownAs": "SwaI",
+    "catalogNumber": "RE1338",
+    "recognitionRaw": "5'…ATTT↓AAAT…3' 3' 3'…TAAA↑TTTA…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "75",
+      "v5": "25",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=928:smii-swai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiMI": {
+    "vivantisName": "SmiMI {MslI}",
+    "catalogName": "SmiMI",
+    "alsoKnownAs": "MslI",
+    "catalogNumber": "RE1378",
+    "recognitionRaw": "5'…CAYNN↓NNRTG…3' 3' 3'…GTRNN↑NNYAC…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "50",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=927:smimi-msli&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "vivantisName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1340",
+    "recognitionRaw": "5'…GCATG ↓C…3' 3' 3'…C↑GTACG…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=926:sphi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "vivantisName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1344",
+    "recognitionRaw": "5'…AAT↓ATT…3' 3' 3'…TTA↑AAT…5'",
+    "preferredBuffer": "specific",
+    "suppliedBuffer": "10X Buffer Ssp I, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": "Buffer Ssp I",
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "10"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=924:sspi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "vivantisName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1346",
+    "recognitionRaw": "5'…T↓CGA…3' 3' 3'…AGC↑T…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "10"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 65,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=923:taqi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tru9I": {
+    "vivantisName": "Tru9I {MseI}",
+    "catalogName": "Tru9I",
+    "alsoKnownAs": "MseI",
+    "catalogNumber": "RE1350",
+    "recognitionRaw": "5'…T↓TAA…3' 3' 3'…AAT↑T…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "10",
+      "v4": "50",
+      "v5": "25",
+      "ub": "100",
+      "ub05": "100",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=922:tru9i-msei&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tth111I": {
+    "vivantisName": "Tth111I",
+    "catalogName": "Tth111I",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1356",
+    "recognitionRaw": "5'…GACN ↓ NNGTC…3' 3' 3'…CTGNN ↑ NCAG…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "25",
+      "v4": "50",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "10"
+    },
+    "heatInactivation": "NO",
+    "incubationC": 65,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=921:tth111i&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Vha464I": {
+    "vivantisName": "Vha464I {AftII}",
+    "catalogName": "Vha464I",
+    "alsoKnownAs": "AftII",
+    "catalogNumber": "RE1358",
+    "recognitionRaw": "5'…C↓TTAAG…3' 3' 3'…GAATT↑C…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=920:vha464i-aftii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VneI": {
+    "vivantisName": "VneI {ApaLI}",
+    "catalogName": "VneI",
+    "alsoKnownAs": "ApaLI",
+    "catalogNumber": "RE1360",
+    "recognitionRaw": "5'…G↓TGCAC…3' 3' 3'…CACGT↑G…5'",
+    "preferredBuffer": "v3",
+    "suppliedBuffer": "10X Buffer V3, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "50",
+      "v5": "50",
+      "ub": "50",
+      "ub05": "50",
+      "ub15": "50",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=919:vnei-apali&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VspI": {
+    "vivantisName": "VspI",
+    "catalogName": "VspI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RE1362",
+    "recognitionRaw": "5'…AT↓TAAT…3' 3' 3'…TAAT↑TA…5'",
+    "preferredBuffer": "v4",
+    "suppliedBuffer": "10X Buffer V4, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "100",
+      "v5": "10",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "75",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=918:vspi&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "vivantisName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "RV1364",
+    "recognitionRaw": "5'…T↓CTAGA…3' 3' 3'…AGATC↑T…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "75",
+      "v3": "75",
+      "v4": "10",
+      "v5": "100",
+      "ub": "100",
+      "ub05": "75",
+      "ub15": "100",
+      "ub2": "75"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=917:xbai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmaI": {
+    "vivantisName": "XmaI {SmaI*}",
+    "catalogName": "XmaI",
+    "alsoKnownAs": "SmaI",
+    "catalogNumber": "RV1366",
+    "recognitionRaw": "5'…C↓CCGGG…3' 3' 3'…GGGCC↑C…5'",
+    "preferredBuffer": "v5",
+    "suppliedBuffer": "10X Buffer V5, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub": "75",
+      "ub05": "100",
+      "ub15": "25",
+      "ub2": "50"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=916:xmai-smai&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ZraI": {
+    "vivantisName": "ZraI {AatII*}",
+    "catalogName": "ZraI",
+    "alsoKnownAs": "AatII",
+    "catalogNumber": "RE1368",
+    "recognitionRaw": "5'…GAC↓GTC…3' 3' 3'…CTG↑CAG…5'",
+    "preferredBuffer": "ub",
+    "suppliedBuffer": "10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [],
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "25",
+      "v4": "50",
+      "v5": "50",
+      "ub": "100",
+      "ub05": "50",
+      "ub15": "75",
+      "ub2": "50"
+    },
+    "heatInactivation": "80°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=915:zrai-aatii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Zsp2I": {
+    "vivantisName": "Zsp2I {AvaIII}",
+    "catalogName": "Zsp2I",
+    "alsoKnownAs": "AvaIII",
+    "catalogNumber": "RE1370",
+    "recognitionRaw": "5'…ATGCA↓T…3' 3' 3'…T↑ACGTA…5'",
+    "preferredBuffer": "v1",
+    "suppliedBuffer": "10X Buffer V1, 10X Buffer UB and Viva Buffer A. (Diluent)",
+    "enzymeSpecificBuffer": null,
+    "catalogNotes": [
+      "Enzyme is stable for up to 6 months if properly stored",
+      "It is recommended that the enzyme is kept in small aliquot to avoid repeated freeze-thaw cycles"
+    ],
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "50",
+      "v3": "25",
+      "v4": "50",
+      "v5": "100",
+      "ub": "50",
+      "ub05": "75",
+      "ub15": "50",
+      "ub2": "25"
+    },
+    "heatInactivation": "65°C for 20 minutes",
+    "incubationC": 37,
+    "productUrl": "https://www.vivantechnologies.com/index.php?option=com_content&view=article&id=914:zsp2i-avaiii&catid=84:conventional-restriction-endonucleases&Itemid=117",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

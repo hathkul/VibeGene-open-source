@@ -1,0 +1,4828 @@
+{
+  "AatII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50*",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AccI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Acc65I": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "75*",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNA"
+  },
+  "AciI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "25",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AclI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AcuI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1, b, d"
+  },
+  "AfeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "AflII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 RF I DNA"
+  },
+  "AflIII": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AgeI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AhdI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA a"
+  },
+  "AleI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AluI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "AlwI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-) 1, b, d"
+  },
+  "AlwNI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "ApaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "ApaLI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "ApeKI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "No",
+    "incubationC": 75,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "ApoI-HF": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AscI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AseI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50*",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "AsiSI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "XhoI digested pXba 2, b"
+  },
+  "AvaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AvaII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "AvrII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "BaeGI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BaeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA e"
+  },
+  "BamHI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75*",
+      "r2.1": "100*",
+      "r3.1": "100",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "BamHI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BanI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "BanII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2"
+  },
+  "BbsI§": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BbsI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BbvCI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1, a"
+  },
+  "BbvI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 3"
+  },
+  "BccI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA 3, b"
+  },
+  "BceAI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "100*",
+      "r2.1": "100*",
+      "r3.1": "100",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 1"
+  },
+  "BcgI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "75*",
+      "r3.1": "100",
+      "cutSmart": "50*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA e"
+  },
+  "BciVI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "BclI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "75"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "BclI-HF": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "BcoDI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BfaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2, b"
+  },
+  "BfuAI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "25",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 50,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "BglI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "25",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BglII": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "100",
+      "cutSmart": "<10"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BlpI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "BmgBI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "10",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "BmrI": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) b"
+  },
+  "BmtI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "BpmI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2"
+  },
+  "BpuEI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50*",
+      "r2.1": "100",
+      "r3.1": "50*",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "Bpu10I": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "25",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "BsaAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsaBI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-) 2"
+  },
+  "BsaHI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsaI-HF®v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "BsaJI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsaWI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsaXI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50*",
+      "r2.1": "100*",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA e"
+  },
+  "BseRI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "BseYI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "BsgI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "BsiEI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "BsiHKAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsiWI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50*",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 DNA"
+  },
+  "BsiWI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 DNA"
+  },
+  "BslI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "BsmAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsmBI-v2": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsmFI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 1"
+  },
+  "BsmI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsoBI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BspCNI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "75",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "BspDI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "75",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BspEI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "10",
+      "r3.1": "100",
+      "cutSmart": "<10"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "BspHI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Bsp1286I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "BspMI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50*",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BspQI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "100*",
+      "r2.1": "100*",
+      "r3.1": "100",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "BspQI-HF®§": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsrBI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA d"
+  },
+  "BsrDI": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, d"
+  },
+  "BsrFI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "0",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA"
+  },
+  "BsrGI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BsrI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 DNA b"
+  },
+  "BssHII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BssSI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BstAPI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "BstBI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BstEII-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BstNI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "75"
+    },
+    "heatInactivation": "No",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA a"
+  },
+  "BstUI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "BstXI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "BstYI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BstZ17I-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Bsu36I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) b"
+  },
+  "BtgI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA"
+  },
+  "BtgZI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "BtsCI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "BtsIMutI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA b"
+  },
+  "BtsI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "Cac8I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "ClaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "CspCI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA e"
+  },
+  "CviKI-1": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 1, b"
+  },
+  "CviQI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100*",
+      "r3.1": "100",
+      "cutSmart": "75*"
+    },
+    "heatInactivation": "No",
+    "incubationC": 25,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "DdeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "DpnI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA (dam methylated) b"
+  },
+  "DpnII": {
+    "suppliedBuffer": "NEBuffer DpnII",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "100*",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "DraI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "75",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "DraIII-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "DrdI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA 3"
+  },
+  "EaeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "EagI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "EarI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b, d"
+  },
+  "EciI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2"
+  },
+  "Eco53kI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA 3, b"
+  },
+  "EcoNI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "EcoO109I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) 3"
+  },
+  "EcoP15I": {
+    "suppliedBuffer": "NEBuffer r3.1 + ATP",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA e"
+  },
+  "EcoRI§": {
+    "suppliedBuffer": "NEBuffer EcoRI/SspI",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100*",
+      "r3.1": "50",
+      "cutSmart": "50*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "EcoRI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "EcoRV§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "EcoRV-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Esp3I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "FatI": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA"
+  },
+  "FauI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "Fnu4HI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA a"
+  },
+  "FokI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "FseI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "75",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNA"
+  },
+  "FspI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "HaeII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HaeIII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HgaI": {
+    "suppliedBuffer": "NEBuffer 100",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 DNA 1"
+  },
+  "HhaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HincII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HindIII§": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HindIII-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HinfI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HinP1I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HpaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "75*",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "HpaII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "HphI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1, b, d"
+  },
+  "HpyAV": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": null,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "HpyCH4III": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "HpyCH4IV": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA"
+  },
+  "HpyCH4V": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Hpy188I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 1, b"
+  },
+  "Hpy99I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Hpy166II": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA"
+  },
+  "Hpy188III": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pUC19 DNA 3, b"
+  },
+  "I-CeuI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBHS ScaI- linearized Control Plasmid"
+  },
+  "I-SceI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pGPS2 NotI- linearized Control Plasmid"
+  },
+  "KasI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA 3"
+  },
+  "KpnI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "MboI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-)"
+  },
+  "MboII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100*",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-) b"
+  },
+  "MfeI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MluCI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MluI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MlyI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b, d"
+  },
+  "MmeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 RF I DNA b, c"
+  },
+  "MnlI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "MscI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MseI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MslI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MspA1I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MspI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "MspJI": {
+    "suppliedBuffer": "rCutSmart Buffer + Activator",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 (dcm+) DNA 1, e"
+  },
+  "MwoI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 60,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NaeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA b"
+  },
+  "NarI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA Nb.BbvCI CCTCAGC(none/-2) rCutSmart™ Buffer 25 100 100 100 80°C 37°C A supercoiled plasmid DNA e Nb.BsmI GAATGC(none/-1) NEBuffer™ r3.1 <10 50 100 10 80°C 65°C A supercoiled plasmid pBR322 DNA e Nb.BsrDI GCAATG(none/0) rCutSmart™ Buffer 25 100 100 100 80°C 37°C A supercoiled pUC19 DNA e Nb.BssSI CACGAG(none/-1) NEBuffer™ r3.1 10 100 100 25 No 37°C B supercoiled pUC19 DNA e Nb.BtsI GCAGTG(none/0) rCutSmart™ Buffer 75 100 75 100 80°C 37°C A supercoiled pUC101 DNA (dam-/dcm-) e"
+  },
+  "NciI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "NcoI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NcoI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NdeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NgoMIV": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA 1"
+  },
+  "NheI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "NlaIII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 RF I DNA"
+  },
+  "NlaIV": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBR322 DNA"
+  },
+  "NmeAIII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 RF I DNA c"
+  },
+  "NotI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNA"
+  },
+  "NotI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNA"
+  },
+  "NruI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "0",
+      "r2.1": "25",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NsiI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NsiI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "20",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "NspI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA Nt.AlwI GGATC(4/none) rCutSmart™ Buffer 10 100 100 100 80°C 37°C A pUC101 DNA (dam-/dcm-) e Nt.BbvCI CCTCAGC(-5/none) rCutSmart™ Buffer 50 100 10 100 80°C 37°C A supercoiled plasmid DNA e Nt.BsmAI GTCTC(1/none) rCutSmart™ Buffer 100 50 10 100 65°C 37°C A supercoiled plasmid DNA e Nt.BspQI GCTCTTC(1/none) NEBuffer™ r3.1 <10 25 100 10 80°C 50°C B supercoiled pUC19 DNA e Nt.BstNBI GAGTC(4/none) NEBuffer™ r3.1 0 10 100 10 80°C 55°C A T7 DNA e Nt.CviPII CCD(-3/none) rCutSmart™ Buffer 10 100 25 100 65°C 37°C A pUC19 DNA e"
+  },
+  "PacI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "75",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pNEB193 DNA"
+  },
+  "PaeR7I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "PaqCI": {
+    "suppliedBuffer": "rCutSmart Buffer + Activator",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "PciI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "50*"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "PflFI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNAb"
+  },
+  "PflMI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "0",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3, b, d"
+  },
+  "PI-PspI": {
+    "suppliedBuffer": "NEBuffer PI-PspI + rAlbumin",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pAKR7 XmnI- linearized Control Plasmid"
+  },
+  "PI-SceI": {
+    "suppliedBuffer": "NEBuffer PI-SceI + rAlbumin",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "10",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBSvdeX XmnI- linearized Control Plasmid"
+  },
+  "PleI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b, d"
+  },
+  "PluTI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA b"
+  },
+  "PmeI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "PmlI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) DNA"
+  },
+  "PpuMI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "PshAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "PsiI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "PspGI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 75,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "T7 DNA 3"
+  },
+  "PspOMI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "PspXI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "PstI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "50*"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "PstI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "75",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "PvuI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "PvuII§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "PvuII-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "RsaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "RsrII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "75",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "SacI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "SacII": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "SalI§": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "100",
+      "cutSmart": "<10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "SalI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "SapI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Sau3AI": {
+    "suppliedBuffer": "NEBuffer 100",
+    "preferredBuffer": "r1.1",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "Sau96I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "SbfI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "25",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "ScaI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "ScrFI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2, a"
+  },
+  "SexAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "75",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNA (dcm-) 3, b, d"
+  },
+  "SfaNI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "75",
+      "r3.1": "100",
+      "cutSmart": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "ΦX174 RF I DNA 3, b"
+  },
+  "SfcI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "SfiI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 50,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA"
+  },
+  "SfoI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest)"
+  },
+  "SgrAI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 1"
+  },
+  "SmaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "<10",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) b"
+  },
+  "SmlI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "75",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 55,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "SnaBI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50*",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "T7 DNA 1"
+  },
+  "SpeI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba-XbaI DNA"
+  },
+  "SphI§": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2"
+  },
+  "SphI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "25",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "SrfI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "50",
+      "r3.1": "0",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pNEB193- SrfI DNA"
+  },
+  "SspI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "StuI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "StyD4I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "StyI-HF®": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "SwaI": {
+    "suppliedBuffer": "NEBuffer r3.1",
+    "preferredBuffer": "r3.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "10",
+      "r3.1": "100",
+      "cutSmart": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 25,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA b, d"
+  },
+  "TaqI-v2": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "50",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "TfiI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "TseI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 3"
+  },
+  "Tsp45I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "TspMI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50*",
+      "r2.1": "75*",
+      "r3.1": "50*",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 75,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNAd"
+  },
+  "TspRI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA"
+  },
+  "Tth111I": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "No",
+    "incubationC": 65,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pBC4 DNAb WarmStart Nt.BstNBI GAGTC(4/none) NEBuffer™ r3.1 0 10 100 25 80°C 55°C A T7 DNA"
+  },
+  "XbaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "<10",
+      "r2.1": "100",
+      "r3.1": "75",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (dam-/Hind III digest)"
+  },
+  "XcmI": {
+    "suppliedBuffer": "NEBuffer r2.1",
+    "preferredBuffer": "r2.1",
+    "bufferActivity": {
+      "r1.1": "10",
+      "r2.1": "100",
+      "r3.1": "25",
+      "cutSmart": "100*"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "C",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA 2"
+  },
+  "XhoI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "75",
+      "r2.1": "100",
+      "r3.1": "100",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA (HindIII digest) b"
+  },
+  "XmaI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "25",
+      "r2.1": "50",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "pXba DNA 3"
+  },
+  "XmnI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "50",
+      "r2.1": "75",
+      "r3.1": "<10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "diluent": "A",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA b"
+  },
+  "ZraI": {
+    "suppliedBuffer": "rCutSmart Buffer",
+    "preferredBuffer": "cutSmart",
+    "bufferActivity": {
+      "r1.1": "100",
+      "r2.1": "25",
+      "r3.1": "10",
+      "cutSmart": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "diluent": "B",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    },
+    "unitSubstrate": "λ DNA § An HF version of this enzyme is available. The values listed in this table are approximate. They were obtained using each enzyme's specific unit assay substrate DNA. Ligation and Recutting Notes The following notes appear with any enzymes having ligation efficiencies lower than 100% as assessed by ligation and recutting. a. Ligation is less than 10%. b. Ligation is 25% -75%. c. Recutting after ligation is less than 5%. d. Recutting after ligation is 50% -75%. e. Ligation and recutting after ligation is not applicable since the enzyme is either a nicking enzyme, is affected by methylation, or if the enzyme cleaves outside its recognition sequence. Star Activity Notes The following notes appear with any enzymes when star activity is a concern. 1. Star Activity may result from extended digestion, high enzyme concentration or a glycerol concentration of > 5%. 2. Star Activity may result from extended digestion. 3. Star Activity may result from a glycerol concentration of > 5%. *. May exhibit star activity in this buffer. +. For added flexibility, NEB offers an isoschizomer or HF enzyme, supplied with CutSmart Buffer."
+  }
+}

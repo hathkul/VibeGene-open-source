@@ -1,0 +1,1678 @@
+{
+  "generatedAt": "2026-10-16T15:06:09.400Z",
+  "total": 163,
+  "byRole": {
+    "neutral-divider": 48,
+    "body-chrome-text": 9,
+    "explanatory-muted-text": 21,
+    "control-outline": 29,
+    "neutral-control-label": 4,
+    "main-panel-surface": 21,
+    "feature-button-surface": 8,
+    "table-grid-border": 10,
+    "form-field-surface": 8,
+    "nested-panel-surface": 1,
+    "section-heading-text": 4
+  },
+  "byToken": {
+    "--vg-border": 58,
+    "--vg-text": 9,
+    "--vg-text-muted": 21,
+    "--vg-control-border": 29,
+    "--vg-control-ink": 4,
+    "--vg-surface-panel": 21,
+    "--vg-control-surface": 8,
+    "--vg-surface-inset": 8,
+    "--vg-surface-panel-muted": 1,
+    "--vg-text-strong": 4
+  },
+  "rejectReasons": {
+    "file": 69,
+    "scientific-or-art": 373,
+    "translucent": 96,
+    "outside-chrome-allowlist": 630,
+    "shadow-property": 14,
+    "unclassified": 122,
+    "interaction-or-state": 120,
+    "semantic-ink-literal": 10,
+    "global-button": 2,
+    "tab-bar-chrome": 1,
+    "state-link-or-chip": 40,
+    "pseudo-art": 5,
+    "decorative-or-scrim": 22,
+    "media-query-owner": 32,
+    "gel-art": 4
+  },
+  "rows": [
+    {
+      "id": "41e2efa7e7a8c996",
+      "file": "src/App.css",
+      "owner": ".toolbar-edit-dropdown",
+      "property": "border",
+      "literal": "#b7ad9a",
+      "line": 2692,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "22a5f3cfd1dc2127",
+      "file": "src/App.css",
+      "owner": ".toolbar-edit-item",
+      "property": "color",
+      "literal": "#2f2a23",
+      "line": 2708,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "d607f714181b476e",
+      "file": "src/App.css",
+      "owner": ".toolbar-edit-shortcut",
+      "property": "color",
+      "literal": "#8a8a8a",
+      "line": 2760,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "c9d7383c9734fddf",
+      "file": "src/App.css",
+      "owner": ".toolbar-edit-submenu-arrow",
+      "property": "color",
+      "literal": "#8a8a8a",
+      "line": 2781,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "650b09d669447858",
+      "file": "src/App.css",
+      "owner": ".toolbar-edit-submenu-panel",
+      "property": "border",
+      "literal": "#b7ad9a",
+      "line": 2794,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "a58ab77aa0c01e65",
+      "file": "src/App.css",
+      "owner": ".combine-library-reads-hint",
+      "property": "color",
+      "literal": "#6b7280",
+      "line": 2918,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "4b29890dd80ce5cf",
+      "file": "src/App.css",
+      "owner": ".combine-library-reads-summary",
+      "property": "color",
+      "literal": "#4b5563",
+      "line": 2945,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "6fc434838780ec5f",
+      "file": "src/App.css",
+      "owner": ".combine-library-reads-preview",
+      "property": "border",
+      "literal": "#ddd4c3",
+      "line": 2956,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "1922e0957530f686",
+      "file": "src/App.css",
+      "owner": ".combine-library-reads-empty",
+      "property": "color",
+      "literal": "#6b7280",
+      "line": 2992,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "0436e4033e6c7d22",
+      "file": "src/App.css",
+      "owner": ".dedupe-library-members-summary",
+      "property": "color",
+      "literal": "#444",
+      "line": 3011,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "748d839e60f59fa6",
+      "file": "src/App.css",
+      "owner": ".dedupe-library-members-preview",
+      "property": "border",
+      "literal": "#ccc",
+      "line": 3019,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "fe973c7de51c35eb",
+      "file": "src/App.css",
+      "owner": ".description-panel-toggle input",
+      "property": "border",
+      "literal": "#b5b5b5",
+      "line": 3483,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "ca8cfa8e8695c32f",
+      "file": "src/App.css",
+      "owner": ".sidebar-map-export-picker button",
+      "property": "color",
+      "literal": "#2f2a23",
+      "line": 3764,
+      "role": "neutral-control-label",
+      "token": "--vg-control-ink"
+    },
+    {
+      "id": "61e9c68fba8339e3",
+      "file": "src/App.css",
+      "owner": ".translation-dialog",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 4148,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "aeca4f99b7c095ac",
+      "file": "src/App.css",
+      "owner": ".generate-link-dialog .generate-link-note",
+      "property": "color",
+      "literal": "#777",
+      "line": 4282,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "a9c2deb8f72149a2",
+      "file": "src/App.css",
+      "owner": ".sequence-database-ncbi-scope",
+      "property": "border",
+      "literal": "#cbd5e1",
+      "line": 4648,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "172f5c6a831dd931",
+      "file": "src/App.css",
+      "owner": ".sequence-database-import-options label",
+      "property": "color",
+      "literal": "#444",
+      "line": 4673,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "a8b8124734a5d75e",
+      "file": "src/App.css",
+      "owner": ".sequence-database-import-options",
+      "property": "background",
+      "literal": "#fafafa",
+      "line": 4797,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "69f82c3640d91ef2",
+      "file": "src/App.css",
+      "owner": ".preferences-pcr-lead",
+      "property": "color",
+      "literal": "#4b5563",
+      "line": 5481,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "6a0f1589531adf52",
+      "file": "src/App.css",
+      "owner": ".preferences-option",
+      "property": "color",
+      "literal": "#2f2a23",
+      "line": 5581,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "5656ad893d5192d8",
+      "file": "src/App.css",
+      "owner": ".preferences-bp-input",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 5632,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "dc8e8325a73e53e9",
+      "file": "src/App.css",
+      "owner": ".translation-actions button",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 5673,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "c26e6c902e3b7e2a",
+      "file": "src/App.css",
+      "owner": ".translation-actions button",
+      "property": "background",
+      "literal": "#f5f5f5",
+      "line": 5676,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "e19c7e5dc9402aa6",
+      "file": "src/App.css",
+      "owner": ".select-range-hint",
+      "property": "color",
+      "literal": "#6b6155",
+      "line": 5691,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "fd2efa0da29b9589",
+      "file": "src/App.css",
+      "owner": ".keyboard-shortcuts-list kbd",
+      "property": "border",
+      "literal": "#d4dce4",
+      "line": 6029,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "b0d8acbbc681aa4c",
+      "file": "src/App.css",
+      "owner": ".unsaved-changes-note",
+      "property": "color",
+      "literal": "#666",
+      "line": 6215,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "87efd0b4f0576e63",
+      "file": "src/App.css",
+      "owner": ".features-import-projects",
+      "property": "border",
+      "literal": "#e5e0d6",
+      "line": 6432,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "ff331501b89bd666",
+      "file": "src/App.css",
+      "owner": ".features-import-projects",
+      "property": "background",
+      "literal": "#fbf8f1",
+      "line": 6434,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "7c55cfa3186aaae5",
+      "file": "src/App.css",
+      "owner": ".features-import-project-button",
+      "property": "color",
+      "literal": "#1f2933",
+      "line": 6448,
+      "role": "neutral-control-label",
+      "token": "--vg-control-ink"
+    },
+    {
+      "id": "5d5044118b95ee0c",
+      "file": "src/App.css",
+      "owner": ".common-features-browse-sidebar",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 6639,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "6b756e57537b4837",
+      "file": "src/App.css",
+      "owner": ".common-features-browse-list-empty",
+      "property": "color",
+      "literal": "#666",
+      "line": 6697,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "8f985042b1a12bb2",
+      "file": "src/App.css",
+      "owner": ".common-features-browse-import-menu",
+      "property": "border",
+      "literal": "#888",
+      "line": 6722,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "03cca2f6b4163486",
+      "file": "src/App.css",
+      "owner": ".common-feature-preview-workspace-empty",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 6765,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "782612e116dd301b",
+      "file": "src/App.css",
+      "owner": ".common-feature-preview-workspace-empty",
+      "property": "background",
+      "literal": "#fafafa",
+      "line": 6766,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "dae6dcfea8916dbd",
+      "file": "src/App.css",
+      "owner": ".common-feature-preview-workspace-empty",
+      "property": "color",
+      "literal": "#666",
+      "line": 6767,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "60c044ef1afab2b0",
+      "file": "src/App.css",
+      "owner": ".common-features-detect-table-wrap",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 6827,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "27fb094cf6d02f7d",
+      "file": "src/App.css",
+      "owner": ".common-primers-detect-table-wrap",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 6973,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "14e45fb7e15f8b56",
+      "file": "src/App.css",
+      "owner": ".common-primers-detect-table-wrap",
+      "property": "background",
+      "literal": "#fffef8",
+      "line": 6974,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "7f314f9d7597b794",
+      "file": "src/App.css",
+      "owner": ".common-features-empty",
+      "property": "color",
+      "literal": "#666",
+      "line": 7026,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "046546a9ab08a1b3",
+      "file": "src/App.css",
+      "owner": ".enzyme-preferences-supplier-list",
+      "property": "border",
+      "literal": "#bababa",
+      "line": 7200,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "8bf57308c5307b28",
+      "file": "src/App.css",
+      "owner": ".enzyme-list-box",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 7402,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "be5678219962dfe4",
+      "file": "src/App.css",
+      "owner": ".enzyme-choose-criteria",
+      "property": "border",
+      "literal": "#cfcfcf",
+      "line": 7460,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "c1f453efdc4afa9e",
+      "file": "src/App.css",
+      "owner": ".enzyme-choose-stepper",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 7555,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "97dbae6ff2a14efd",
+      "file": "src/App.css",
+      "owner": ".enzyme-choose-stepper-buttons button",
+      "property": "color",
+      "literal": "#333",
+      "line": 7597,
+      "role": "neutral-control-label",
+      "token": "--vg-control-ink"
+    },
+    {
+      "id": "3c3b4359f4509ccd",
+      "file": "src/App.css",
+      "owner": ".enzyme-manage-section",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 7777,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "543cbbe93211a0f9",
+      "file": "src/App.css",
+      "owner": ".enzyme-manage-status",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 7835,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "a51fdbc9c81acfdb",
+      "file": "src/App.css",
+      "owner": ".enzyme-manage-actions button",
+      "property": "color",
+      "literal": "#222",
+      "line": 7855,
+      "role": "neutral-control-label",
+      "token": "--vg-control-ink"
+    },
+    {
+      "id": "2f66cfc31fa6c178",
+      "file": "src/App.css",
+      "owner": ".enzyme-manage-action-glyph",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 7871,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "2ebdc2f42cf3cee4",
+      "file": "src/App.css",
+      "owner": ".enzyme-manage-import-export-menu",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 7983,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "5553bb7454501d8a",
+      "file": "src/App.css",
+      "owner": ".enzyme-preferences-block",
+      "property": "border",
+      "literal": "#d5d5d5",
+      "line": 8016,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "89f9df9501e7b3b8",
+      "file": "src/App.css",
+      "owner": ".sidebar-menu",
+      "property": "border",
+      "literal": "#b7ad9a",
+      "line": 8066,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "44d7681eeac7ad51",
+      "file": "src/App.css",
+      "owner": ".sidebar-menu",
+      "property": "color",
+      "literal": "#2f2a23",
+      "line": 8070,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "0b4746db935a96b3",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog-mode button",
+      "property": "border",
+      "literal": "#a8b5aa",
+      "line": 9922,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "66855af9648dbb2c",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog-mode button",
+      "property": "background",
+      "literal": "#f8faf8",
+      "line": 9924,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "334d51eee8b5afd3",
+      "file": "src/App.css",
+      "owner": ".compact-scientific-dialog .compact-field input:not([type='radio']):not([type='checkbox']), .compact-scientific-dialog .compact-field select",
+      "property": "border",
+      "literal": "#a7b9aa",
+      "line": 10002,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "5576ca02ecac5fe9",
+      "file": "src/App.css",
+      "owner": ".compact-scientific-dialog .compact-field input:not([type='radio']):not([type='checkbox']), .compact-scientific-dialog .compact-field select",
+      "property": "background",
+      "literal": "#fff",
+      "line": 10004,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "d03f59e444df45a6",
+      "file": "src/App.css",
+      "owner": ".guidescan-design-pane-tabs",
+      "property": "border",
+      "literal": "#ccc",
+      "line": 10132,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "f38641cacf0aa6cd",
+      "file": "src/App.css",
+      "owner": ".guidescan-design-dialog .sgrna-dialog-actions .guidescan-footer-actions-left button, .guidescan-design-dialog .sgrna-dialog-actions button.sgrna-action-neutral",
+      "property": "border-color",
+      "literal": "#a8b5aa",
+      "line": 10227,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "d0472fef20fd4a1e",
+      "file": "src/App.css",
+      "owner": ".guidescan-design-dialog .sgrna-dialog-actions .guidescan-footer-actions-left button, .guidescan-design-dialog .sgrna-dialog-actions button.sgrna-action-neutral",
+      "property": "background",
+      "literal": "#f8faf8",
+      "line": 10228,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "55212147e1943f15",
+      "file": "src/App.css",
+      "owner": ".guidescan-design-dialog .guidescan-design-controls .compact-field input:not([type='radio']):not([type='checkbox']), .guidescan-design-dialog .guidescan-design-controls .compact-field select",
+      "property": "border",
+      "literal": "#a7b9aa",
+      "line": 10401,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "891d885e1d090099",
+      "file": "src/App.css",
+      "owner": ".guidescan-design-dialog .guidescan-design-controls .compact-field input:not([type='radio']):not([type='checkbox']), .guidescan-design-dialog .guidescan-design-controls .compact-field select",
+      "property": "background",
+      "literal": "#fff",
+      "line": 10403,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "224d1659c241f8b9",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog-help, .sgrna-dialog-preview",
+      "property": "color",
+      "literal": "#50645a",
+      "line": 10752,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "19e0fd2c42117c9c",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog input:not([type='radio']), .sgrna-dialog select",
+      "property": "border",
+      "literal": "#a7b9aa",
+      "line": 10774,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "81098aed2d906718",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog input:not([type='radio']), .sgrna-dialog select",
+      "property": "background",
+      "literal": "#fff",
+      "line": 10776,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "7bc81aae193eada8",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog-actions button",
+      "property": "border",
+      "literal": "#a8b5aa",
+      "line": 10846,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "9827b3656e8d8e39",
+      "file": "src/App.css",
+      "owner": ".sgrna-dialog-actions button",
+      "property": "background",
+      "literal": "#f8faf8",
+      "line": 10848,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "42e068a691f2fe48",
+      "file": "src/App.css",
+      "owner": ".database-history-batch-records > div",
+      "property": "border",
+      "literal": "#ddd",
+      "line": 12026,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "4414ae6b47498c62",
+      "file": "src/App.css",
+      "owner": ".database-history-batch-records > div",
+      "property": "background",
+      "literal": "#f7f7f7",
+      "line": 12028,
+      "role": "nested-panel-surface",
+      "token": "--vg-surface-panel-muted"
+    },
+    {
+      "id": "8bcd82795121a5bd",
+      "file": "src/App.css",
+      "owner": ".database-history-batch-records small",
+      "property": "color",
+      "literal": "#666",
+      "line": 12044,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "1df1dbd92e4f8f60",
+      "file": "src/App.css",
+      "owner": ".data-table th",
+      "property": "color",
+      "literal": "#222",
+      "line": 12432,
+      "role": "section-heading-text",
+      "token": "--vg-text-strong"
+    },
+    {
+      "id": "dc0083cc9cf3234a",
+      "file": "src/App.css",
+      "owner": ".cloning-recipe-product",
+      "property": "color",
+      "literal": "#4b5563",
+      "line": 13154,
+      "role": "body-chrome-text",
+      "token": "--vg-text"
+    },
+    {
+      "id": "cc238a5bcd8210f2",
+      "file": "src/App.css",
+      "owner": ".cloning-recipe-table th, .cloning-recipe-table td",
+      "property": "border",
+      "literal": "#e1d9ca",
+      "line": 13172,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "6e576f8e9500c4ca",
+      "file": "src/App.css",
+      "owner": ".cloning-recipe-note",
+      "property": "color",
+      "literal": "#6b7280",
+      "line": 13249,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "6f6e1d88d12d8b89",
+      "file": "src/App.css",
+      "owner": ".pcr-recipe-table th, .pcr-recipe-table td",
+      "property": "border",
+      "literal": "#e1d9ca",
+      "line": 13390,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "bd9d560844d5d961",
+      "file": "src/App.css",
+      "owner": ".database-exit-sync-dialog",
+      "property": "border",
+      "literal": "#aab2bd",
+      "line": 13964,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "a1e1fce5498f13f5",
+      "file": "src/App.css",
+      "owner": ".database-exit-sync-heading p, .database-exit-sync-note",
+      "property": "color",
+      "literal": "#596273",
+      "line": 13992,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "27533381f177168b",
+      "file": "src/App.css",
+      "owner": ".primer-editor-dialog",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 14047,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "0513b742700dd1d7",
+      "file": "src/App.css",
+      "owner": ".primer-editor-dialog",
+      "property": "background",
+      "literal": "#ededed",
+      "line": 14051,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "62fe801ead8b0343",
+      "file": "src/App.css",
+      "owner": ".primer-editor-anneal-pane",
+      "property": "border",
+      "literal": "#b8b8b8",
+      "line": 14071,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "6986b7a72c5e9971",
+      "file": "src/App.css",
+      "owner": ".primer-editor-top input, .primer-editor-top select, .primer-editor-insert-panel input, .primer-editor-insert-panel select, .primer-editor-sequence, .primer-editor-description-panel textarea",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 14152,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "c89ae2fc3d27d4e7",
+      "file": "src/App.css",
+      "owner": ".primer-editor-top input, .primer-editor-top select, .primer-editor-insert-panel input, .primer-editor-insert-panel select, .primer-editor-sequence, .primer-editor-description-panel textarea",
+      "property": "background",
+      "literal": "#fff",
+      "line": 14155,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "44a77e36c3cc5caf",
+      "file": "src/App.css",
+      "owner": ".primer-editor-sequence-field",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 14245,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "a434c36756392001",
+      "file": "src/App.css",
+      "owner": ".primer-editor-tabs > *",
+      "property": "border",
+      "literal": "#ddd",
+      "line": 14311,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "728c76d5baa952b0",
+      "file": "src/App.css",
+      "owner": ".primer-editor-structures-method-popup",
+      "property": "border",
+      "literal": "#cbd5e1",
+      "line": 14404,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "21aec44e24b3cd25",
+      "file": "src/App.css",
+      "owner": ".primer-editor-structures-table-wrap",
+      "property": "background",
+      "literal": "#fff",
+      "line": 14425,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "9aa34775e4897f26",
+      "file": "src/App.css",
+      "owner": ".primer-editor-structures-table-wrap",
+      "property": "border",
+      "literal": "#ccc",
+      "line": 14426,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "daddff2f401c6d9a",
+      "file": "src/App.css",
+      "owner": ".enzyme-info-find input",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 14963,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "77ccdc8e49a02ad4",
+      "file": "src/App.css",
+      "owner": ".enzyme-info-inferred-button",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 15168,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "b59392481807610c",
+      "file": "src/App.css",
+      "owner": ".enzyme-info-inferred-panel",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 15189,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "f0d6fc44b5d19d69",
+      "file": "src/App.css",
+      "owner": ".restriction-cloning-main",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 19074,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "374121e8a09e9a04",
+      "file": "src/App.css",
+      "owner": ".restriction-cloning-main",
+      "property": "background",
+      "literal": "#fffdf5",
+      "line": 19075,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "f22e58f309b8604b",
+      "file": "src/App.css",
+      "owner": ".restriction-cloning-sidebar",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 19144,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "a422aec3bed871e6",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-library-output-toggle input[type='checkbox']",
+      "property": "border",
+      "literal": "#726c62",
+      "line": 19197,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "be07770681fb4acf",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-library-output-toggle input[type='checkbox']",
+      "property": "background",
+      "literal": "#fff",
+      "line": 19199,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "b27679ab37c221ec",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-members-list",
+      "property": "background",
+      "literal": "#fff",
+      "line": 19381,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "6a68ce177a460326",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-members-list input[type='checkbox']",
+      "property": "border",
+      "literal": "#726c62",
+      "line": 19413,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "ed2dc73786b09cdc",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-members-list input[type='checkbox']",
+      "property": "background",
+      "literal": "#fff",
+      "line": 19415,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "9860b8f06b2d3a34",
+      "file": "src/App.css",
+      "owner": ".mass-restriction-results-column",
+      "property": "background",
+      "literal": "#faf7f0",
+      "line": 19613,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "ac88ddd99f0ac493",
+      "file": "src/App.css",
+      "owner": ".blocked-batch-open-list",
+      "property": "background",
+      "literal": "#faf7f0",
+      "line": 19692,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "cb8ebf8e60e928a8",
+      "file": "src/App.css",
+      "owner": ".restriction-cloning-status",
+      "property": "border",
+      "literal": "#d8c89a",
+      "line": 19987,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "9bd426ba0c573c09",
+      "file": "src/App.css",
+      "owner": ".mutagenesis-primer-sequence",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20177,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "82c0be2fc51b719e",
+      "file": "src/App.css",
+      "owner": ".restriction-cloning-hint",
+      "property": "color",
+      "literal": "#666",
+      "line": 20235,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "be5f13f9de6c388b",
+      "file": "src/App.css",
+      "owner": ".pcr-primer-panel-tabs > button",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20276,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "95c376ee932ab956",
+      "file": "src/App.css",
+      "owner": ".pcr-primer-panel-tabs > button",
+      "property": "background",
+      "literal": "#efe8da",
+      "line": 20279,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "cde009290ef870a5",
+      "file": "src/App.css",
+      "owner": ".pcr-primer-editor",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20298,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "60eabf3c75187283",
+      "file": "src/App.css",
+      "owner": ".pcr-primer-editor",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20299,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "319272d66fa56aaa",
+      "file": "src/App.css",
+      "owner": ".pcr-primer-meta",
+      "property": "color",
+      "literal": "#555",
+      "line": 20317,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "03041e1ce536f88f",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-fragment-list",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20373,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "5e4011c8394a8b77",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-fragment-list",
+      "property": "background",
+      "literal": "#f0eee8",
+      "line": 20374,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "b64653c2c3b5573e",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-fragment-card",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20385,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "c252936ddbd7eeb9",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-fragment-card",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20386,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "6bb308adadaf92ea",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20441,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "98359c04a54803fe",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20442,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "5a0b7c4820287b2c",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema-empty",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20447,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "accafad9023f68e3",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema-empty",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20448,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "4df1c6f5e23a3351",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema-empty",
+      "property": "color",
+      "literal": "#666",
+      "line": 20449,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "4d05e49342cca3b1",
+      "file": "src/App.css",
+      "owner": ".pcr-bridge-schema-caption",
+      "property": "color",
+      "literal": "#555",
+      "line": 20564,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "5e5add16b94c28b8",
+      "file": "src/App.css",
+      "owner": ".pcr-amplicon-table-wrap",
+      "property": "border",
+      "literal": "#d7d0c0",
+      "line": 20576,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "0213d3cea0858505",
+      "file": "src/App.css",
+      "owner": ".pcr-amplicon-table-wrap",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20577,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "db1d029aef65cb40",
+      "file": "src/App.css",
+      "owner": ".pcr-workspace-primers-tab",
+      "property": "background",
+      "literal": "#fff",
+      "line": 20706,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "cb5e8685ff88f091",
+      "file": "src/App.css",
+      "owner": ".cloning-preview-view-tool",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 20757,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "0b22458477c46765",
+      "file": "src/App.css",
+      "owner": ".cloning-preview-view-tabs button",
+      "property": "border",
+      "literal": "#c8c8c8",
+      "line": 20802,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "f5e83235078dd052",
+      "file": "src/App.css",
+      "owner": ".gateway-cloning-dialog .gateway-attb-hint",
+      "property": "color",
+      "literal": "#5c5346",
+      "line": 22010,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "315c6c97929bfe0e",
+      "file": "src/App.css",
+      "owner": ".tools-double-digest-selector",
+      "property": "border",
+      "literal": "#cfcfcf",
+      "line": 22170,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "b4c27ebf10edf055",
+      "file": "src/App.css",
+      "owner": ".tools-double-digest-result",
+      "property": "border",
+      "literal": "#bdcbd7",
+      "line": 22199,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "ab51edcce78601a5",
+      "file": "src/App.css",
+      "owner": ".tools-letter-section-toggle",
+      "property": "color",
+      "literal": "#111",
+      "line": 22315,
+      "role": "section-heading-text",
+      "token": "--vg-text-strong"
+    },
+    {
+      "id": "bf8976c825180e97",
+      "file": "src/App.css",
+      "owner": ".tools-genetic-table-wrap",
+      "property": "border",
+      "literal": "#d0d0d0",
+      "line": 22358,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "f820d4e6886a47d7",
+      "file": "src/App.css",
+      "owner": ".tools-genetic-table th, .tools-genetic-table td",
+      "property": "border",
+      "literal": "#d8d8d8",
+      "line": 22372,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "897dc17936b1fcdb",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-sidebar",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 22512,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "037a8b1d25ef5c67",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-sidebar",
+      "property": "background",
+      "literal": "#f7f7f7",
+      "line": 22514,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "edef8fbb31d8142d",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-multi-hint",
+      "property": "color",
+      "literal": "#4b5563",
+      "line": 22676,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "2bd9d3a9fdd59e98",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-main",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 22856,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "d39b9e0dbf39a52f",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-main",
+      "property": "background",
+      "literal": "#fffdf5",
+      "line": 22858,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "df5ce615c0af7e58",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-pcr-hint",
+      "property": "color",
+      "literal": "#666",
+      "line": 23084,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "36d6bcdad84e5339",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-footer-dropdown",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 23209,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "45ac3bdd3eb0cf06",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-footer-dropdown",
+      "property": "background",
+      "literal": "#f3f3f3",
+      "line": 23211,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "efa2f5be46a6ec3e",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-picker",
+      "property": "background",
+      "literal": "#fff",
+      "line": 23274,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "9ccd79f600f4a3f5",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-name input",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 23340,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "910167c460625566",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-table-wrap",
+      "property": "border",
+      "literal": "#d0d0d0",
+      "line": 23348,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "928c3202bdd10bb4",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-table-wrap",
+      "property": "background",
+      "literal": "#fff",
+      "line": 23350,
+      "role": "form-field-surface",
+      "token": "--vg-surface-inset"
+    },
+    {
+      "id": "ac28fe7945b45baf",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-table th",
+      "property": "color",
+      "literal": "#444",
+      "line": 23374,
+      "role": "section-heading-text",
+      "token": "--vg-text-strong"
+    },
+    {
+      "id": "0f8237c7ec8932fb",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-table input[type='number']",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 23402,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "71bc9e076c8f949d",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-editor-table select",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 23412,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "ea417ec573ee4334",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-empty",
+      "property": "color",
+      "literal": "#888",
+      "line": 23489,
+      "role": "explanatory-muted-text",
+      "token": "--vg-text-muted"
+    },
+    {
+      "id": "197bddbcfe0de84b",
+      "file": "src/App.css",
+      "owner": ".agarose-gel-mw-catalog",
+      "property": "border",
+      "literal": "#ddd",
+      "line": 23621,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "1cc3112d3de99b4f",
+      "file": "src/App.css",
+      "owner": ".db-manager-dialog",
+      "property": "border",
+      "literal": "#9a9a9a",
+      "line": 23646,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "b2549cca38ced141",
+      "file": "src/App.css",
+      "owner": ".db-manager-close",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 23748,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "2ebfb28ff3f2756c",
+      "file": "src/App.css",
+      "owner": ".db-sidebar-heading",
+      "property": "color",
+      "literal": "#666",
+      "line": 23805,
+      "role": "section-heading-text",
+      "token": "--vg-text-strong"
+    },
+    {
+      "id": "2ca1f4b5fbf9fe73",
+      "file": "src/App.css",
+      "owner": ".db-toolbar-mode-group > .db-toolbar-mode-main, .db-toolbar-mode-group > .db-toolbar-mode-chevron",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 23990,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "ffa83b25fb98ed7a",
+      "file": "src/App.css",
+      "owner": ".db-toolbar-mode-group > .db-toolbar-mode-main, .db-toolbar-mode-group > .db-toolbar-mode-chevron",
+      "property": "background",
+      "literal": "#f5f5f5",
+      "line": 23991,
+      "role": "main-panel-surface",
+      "token": "--vg-surface-panel"
+    },
+    {
+      "id": "490b5167c5188374",
+      "file": "src/App.css",
+      "owner": ".db-toolbar-mode-menu",
+      "property": "border",
+      "literal": "#b0b0b0",
+      "line": 24033,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "7bcb34bbce1de0c5",
+      "file": "src/App.css",
+      "owner": ".db-main-actions button",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 24064,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "0c5a993384abc1d2",
+      "file": "src/App.css",
+      "owner": ".db-main-actions button",
+      "property": "background",
+      "literal": "#f5f5f5",
+      "line": 24067,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "6f148defae4490d2",
+      "file": "src/App.css",
+      "owner": ".db-folder-sync-ignored button",
+      "property": "border",
+      "literal": "#aeb9a5",
+      "line": 24197,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "85eb4ec3e5d46ee8",
+      "file": "src/App.css",
+      "owner": ".db-table-pagination button",
+      "property": "border",
+      "literal": "#b8ad9a",
+      "line": 24236,
+      "role": "table-grid-border",
+      "token": "--vg-border"
+    },
+    {
+      "id": "79a65f8fce698327",
+      "file": "src/App.css",
+      "owner": ".db-file-row-actions > button, .db-file-row-actions .db-file-export > button",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 24617,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "1d7b3bacb5b5dcc5",
+      "file": "src/App.css",
+      "owner": ".db-file-row-actions > button, .db-file-row-actions .db-file-export > button",
+      "property": "background",
+      "literal": "#f5f5f5",
+      "line": 24620,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "8a6e21edaaeb9952",
+      "file": "src/App.css",
+      "owner": ".db-file-export-menu",
+      "property": "border",
+      "literal": "#b8b0a2",
+      "line": 24659,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "bed98284f6591b31",
+      "file": "src/App.css",
+      "owner": ".db-sync-apply-all button",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 24816,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "6cbd93cf645e263b",
+      "file": "src/App.css",
+      "owner": ".db-sync-apply-all button",
+      "property": "background",
+      "literal": "#f5f5f5",
+      "line": 24819,
+      "role": "feature-button-surface",
+      "token": "--vg-control-surface"
+    },
+    {
+      "id": "9f8915cab8866cb6",
+      "file": "src/App.css",
+      "owner": ".db-sync-conflict-list",
+      "property": "border",
+      "literal": "#e4dccb",
+      "line": 24830,
+      "role": "neutral-divider",
+      "token": "--vg-border"
+    },
+    {
+      "id": "0ffac49e35f5a78a",
+      "file": "src/App.css",
+      "owner": ".db-picker-dialog",
+      "property": "border",
+      "literal": "#bdbdbd",
+      "line": 24981,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    },
+    {
+      "id": "fa47068e07a436f0",
+      "file": "src/App.css",
+      "owner": ".db-text-prompt-label input",
+      "property": "border",
+      "literal": "#cfc8bb",
+      "line": 25010,
+      "role": "control-outline",
+      "token": "--vg-control-border"
+    }
+  ]
+}

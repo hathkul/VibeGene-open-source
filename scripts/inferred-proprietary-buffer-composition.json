@@ -1,0 +1,577 @@
+{
+  "generatedAt": "2026-09-22T17:24:00.454Z",
+  "model": "inverse of salt×pH×anion interpolator (inferTargetActivity); discrete 1X grid search",
+  "buffers": [
+    {
+      "id": "sibenzyme:rose",
+      "nEnzymes": 193,
+      "mae": 33.8,
+      "holdoutMae": 31.6,
+      "holdoutN": 38,
+      "holdoutMethod": "20pct",
+      "confidence": "low",
+      "analogPublishedBuffer": "sibenzyme:g",
+      "tyingIonRecipes": 77,
+      "best": {
+        "monovalentSalt_mM": 50,
+        "mg_mM": 10,
+        "pH": 7.6,
+        "anion": "chloride",
+        "proteinCarrier": "none",
+        "reductant": "DTT"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "chloride",
+          "proteinCarrier": "none",
+          "reductant": "DTT",
+          "mae": 33.8
+        },
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7.9,
+          "anion": "chloride",
+          "proteinCarrier": "none",
+          "reductant": "DTT",
+          "mae": 33.8
+        },
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7,
+          "anion": "chloride",
+          "proteinCarrier": "none",
+          "reductant": "DTT",
+          "mae": 33.8
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "chloride",
+          "proteinCarrier": "none",
+          "reductant": "none",
+          "mae": 34.6
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "chloride",
+          "proteinCarrier": "none",
+          "reductant": "none",
+          "mae": 34.6
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 50 mM chloride, pH 7.6, 10 mM Mg, no protein carrier, DTT (grid search; not an official recipe).",
+        "ROSE+ is published as ROSE + 100 µg/ml BSA; this fit is for ROSE ions. BSA vs none is a tie-break only when MAE matches.",
+        "Closest published analog: sibenzyme:g (distance 0).",
+        "Near-tied analog: roche:m.",
+        "77 distinct salt/pH/Mg/anion recipes within 5 MAE of the best."
+      ],
+      "examples": [
+        {
+          "enzyme": "AccB7I",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "AgsI",
+          "measuredMid": 50,
+          "predictedMid": 50
+        },
+        {
+          "enzyme": "PstI",
+          "measuredMid": 50,
+          "predictedMid": 25
+        },
+        {
+          "enzyme": "EcoICRI",
+          "measuredMid": 5,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "PspPPI",
+          "measuredMid": 100,
+          "predictedMid": 10
+        }
+      ]
+    },
+    {
+      "id": "jena:ub",
+      "nEnzymes": 52,
+      "mae": 29.2,
+      "holdoutMae": 46.5,
+      "holdoutN": 10,
+      "holdoutMethod": "20pct",
+      "confidence": "low",
+      "analogPublishedBuffer": "jena:b2",
+      "tyingIonRecipes": 12,
+      "best": {
+        "monovalentSalt_mM": 50,
+        "mg_mM": 10,
+        "pH": 7.9,
+        "anion": "chloride",
+        "proteinCarrier": "BSA",
+        "reductant": "none"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 29.2
+        },
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 29.2
+        },
+        {
+          "monovalentSalt_mM": 50,
+          "mg_mM": 10,
+          "pH": 7,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 29.2
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.9,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 32.1
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 32.1
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 50 mM chloride, pH 7.9, 10 mM Mg, BSA, no reductant (grid search; not an official recipe).",
+        "Closest published analog: jena:b2 (distance 0).",
+        "Near-tied analog: neb:r2.1.",
+        "12 distinct salt/pH/Mg/anion recipes within 5 MAE of the best."
+      ],
+      "examples": [
+        {
+          "enzyme": "AluI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "AvaI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "PvuI",
+          "measuredMid": 100,
+          "predictedMid": 75
+        },
+        {
+          "enzyme": "SmaI",
+          "measuredMid": 100,
+          "predictedMid": 5
+        },
+        {
+          "enzyme": "PinAI",
+          "measuredMid": 100,
+          "predictedMid": 5
+        }
+      ]
+    },
+    {
+      "id": "jena:ub05",
+      "nEnzymes": 1,
+      "mae": 0,
+      "holdoutMae": null,
+      "holdoutN": 0,
+      "holdoutMethod": "none",
+      "confidence": "low",
+      "analogPublishedBuffer": "jena:b1",
+      "tyingIonRecipes": 4,
+      "best": {
+        "monovalentSalt_mM": 0,
+        "mg_mM": 10,
+        "pH": 7.9,
+        "anion": "chloride",
+        "proteinCarrier": "BSA",
+        "reductant": "none"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 0,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 0,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 0,
+          "mg_mM": 10,
+          "pH": 7,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 0
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 0 mM chloride, pH 7.9, 10 mM Mg, BSA, no reductant (grid search; not an official recipe).",
+        "Independent 0.5× column fit; compare to scaled ions of the 1× UB guess.",
+        "Closest published analog: jena:b1 (distance 0).",
+        "4 distinct salt/pH/Mg/anion recipes within 5 MAE of the best.",
+        "1× UB ions scaled to 0.5× (25 mM chloride, pH 7.9, 5 mM Mg, BSA, no reductant) score MAE 40 on N=1."
+      ],
+      "examples": [
+        {
+          "enzyme": "NarI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        }
+      ]
+    },
+    {
+      "id": "jena:ub2",
+      "nEnzymes": 4,
+      "mae": 15.6,
+      "holdoutMae": 15.6,
+      "holdoutN": 4,
+      "holdoutMethod": "loo",
+      "confidence": "low",
+      "analogPublishedBuffer": "jena:b4",
+      "tyingIonRecipes": 4,
+      "best": {
+        "monovalentSalt_mM": 150,
+        "mg_mM": 10,
+        "pH": 7.9,
+        "anion": "chloride",
+        "proteinCarrier": "BSA",
+        "reductant": "none"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 150,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 15.6
+        },
+        {
+          "monovalentSalt_mM": 150,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 15.6
+        },
+        {
+          "monovalentSalt_mM": 150,
+          "mg_mM": 10,
+          "pH": 7,
+          "anion": "chloride",
+          "proteinCarrier": "BSA",
+          "reductant": "none",
+          "mae": 15.6
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 150 mM chloride, pH 7.9, 10 mM Mg, BSA, no reductant (grid search; not an official recipe).",
+        "Independent 2× column fit; compare to scaled ions of the 1× UB guess.",
+        "Closest published analog: jena:b4 (distance 0).",
+        "4 distinct salt/pH/Mg/anion recipes within 5 MAE of the best.",
+        "1× UB ions scaled to 2× (100 mM chloride, pH 7.9, 20 mM Mg, BSA, no reductant) score MAE 34.4 on N=4."
+      ],
+      "examples": [
+        {
+          "enzyme": "SalI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "Vha464I",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "StyI",
+          "measuredMid": 100,
+          "predictedMid": 87.5
+        },
+        {
+          "enzyme": "SphI",
+          "measuredMid": 100,
+          "predictedMid": 50
+        }
+      ]
+    },
+    {
+      "id": "eurx:one",
+      "nEnzymes": 56,
+      "mae": 27.5,
+      "holdoutMae": 27.3,
+      "holdoutN": 11,
+      "holdoutMethod": "20pct",
+      "confidence": "low",
+      "analogPublishedBuffer": "takara:t",
+      "tyingIonRecipes": 60,
+      "best": {
+        "monovalentSalt_mM": 66,
+        "mg_mM": 10,
+        "pH": 7.9,
+        "anion": "acetate",
+        "proteinCarrier": "BSA",
+        "reductant": "DTT"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.6,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 27.5
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7.5,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 27.5
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 8.5,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 27.5
+        },
+        {
+          "monovalentSalt_mM": 66,
+          "mg_mM": 10,
+          "pH": 7,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 27.5
+        },
+        {
+          "monovalentSalt_mM": 75,
+          "mg_mM": 10,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 28
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 66 mM acetate, pH 7.9, 10 mM Mg, BSA, DTT (grid search; not an official recipe).",
+        "Most EURx listings are 100% in ONE; the fit uses enzymes that also have a Thermo/NEB/etc known-composition chart.",
+        "BSA is added separately at 100 µg/ml in the working reaction (not necessarily part of the 10× stock).",
+        "Closest published analog: takara:t (distance 0).",
+        "Near-tied analog: thermo:tango.",
+        "60 distinct salt/pH/Mg/anion recipes within 5 MAE of the best."
+      ],
+      "examples": [
+        {
+          "enzyme": "AluI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "AvaII",
+          "measuredMid": 100,
+          "predictedMid": 100
+        },
+        {
+          "enzyme": "KpnI",
+          "measuredMid": 100,
+          "predictedMid": 87.5
+        },
+        {
+          "enzyme": "RsaI",
+          "measuredMid": 100,
+          "predictedMid": 0
+        },
+        {
+          "enzyme": "PstI",
+          "measuredMid": 100,
+          "predictedMid": 0
+        }
+      ]
+    },
+    {
+      "id": "eurx:sau3AI",
+      "nEnzymes": 1,
+      "mae": 0,
+      "holdoutMae": null,
+      "holdoutN": 0,
+      "holdoutMethod": "none",
+      "confidence": "low",
+      "analogPublishedBuffer": null,
+      "tyingIonRecipes": 162,
+      "best": {
+        "monovalentSalt_mM": 0,
+        "mg_mM": 10,
+        "pH": 7.9,
+        "anion": "acetate",
+        "proteinCarrier": "BSA",
+        "reductant": "DTT"
+      },
+      "runnersUp": [
+        {
+          "monovalentSalt_mM": 0,
+          "mg_mM": 5,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 0,
+          "mg_mM": 6,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 100,
+          "mg_mM": 10,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 100,
+          "mg_mM": 5,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 0
+        },
+        {
+          "monovalentSalt_mM": 100,
+          "mg_mM": 6,
+          "pH": 7.9,
+          "anion": "acetate",
+          "proteinCarrier": "BSA",
+          "reductant": "DTT",
+          "mae": 0
+        }
+      ],
+      "notes": [
+        "Most consistent with 1X ≈ 0 mM acetate, pH 7.9, 10 mM Mg, BSA, DTT (grid search; not an official recipe).",
+        "Few enzymes; unpublished + BSA + detergent. Treat as underconstrained if N is small or MAE stays large.",
+        "No close published analog on the salt/pH/Mg/anion grid.",
+        "162 distinct salt/pH/Mg/anion recipes within 5 MAE of the best."
+      ],
+      "examples": [
+        {
+          "enzyme": "Sau3AI",
+          "measuredMid": 100,
+          "predictedMid": 100
+        }
+      ]
+    },
+    {
+      "id": "eurx:tspGWI",
+      "nEnzymes": 0,
+      "mae": null,
+      "holdoutMae": null,
+      "holdoutN": 0,
+      "holdoutMethod": "none",
+      "confidence": "none",
+      "analogPublishedBuffer": null,
+      "tyingIonRecipes": 0,
+      "best": null,
+      "runnersUp": [],
+      "notes": [
+        "Partial Tris/Mg/DTT already known; grid is extra salt + anion only.",
+        "No enzymes with interpolatable proprietary activity and ≥2 known-composition points."
+      ],
+      "examples": []
+    },
+    {
+      "id": "eurx:tspDTI",
+      "nEnzymes": 0,
+      "mae": null,
+      "holdoutMae": null,
+      "holdoutN": 0,
+      "holdoutMethod": "none",
+      "confidence": "none",
+      "analogPublishedBuffer": null,
+      "tyingIonRecipes": 0,
+      "best": null,
+      "runnersUp": [],
+      "notes": [
+        "Partial Tris/Mg/DTT already known; grid is extra salt + anion only.",
+        "No enzymes with interpolatable proprietary activity and ≥2 known-composition points."
+      ],
+      "examples": []
+    },
+    {
+      "id": "usb:f-l",
+      "nEnzymes": 0,
+      "mae": null,
+      "holdoutMae": null,
+      "holdoutN": 0,
+      "holdoutMethod": "none",
+      "confidence": "none",
+      "analogPublishedBuffer": null,
+      "tyingIonRecipes": 0,
+      "best": null,
+      "runnersUp": [],
+      "notes": [
+        "USB F–L skipped: catalog enzymes do not report interpolatable activity in those columns."
+      ],
+      "examples": []
+    }
+  ]
+}

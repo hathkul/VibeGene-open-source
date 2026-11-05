@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-16T19:45:00.000Z",
+  "revisedBy": "grok-matrix-approve-with-changes",
+  "productNote": "Legacy shade equality is not required; Grok judges role, contrast, and state distinction.",
+  "exclusions": [
+    "scientific map/sequence/protein/enzyme/primer/trace/gel selections and hovers",
+    "validation, error, success, destructive, and semantic link-primary chrome",
+    "workflow dialogs (cloning, mass restriction, alignment, guidescan)",
+    "chips/tags with bespoke beige selection (.db-text-prompt-tag.is-selected)",
+    "mixed open+hover+active compound rules that cannot split by pseudo-class",
+    "gradient border stops and solid fills mislabeled as disabled via :hover:not(:disabled)",
+    "protected renderer TSX fills",
+    "scheme-specific :root[data-color-scheme] overrides that change meaning"
+  ],
+  "relationships": [
+    { "left": "controlSurfaceNormal", "right": "controlSurfaceHover", "compare": "gradientBottom", "must": "differ" },
+    { "left": "controlSurfaceHover", "right": "controlSurfacePressed", "compare": "gradientBottom", "must": "differ" },
+    { "left": "interactiveHover", "right": "interactiveSelected", "compare": "solid", "must": "differ" },
+    { "left": "interactiveSelected", "right": "interactiveSelectedHover", "compare": "solid", "must": "differ" },
+    { "left": "interactiveSelectedInk", "right": "controlInk", "compare": "solid", "must": "differ" },
+    { "left": "focusVisible", "right": "interactiveHover", "compare": "solid", "must": "differ" },
+    { "left": "disabledInk", "right": "controlInk", "compare": "solid", "must": "differ" },
+    { "left": "disabledSurface", "right": "controlSurfaceNormal", "compare": "gradientBottom", "must": "differ" },
+    { "left": "disabledBorder", "right": "controlBorder", "compare": "solid", "must": "differ" },
+    { "left": "interactiveSelectedInk", "right": "interactiveSelected", "compare": "contrastPair", "must": "readable" },
+    { "left": "disabledInk", "right": "disabledSurface", "compare": "contrastPair", "must": "disabledReadable" }
+  ],
+  "roles": [
+    {
+      "role": "controlSurfaceNormal",
+      "token": "--vg-control-surface",
+      "status": "existing",
+      "definition": "linear-gradient(var(--app-button-top), var(--app-button-bottom))",
+      "schemes": {
+        "beige": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-bottom))", "gradientTop": "#ffffff", "gradientBottom": "#dddddd" },
+        "bright": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-bottom))", "gradientTop": "#ffffff", "gradientBottom": "#e8eef5" },
+        "dark": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-bottom))", "gradientTop": "#2a384a", "gradientBottom": "#1b2736" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger has no non-pseudo button background row for linear-gradient(var(--app-button-top), var(--app-button-bottom)); App.css resting targets include .db-main-actions button and .db-table-pagination button.",
+      "distinction": "Resting enabled control fill; not list hover or selection wash.",
+      "contrastNote": "Token maps to shared button gradient stops in App.css.",
+      "cannotReuseReason": "List/selection tokens are flat fills, not button gradients."
+    },
+    {
+      "role": "controlSurfaceHover",
+      "token": "--vg-control-surface-hover",
+      "status": "existing",
+      "definition": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))",
+      "schemes": {
+        "beige": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))", "gradientTop": "#ffffff", "gradientBottom": "#cfe4fb" },
+        "bright": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))", "gradientTop": "#ffffff", "gradientBottom": "#dcecff" },
+        "dark": { "varChain": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))", "gradientTop": "#2a384a", "gradientBottom": "#25445b" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "Honest production rule is button:hover / button:hover:not(:disabled) with linear-gradient(var(--app-button-top), var(--app-button-hover-bottom)). Ledger row 8e57e9f2760e4833 (button:hover #cfe4fb) is one gradient hover; no second non-beige gradient hover row exists in the 315-row ledger.",
+      "distinction": "Must read as hover on a control, not pressed or selected list row.",
+      "contrastNote": "Maps to --app-button-hover-bottom on the shared control hover gradient.",
+      "cannotReuseReason": "Solid --vg-interactive-hover is for rows/panels, not gradient controls."
+    },
+    {
+      "role": "controlSurfacePressed",
+      "token": "--vg-control-surface-pressed",
+      "status": "rejected",
+      "proposed": false,
+      "definition": null,
+      "schemes": {
+        "beige": {},
+        "bright": {},
+        "dark": {}
+      },
+      "intendedOwners": [],
+      "distinction": "Would be :active gradient stop darker than hover on buttons.",
+      "contrastNote": "N/A until a token exists.",
+      "cannotReuseReason": "Ledger has fewer than two unrelated button control surfaces with :active gradient need; splitter/resizer fills are solids, not control-gradient presses."
+    },
+    {
+      "role": "controlBorder",
+      "token": "--vg-control-border",
+      "status": "existing",
+      "definition": "var(--app-button-border)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-button-border)", "solid": "#a7a7a7" },
+        "bright": { "varChain": "var(--app-button-border)", "solid": "#aebdcb" },
+        "dark": { "varChain": "var(--app-button-border)", "solid": "#52657a" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "Resting enabled controls already use button { border-color: var(--vg-control-border) } in App.css; no separate ledger row is required for the resting outline.",
+      "distinction": "Enabled control outline from --app-button-border; not hover accent borders or focus rings.",
+      "contrastNote": "Scheme --app-button-border resolves per theme.",
+      "cannotReuseReason": "--vg-border is divider chrome, not button edge weight."
+    },
+    {
+      "role": "controlInk",
+      "token": "--vg-control-ink",
+      "status": "existing",
+      "definition": "var(--app-button-text)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-button-text)", "solid": "#202020" },
+        "bright": { "varChain": "var(--app-button-text)", "solid": "#1e293b" },
+        "dark": { "varChain": "var(--app-button-text)", "solid": "#e8eef6" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "Resting enabled controls already use button { color: var(--app-button-text) } (alias --vg-control-ink) in App.css scheme blocks.",
+      "distinction": "Primary label on enabled controls.",
+      "contrastNote": "Scheme --app-button-text resolves per theme.",
+      "cannotReuseReason": "--vg-text is body copy; selected ink is accent-colored."
+    },
+    {
+      "role": "interactiveHover",
+      "token": "--vg-interactive-hover",
+      "status": "existing",
+      "definition": "var(--app-table-hover)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-table-hover)", "solid": "#dcedff" },
+        "bright": { "varChain": "var(--app-table-hover)", "solid": "#eaf4ff" },
+        "dark": { "varChain": "var(--app-table-hover)", "solid": "#203b55" }
+      },
+      "intendedOwners": [
+        { "ledgerId": "ebc9e2df2cebe929", "selector": ".document-recent-open:hover" },
+        { "ledgerId": "5d23429f8f20f6a6", "selector": ".document-draft-open:hover" }
+      ],
+      "distinction": "Generic row/menu hover wash; not selected or pressed control gradient.",
+      "contrastNote": "Hover-only startup document rows; excludes mixed hover+active menu rules and db-tree scheme panel-muted hovers.",
+      "cannotReuseReason": "Control hover gradient serves buttons, not flat list/menu hovers."
+    },
+    {
+      "role": "interactiveSelected",
+      "token": "--vg-interactive-selected",
+      "status": "existing",
+      "definition": "var(--app-selection)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-selection)", "solid": "#dbeafe" },
+        "bright": { "varChain": "var(--app-selection)", "solid": "#dcecff" },
+        "dark": { "varChain": "var(--app-selection)", "solid": "#1c3d5a" }
+      },
+      "intendedOwners": [
+        { "ledgerId": "a013e7885111b605", "selector": ".sidebar-tool summary.is-active, .sidebar-tool-button.is-active" },
+        { "ledgerId": "346337e85ec1262d", "selector": ".db-main-actions button.is-active" }
+      ],
+      "distinction": "Selected or active navigation fill; must differ from hover wash.",
+      "contrastNote": "Sidebar active and db main toolbar active fills may map to the selection palette without matching legacy beige hex.",
+      "cannotReuseReason": "Hover token is a separate wash in the palette."
+    },
+    {
+      "role": "interactiveSelectedHover",
+      "token": "--vg-interactive-selected-hover",
+      "status": "existing",
+      "definition": "var(--app-selection-hover)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-selection-hover)", "solid": "#e8f3ff" },
+        "bright": { "varChain": "var(--app-selection-hover)", "solid": "#eaf4ff" },
+        "dark": { "varChain": "var(--app-selection-hover)", "solid": "#285473" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger has no honest selected+hover-only chrome row (compound is-selected:hover entries are scientific or solid accent fills).",
+      "distinction": "Hover while already selected; must differ from base selected fill.",
+      "contrastNote": "Bright scheme may share #eaf4ff with table-hover; selected base remains #dcecff in bright.",
+      "cannotReuseReason": "Plain hover would collapse selected vs selected-hover states."
+    },
+    {
+      "role": "interactiveSelectedInk",
+      "token": "--vg-interactive-selected-ink",
+      "status": "existing",
+      "definition": "var(--app-selection-text)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-selection-text)", "solid": "#0f4f9c" },
+        "bright": { "varChain": "var(--app-selection-text)", "solid": "#124e86" },
+        "dark": { "varChain": "var(--app-selection-text)", "solid": "#b8e1ff" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "Honest production: .sidebar-tool summary.is-active / .sidebar-tool-button.is-active { color: var(--app-selection-text) } and scheme .db-main-actions button.is-active { color: var(--app-selection-text) }. Ledger row 65c612c619231da9 is the sole color row; no second non-scientific ledger id.",
+      "distinction": "Ink on selected/active navigation; not body or control ink.",
+      "contrastNote": "Must stay readable on --vg-interactive-selected at ≥4.5:1 in all schemes.",
+      "cannotReuseReason": "--vg-control-ink is neutral; --vg-text-muted is too weak for selection."
+    },
+    {
+      "role": "focusVisible",
+      "token": "--vg-focus",
+      "status": "existing",
+      "definition": "var(--app-focus)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-focus)", "solid": "#2f74b5" },
+        "bright": { "varChain": "var(--app-focus)", "solid": "#1d75c7" },
+        "dark": { "varChain": "var(--app-focus)", "solid": "#69b8ff" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger has no two generic outline/border-color :focus-visible rows outside scientific viewers, semantic primary outlines, or workflow-only dialogs.",
+      "distinction": "Focus ring/outline color on normal, hover, and selected targets.",
+      "contrastNote": "Reuse --vg-focus for outline-color; no --vg-focus-ring duplicate.",
+      "cannotReuseReason": "Selection fills are backgrounds; focus must remain visible on any state."
+    },
+    {
+      "role": "disabledInk",
+      "token": "--vg-disabled-ink",
+      "status": "proposed",
+      "definition": "var(--muted)",
+      "schemes": {
+        "beige": { "varChain": "var(--muted)", "solid": "#64748b" },
+        "bright": { "varChain": "var(--muted)", "solid": "#64748b" },
+        "dark": { "varChain": "var(--muted)", "solid": "#9baabd" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger lacks two generic :disabled color rows outside semantic primary, scientific, and workflow-only selectors.",
+      "distinction": "Disabled label still readable; not enabled control ink.",
+      "contrastNote": "Target ≥4.0:1 on --vg-disabled-surface; may be below 4.5:1 on beige/bright panel-muted.",
+      "cannotReuseReason": "--vg-control-ink on disabled reads enabled."
+    },
+    {
+      "role": "disabledSurface",
+      "token": "--vg-disabled-surface",
+      "status": "proposed",
+      "definition": "var(--app-panel-muted)",
+      "schemes": {
+        "beige": { "varChain": "var(--app-panel-muted)", "solid": "#f7f3ea" },
+        "bright": { "varChain": "var(--app-panel-muted)", "solid": "#f3f7fb" },
+        "dark": { "varChain": "var(--app-panel-muted)", "solid": "#202c3c" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger lacks two generic :disabled background rows without opacity-only or semantic primary chrome.",
+      "distinction": "Flat disabled control fill; not hover or selection.",
+      "contrastNote": "Uses scheme panel-muted; no dialog one-off hex.",
+      "cannotReuseReason": "Enabled control gradient reads interactive."
+    },
+    {
+      "role": "disabledBorder",
+      "token": "--vg-disabled-border",
+      "status": "proposed",
+      "definition": "color-mix(in srgb, var(--app-button-border) 45%, var(--app-panel-muted))",
+      "schemes": {
+        "beige": { "varChain": "color-mix(in srgb, var(--app-button-border) 45%, var(--app-panel-muted))", "solid": "#d3d1cc" },
+        "bright": { "varChain": "color-mix(in srgb, var(--app-button-border) 45%, var(--app-panel-muted))", "solid": "#d4dde5" },
+        "dark": { "varChain": "color-mix(in srgb, var(--app-button-border) 45%, var(--app-panel-muted))", "solid": "#374658" }
+      },
+      "intendedOwners": [],
+      "ownerNote": "315-row ledger lacks two generic :disabled border-color rows outside semantic primary and scientific controls.",
+      "distinction": "Muted edge for disabled controls; not focus or enabled border.",
+      "contrastNote": "Documented solids are computed color-mix values per scheme.",
+      "cannotReuseReason": "Full-strength --vg-control-border implies enabled."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.primer-list-table tbody td.primer-description-cell {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  text-overflow: clip;
+}

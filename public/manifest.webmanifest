@@ -1,0 +1,16 @@
+{
+  "name": "VibeGene",
+  "short_name": "VibeGene",
+  "description": "A free local-first plasmid and sequence workbench for research labs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef6f4",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/logo_favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

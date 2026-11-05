@@ -1,0 +1,64 @@
+name: Quality
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Chromium for browser theme evidence
+        run: npx playwright install --with-deps chromium
+
+      - name: Architecture guardrails
+        run: npm run check:architecture
+
+      - name: Strict application workflows
+        run: npm run check:application-strict
+
+      - name: Strict typecheck and build
+        run: npm run build
+
+      - name: ESLint regression baseline
+        run: npm run check:lint-baseline
+
+      - name: Theme color validation
+        run: npm run check:theme
+      - name: Theme debt ownership validation
+        run: npm run check:theme-debt
+
+      - name: Browser theme cascade evidence
+        run: npm run test:theme-ui
+
+      - name: Upload browser theme diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: theme-ui-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore
+
+      - name: Tests
+        run: npm test -- --reporter=dot

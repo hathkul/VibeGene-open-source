@@ -1,0 +1,4176 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/sync-live-theme-debt.ts",
+  "findings": [
+    {
+      "id": "0047546b52272e8a",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#e11d48",
+      "locator": {
+        "owner": "object:kabatHeavyRegions.color",
+        "anchor": "e3afbaaf210a0e88"
+      },
+      "owner": "object:kabatHeavyRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatHeavyRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0175aee837fb2e3c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#6cf",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "6753ee3e5797b00a"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0248c6856e07d541",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": ".protein-map-hit.is-active",
+        "anchor": "23d9f9088cbb720a"
+      },
+      "owner": ".protein-map-hit.is-active",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-hit.is-active: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "02d60bf59da02b6a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".primer-callout-annealed",
+        "anchor": "3d1f99bc7d91d8b7"
+      },
+      "owner": ".primer-callout-annealed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout-annealed: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "03e6d8dba207797f",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "border-color",
+      "literal": "#000",
+      "locator": {
+        "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+        "anchor": "647bf1b25bb59142"
+      },
+      "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "05250aeb7d51e3fc",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#15803d",
+      "locator": {
+        "owner": ".sequence-enzyme-callout.is-hovered text.enzyme-callout-name.is-blunt-green",
+        "anchor": "d46e3466a3f626bf"
+      },
+      "owner": ".sequence-enzyme-callout.is-hovered text.enzyme-callout-name.is-blunt-green",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-enzyme-callout.is-hovered text.enzyme-callout-name.is-blunt-green: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "068d664f6aef0a9c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#c6f",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "e0de5d97be03e4e6"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "06e050c458075f69",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#214b36",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill",
+        "anchor": "67011b8b9db5a121"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "07cb4c9ad6b1d804",
+      "file": "src/domain/externalSequences/ensembl.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#84cc16",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "d55f8822a581da13"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/externalSequences/ensembl.ts owner object:color: Ensembl imported feature-category color for externally sourced biological annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "082cf3dcaba5bba9",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#10233c",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected",
+        "anchor": "c7ef20d855a10e51"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "085a1ab6adc7f26e",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#c7bda3",
+      "locator": {
+        "owner": ".history-glyph .history-glyph-backbone",
+        "anchor": "bd5af89365b16525"
+      },
+      "owner": ".history-glyph .history-glyph-backbone",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph .history-glyph-backbone: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "089d1758efd573b6",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#0891b2",
+      "locator": {
+        "owner": ".protein-map-bond.is-cross-link",
+        "anchor": "760c546b3cef445c"
+      },
+      "owner": ".protein-map-bond.is-cross-link",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-bond.is-cross-link: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "08cebb418e4be9eb",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fee2e2",
+      "locator": {
+        "owner": ".protein-composition-code.is-acidic",
+        "anchor": "07f09449ecd93ec0"
+      },
+      "owner": ".protein-composition-code.is-acidic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-acidic: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0905493023ad03da",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".linear-primer-callout text",
+        "anchor": "1e7f78ae12a4fdf3"
+      },
+      "owner": ".linear-primer-callout text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-primer-callout text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "09cad488f9033a24",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#ffffff",
+      "locator": {
+        "owner": ".primer-callout.is-selected text",
+        "anchor": "b7cf360a85358aef"
+      },
+      "owner": ".primer-callout.is-selected text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout.is-selected text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0add4aca08ab2db8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill",
+        "anchor": "0541d8249e3eb1e9"
+      },
+      "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame.is-pam path.sequence-sgrna-frame-fill: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0b5bea6c350e47b3",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#cbd5e1",
+      "locator": {
+        "owner": ".protein-alignment-map-segment.is-gap",
+        "anchor": "563763ca3a035b0c"
+      },
+      "owner": ".protein-alignment-map-segment.is-gap",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-segment.is-gap: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0b80a31a4bcf3ac9",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#66f",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "ff35547ce2b78383"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0bb5de911cef21bb",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0891b2",
+      "locator": {
+        "owner": "object:primers.labPlasmid.color",
+        "anchor": "b011f50a978b58dc"
+      },
+      "owner": "object:primers.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:primers.labPlasmid.color: Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0c2116b5abde6dbe",
+      "file": "src/domain/proteinFeatures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#64748b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "6f4e9f6ed222ea59"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/proteinFeatures.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0c39450ec07d8f95",
+      "file": "src/domain/crisprDetection.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#6f91a8",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "735764274166b350"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/crisprDetection.ts owner object:color: CRISPR guide/scaffold annotation identity used for detected guide features.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0c5e00bdc70c503d",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#153629",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame path.sequence-sgrna-frame-fill",
+        "anchor": "1583098f7b12581b"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame path.sequence-sgrna-frame-fill",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-fill, :root[data-color-scheme='dark'] .sequence-sgrna-frame path.sequence-sgrna-frame-fill: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "0e461b046f429ffa",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#16803f",
+      "locator": {
+        "owner": ".sequence-sgrna-frame-outline",
+        "anchor": "e61880cf6267b18d"
+      },
+      "owner": ".sequence-sgrna-frame-outline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame-outline: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "100b0e4f837bb7be",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "locator": {
+        "owner": ".sequence-enzyme-callout text.enzyme-callout-name.is-blunt-green",
+        "anchor": "4c98d51760deedfe"
+      },
+      "owner": ".sequence-enzyme-callout text.enzyme-callout-name.is-blunt-green",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-enzyme-callout text.enzyme-callout-name.is-blunt-green: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "109b49d1b9fbb839",
+      "file": "src/presentation/protein/ProteinSidebarControls.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#c026d3",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "116bcacfe2d8b203"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/protein/ProteinSidebarControls.tsx owner jsx:rect: protein palette swatch color used to distinguish sequence and annotation categories.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "10b620ee929bdfaf",
+      "file": "src/RestrictionCloningDialog.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#c0392b",
+      "locator": {
+        "owner": "object:deletedRegionHighlights.color",
+        "anchor": "5643b928bab2d499"
+      },
+      "owner": "object:deletedRegionHighlights.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/RestrictionCloningDialog.tsx owner object:deletedRegionHighlights.color: Domain object color encodes biological highlight.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "10fcd1be689b25d9",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "border-color",
+      "literal": "#e5aaa6",
+      "locator": {
+        "owner": ".sgrna-cloning-compatibility.is-incompatible",
+        "anchor": "63b9137e6045ada1"
+      },
+      "owner": ".sgrna-cloning-compatibility.is-incompatible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-compatibility.is-incompatible: CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "114f8d9f219b5e21",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "locator": {
+        "owner": ".enzyme-callout.is-selected polyline",
+        "anchor": "32aaa98529552804"
+      },
+      "owner": ".enzyme-callout.is-selected polyline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout.is-selected polyline: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "11780117a16771c9",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sequence-sgrna-base",
+        "anchor": "fe1e61500e2ea0aa"
+      },
+      "owner": ".sequence-sgrna-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-base: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "11b6fc6029295a75",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dbeafe",
+      "locator": {
+        "owner": ".protein-composition-code.is-nonpolar",
+        "anchor": "0a3a9886f63dd22d"
+      },
+      "owner": ".protein-composition-code.is-nonpolar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-nonpolar: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "11c7ba22bb8ec2c0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#14532d",
+      "locator": {
+        "owner": ".sgrna-cloning-oligo-sequence mark",
+        "anchor": "254a2e35e951e1ca"
+      },
+      "owner": ".sgrna-cloning-oligo-sequence mark",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-oligo-sequence mark: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "13658f4dd1fc918a",
+      "file": "src/domain/gibsonOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "2cf0efb57e3717c2"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gibsonOverlapPrimers.ts owner object:raw.color: Gibson overlap forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "13d70681dac54674",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "border-color",
+      "literal": "#a6d6b6",
+      "locator": {
+        "owner": ".hop-primer.hop-sgrna-oligos",
+        "anchor": "16066858198047af"
+      },
+      "owner": ".hop-primer.hop-sgrna-oligos",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .hop-primer.hop-sgrna-oligos: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1415f2b8206575ca",
+      "file": "src/domain/taGcOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "64b457f227fb6b2a"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/taGcOverlapPrimers.ts owner object:raw.color: TA/GC overlap forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1450694a418b4840",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "7d827224e8d2b9cd"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "14921c020b4c1efa",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#0f766e",
+      "locator": {
+        "owner": ".dna-base-A",
+        "anchor": "cbf805610a796481"
+      },
+      "owner": ".dna-base-A",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .dna-base-A: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1743cfcdce1f5a2b",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:kabatLightRegions.color",
+        "anchor": "bba9d23c8a404258"
+      },
+      "owner": "object:kabatLightRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatLightRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "17b6b72f4cc736a7",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "locator": {
+        "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+        "anchor": "b8891bab9a48f2df"
+      },
+      "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame rect.sequence-sgrna-frame-closed: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "181a78d874f47e9b",
+      "file": "src/domain/primerExport.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "d118b0f1ff8dc0d8"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/primerExport.ts owner object:color: Imported primer list color defaults identify primer records in export and hybridization workflows.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "18a1012dedb7c294",
+      "file": "src/domain/primerExport.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:probe.color",
+        "anchor": "5d9e42633150405b"
+      },
+      "owner": "object:probe.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/primerExport.ts owner object:probe.color: Imported primer list color defaults identify primer records in export and hybridization workflows.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1988bd4c0d101566",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#154f86",
+      "locator": {
+        "owner": ".history-glyph-site text.is-enzyme:hover",
+        "anchor": "61798c343a41fbb8"
+      },
+      "owner": ".history-glyph-site text.is-enzyme:hover",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-site text.is-enzyme:hover: History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "19ada2e07bdb7889",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dcfce7",
+      "locator": {
+        "owner": ".protein-composition-code.is-polar",
+        "anchor": "4ec15cbb3a647ac1"
+      },
+      "owner": ".protein-composition-code.is-polar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-polar: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "19b5ba8e36c38fab",
+      "file": "src/domain/tcrAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#eab308",
+      "locator": {
+        "owner": "object:bonds.color",
+        "anchor": "2d2d4e26502adc4c"
+      },
+      "owner": "object:bonds.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/tcrAnnotations.ts owner object:bonds.color: TCR disulfide-bond annotation color for residue-pair links.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1a105cb7391488c1",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#8b6914",
+      "locator": {
+        "owner": ".sequence-minimap-alignment-coverage",
+        "anchor": "9addf9ac31a93f7a"
+      },
+      "owner": ".sequence-minimap-alignment-coverage",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-minimap-alignment-coverage: Coverage tint encodes alignment depth, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1e154593afa28b7a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#2f855a",
+      "locator": {
+        "owner": ".history-glyph-region.is-template",
+        "anchor": "eba752675bf92ed5"
+      },
+      "owner": ".history-glyph-region.is-template",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-region.is-template: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1e94d2db738398d3",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#102b20",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background",
+        "anchor": "0b5c6a5f9275f91d"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "1fa25d440811426a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fda4af",
+      "locator": {
+        "owner": ".protein-alignment-map-legend i.is-frameshift",
+        "anchor": "70e19e640cd1acb7"
+      },
+      "owner": ".protein-alignment-map-legend i.is-frameshift",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-legend i.is-frameshift: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "214d1159cd859e95",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "rgb(22 163 74 / 18%)",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-A",
+        "anchor": "ce7ffbd37ef86153"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-A",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-A: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "21964677585c28d8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dcefdc",
+      "locator": {
+        "owner": ".sgrna-cloning-oligo-sequence mark",
+        "anchor": "7d65e1ed3812aec8"
+      },
+      "owner": ".sgrna-cloning-oligo-sequence mark",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-oligo-sequence mark: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "21ff7c857134e9dc",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#000",
+      "locator": {
+        "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+        "anchor": "5f484d4e6dee2271"
+      },
+      "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "22a2905930db701a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fef3c7",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-special",
+        "anchor": "ac6745fb2f1f16ae"
+      },
+      "owner": ".protein-color-class-dot.is-special",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-special: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "23e3c27c1a608fbd",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "locator": {
+        "owner": ".enzyme-callout-name.is-blunt-green",
+        "anchor": "06c352c3c4d7f355"
+      },
+      "owner": ".enzyme-callout-name.is-blunt-green",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout-name.is-blunt-green: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "23f6955761ca83b3",
+      "file": "src/domain/mutagenesis.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:primer.color",
+        "anchor": "e2f6a11042cae8f3"
+      },
+      "owner": "object:primer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/mutagenesis.ts owner object:primer.color: mutagenesis primer identity used in the generated edit design.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2629dac9713b1239",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#9df0b9",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-name",
+        "anchor": "fb61a2ec9f26c654"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-name: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "26bdaf250fa48964",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-T",
+        "anchor": "5032231d8d3567f5"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-T",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-T: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2702a0d397b9bbf8",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:kabatHeavyRegions.color",
+        "anchor": "8f87fffdc4851885"
+      },
+      "owner": "object:kabatHeavyRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatHeavyRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "292a9b864624429c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#93c5fd",
+      "locator": {
+        "owner": ".protein-alignment-map-legend i.is-similar",
+        "anchor": "1b24de744f3a119b"
+      },
+      "owner": ".protein-alignment-map-legend i.is-similar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-legend i.is-similar: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "294b540ce61be786",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#111",
+      "locator": {
+        "owner": ".history-glyph-site line, .history-glyph-tick",
+        "anchor": "d93da4d0d2f3f706"
+      },
+      "owner": ".history-glyph-site line, .history-glyph-tick",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-site line, .history-glyph-tick: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2a78e98564e3cf35",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "box-shadow",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": ".protein-residue.is-search-hit",
+        "anchor": "6f43e107847115d7"
+      },
+      "owner": ".protein-residue.is-search-hit",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-search-hit: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2c4ad10989a7424a",
+      "file": "src/presentation/protein/ProteinSidebarControls.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "a702460d4ee2404d"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/protein/ProteinSidebarControls.tsx owner jsx:rect: protein palette swatch color used to distinguish sequence and annotation categories.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2c69766b67e5286f",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#58715a",
+      "locator": {
+        "owner": ".sgrna-cloning-oligo-additions",
+        "anchor": "930e43e4018586c4"
+      },
+      "owner": ".sgrna-cloning-oligo-additions",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-oligo-additions: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2d7876902781e131",
+      "file": "src/domain/taGcOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "650e34c69733aaa6"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/taGcOverlapPrimers.ts owner object:raw.color: TA/GC overlap forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2da9ce3884c6c78d",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#64748b",
+      "locator": {
+        "owner": "object:features.labPlasmid.color",
+        "anchor": "aae1bb87ba3eeffe"
+      },
+      "owner": "object:features.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:features.labPlasmid.color: demo lab-plasmid feature category color used by the runtime sample construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2e6eb12a2f78ed7b",
+      "file": "src/domain/tcrAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "d57a6fd37a9eab28"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/tcrAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for TCR numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "2e83568a4b738e70",
+      "file": "src/storage/databasePrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "05f3be51625d52ab"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/databasePrimers.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "30354ff279403d28",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "outline",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-selected",
+        "anchor": "7bfabee9cd20e07d"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-selected: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "333837d126ff7c27",
+      "file": "src/presentation/sequence/SequenceRows.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "b2ced251fc6896f1"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/sequence/SequenceRows.tsx owner object:color: History strand coloring distinguishes forward primer lanes from reverse primer lanes in sequence rows.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "35319d2502e48440",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "outline",
+      "literal": "#d97706",
+      "locator": {
+        "owner": ".protein-residue.is-active-hit",
+        "anchor": "2fa9d3cbdc4612b2"
+      },
+      "owner": ".protein-residue.is-active-hit",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-active-hit: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "35de99dcfad2a9fb",
+      "file": "src/domain/externalSequences/ensembl.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "a3656665312bc01a"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/externalSequences/ensembl.ts owner object:color: Ensembl imported feature-category color for externally sourced biological annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "36232302db108ae1",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#000",
+      "locator": {
+        "owner": ".sequence-primer-base",
+        "anchor": "5f45747706d19fd6"
+      },
+      "owner": ".sequence-primer-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-primer-base: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3799440ded09d6f6",
+      "file": "src/domain/gatewayBpPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "49c2b8a867a70a5a"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpPrimers.ts owner object:raw.color: Gateway BP forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "37ac7a88bc60d8be",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "rgb(226 232 240 / 16%)",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G",
+        "anchor": "aea0f950ec2e5bf9"
+      },
+      "owner": ":root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3834688512083036",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "box-shadow",
+      "literal": "#e11d48",
+      "locator": {
+        "owner": ".protein-comparison-cell.is-frameshift",
+        "anchor": "f4a83fbb3212d6b3"
+      },
+      "owner": ".protein-comparison-cell.is-frameshift",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-comparison-cell.is-frameshift: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "38dff620e3dbeab4",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#ebf8ee",
+      "locator": {
+        "owner": ".hop-primer.hop-sgrna-oligos",
+        "anchor": "6a926452b85af472"
+      },
+      "owner": ".hop-primer.hop-sgrna-oligos",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .hop-primer.hop-sgrna-oligos: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3a932a4ee8eda829",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": ".protein-map-hit",
+        "anchor": "1b27f95423e0c60d"
+      },
+      "owner": ".protein-map-hit",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-hit: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3a98378d252e82e5",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline",
+        "anchor": "49d094d20f83bbbc"
+      },
+      "owner": ".sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3d469ac9fd6b72ba",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "rgb(220 38 38 / 18%)",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-T",
+        "anchor": "728bb1c05073a0f9"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-T",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-T: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3f4ca8e0c58cb87c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": ".protein-map-bond.is-thioether",
+        "anchor": "e4ac2f66aa21520e"
+      },
+      "owner": ".protein-map-bond.is-thioether",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-bond.is-thioether: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "3f657931578c082c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#1d6fb8",
+      "locator": {
+        "owner": ".history-glyph-region.is-insert, .history-glyph-region.is-fragment",
+        "anchor": "0c582abc7a037571"
+      },
+      "owner": ".history-glyph-region.is-insert, .history-glyph-region.is-fragment",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-region.is-insert, .history-glyph-region.is-fragment: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "40216096cf6cd15e",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#8fc5f4",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected",
+        "anchor": "38ea6e4167768db7"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-bases > span.sequence-selected, :root[data-color-scheme='dark'] .sequence-bases > span.motif-hit.sequence-selected: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "409200796105df66",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#1e3a8a",
+      "locator": {
+        "owner": ".motif-hit.sequence-selected",
+        "anchor": "bcfdf560cc4a91f2"
+      },
+      "owner": ".motif-hit.sequence-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .motif-hit.sequence-selected: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4190cdf99ecb9ebe",
+      "file": "src/domain/gatewayBpPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "31832ba0fa907fff"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpPrimers.ts owner object:raw.color: Gateway BP forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "429b668c7e846386",
+      "file": "src/domain/bridgePcr.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "95cdd5f8c6754593"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/bridgePcr.ts owner object:color: bridge-PCR amplicon/product feature identity used when materializing the product.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4403ab942d4d0c94",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": ".sequence-mutagenic-base",
+        "anchor": "d3df0d78d36d7b44"
+      },
+      "owner": ".sequence-mutagenic-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-mutagenic-base: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "45b30d49b5a2baaf",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#0f766e",
+      "locator": {
+        "owner": ".sequence-primer-callout text",
+        "anchor": "24b3a66e30d0d9b4"
+      },
+      "owner": ".sequence-primer-callout text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-primer-callout text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "488ff99a1ea98418",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#d97706",
+      "locator": {
+        "owner": ".protein-map-bond.is-disulfide",
+        "anchor": "34d4a72dd189b75e"
+      },
+      "owner": ".protein-map-bond.is-disulfide",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-bond.is-disulfide: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "491fe5e91a9d9fa0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "rgb(37 99 235 / 18%)",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-C",
+        "anchor": "023bc6ecb6613934"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-C",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-C: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4a99853284996688",
+      "file": "src/AgaroseGelDialog.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#f2f2f2",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "4a14ab3b51d83d42"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/AgaroseGelDialog.tsx owner jsx:rect: Gel band or slab fill encodes electrophoresis identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4af659748d23b087",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#07111f",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-selected .sequence-sgrna-name",
+        "anchor": "cf049ebd5743ce0c"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-selected .sequence-sgrna-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-selected .sequence-sgrna-name: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4b425c34d055cf8e",
+      "file": "src/domain/taGcOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0ea5e9",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "ea76bfec2a459b27"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/taGcOverlapPrimers.ts owner object:color: TA/GC overlap forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4d899d6a52140a3b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#a7f3c2",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary",
+        "anchor": "7c67e21e2c0c2c0f"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "4db68072e591173e",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#b7791f",
+      "locator": {
+        "owner": ".history-glyph-region.is-other",
+        "anchor": "2e7a6303adeba83f"
+      },
+      "owner": ".history-glyph-region.is-other",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-region.is-other: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "504354877af2b347",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".linear-primer-callout:hover text",
+        "anchor": "98497554cb2322ea"
+      },
+      "owner": ".linear-primer-callout:hover text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-primer-callout:hover text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "50e6f5957777a4c8",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#60a5fa",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--C",
+        "anchor": "d9b60afdb5b5a25d"
+      },
+      "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--C",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner :root[data-color-scheme='dark'] .trace-viewer__base-glyph--C: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "514095f5cf6ef0c3",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed",
+        "anchor": "2f0359852996d9d0"
+      },
+      "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "51cf6de829122d28",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#ede9fe",
+      "locator": {
+        "owner": ".protein-residue.is-basic, .protein-color-legend i.is-basic",
+        "anchor": "be9adcad0d97e264"
+      },
+      "owner": ".protein-residue.is-basic, .protein-color-legend i.is-basic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-basic, .protein-color-legend i.is-basic: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "51fadd10d7c5e479",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dbeafe",
+      "locator": {
+        "owner": ".protein-residue.is-nonpolar, .protein-color-legend i.is-nonpolar",
+        "anchor": "f0297f130c945303"
+      },
+      "owner": ".protein-residue.is-nonpolar, .protein-color-legend i.is-nonpolar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-nonpolar, .protein-color-legend i.is-nonpolar: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "524c89aace4d3780",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:primers.color",
+        "anchor": "5a8aa9eb0078e365"
+      },
+      "owner": "object:primers.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:primers.color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "52e0449b1e72a549",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed",
+        "anchor": "733663042f1a1ab7"
+      },
+      "owner": ".sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-pam rect.sequence-sgrna-frame-closed: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "53064a39c114bd62",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": ".protein-map-bond.is-thiolester",
+        "anchor": "d6eaef81946a3883"
+      },
+      "owner": ".protein-map-bond.is-thiolester",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-map-bond.is-thiolester: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5490934a3eec9977",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".linear-primer-callout .linear-primer-annealed",
+        "anchor": "8551b7e33663ea2c"
+      },
+      "owner": ".linear-primer-callout .linear-primer-annealed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-primer-callout .linear-primer-annealed: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "55b7fe61bceb4879",
+      "file": "src/domain/gibsonOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#3b6fd8",
+      "locator": {
+        "owner": "object:resolvedFragments.assembly.color",
+        "anchor": "789d63a4b8655f8d"
+      },
+      "owner": "object:resolvedFragments.assembly.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gibsonOverlapPrimers.ts owner object:resolvedFragments.assembly.color: resolved Gibson assembly fragment identity used in the assembled construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "579f355a7eb16e45",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:features.labPlasmid.color",
+        "anchor": "6274dbec4db8305b"
+      },
+      "owner": "object:features.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:features.labPlasmid.color: demo lab-plasmid feature category color used by the runtime sample construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "57db47b8a951bd9d",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": ".trace-viewer__base-glyph--T",
+        "anchor": "336ff1e712044bd5"
+      },
+      "owner": ".trace-viewer__base-glyph--T",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner .trace-viewer__base-glyph--T: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "58042db4eace8a96",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#6d28d9",
+      "locator": {
+        "owner": ".protein-bond-track.is-thioether",
+        "anchor": "3e190ef886053a7d"
+      },
+      "owner": ".protein-bond-track.is-thioether",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-bond-track.is-thioether: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "585d325a6180e7d3",
+      "file": "src/storage/databaseProteins.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "c677662c680ac17f"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/databaseProteins.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "590d50ec758921f0",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "d38b9723d81ad966"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5a93229fe8b24a2b",
+      "file": "src/domain/annealedOligos.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:antisensePrimer.color",
+        "anchor": "2984b5797941dee6"
+      },
+      "owner": "object:antisensePrimer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/annealedOligos.ts owner object:antisensePrimer.color: annealed-oligo sense/antisense primer strand identity used when constructing paired primer features.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5ae1dbbb2570263b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#f8e16c",
+      "locator": {
+        "owner": ".motif-hit",
+        "anchor": "c650b2ac8af512f0"
+      },
+      "owner": ".motif-hit",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .motif-hit: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5b36671cd008e0b5",
+      "file": "src/domain/cloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "e69c1827d61bc2cc"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/cloning.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5ba51052ce9563ee",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#fb7185",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--T",
+        "anchor": "87cb073643e4d6e6"
+      },
+      "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--T",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner :root[data-color-scheme='dark'] .trace-viewer__base-glyph--T: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5c0f9cb3c1a59c02",
+      "file": "src/presentation/map/TrackMap.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": "object:primerCalloutBundle.color",
+        "anchor": "c2a02422188aea79"
+      },
+      "owner": "object:primerCalloutBundle.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/map/TrackMap.tsx owner object:primerCalloutBundle.color: Track map primer callout bundle color encodes primer identity on the linear map.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "5e4acaa84bdc4e7d",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:features.labPlasmid.color",
+        "anchor": "46135cc3768cd3ac"
+      },
+      "owner": "object:features.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:features.labPlasmid.color: demo lab-plasmid feature category color used by the runtime sample construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "60829ca218e3fd98",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fee2e2",
+      "locator": {
+        "owner": ".protein-residue.is-acidic, .protein-color-legend i.is-acidic",
+        "anchor": "48f14a730eaeb7b7"
+      },
+      "owner": ".protein-residue.is-acidic, .protein-color-legend i.is-acidic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-acidic, .protein-color-legend i.is-acidic: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6366e4ce4c325f6f",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#111",
+      "locator": {
+        "owner": ".history-glyph-site text",
+        "anchor": "5aa80f4b3beab596"
+      },
+      "owner": ".history-glyph-site text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-site text: History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "646e2197a766bcfd",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#047857",
+      "locator": {
+        "owner": ".sequence-primer-callout.is-hovered text, .sequence-primer-callout:hover text",
+        "anchor": "80ce8481b57dd31f"
+      },
+      "owner": ".sequence-primer-callout.is-hovered text, .sequence-primer-callout:hover text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-primer-callout.is-hovered text, .sequence-primer-callout:hover text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "663e684953cabfaa",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "locator": {
+        "owner": ".linear-enzyme-callout.is-selected .linear-cut-tick",
+        "anchor": "f9997a1b40bae6d1"
+      },
+      "owner": ".linear-enzyme-callout.is-selected .linear-cut-tick",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout.is-selected .linear-cut-tick: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "682f15eb7c080c6d",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "outline",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-assembly-conflict",
+        "anchor": "744b8a9f3a245ead"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-assembly-conflict",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-assembly-conflict: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6a1c431fde672eda",
+      "file": "src/PickPrimersDialog.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#b45309",
+      "locator": {
+        "owner": ".pick-primers-spec-toggle.is-offtarget",
+        "anchor": "5a6a516a6d045d3f"
+      },
+      "owner": ".pick-primers-spec-toggle.is-offtarget",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/PickPrimersDialog.css owner .pick-primers-spec-toggle.is-offtarget: Off-target primer specificity toggle ink encodes mismatch warning, not neutral dialog chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6a806d630f3b4046",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#111827",
+      "locator": {
+        "owner": ".protein-sequence-view.is-editing:focus .protein-residue.is-caret-before::before, .protein-sequence-view.is-editing:focus .protein-residue.is-caret-after::after",
+        "anchor": "aa11254d4388315b"
+      },
+      "owner": ".protein-sequence-view.is-editing:focus .protein-residue.is-caret-before::before, .protein-sequence-view.is-editing:focus .protein-residue.is-caret-after::after",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-sequence-view.is-editing:focus .protein-residue.is-caret-before::before, .protein-sequence-view.is-editing:focus .protein-residue.is-caret-after::after: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6a960fe98694e236",
+      "file": "src/domain/vnarAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0f766e",
+      "locator": {
+        "owner": "object:domainFeature.color",
+        "anchor": "6d3df61465af7a4d"
+      },
+      "owner": "object:domainFeature.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/vnarAnnotations.ts owner object:domainFeature.color: VNAR domain annotation color for variable-domain detection.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6c45169dd0f252ca",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "a7f50a95bf6c38e8"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:color: immunoglobulin region/domain annotation color for antibody feature rendering.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6dc0ab8e4f25af72",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "locator": {
+        "owner": ".linear-enzyme-callout polyline",
+        "anchor": "5fd52745484bc015"
+      },
+      "owner": ".linear-enzyme-callout polyline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout polyline: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6e5274ceb0427c35",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:feature.color",
+        "anchor": "ce35409006dcacdc"
+      },
+      "owner": "object:feature.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:feature.color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "6fa151f9c6055965",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fde68a",
+      "locator": {
+        "owner": ".protein-alignment-map-legend i.is-mismatch",
+        "anchor": "3651b0ab4e43d011"
+      },
+      "owner": ".protein-alignment-map-legend i.is-mismatch",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-legend i.is-mismatch: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "70287e18e006537c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#bfdbfe",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-selected",
+        "anchor": "c3a6240926b1bfbc"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-selected: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "708fc5c2be65d934",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-unknown",
+        "anchor": "b5321f5962912ffe"
+      },
+      "owner": ".protein-color-class-dot.is-unknown",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-unknown: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "70f74583da975053",
+      "file": "src/domain/tcrAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#e11d48",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "3c42d9bf6e686df0"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/tcrAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for TCR numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "715985d138d17e3c",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f97316",
+      "locator": {
+        "owner": "object:kabatHeavyRegions.color",
+        "anchor": "71ae819b8f6b175a"
+      },
+      "owner": "object:kabatHeavyRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatHeavyRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "72565ff7cc58dd5f",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#4ade80",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--A",
+        "anchor": "b666dd946ad87503"
+      },
+      "owner": ":root[data-color-scheme='dark'] .trace-viewer__base-glyph--A",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner :root[data-color-scheme='dark'] .trace-viewer__base-glyph--A: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "735d0ef6b519f9f3",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:primers.color",
+        "anchor": "e110762aac789613"
+      },
+      "owner": "object:primers.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:primers.color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "7434b84d96cd1935",
+      "file": "src/domain/vnarAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f97316",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "e0b03d7727b92c7f"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/vnarAnnotations.ts owner object:color: VNAR disulfide-bond annotation color for residue-pair links.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "74e62dd7497b3815",
+      "file": "src/AgaroseGelDialog.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#4a9eff",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "19d8f6391f75a69b"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/AgaroseGelDialog.tsx owner jsx:rect: Gel band or slab fill encodes electrophoresis identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "758454d2946ff9c6",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#766e63",
+      "locator": {
+        "owner": ".mass-restriction-members-list > label.is-uncloneable",
+        "anchor": "d5728f1ae6535d70"
+      },
+      "owner": ".mass-restriction-members-list > label.is-uncloneable",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .mass-restriction-members-list > label.is-uncloneable: Mass-restriction cloneability state encodes workflow validity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "76190db49687e819",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#ffffff",
+      "locator": {
+        "owner": ".primer-callout.is-selected:hover text",
+        "anchor": "1c25b13666718b03"
+      },
+      "owner": ".primer-callout.is-selected:hover text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout.is-selected:hover text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "7ce696dfaeb1989b",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": ".trace-viewer__base-glyph--C",
+        "anchor": "3132b3cd33486211"
+      },
+      "owner": ".trace-viewer__base-glyph--C",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner .trace-viewer__base-glyph--C: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "7e93bfc05c77d9d4",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary",
+        "anchor": "dc98fc1697c4868d"
+      },
+      "owner": ".sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-pam .sequence-sgrna-guide-pam-boundary: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "7eac1081a2b80543",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#10233c",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+        "anchor": "40aee8ddb4be3cdb"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-primer-base: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "7ff175b44ba33e47",
+      "file": "src/domain/orfPrediction.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f5bf3d",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "34f6acbf879cbd08"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/orfPrediction.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "815b626b117c6ce2",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "2c999731a80f87db"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "81a9f649b053d8a8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#73dfa0",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-guide-pam-boundary",
+        "anchor": "54123e274661fafe"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-guide-pam-boundary",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame-outline, :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-frame-closed, :root[data-color-scheme='dark'] .sequence-sgrna-guide-pam-boundary: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8286eaad656f790b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "locator": {
+        "owner": ".enzyme-callout-name.is-methylation-greyed",
+        "anchor": "a87e1113c9bc87d7"
+      },
+      "owner": ".enzyme-callout-name.is-methylation-greyed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout-name.is-methylation-greyed: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8337869709d91773",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sequence-sgrna-name",
+        "anchor": "c566501dd397460b"
+      },
+      "owner": ".sequence-sgrna-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-name: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "838f7b2b8145bdaa",
+      "file": "src/domain/pcrRecipe.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:primer.color",
+        "anchor": "270503313cc9648b"
+      },
+      "owner": "object:primer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/pcrRecipe.ts owner object:primer.color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "83ffa3b8d061bbaf",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#176a3b",
+      "locator": {
+        "owner": ".hop-primer.hop-sgrna-oligos",
+        "anchor": "9378d0c4d5b40052"
+      },
+      "owner": ".hop-primer.hop-sgrna-oligos",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .hop-primer.hop-sgrna-oligos: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "840ee4094b4e0753",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-C",
+        "anchor": "c6032ebaa01c99b6"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-C",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-C: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "85b3bfe50178d759",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#93c5fd",
+      "locator": {
+        "owner": ".protein-alignment-map-segment.is-similar",
+        "anchor": "ee0dc3ed674e2dc4"
+      },
+      "owner": ".protein-alignment-map-segment.is-similar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-segment.is-similar: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "86744055e142d9d8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#f8fafc",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G",
+        "anchor": "6713e5aacbf73bf3"
+      },
+      "owner": ":root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .alignment-trace-bases .alignment-base.is-peak-hover-G: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "879c886c60e9d706",
+      "file": "src/domain/vnarAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#eab308",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "edbbb0e95daeaa90"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/vnarAnnotations.ts owner object:color: VNAR disulfide-bond annotation color for residue-pair links.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "88e4eb3636b460d0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "locator": {
+        "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame path.sequence-sgrna-frame-fill",
+        "anchor": "0888c5810a8fadc2"
+      },
+      "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame path.sequence-sgrna-frame-fill",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame rect.sequence-sgrna-frame-fill, .sequence-sgrna-frame path.sequence-sgrna-frame-fill: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "898282026f4cbe24",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": ".dna-base-C",
+        "anchor": "43cc4d2d447f9431"
+      },
+      "owner": ".dna-base-C",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .dna-base-C: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "898bbbe01e1bcc41",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#86efac",
+      "locator": {
+        "owner": ".protein-alignment-map-segment.is-identity",
+        "anchor": "6ff0439e0862cb25"
+      },
+      "owner": ".protein-alignment-map-segment.is-identity",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-segment.is-identity: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8a132316fa5cde78",
+      "file": "src/storage/databasePrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "fcec74eb7f1d8b3b"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/databasePrimers.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8af3a3cd60377fc4",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#93c5fd",
+      "locator": {
+        "owner": ".motif-hit.sequence-selected",
+        "anchor": "86de5777473f95d2"
+      },
+      "owner": ".motif-hit.sequence-selected",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .motif-hit.sequence-selected: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8af6716770f6d5f8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fff0ef",
+      "locator": {
+        "owner": ".sgrna-cloning-compatibility.is-incompatible",
+        "anchor": "6e4cf21f80d7dbc0"
+      },
+      "owner": ".sgrna-cloning-compatibility.is-incompatible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-compatibility.is-incompatible: CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8b0b9dbc7a0faba0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fef3c7",
+      "locator": {
+        "owner": ".protein-residue.is-special, .protein-color-legend i.is-special",
+        "anchor": "c6608411dabf264c"
+      },
+      "owner": ".protein-residue.is-special, .protein-color-legend i.is-special",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-special, .protein-color-legend i.is-special: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8b74860e2bdb053a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dcfce7",
+      "locator": {
+        "owner": ".protein-residue.is-polar, .protein-color-legend i.is-polar",
+        "anchor": "132bcc4b6f6d8f86"
+      },
+      "owner": ".protein-residue.is-polar, .protein-color-legend i.is-polar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-polar, .protein-color-legend i.is-polar: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8cd7a585e6175fee",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dbeafe",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-nonpolar",
+        "anchor": "80ea13f781c18db8"
+      },
+      "owner": ".protein-color-class-dot.is-nonpolar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-nonpolar: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8cf96afe7908f5d0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#15803d",
+      "locator": {
+        "owner": ".enzyme-callout:hover text.enzyme-callout-name.is-blunt-green",
+        "anchor": "1aac263ff9a794e5"
+      },
+      "owner": ".enzyme-callout:hover text.enzyme-callout-name.is-blunt-green",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout:hover text.enzyme-callout-name.is-blunt-green: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8e24d3f37c1b4636",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#f8f5ef",
+      "locator": {
+        "owner": ".mass-restriction-members-list > label.is-uncloneable",
+        "anchor": "f94ae664a50c0c0e"
+      },
+      "owner": ".mass-restriction-members-list > label.is-uncloneable",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .mass-restriction-members-list > label.is-uncloneable: Mass-restriction cloneability state encodes workflow validity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8f73fbf5d4ef460c",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "aafa0e3cb711dc56"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8f9d5882f41cfa99",
+      "file": "src/storage/folderPrimerLists.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "320ab5c4e7826e11"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/folderPrimerLists.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8fabb0095fcf9c24",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "9a2f398e94f8c64b"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "8fde9d66cb6faf5a",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": ".trace-viewer__base-glyph--A",
+        "anchor": "3f437c49df5e4cb4"
+      },
+      "owner": ".trace-viewer__base-glyph--A",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner .trace-viewer__base-glyph--A: Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "927e2d4c5c26d49f",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "11e96fe0f3cbbc2e"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9307b5e2eff9c433",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#f2e9ff",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+        "anchor": "91458089aa2e13b4"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-primer-base: primer-associated base letter ink in sequence rows under dark scheme encodes which bases belong to primers.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "93707494144e0eab",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "border",
+      "literal": "#b91c1c",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+        "anchor": "7a360d5895b9d7bb"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-variant-error: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "938f78815a158594",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#000",
+      "locator": {
+        "owner": ".sequence-bases > span",
+        "anchor": "0081c2710fcc4f6e"
+      },
+      "owner": ".sequence-bases > span",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-bases > span: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "93f8175b6931dc59",
+      "file": "src/domain/mutagenesis.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:primer.color",
+        "anchor": "0684be4b597a05ed"
+      },
+      "owner": "object:primer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/mutagenesis.ts owner object:primer.color: mutagenesis primer identity used in the generated edit design.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "94c121e357709367",
+      "file": "src/TraceViewer.css",
+      "kind": "css",
+      "property": "outline",
+      "literal": "#2f74b5",
+      "locator": {
+        "owner": ".trace-viewer__base-sequence:focus-visible",
+        "anchor": "5b20f679b61f53b8"
+      },
+      "owner": ".trace-viewer__base-sequence:focus-visible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/TraceViewer.css owner .trace-viewer__base-sequence:focus-visible: Scientific outline #2f74b5 encodes analytical meaning for owner .trace-viewer__base-sequence:focus-visible.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "962d06d26db6b996",
+      "file": "src/domain/mutagenesis.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:primer.color",
+        "anchor": "bb161c51ac8f0b88"
+      },
+      "owner": "object:primer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/mutagenesis.ts owner object:primer.color: mutagenesis primer identity used in the generated edit design.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "967c8aaa57d4c528",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#8617ca",
+      "locator": {
+        "owner": ".primer-callout:hover text",
+        "anchor": "f91e8ad13800ef19"
+      },
+      "owner": ".primer-callout:hover text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout:hover text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9699e6e701605670",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "locator": {
+        "owner": ".linear-enzyme-callout .linear-cut-tick",
+        "anchor": "1b8a057f3782de77"
+      },
+      "owner": ".linear-enzyme-callout .linear-cut-tick",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout .linear-cut-tick: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "97a1e05a101831e8",
+      "file": "src/AgaroseGelDialog.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#2a2a2a",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "65c70ddb9b417234"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/AgaroseGelDialog.tsx owner jsx:rect: Gel band or slab fill encodes electrophoresis identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "97abd061a1df4339",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f97316",
+      "locator": {
+        "owner": "object:kabatLightRegions.color",
+        "anchor": "83c0ca8bf7daa88a"
+      },
+      "owner": "object:kabatLightRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatLightRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "982ef9a74f7753c0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#cbd5e1",
+      "locator": {
+        "owner": ".protein-alignment-map-legend i.is-gap",
+        "anchor": "705248ee3a36df59"
+      },
+      "owner": ".protein-alignment-map-legend i.is-gap",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-legend i.is-gap: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "99ddc5cfe2e4b170",
+      "file": "src/PcrDialog.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "411757e8566ae921"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/PcrDialog.tsx owner object:color: PCR forward/reverse primer-pair identity used in the dialog’s generated product preview.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9b04b362df8762e9",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#a16207",
+      "locator": {
+        "owner": ".dna-base-G",
+        "anchor": "098ef247bee01eea"
+      },
+      "owner": ".dna-base-G",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .dna-base-G: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9b22a8bfcc162e2a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "locator": {
+        "owner": ".linear-enzyme-callout text.enzyme-callout-name.is-methylation-greyed",
+        "anchor": "24b39d6650f9b37c"
+      },
+      "owner": ".linear-enzyme-callout text.enzyme-callout-name.is-methylation-greyed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout text.enzyme-callout-name.is-methylation-greyed: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9bf88202f07404a2",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-A",
+        "anchor": "c93f3d980677e07c"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-A",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-A: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9d392fb19b98b11b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".sgrna-map-pam-arrow",
+        "anchor": "a0377d333043e23a"
+      },
+      "owner": ".sgrna-map-pam-arrow",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-map-pam-arrow: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "9d7a10f978c20ec6",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "rgb(23 23 23 / 12%)",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-G",
+        "anchor": "6f1778c5b20de16b"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-G",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-G: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a133c1e5ee018431",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#f2e9ff",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+        "anchor": "97bbb201d6c5fbdc"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-primer-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-primer-base: primer-associated base fill in sequence rows under dark scheme encodes which bases belong to primers.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a55aab5a5e144eda",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".primer-callout polyline",
+        "anchor": "d7ab00cfacd8641c"
+      },
+      "owner": ".primer-callout polyline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout polyline: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a5624bc988851435",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fecaca",
+      "locator": {
+        "owner": ".sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error",
+        "anchor": "5cc5d9849cc11172"
+      },
+      "owner": ".sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a7c2cc19cdbfb384",
+      "file": "src/domain/gibsonAssembly.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0ea5e9",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "8972795a8ff31346"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gibsonAssembly.ts owner object:color: Gibson assembly product/fragment identity used in generated construct features.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a7f97c20544e600d",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#be185d",
+      "locator": {
+        "owner": ".protein-bond-track.is-thiolester",
+        "anchor": "381bfb2d14f1dabd"
+      },
+      "owner": ".protein-bond-track.is-thiolester",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-bond-track.is-thiolester: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a8e12432eb0c5516",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:primers.labPlasmid.color",
+        "anchor": "b543938daacc1a12"
+      },
+      "owner": "object:primers.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:primers.labPlasmid.color: Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a93efc27242d2315",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#fde68a",
+      "locator": {
+        "owner": ".protein-alignment-map-segment.is-mismatch",
+        "anchor": "c3136d580ab9476d"
+      },
+      "owner": ".protein-alignment-map-segment.is-mismatch",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-segment.is-mismatch: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a9e537cbdc4b2ede",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#fff",
+      "locator": {
+        "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+        "anchor": "bd456f9d324139ba"
+      },
+      "owner": ":root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme] button.hop-label:hover, :root[data-color-scheme] button.hop-label:focus-visible: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "aad406100ee3cd0a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background",
+        "anchor": "46de27756164620e"
+      },
+      "owner": ".sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ab4f3eecd7773216",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#eab308",
+      "locator": {
+        "owner": "object:bonds.color",
+        "anchor": "04a3acf414a8e6ac"
+      },
+      "owner": "object:bonds.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:bonds.color: immunoglobulin disulfide-bond annotation color for residue-pair links.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ac9990b03a6f09d5",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#0a2342",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background",
+        "anchor": "d20363ae1b5c027d"
+      },
+      "owner": ".sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-selected rect.sequence-sgrna-name-background: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "acac195f317c979b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#dcfce7",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-polar",
+        "anchor": "a148b9c86946b0bf"
+      },
+      "owner": ".protein-color-class-dot.is-polar",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-polar: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ad0ec7957c4d8d4c",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "3d36165c3b178d25"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ad426c020080f349",
+      "file": "src/domain/gatewayBpCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#31849b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "2ff05a86d34bcaab"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpCloning.ts owner object:color: Gateway BP recombination fragment/att-site product identity used in generated cloning records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "af6190e25c979b48",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "border",
+      "literal": "rgba(0, 0, 0, 0.14)",
+      "locator": {
+        "owner": ".protein-color-class-dot",
+        "anchor": "ba363eb75548d5e9"
+      },
+      "owner": ".protein-color-class-dot",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b0955538314413de",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#f66",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "75ff013720489484"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b1204dd7f1a63700",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#102b20",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background",
+        "anchor": "82c4b67772bebaf8"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-frame rect.sequence-sgrna-name-background: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b1853afb105cf0fc",
+      "file": "src/domain/annealedOligos.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:sensePrimer.color",
+        "anchor": "2c3f32445baa968e"
+      },
+      "owner": "object:sensePrimer.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/annealedOligos.ts owner object:sensePrimer.color: annealed-oligo sense/antisense primer strand identity used when constructing paired primer features.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b3c7e3dd654c2c85",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#0f70e2",
+      "locator": {
+        "owner": ".linear-enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green)",
+        "anchor": "b2eafb4369f019cb"
+      },
+      "owner": ".linear-enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green)",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green): Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b3dc1ce062d4029b",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075e2f",
+      "locator": {
+        "owner": ".enzyme-callout .sgrna-map-name, .sgrna-map-name",
+        "anchor": "2d5b94949116dbd2"
+      },
+      "owner": ".enzyme-callout .sgrna-map-name, .sgrna-map-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout .sgrna-map-name, .sgrna-map-name: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b5da3eebbab86f67",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:features.labPlasmid.color",
+        "anchor": "bfb97e0b084829fb"
+      },
+      "owner": "object:features.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:features.labPlasmid.color: demo lab-plasmid feature category color used by the runtime sample construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b82d6362c353cb60",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": ":root[data-color-scheme] .alignment-trace-bases .alignment-base.is-assembly-conflict",
+        "anchor": "1997f1d3e4e75ee5"
+      },
+      "owner": ":root[data-color-scheme] .alignment-trace-bases .alignment-base.is-assembly-conflict",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme] .alignment-trace-bases .alignment-base.is-assembly-conflict: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b87b4ca6f412456a",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#86efac",
+      "locator": {
+        "owner": ".protein-alignment-map-legend i.is-identity",
+        "anchor": "002029854e1968bf"
+      },
+      "owner": ".protein-alignment-map-legend i.is-identity",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-legend i.is-identity: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b89b5bbedbd7760b",
+      "file": "src/domain/primerBindingPolicy.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "6f4c23305b6144ca"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/primerBindingPolicy.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b917ca2d122519b2",
+      "file": "src/domain/bridgePcr.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "18f69cee45eb1b03"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/bridgePcr.ts owner object:color: bridge-PCR amplicon/product feature identity used when materializing the product.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b91ab88bc99308f8",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#ffffff",
+      "locator": {
+        "owner": ".sequence-sgrna-frame.is-selected .sequence-sgrna-name",
+        "anchor": "485e9a5c86e5f858"
+      },
+      "owner": ".sequence-sgrna-frame.is-selected .sequence-sgrna-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame.is-selected .sequence-sgrna-name: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "b9b28c496237d4d0",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "locator": {
+        "owner": "object:vhhFeatures.color",
+        "anchor": "88c99d936e024537"
+      },
+      "owner": "object:vhhFeatures.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:vhhFeatures.color: VHH domain or hallmark annotation color for antibody variable-domain detection.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "bac9b9e44986db2f",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#daf2e2",
+      "locator": {
+        "owner": ".hop-primer.hop-sgrna-oligos:hover",
+        "anchor": "523e22f38e92cba3"
+      },
+      "owner": ".hop-primer.hop-sgrna-oligos:hover",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .hop-primer.hop-sgrna-oligos:hover: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "bcc63fbc2d8baf93",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "locator": {
+        "owner": ".protein-composition-code.is-unknown",
+        "anchor": "c321321a162e4771"
+      },
+      "owner": ".protein-composition-code.is-unknown",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-unknown: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "bce7f907f97e77ea",
+      "file": "src/domain/proteinAnnotationToDna.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#64748b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "c0f0770cafb6a827"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/proteinAnnotationToDna.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "bedcb19ec3b14b0f",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#961c1c",
+      "locator": {
+        "owner": ".sgrna-cloning-compatibility.is-incompatible",
+        "anchor": "707a79bbb3a8e5e3"
+      },
+      "owner": ".sgrna-cloning-compatibility.is-incompatible",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-compatibility.is-incompatible: CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "bf7785cab846a70c",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#16803f",
+      "locator": {
+        "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+        "anchor": "ad5044466af8210a"
+      },
+      "owner": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-sgrna-frame rect.sequence-sgrna-frame-closed: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c0ab8e1e81833f27",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#6c6",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "1f7a41dd05ea51be"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c27a6532cbac6a57",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#ede9fe",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-basic",
+        "anchor": "d876917a7873b1c1"
+      },
+      "owner": ".protein-color-class-dot.is-basic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-basic: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c2d0663616ed903c",
+      "file": "src/domain/gibsonOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:raw.color",
+        "anchor": "aa131cfadb0a940f"
+      },
+      "owner": "object:raw.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gibsonOverlapPrimers.ts owner object:raw.color: Gibson overlap forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c2f0e456080e2441",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#16803f",
+      "locator": {
+        "owner": ".enzyme-callout .sgrna-map-leader, .sgrna-map-leader",
+        "anchor": "251040afe313b05d"
+      },
+      "owner": ".enzyme-callout .sgrna-map-leader, .sgrna-map-leader",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout .sgrna-map-leader, .sgrna-map-leader: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c4565fc3216a93ed",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#b45309",
+      "locator": {
+        "owner": ".protein-bond-track.is-disulfide",
+        "anchor": "f935ee74637256e3"
+      },
+      "owner": ".protein-bond-track.is-disulfide",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-bond-track.is-disulfide: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c51a77931c11a1d0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#fda4af",
+      "locator": {
+        "owner": ".protein-alignment-map-segment.is-frameshift",
+        "anchor": "ff6a90377a155502"
+      },
+      "owner": ".protein-alignment-map-segment.is-frameshift",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-alignment-map-segment.is-frameshift: Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c653cf9c5f30425f",
+      "file": "src/domain/tcrAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0d9488",
+      "locator": {
+        "owner": "object:domainFeature.color",
+        "anchor": "6ac7f3e1d49eaca8"
+      },
+      "owner": "object:domainFeature.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/tcrAnnotations.ts owner object:domainFeature.color: TCR domain annotation color for chain feature rendering.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c6d7a63b6a581d6a",
+      "file": "src/PcrDialog.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "bcbbb1131dbeeeca"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/PcrDialog.tsx owner object:color: PCR forward/reverse primer-pair identity used in the dialog’s generated product preview.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "c76d36c07b4d7d30",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fee2e2",
+      "locator": {
+        "owner": ".protein-color-class-dot.is-acidic",
+        "anchor": "325936d2c9d946da"
+      },
+      "owner": ".protein-color-class-dot.is-acidic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-color-class-dot.is-acidic: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cb7297573da2c7e5",
+      "file": "src/domain/annealedOligos.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "d36c5ad8201262bc"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/annealedOligos.ts owner object:color: annealed-oligo sense/antisense primer strand identity used when constructing paired primer features.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cc0da21dd14164db",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#fffdf8",
+      "locator": {
+        "owner": ".history-glyph-site text",
+        "anchor": "0fc6bf5d93d15fca"
+      },
+      "owner": ".history-glyph-site text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-site text: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cc68d9c7214180b1",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#15803d",
+      "locator": {
+        "owner": ".linear-enzyme-callout:hover text.enzyme-callout-name.is-blunt-green",
+        "anchor": "3117514b7e7269ae"
+      },
+      "owner": ".linear-enzyme-callout:hover text.enzyme-callout-name.is-blunt-green",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout:hover text.enzyme-callout-name.is-blunt-green: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cddf7979b139a1e7",
+      "file": "src/domain/featureQualifiers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#993366",
+      "locator": {
+        "owner": "variable:color",
+        "anchor": "2fe80cd3f9c6092e"
+      },
+      "owner": "variable:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/featureQualifiers.ts owner variable:color: feature-qualifier annotation category color assigned to normalized feature records.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cf95a8f0666fd376",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#0e7490",
+      "locator": {
+        "owner": ".protein-bond-track.is-cross-link",
+        "anchor": "ec737bb666d2d22c"
+      },
+      "owner": ".protein-bond-track.is-cross-link",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-bond-track.is-cross-link: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "cfe7fc63aac701ea",
+      "file": "src/domain/orfPrediction.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#9be06a",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "d862702e6461cf18"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/orfPrediction.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d0f728b214bd8bba",
+      "file": "src/presentation/protein/ProteinSidebarControls.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "2270048c13bf4d61"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/protein/ProteinSidebarControls.tsx owner jsx:rect: protein palette swatch color used to distinguish sequence and annotation categories.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d17da3a11ac13cef",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#e11d48",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "e21cd88fb1fc4220"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d213ab9fda11aaae",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075fa8",
+      "locator": {
+        "owner": ".sequence-enzyme-callout.is-hovered text.enzyme-callout-name:not(.is-blunt-green)",
+        "anchor": "299798ee93c35f84"
+      },
+      "owner": ".sequence-enzyme-callout.is-hovered text.enzyme-callout-name:not(.is-blunt-green)",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-enzyme-callout.is-hovered text.enzyme-callout-name:not(.is-blunt-green): Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d21e64e85d4ac5ef",
+      "file": "src/presentation/sequence/SequenceRows.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "3ccca6f472a8a44a"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/sequence/SequenceRows.tsx owner object:color: History strand coloring distinguishes forward primer lanes from reverse primer lanes in sequence rows.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d24a1c535d235c09",
+      "file": "src/domain/cloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#db2777",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "53a9ef3c061c526e"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/cloning.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d343597673d85a07",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#6b7280",
+      "locator": {
+        "owner": ".history-glyph-leader",
+        "anchor": "2084fa0e0b3cc164"
+      },
+      "owner": ".history-glyph-leader",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-leader: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d5f9aae6b2b552d5",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "locator": {
+        "owner": ".protein-residue.is-unknown, .protein-color-legend i.is-unknown",
+        "anchor": "5b785dcb1f2279bb"
+      },
+      "owner": ".protein-residue.is-unknown, .protein-color-legend i.is-unknown",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-residue.is-unknown, .protein-color-legend i.is-unknown: Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d90171ce030948cc",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#b91c1c",
+      "locator": {
+        "owner": ".dna-base-T",
+        "anchor": "3d318c7d7e4863ed"
+      },
+      "owner": ".dna-base-T",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .dna-base-T: DNA base letter ink encodes nucleotide identity in sequence rows.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "d993d2c16094cdf7",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#075fa8",
+      "locator": {
+        "owner": ".enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green)",
+        "anchor": "9b4b248475bebf65"
+      },
+      "owner": ".enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green)",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .enzyme-callout:hover text.enzyme-callout-name:not(.is-blunt-green): Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "da2f78ebaaf8a171",
+      "file": "src/domain/historyRecord.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:fallbackPrimers.color",
+        "anchor": "3c4f6d967eb1ec6a"
+      },
+      "owner": "object:fallbackPrimers.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/historyRecord.ts owner object:fallbackPrimers.color: Domain object color encodes biological highlight.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "da75fcc9e359bac1",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#07111f",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .primer-callout.is-selected text, :root[data-color-scheme='dark'] .sgrna-map-callout.is-selected text, :root[data-color-scheme='dark'] .enzyme-callout.is-selected text",
+        "anchor": "1539d98966e2cbbf"
+      },
+      "owner": ":root[data-color-scheme='dark'] .primer-callout.is-selected text, :root[data-color-scheme='dark'] .sgrna-map-callout.is-selected text, :root[data-color-scheme='dark'] .enzyme-callout.is-selected text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .primer-callout.is-selected text, :root[data-color-scheme='dark'] .sgrna-map-callout.is-selected text, :root[data-color-scheme='dark'] .enzyme-callout.is-selected text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "db3376c4db0c40fa",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#dc2626",
+      "locator": {
+        "owner": ".primer-editor-sequence-highlight .is-overhang",
+        "anchor": "997849705b03934d"
+      },
+      "owner": ".primer-editor-sequence-highlight .is-overhang",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-editor-sequence-highlight .is-overhang: Stylesheet color on .primer-editor-sequence-highlight .is-overhang encodes analytical diagram or data identity (#dc2626).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "de2d2c9a069f0fe1",
+      "file": "src/domain/externalSequences/ensembl.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#10b981",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "5c3a5d2ab509b361"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/externalSequences/ensembl.ts owner object:color: Ensembl imported feature-category color for externally sourced biological annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "dfa5b0075c87575e",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#dcffe7",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-base",
+        "anchor": "06dfd43f2c1ec5f1"
+      },
+      "owner": ":root[data-color-scheme='dark'] .sequence-sgrna-base",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .sequence-sgrna-base: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "dfef4f678fd17967",
+      "file": "src/storage/databasePrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "4d8976222245617b"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/databasePrimers.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e019395f40400913",
+      "file": "src/domain/tcrAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f97316",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "5fe25f0df4d37076"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/tcrAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for TCR numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e0d9a11063ca6351",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#245d31",
+      "locator": {
+        "owner": ".sgrna-cloning-oligo-additions strong",
+        "anchor": "ab5bae49f796a17b"
+      },
+      "owner": ".sgrna-cloning-oligo-additions strong",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-oligo-additions strong: Map or CRISPR annotation geometry encodes biological identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e1246f4bdfdabed7",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".linear-primer-callout polyline",
+        "anchor": "1574ca7f84a922eb"
+      },
+      "owner": ".linear-primer-callout polyline",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-primer-callout polyline: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e35eac679eae8d5b",
+      "file": "src/domain/gatewayBpPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "707d6424a5f58142"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/gatewayBpPrimers.ts owner object:color: Gateway BP forward/reverse primer identity used in primer products.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e3c37eb0d9efbbe5",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#475569",
+      "locator": {
+        "owner": ".protein-bond-track.is-other",
+        "anchor": "920ed18ba4a9d75a"
+      },
+      "owner": ".protein-bond-track.is-other",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-bond-track.is-other: Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e476e345a4aa99de",
+      "file": "src/application/databaseProtein.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:features.color",
+        "anchor": "7c6ed14be16d804b"
+      },
+      "owner": "object:features.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/application/databaseProtein.ts owner object:features.color: Default protein feature color when persisted rows omit an explicit feature palette.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e62743c109c66938",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:oligoPrimers.color",
+        "anchor": "dc3159e1f61fb1aa"
+      },
+      "owner": "object:oligoPrimers.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:oligoPrimers.color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e67759e32fbf8863",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "outline",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-activatable:hover",
+        "anchor": "d4c6d726766129b0"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-activatable:hover",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-activatable:hover: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e69e8cc959da32d8",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f97316",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "e9a3742fb4e56265"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e6b831af89207ea7",
+      "file": "src/domain/externalSequences/ensembl.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#84cc16",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "35fcfc1fe84fadb6"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/externalSequences/ensembl.ts owner object:color: Ensembl imported feature-category color for externally sourced biological annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "e9c9396f8761f937",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#101a28",
+      "locator": {
+        "owner": ":root[data-color-scheme='dark'] .primer-callout:not(.is-selected) text, :root[data-color-scheme='dark'] .sgrna-map-callout:not(.is-selected) .sgrna-map-name",
+        "anchor": "7ad113cff360992e"
+      },
+      "owner": ":root[data-color-scheme='dark'] .primer-callout:not(.is-selected) text, :root[data-color-scheme='dark'] .sgrna-map-callout:not(.is-selected) .sgrna-map-name",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner :root[data-color-scheme='dark'] .primer-callout:not(.is-selected) text, :root[data-color-scheme='dark'] .sgrna-map-callout:not(.is-selected) .sgrna-map-name: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ea6fc16c4acf2ece",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#a855f7",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "c7c3a49467b566b9"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:color: immunoglobulin region/domain annotation color for antibody feature rendering.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "eaa3852f11c330dc",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#2d6c36",
+      "locator": {
+        "owner": ".sgrna-cloning-compatibility",
+        "anchor": "ca3ded3707833343"
+      },
+      "owner": ".sgrna-cloning-compatibility",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sgrna-cloning-compatibility: CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "eb1a9636db58c956",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#111",
+      "locator": {
+        "owner": ".linear-enzyme-callout text",
+        "anchor": "4056596e59cdb6b3"
+      },
+      "owner": ".linear-enzyme-callout text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .linear-enzyme-callout text: Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ebc2d845c96a1587",
+      "file": "src/domain/proteinLibraryFeatureImport.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#64748b",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "cc304a81f640ad5f"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/proteinLibraryFeatureImport.ts owner object:color: Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ec5bf6f7afbae5dc",
+      "file": "src/presentation/map/PlasmidMap.tsx",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": "object:primerCalloutBundle.color",
+        "anchor": "50a0ddecb23ff448"
+      },
+      "owner": "object:primerCalloutBundle.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/map/PlasmidMap.tsx owner object:primerCalloutBundle.color: Track map primer callout bundle color encodes primer identity on the linear map.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ec8ef1a9214ee2de",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "fill",
+      "literal": "#a020f0",
+      "locator": {
+        "owner": ".primer-callout text",
+        "anchor": "817205933c3dcdbf"
+      },
+      "owner": ".primer-callout text",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .primer-callout text: Primer callout geometry encodes map/primer identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ed307d678abb6d35",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#000",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+        "anchor": "5c3c3fa3854d4e86"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-variant-error: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ed65fa02a0e582c0",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "stroke",
+      "literal": "#c45c26",
+      "locator": {
+        "owner": ".history-glyph-region.is-vector",
+        "anchor": "28185c09df885034"
+      },
+      "owner": ".history-glyph-region.is-vector",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .history-glyph-region.is-vector: Analytical stroke encodes feature or map geometry.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ee67515280b01c40",
+      "file": "src/presentation/protein/ProteinSidebarControls.tsx",
+      "kind": "tsx",
+      "property": "fill",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "jsx:rect",
+        "anchor": "79e6f2e0fa84e486"
+      },
+      "owner": "jsx:rect",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/presentation/protein/ProteinSidebarControls.tsx owner jsx:rect: protein palette swatch color used to distinguish sequence and annotation categories.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f1ab7a907e5f44ad",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fecaca",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+        "anchor": "0b9fc61a245bbd76"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-variant-error",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-variant-error: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f20d6fb2c2e52fc4",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fc6",
+      "locator": {
+        "owner": ".common-feature-color-header",
+        "anchor": "28a7379e4fa47747"
+      },
+      "owner": ".common-feature-color-header",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .common-feature-color-header: Feature color header encodes biological feature class.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f23a7cb04e3e1e66",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#f59e0b",
+      "locator": {
+        "owner": "object:imgtRegions.color",
+        "anchor": "a60ecf4c402901ce"
+      },
+      "owner": "object:imgtRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:imgtRegions.color: IMGT CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f31052e98e7a722f",
+      "file": "src/domain/sgrnaCloning.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#16a34a",
+      "locator": {
+        "owner": "object:oligoPrimers.color",
+        "anchor": "6f5c3581ab3d3d89"
+      },
+      "owner": "object:oligoPrimers.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/sgrnaCloning.ts owner object:oligoPrimers.color: sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f79cc38e2a63e183",
+      "file": "src/domain/fixtures.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#2563eb",
+      "locator": {
+        "owner": "object:features.labPlasmid.color",
+        "anchor": "7d5c53eead4c8037"
+      },
+      "owner": "object:features.labPlasmid.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/fixtures.ts owner object:features.labPlasmid.color: demo lab-plasmid feature category color used by the runtime sample construct.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f7f0e5725fadf305",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fffbeb",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-assembly-conflict",
+        "anchor": "a5a70718006056cb"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-assembly-conflict",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-assembly-conflict: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "f89ed7789ff65131",
+      "file": "src/domain/immunoglobulinAnnotations.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#e11d48",
+      "locator": {
+        "owner": "object:kabatLightRegions.color",
+        "anchor": "00449be934e15689"
+      },
+      "owner": "object:kabatLightRegions.color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/immunoglobulinAnnotations.ts owner object:kabatLightRegions.color: Kabat CDR region class color for antibody numbering annotations.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "fa63c8e406288e22",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#fef3c7",
+      "locator": {
+        "owner": ".protein-composition-code.is-special",
+        "anchor": "3214dbc9778b2d96"
+      },
+      "owner": ".protein-composition-code.is-special",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-special: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "fc5670d34fde417d",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "background",
+      "literal": "#ede9fe",
+      "locator": {
+        "owner": ".protein-composition-code.is-basic",
+        "anchor": "de8c9a941fdc799d"
+      },
+      "owner": ".protein-composition-code.is-basic",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .protein-composition-code.is-basic: Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "fd5eb660ff772456",
+      "file": "src/domain/bridgeOverlapPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#0ea5e9",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "c56b27e24a6922af"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/domain/bridgeOverlapPrimers.ts owner object:color: bridge-PCR overlap primer identity used for the generated oligo.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "fe88b283814c3770",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#111",
+      "locator": {
+        "owner": ".motif-hit",
+        "anchor": "6213974554e0a890"
+      },
+      "owner": ".motif-hit",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .motif-hit: Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ff630c701d8d9007",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#171717",
+      "locator": {
+        "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-G",
+        "anchor": "2521eda4284b5720"
+      },
+      "owner": ".alignment-trace-bases .alignment-base.is-peak-hover-G",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .alignment-trace-bases .alignment-base.is-peak-hover-G: Trace or sequence base tint encodes read identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ff73a87ecf582223",
+      "file": "src/App.css",
+      "kind": "css",
+      "property": "color",
+      "literal": "#000",
+      "locator": {
+        "owner": ".sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error",
+        "anchor": "8219c3269a3f5739"
+      },
+      "owner": ".sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/App.css owner .sequence-bases-trace-annotation .sequence-base.is-variant-error, .sequence-bases-trace-annotation .is-variant-error: Sequence or trace tint encodes read or variant identity.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "ff890896e7b42a47",
+      "file": "src/storage/commonPrimers.ts",
+      "kind": "tsx",
+      "property": "color",
+      "literal": "#7c3aed",
+      "locator": {
+        "owner": "object:color",
+        "anchor": "77acb5b3af7ed92f"
+      },
+      "owner": "object:color",
+      "classification": "scientific-data",
+      "rationale": "Reviewed src/storage/commonPrimers.ts owner object:color: Stored primer or feature default color encodes library identity when user color is absent.",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

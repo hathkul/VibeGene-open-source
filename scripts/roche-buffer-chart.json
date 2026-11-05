@@ -1,0 +1,2721 @@
+{
+  "AatII": {
+    "rocheName": "AatII",
+    "catalogName": "AatII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccI": {
+    "rocheName": "AccI",
+    "catalogName": "AccI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "10-25",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "rocheName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Alw44I": {
+    "rocheName": "Alw44I",
+    "catalogName": "Alw44I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "75-100",
+      "m": "100",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "rocheName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "10-25",
+      "l": "50-75",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaII": {
+    "rocheName": "AvaII",
+    "catalogName": "AvaII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "75-100",
+      "m": "100",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmyI": {
+    "rocheName": "BmyI",
+    "catalogName": "BmyI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "100",
+      "m": "25-50",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssHII": {
+    "rocheName": "BssHII",
+    "catalogName": "BssHII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "75-100",
+      "m": "100",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CellII": {
+    "rocheName": "CellII",
+    "catalogName": "CellII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {},
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DpnI": {
+    "rocheName": "DpnI",
+    "catalogName": "DpnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "l": "50-75",
+      "m": "75-100",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EaeI": {
+    "rocheName": "EaeI",
+    "catalogName": "EaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "75-100",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeII": {
+    "rocheName": "HaeII",
+    "catalogName": "HaeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "rocheName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ksp632I": {
+    "rocheName": "Ksp632I",
+    "catalogName": "Ksp632I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "25-50",
+      "m": "10-25",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluNI": {
+    "rocheName": "MluNI",
+    "catalogName": "MluNI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "10-25",
+      "m": "10-25",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MroI": {
+    "rocheName": "MroI",
+    "catalogName": "MroI",
+    "alsoKnownAs": "AccIII",
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "50-75",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NaeI": {
+    "rocheName": "NaeI",
+    "catalogName": "NaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "100",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NarI": {
+    "rocheName": "NarI",
+    "catalogName": "NarI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "l": "75-100",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "rocheName": "SacI",
+    "catalogName": "SacI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "100",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau3AI": {
+    "rocheName": "Sau3AI",
+    "catalogName": "Sau3AI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "25-50",
+      "m": "75-100",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau96I": {
+    "rocheName": "Sau96I",
+    "catalogName": "Sau96I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SgrAI": {
+    "rocheName": "SgrAI",
+    "catalogName": "SgrAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "100",
+      "m": "10-25",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "rocheName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "SuRE/Cut Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcsI": {
+    "rocheName": "AcsI",
+    "catalogName": "AcsI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "0-10",
+      "m": "75-100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcyI": {
+    "rocheName": "AcyI",
+    "catalogName": "AcyI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspI": {
+    "rocheName": "AspI",
+    "catalogName": "AspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "25-50",
+      "m": "75-100",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Asp700I": {
+    "rocheName": "Asp700I",
+    "catalogName": "Asp700I",
+    "alsoKnownAs": "Bsp1286I",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Asp718I": {
+    "rocheName": "Asp718I",
+    "catalogName": "Asp718I",
+    "alsoKnownAs": "PstI",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaI": {
+    "rocheName": "AvaI",
+    "catalogName": "AvaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "rocheName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "75-100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanII": {
+    "rocheName": "BanII",
+    "catalogName": "BanII",
+    "alsoKnownAs": "Bsh1236I",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {},
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BbrPI": {
+    "rocheName": "BbrPI",
+    "catalogName": "BbrPI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "75-100",
+      "m": "75-100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BpuAI": {
+    "rocheName": "BpuAI",
+    "catalogName": "BpuAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseAI": {
+    "rocheName": "BseAI",
+    "catalogName": "BseAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "0-10",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstEII": {
+    "rocheName": "BstEII",
+    "catalogName": "BstEII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EclXI": {
+    "rocheName": "EclXI",
+    "catalogName": "EclXI",
+    "alsoKnownAs": "Eco130I",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRV": {
+    "rocheName": "EcoRV",
+    "catalogName": "EcoRV",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "rocheName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "25-50",
+      "m": "100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MvnI": {
+    "rocheName": "MvnI",
+    "catalogName": "MvnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "rocheName": "NruI",
+    "catalogName": "NruI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "l": "0-10",
+      "m": "10-25",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PinAI": {
+    "rocheName": "PinAI",
+    "catalogName": "PinAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RcaI": {
+    "rocheName": "RcaI",
+    "catalogName": "RcaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScrFI": {
+    "rocheName": "ScrFI",
+    "catalogName": "ScrFI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "l": "10-25",
+      "m": "10-25",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SexAI": {
+    "rocheName": "SexAI",
+    "catalogName": "SexAI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "50-75",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspBI": {
+    "rocheName": "SspBI",
+    "catalogName": "SspBI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StuI": {
+    "rocheName": "StuI",
+    "catalogName": "StuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "100",
+      "m": "75-100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "rocheName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Van91I": {
+    "rocheName": "Van91I",
+    "catalogName": "Van91I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SuRE/Cut Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspEI": {
+    "rocheName": "AspEI",
+    "catalogName": "AspEI",
+    "alsoKnownAs": "NsiI",
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "10-25",
+      "l": "100",
+      "m": "25-50",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CfoI": {
+    "rocheName": "CfoI",
+    "catalogName": "CfoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "50-75",
+      "l": "100",
+      "m": "50-75",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraII": {
+    "rocheName": "DraII",
+    "catalogName": "DraII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "100",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "rocheName": "HpaII",
+    "catalogName": "HpaII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "25-50",
+      "l": "100",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": true,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "rocheName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "10-25",
+      "l": "100",
+      "m": "25-50",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": true,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KspI": {
+    "rocheName": "KspI",
+    "catalogName": "KspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "0-10",
+      "l": "100",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "rocheName": "MspI",
+    "catalogName": "MspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "100",
+      "m": "100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp1406I": {
+    "rocheName": "Psp1406I",
+    "catalogName": "Psp1406I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "100",
+      "m": "10-25",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "rocheName": "RsaI",
+    "catalogName": "RsaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "100",
+      "m": "50-75",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsrII": {
+    "rocheName": "RsrII",
+    "catalogName": "RsrII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "10-25",
+      "l": "100",
+      "m": "75-100",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoII": {
+    "rocheName": "XhoII",
+    "catalogName": "XhoII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "l",
+    "suppliedBuffer": "SuRE/Cut Buffer L",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "25-50",
+      "l": "100",
+      "m": "75-100",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BclI": {
+    "rocheName": "BclI",
+    "catalogName": "BclI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "25-50",
+      "m": "100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BfrI": {
+    "rocheName": "BfrI",
+    "catalogName": "BfrI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "l": "75-100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "rocheName": "BglII",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "25-50",
+      "m": "100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsiYI": {
+    "rocheName": "BsiYI",
+    "catalogName": "BsiYI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "50-75",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "rocheName": "DraI",
+    "catalogName": "DraI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "l": "100",
+      "m": "100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FokI": {
+    "rocheName": "FokI",
+    "catalogName": "FokI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "75-100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "rocheName": "HaeIII",
+    "catalogName": "HaeIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "50-75",
+      "l": "75-100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindII": {
+    "rocheName": "HindII",
+    "catalogName": "HindII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "25-50",
+      "m": "100",
+      "h": "50-75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MunI": {
+    "rocheName": "MunI",
+    "catalogName": "MunI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "0-10",
+      "l": "100",
+      "m": "100",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI": {
+    "rocheName": "NheI",
+    "catalogName": "NheI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "100",
+      "m": "100",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NspI": {
+    "rocheName": "NspI",
+    "catalogName": "NspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "75-100",
+      "m": "100",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "rocheName": "PvuII",
+    "catalogName": "PvuII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "l": "25-50",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "rocheName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "l": "75-100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SnaBI": {
+    "rocheName": "SnaBI",
+    "catalogName": "SnaBI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "25-50",
+      "l": "100",
+      "m": "100",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "rocheName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "25-50",
+      "m": "100",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tru9I": {
+    "rocheName": "Tru9I",
+    "catalogName": "Tru9I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "m",
+    "suppliedBuffer": "SuRE/Cut Buffer M",
+    "bufferActivity": {
+      "a": "100",
+      "b": "25-50",
+      "l": "100",
+      "m": "100",
+      "h": "25-50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AflIII": {
+    "rocheName": "AflIII",
+    "catalogName": "AflIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "50-75",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AviII": {
+    "rocheName": "AviII",
+    "catalogName": "AviII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "rocheName": "BglI",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "10-25",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BlnI": {
+    "rocheName": "BlnI",
+    "catalogName": "BlnI",
+    "alsoKnownAs": "AvrII",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsiWI": {
+    "rocheName": "BsiWI",
+    "catalogName": "BsiWI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "l": "10-25",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsmI": {
+    "rocheName": "BsmI",
+    "catalogName": "BsmI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "50-75",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspLU11I": {
+    "rocheName": "BspLU11I",
+    "catalogName": "BspLU11I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst1107I": {
+    "rocheName": "Bst1107I",
+    "catalogName": "Bst1107I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "rocheName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "l": "0-10",
+      "m": "10-25",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ClaI": {
+    "rocheName": "ClaI",
+    "catalogName": "ClaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "75-100",
+      "m": "100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DdeI": {
+    "rocheName": "DdeI",
+    "catalogName": "DdeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraIII": {
+    "rocheName": "DraIII",
+    "catalogName": "DraIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "50-75",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DsaI": {
+    "rocheName": "DsaI",
+    "catalogName": "DsaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {},
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "rocheName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRII": {
+    "rocheName": "EcoRII",
+    "catalogName": "EcoRII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "0-25",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco47III": {
+    "rocheName": "Eco47III",
+    "catalogName": "Eco47III",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "rocheName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "100",
+      "l": "50-75",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ItaI": {
+    "rocheName": "ItaI",
+    "catalogName": "ItaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "25-50",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MamI": {
+    "rocheName": "MamI",
+    "catalogName": "MamI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "l": "75-100",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "rocheName": "MluI",
+    "catalogName": "MluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "l": "0-10",
+      "m": "10-25",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MvaI": {
+    "rocheName": "MvaI",
+    "catalogName": "MvaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "25-50",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "rocheName": "NcoI",
+    "catalogName": "NcoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "50-75",
+      "l": "50-75",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "rocheName": "NdeI",
+    "catalogName": "NdeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI": {
+    "rocheName": "NotI",
+    "catalogName": "NotI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NsiI": {
+    "rocheName": "NsiI",
+    "catalogName": "NsiI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "10-25",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "rocheName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "l": "10-25",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "rocheName": "PvuI",
+    "catalogName": "PvuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "l": "25-50",
+      "m": "50-75",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "rocheName": "SalI",
+    "catalogName": "SalI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "25-50",
+      "l": "0-10",
+      "m": "10-25",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI": {
+    "rocheName": "ScaI",
+    "catalogName": "ScaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "100",
+      "l": "0-10",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfuI": {
+    "rocheName": "SfuI",
+    "catalogName": "SfuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "l": "10-25",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SpeI": {
+    "rocheName": "SpeI",
+    "catalogName": "SpeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "l": "75-100",
+      "m": "100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "rocheName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "l": "10-25",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StyI": {
+    "rocheName": "StyI",
+    "catalogName": "StyI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "10-25",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SwaI": {
+    "rocheName": "SwaI",
+    "catalogName": "SwaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "10-25",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "rocheName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "l": "75-100",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "rocheName": "XhoI",
+    "catalogName": "XhoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "75-100",
+      "l": "10-25",
+      "m": "25-50",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanI": {
+    "rocheName": "BanI",
+    "catalogName": "BanI",
+    "alsoKnownAs": "BshI",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "0-10",
+      "l": "25-50",
+      "m": "0-10",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CelII": {
+    "rocheName": "CelII",
+    "catalogName": "CelII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "l": "75-100",
+      "m": "75-100",
+      "h": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MaeI": {
+    "rocheName": "MaeI",
+    "catalogName": "MaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "2× special SuRE/Cut buffer (supplied with enzyme)",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MaeII": {
+    "rocheName": "MaeII",
+    "catalogName": "MaeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "2× special SuRE/Cut buffer (supplied with enzyme)",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "25-50",
+      "l": "0-10",
+      "m": "25-50",
+      "h": "75-100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MaeIII": {
+    "rocheName": "MaeIII",
+    "catalogName": "MaeIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "2× special SuRE/Cut buffer (supplied with enzyme)",
+    "bufferActivity": {
+      "a": "0-10",
+      "b": "10-25",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeII": {
+    "rocheName": "NdeII",
+    "catalogName": "NdeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "2× special SuRE/Cut buffer (supplied with enzyme)",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "10-25",
+      "l": "0-10",
+      "m": "0-10",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SauI": {
+    "rocheName": "SauI",
+    "catalogName": "SauI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "l": "0-10",
+      "m": "50-75",
+      "h": "10-25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmaCI": {
+    "rocheName": "XmaCI",
+    "catalogName": "XmaCI",
+    "alsoKnownAs": "XmaI",
+    "preferredBuffer": "h",
+    "suppliedBuffer": "SuRE/Cut Buffer H",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "0-10",
+      "l": "100",
+      "m": "75-100",
+      "h": "0-10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "requiresBsa": false,
+    "specialBuffer": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

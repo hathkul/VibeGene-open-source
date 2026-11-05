@@ -1,0 +1,75 @@
+.desktop-updater-dialog {
+  box-sizing: border-box;
+  width: min(440px, calc(100vw - 32px));
+  max-height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+/* The startup window is a hybrid window, but this dialog is an overlay inside
+   it, not the window's full-size content. */
+html.vg-hybrid-window .translation-dialog.desktop-updater-dialog {
+  width: min(440px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  height: auto;
+  max-height: calc(100vh - 40px);
+  border: 1px solid var(--vg-control-border);
+  border-radius: 8px;
+  box-shadow: var(--vg-shadow-overlay);
+}
+
+.desktop-updater-dialog > h2 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  cursor: default;
+}
+
+.desktop-updater-content {
+  min-height: 0;
+  overflow: auto;
+  color: var(--vg-text);
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.desktop-updater-content p {
+  margin: 0 0 10px;
+}
+
+.desktop-updater-content p:last-child {
+  margin-bottom: 0;
+}
+
+.desktop-updater-release-notes,
+.desktop-updater-details pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.desktop-updater-details {
+  margin-top: 12px;
+  color: var(--vg-text-muted);
+  font-size: 12px;
+}
+
+.desktop-updater-details summary {
+  cursor: pointer;
+}
+
+.desktop-updater-details pre {
+  margin: 8px 0 0;
+  font: inherit;
+  user-select: text;
+}
+
+.desktop-updater-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}

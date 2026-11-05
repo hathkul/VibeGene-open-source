@@ -1,0 +1,3268 @@
+<?xml version="1.0"?>
+<LadderDatabase>
+    <Supplier name="Phage and Plasmid Markers">
+        <Ladder name="φX174 DNA – HaeIII Digest" preferredUnits="bp" concentration="600" url="http://www.neb.com/nebecomm/products/productN3026.asp">
+            <Fragment length="1353" mass="151"/>
+            <Fragment length="1078" mass="120"/>
+            <Fragment length="872" mass="97"/>
+            <Fragment length="603" mass="67"/>
+            <Fragment length="310" mass="34"/>
+            <Fragment length="281" mass="32"/>
+            <Fragment length="271" mass="30"/>
+            <Fragment length="234" mass="26"/>
+            <Fragment length="194" mass="22"/>
+            <Fragment length="118" mass="13"/>
+            <Fragment length="72" mass="8"/>
+        </Ladder>
+        <Ladder name="φX174 DNA – HincII Digest" preferredUnits="bp" concentration="750" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="1057" mass="147"/>
+            <Fragment length="770" mass="107"/>
+            <Fragment length="612" mass="85"/>
+            <Fragment length="495" mass="69"/>
+            <Fragment length="392" mass="55"/>
+            <Fragment length="345" mass="48"/>
+            <Fragment length="341" mass="47"/>
+            <Fragment length="335" mass="47"/>
+            <Fragment length="297" mass="41"/>
+            <Fragment length="291" mass="41"/>
+            <Fragment length="201" mass="29"/>
+            <Fragment length="162" mass="23"/>
+            <Fragment length="79" mass="11"/>
+        </Ladder>
+        <Ladder name="φX174 DNA – HinfI Digest" preferredUnits="bp" concentration="600" url="http://www.promega.com/products/cloning-and-dna-markers/molecular-weight-markers/conventional-dna-markers/">
+            <Fragment length="726" mass="81"/>
+            <Fragment length="713" mass="79"/>
+            <Fragment length="553" mass="62"/>
+            <Fragment length="500" mass="56"/>
+            <Fragment length="427" mass="48"/>
+            <Fragment length="417" mass="46"/>
+            <Fragment length="413" mass="46"/>
+            <Fragment length="311" mass="35"/>
+            <Fragment length="249" mass="28"/>
+            <Fragment length="200" mass="22"/>
+            <Fragment length="151" mass="17"/>
+            <Fragment length="140" mass="16"/>
+            <Fragment length="118" mass="13"/>
+            <Fragment length="100" mass="11"/>
+            <Fragment length="82" mass="9"/>
+            <Fragment length="66" mass="15"/>
+            <Fragment length="48" mass="5"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="λ DNA – BstEII (BstPI) Digest" preferredUnits="bp" concentration="1000" url="http://www.neb.com/nebecomm/products/productN3014.asp">
+            <Fragment length="8454" mass="174"/>
+            <Fragment length="7242" mass="149"/>
+            <Fragment length="6369" mass="131"/>
+            <Fragment length="5686" mass="117"/>
+            <Fragment length="4822" mass="99"/>
+            <Fragment length="4324" mass="89"/>
+            <Fragment length="3675" mass="76"/>
+            <Fragment length="2323" mass="48"/>
+            <Fragment length="1929" mass="40"/>
+            <Fragment length="1371" mass="28"/>
+            <Fragment length="1264" mass="26"/>
+            <Fragment length="702" mass="14"/>
+            <Fragment length="224" mass="5"/>
+            <Fragment length="117" mass="2"/>
+        </Ladder>
+        <Ladder name="λ DNA – EcoRI Digest" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/lambda-dna-markers/sm028-lambda-dna-ecori">
+            <Fragment length="21226" mass="438"/>
+            <Fragment length="7421" mass="153"/>
+            <Fragment length="5804" mass="120"/>
+            <Fragment length="5643" mass="116"/>
+            <Fragment length="4878" mass="101"/>
+            <Fragment length="3530" mass="73"/>
+        </Ladder>
+        <Ladder name="λ DNA – EcoRI &amp; HindIII Digest" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/lambda-dna-markers/sm019-lambda-dna-ecori-hindiii">
+            <Fragment length="21226" mass="438"/>
+            <Fragment length="5148" mass="106"/>
+            <Fragment length="4973" mass="102"/>
+            <Fragment length="4268" mass="88"/>
+            <Fragment length="3530" mass="73"/>
+            <Fragment length="2027" mass="42"/>
+            <Fragment length="1904" mass="39"/>
+            <Fragment length="1584" mass="32"/>
+            <Fragment length="1375" mass="28"/>
+            <Fragment length="947" mass="20"/>
+            <Fragment length="831" mass="17"/>
+            <Fragment length="564" mass="12"/>
+        </Ladder>
+        <Ladder name="λ DNA – EcoT14I &amp; BglII Digest Mixture" preferredUnits="bp" concentration="1000" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="22010" mass="227"/>
+            <Fragment length="19329" mass="199"/>
+            <Fragment length="13286" mass="136"/>
+            <Fragment length="9688" mass="99"/>
+            <Fragment length="7743" mass="80"/>
+            <Fragment length="6223" mass="64"/>
+            <Fragment length="4254" mass="44"/>
+            <Fragment length="3472" mass="36"/>
+            <Fragment length="2690" mass="28"/>
+            <Fragment length="2392" mass="25"/>
+            <Fragment length="1882" mass="19"/>
+            <Fragment length="1489" mass="15"/>
+            <Fragment length="925" mass="10"/>
+            <Fragment length="651" mass="7"/>
+            <Fragment length="421" mass="4"/>
+            <Fragment length="415" mass="4"/>
+            <Fragment length="74" mass="1"/>
+            <Fragment length="60" mass="1"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="λ DNA – HindIII Digest" preferredUnits="bp" concentration="1000" url="http://www.neb.com/nebecomm/products/productN3012.asp">
+            <Fragment length="23130" mass="477"/>
+            <Fragment length="9416" mass="194"/>
+            <Fragment length="6557" mass="135"/>
+            <Fragment length="4361" mass="90"/>
+            <Fragment length="2322" mass="48"/>
+            <Fragment length="2027" mass="42"/>
+            <Fragment length="564" mass="12"/>
+            <Fragment length="125" mass="3"/>
+        </Ladder>
+        <Ladder name="λ DNA – HindIII/φX174 DNA – HaeIII Digest" preferredUnits="bp" concentration="1600" url="??">
+            <Fragment length="23130" mass="477"/>
+            <Fragment length="9416" mass="194"/>
+            <Fragment length="6557" mass="135"/>
+            <Fragment length="4361" mass="90"/>
+            <Fragment length="2322" mass="48"/>
+            <Fragment length="2027" mass="42"/>
+            <Fragment length="1353" mass="151"/>
+            <Fragment length="1078" mass="120"/>
+            <Fragment length="872" mass="97"/>
+            <Fragment length="603" mass="67"/>
+            <Fragment length="564" mass="12"/>
+            <Fragment length="310" mass="34"/>
+            <Fragment length="281" mass="32"/>
+            <Fragment length="271" mass="30"/>
+            <Fragment length="234" mass="26"/>
+            <Fragment length="194" mass="22"/>
+            <Fragment length="125" mass="3"/>
+            <Fragment length="118" mass="13"/>
+            <Fragment length="72" mass="8"/>
+        </Ladder>
+        <Ladder name="λ DNA – PstI Digest" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/lambda-dna-markers/sm036-lambda-dna-psti">
+            <Fragment length="11501" mass="237"/>
+            <Fragment length="5077" mass="105"/>
+            <Fragment length="4749" mass="98"/>
+            <Fragment length="4507" mass="93"/>
+            <Fragment length="2838" mass="59"/>
+            <Fragment length="2556" mass="53"/>
+            <Fragment length="2459" mass="51"/>
+            <Fragment length="2443" mass="50"/>
+            <Fragment length="2140" mass="44"/>
+            <Fragment length="1986" mass="41"/>
+            <Fragment length="1700" mass="35"/>
+            <Fragment length="1159" mass="24"/>
+            <Fragment length="1093" mass="23"/>
+            <Fragment length="805" mass="17"/>
+            <Fragment length="514" mass="11"/>
+            <Fragment length="468" mass="10"/>
+            <Fragment length="448" mass="9"/>
+            <Fragment length="339" mass="7"/>
+            <Fragment length="264" mass="5"/>
+            <Fragment length="247" mass="5"/>
+        </Ladder>
+        <Ladder name="λ DNA – StyI (EcoT14I) Digest" preferredUnits="bp" concentration="1000" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="19329" mass="399"/>
+            <Fragment length="7743" mass="160"/>
+            <Fragment length="6223" mass="128"/>
+            <Fragment length="4254" mass="88"/>
+            <Fragment length="3472" mass="72"/>
+            <Fragment length="2690" mass="55"/>
+            <Fragment length="1882" mass="39"/>
+            <Fragment length="1489" mass="31"/>
+            <Fragment length="925" mass="19"/>
+            <Fragment length="421" mass="8"/>
+        </Ladder>
+        <Ladder name="pBR322 – AluI Digest" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/phage-dna-markers/sm012-pbr322-dna-alui">
+            <Fragment length="908" mass="104"/>
+            <Fragment length="659" mass="76"/>
+            <Fragment length="656" mass="75"/>
+            <Fragment length="521" mass="60"/>
+            <Fragment length="403" mass="46"/>
+            <Fragment length="281" mass="32"/>
+            <Fragment length="257" mass="30"/>
+            <Fragment length="226" mass="26"/>
+            <Fragment length="100" mass="12"/>
+            <Fragment length="90" mass="10"/>
+        </Ladder>
+        <Ladder name="pBR322 – BstNI Digest" preferredUnits="bp" concentration="500" url="http://www.neb.com/nebecomm/products/productN3031.asp">
+            <Fragment length="1857" mass="213"/>
+            <Fragment length="1058" mass="121"/>
+            <Fragment length="929" mass="106"/>
+            <Fragment length="383" mass="43"/>
+            <Fragment length="121" mass="14"/>
+            <Fragment length="13" mass="2"/>
+        </Ladder>
+        <Ladder name="pBR322 – HaeIII Digest" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/phage-dna-markers/sm027-pbr322-dna-bsuri">
+            <Fragment length="587" mass="67"/>
+            <Fragment length="540" mass="62"/>
+            <Fragment length="502" mass="58"/>
+            <Fragment length="458" mass="53"/>
+            <Fragment length="434" mass="50"/>
+            <Fragment length="267" mass="31"/>
+            <Fragment length="234" mass="27"/>
+            <Fragment length="213" mass="24"/>
+            <Fragment length="192" mass="22"/>
+            <Fragment length="184" mass="21"/>
+            <Fragment length="124" mass="14"/>
+            <Fragment length="123" mass="14"/>
+            <Fragment length="104" mass="12"/>
+            <Fragment length="89" mass="10"/>
+            <Fragment length="80" mass="9"/>
+        </Ladder>
+        <Ladder name="pBR322 – MspI (HpaII) Digest" preferredUnits="bp" concentration="1000" url="http://www.neb.com/nebecomm/products/productN3032.asp">
+            <Fragment length="622" mass="142"/>
+            <Fragment length="527" mass="121"/>
+            <Fragment length="404" mass="92"/>
+            <Fragment length="307" mass="70"/>
+            <Fragment length="242" mass="55"/>
+            <Fragment length="238" mass="55"/>
+            <Fragment length="217" mass="50"/>
+            <Fragment length="201" mass="46"/>
+            <Fragment length="190" mass="44"/>
+            <Fragment length="180" mass="41"/>
+            <Fragment length="160" mass="74"/>
+            <Fragment length="147" mass="67"/>
+            <Fragment length="123" mass="28"/>
+            <Fragment length="110" mass="25"/>
+            <Fragment length="90" mass="20"/>
+            <Fragment length="76" mass="17"/>
+            <Fragment length="67" mass="15"/>
+            <Fragment length="34" mass="16"/>
+            <Fragment length="26" mass="12"/>
+            <Fragment length="15" mass="3"/>
+            <Fragment length="9" mass="4"/>
+        </Ladder>
+        <Ladder name="pUC19 – MspI (HpaII) Digest" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/phage-dna-markers/sm022-puc19-dna-mspi">
+            <Fragment length="501" mass="93"/>
+            <Fragment length="489" mass="91"/>
+            <Fragment length="404" mass="75"/>
+            <Fragment length="331" mass="62"/>
+            <Fragment length="242" mass="45"/>
+            <Fragment length="190" mass="35"/>
+            <Fragment length="147" mass="27"/>
+            <Fragment length="111" mass="21"/>
+            <Fragment length="110" mass="21"/>
+            <Fragment length="67" mass="13"/>
+            <Fragment length="34" mass="13"/>
+        </Ladder>
+        <Ladder name="pUC19 – Sau3A I Digest" preferredUnits="bp" concentration="500" url="http://products.invitrogen.com/ivgn/product/AM7760">
+            <Fragment length="955" mass="178"/>
+            <Fragment length="585" mass="109"/>
+            <Fragment length="341" mass="63"/>
+            <Fragment length="258" mass="48"/>
+            <Fragment length="141" mass="26"/>
+            <Fragment length="105" mass="20"/>
+            <Fragment length="78" mass="15"/>
+            <Fragment length="75" mass="14"/>
+            <Fragment length="46" mass="9"/>
+            <Fragment length="36" mass="7"/>
+            <Fragment length="18" mass="4"/>
+            <Fragment length="17" mass="3"/>
+            <Fragment length="12" mass="2"/>
+            <Fragment length="11" mass="2"/>
+            <Fragment length="8" mass="1"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Axygen">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="996" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_13762314__-1_0">
+            <Fragment length="3000" mass="108"/>
+            <Fragment length="2000" mass="147"/>
+            <Fragment length="1500" mass="116"/>
+            <Fragment length="1000" mass="77"/>
+            <Fragment length="800" mass="62"/>
+            <Fragment length="700" mass="54"/>
+            <Fragment length="600" mass="46"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="56"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="60"/>
+        </Ladder>
+        <Ladder name="1 Kb DNA Ladder" preferredUnits="bp" concentration="6643" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_13762314__-1_0">
+            <Fragment length="10000" mass="80"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="80"/>
+            <Fragment length="5000" mass="80"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="3000" mass="120"/>
+            <Fragment length="2500" mass="123"/>
+            <Fragment length="2000" mass="81"/>
+            <Fragment length="1500" mass="73"/>
+            <Fragment length="1000" mass="41"/>
+            <Fragment length="700" mass="57"/>
+            <Fragment length="500" mass="61"/>
+            <Fragment length="300" mass="44"/>
+        </Ladder>
+        <Ladder name="Broad Range Marker" preferredUnits="bp" concentration="1000" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_13762314__-1_0">
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="4000" mass="65"/>
+            <Fragment length="3000" mass="90"/>
+            <Fragment length="2000" mass="165" format="bold"/>
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1000" mass="210" format="bold"/>
+            <Fragment length="750" mass="50"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="250" mass="75"/>
+        </Ladder>
+        <Ladder name="High Range Marker" preferredUnits="kb" concentration="1000" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_13762314__-1_0">
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="8000" mass="100"/>
+            <Fragment length="6000" mass="100"/>
+            <Fragment length="5000" mass="100"/>
+            <Fragment length="4000" mass="100"/>
+            <Fragment length="3000" mass="230" format="bold"/>
+            <Fragment length="2000" mass="70"/>
+            <Fragment length="1000" mass="200" format="bold"/>
+        </Ladder>
+        <Ladder name="Low Range Marker" preferredUnits="bp" concentration="1000" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_13762314__-1_0">
+            <Fragment length="3000" mass="120"/>
+            <Fragment length="2000" mass="220" format="bold"/>
+            <Fragment length="1500" mass="65"/>
+            <Fragment length="1000" mass="235" format="bold"/>
+            <Fragment length="750" mass="70"/>
+            <Fragment length="500" mass="80"/>
+            <Fragment length="250" mass="105"/>
+            <Fragment length="125" mass="105"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Bioline">
+        <Ladder name="HyperLadder™ 25 bp" preferredUnits="bp" concentration="960" url="http://www.bioline.com/us/hyperladder-25bp.html">
+            <Fragment length="500" mass="60"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="250" mass="60"/>
+            <Fragment length="200" mass="120" format="bold"/>
+            <Fragment length="175" mass="80"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="125" mass="80"/>
+            <Fragment length="100" mass="120" format="bold"/>
+            <Fragment length="75" mass="80"/>
+            <Fragment length="50" mass="80"/>
+            <Fragment length="25" mass="80"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 50 bp" preferredUnits="bp" concentration="600" url="http://www.bioline.com/us/hyperladder-50bp.html">
+            <Fragment length="2000" mass="50" format="bold"/>
+            <Fragment length="1800" mass="20"/>
+            <Fragment length="1600" mass="20"/>
+            <Fragment length="1400" mass="20"/>
+            <Fragment length="1200" mass="20"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="800" mass="30"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="30"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="300" mass="100" format="bold"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 100 bp" preferredUnits="bp" concentration="610" url="http://www.bioline.com/us/hyperladder-100bp.html">
+            <Fragment length="1013" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="311" mass="30"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 100 bp Plus" preferredUnits="bp" concentration="455" url="http://www.bioline.com/us/hyperladder-100bp-plus.html">
+            <Fragment length="2531" mass="50"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="30"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="35"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="517" mass="25"/>
+            <Fragment length="500" mass="25"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="30"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 500 bp" preferredUnits="bp" concentration="620" url="http://www.bioline.com/h_prod_detail.asp?itemid=151">
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4500" mass="50"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3500" mass="100" format="bold"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="30"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="500" mass="50"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 1 kb" preferredUnits="bp" concentration="735" url="http://www.bioline.com/us/hyperladder-1kb.html">
+            <Fragment length="10037" mass="100"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1517" mass="15"/>
+            <Fragment length="1500" mass="15"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+        </Ladder>
+        <Ladder name="HyperLadder™ 1 kb Plus" preferredUnits="bp" concentration="810" url="http://www.bioline.com/us/hyperladder-1kb-plus.html">
+            <Fragment length="12007" mass="100"/>
+            <Fragment length="10000" mass="80"/>
+            <Fragment length="8000" mass="60"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="30"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="517" mass="25"/>
+            <Fragment length="500" mass="25"/>
+            <Fragment length="250" mass="50"/>
+        </Ladder>
+        <Ladder name="EasyLadder I" preferredUnits="bp" concentration="250" url="http://www.bioline.com/h_prod_detail.asp?itemid=180">
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="250" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="EasyLadder II" preferredUnits="bp" concentration="250" url="http://www.bioline.com/h_prod_detail.asp?itemid=179">
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="500" mass="50"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Bioneer">
+        <Ladder name="10 bp DNA Ladder" preferredUnits="bp" concentration="844" url="http://us.bioneer.com/products/laddersandmarkers/10bpDNALadder-technical.aspx">
+            <Fragment length="100" mass="100"/>
+            <Fragment length="90" mass="60"/>
+            <Fragment length="80" mass="60"/>
+            <Fragment length="70" mass="60"/>
+            <Fragment length="60" mass="60"/>
+            <Fragment length="50" mass="50"/>
+            <Fragment length="40" mass="220" format="bold"/>
+            <Fragment length="30" mass="74"/>
+            <Fragment length="20" mass="80"/>
+            <Fragment length="10" mass="80"/>
+        </Ladder>
+        <Ladder name="25/100 bp Mixed DNA Ladder" preferredUnits="bp" concentration="1200" url="http://us.bioneer.com/products/laddersandmarkers/25100bpMixedDNALadderoverview.aspx">
+            <Fragment length="2000" mass="80" format="bold"/>
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="900" mass="36"/>
+            <Fragment length="800" mass="32"/>
+            <Fragment length="700" mass="28"/>
+            <Fragment length="600" mass="24"/>
+            <Fragment length="500" mass="80" format="bold"/>
+            <Fragment length="400" mass="24"/>
+            <Fragment length="300" mass="24"/>
+            <Fragment length="200" mass="24"/>
+            <Fragment length="175" mass="44"/>
+            <Fragment length="150" mass="224" format="bold"/>
+            <Fragment length="125" mass="44"/>
+            <Fragment length="100" mass="47"/>
+            <Fragment length="75" mass="77"/>
+            <Fragment length="50" mass="160"/>
+            <Fragment length="25" mass="172"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="1080" url="http://us.bioneer.com/products/laddersandmarkers/100bpDNALaddertechnical.aspx">
+            <Fragment length="2000" mass="226" format="bold"/>
+            <Fragment length="1600" mass="54"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1000" mass="160" format="bold"/>
+            <Fragment length="900" mass="72"/>
+            <Fragment length="800" mass="64"/>
+            <Fragment length="700" mass="56"/>
+            <Fragment length="600" mass="48"/>
+            <Fragment length="500" mass="160" format="bold"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="300" mass="48"/>
+            <Fragment length="200" mass="48"/>
+            <Fragment length="100" mass="56"/>
+        </Ladder>
+        <Ladder name="100 bp Plus DNA Ladder" preferredUnits="bp" concentration="1292" url="http://us.bioneer.com/products/laddersandmarkers/100bpPlusDNALadderoverview.aspx">
+            <Fragment length="10200" mass="29"/>
+            <Fragment length="8000" mass="29"/>
+            <Fragment length="5991" mass="34"/>
+            <Fragment length="5007" mass="34"/>
+            <Fragment length="4000" mass="38"/>
+            <Fragment length="2961" mass="48"/>
+            <Fragment length="2000" mass="226" format="bold"/>
+            <Fragment length="1600" mass="54"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1000" mass="160" format="bold"/>
+            <Fragment length="900" mass="72"/>
+            <Fragment length="800" mass="64"/>
+            <Fragment length="700" mass="56"/>
+            <Fragment length="600" mass="48"/>
+            <Fragment length="500" mass="160" format="bold"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="300" mass="48"/>
+            <Fragment length="200" mass="48"/>
+            <Fragment length="100" mass="56"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="bp" concentration="1040" url="http://us.bioneer.com/products/laddersandmarkers/1kbDNALadderoverview.aspx">
+            <Fragment length="10200" mass="48"/>
+            <Fragment length="8029" mass="47"/>
+            <Fragment length="5991" mass="56"/>
+            <Fragment length="5007" mass="56"/>
+            <Fragment length="4025" mass="64"/>
+            <Fragment length="2961" mass="200" format="bold"/>
+            <Fragment length="2000" mass="124"/>
+            <Fragment length="1600" mass="125"/>
+            <Fragment length="1000" mass="160"/>
+            <Fragment length="500" mass="160"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Bionexus">
+        <Ladder name="Lo DNA Marker" preferredUnits="bp" concentration="685" url="http://www.bionexus.net/product/BN2051.html">
+            <Fragment length="2000" mass="150"/>
+            <Fragment length="1550" mass="100"/>
+            <Fragment length="1400" mass="100"/>
+            <Fragment length="1000" mass="120"/>
+            <Fragment length="750" mass="30"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="400" mass="20"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="20"/>
+            <Fragment length="50" mass="15"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="Hi-Lo DNA Marker" preferredUnits="bp" concentration="935" url="http://www.bionexus.net/Merchant2/merchant.mvc?Screen=PROD&amp;amp;Store_Code=Bionexus%2C+Inc.&amp;amp;Product_Code=BN2050&amp;amp;Category_Code=">
+            <Fragment length="10000" mass="30"/>
+            <Fragment length="8000" mass="30"/>
+            <Fragment length="6000" mass="45"/>
+            <Fragment length="4000" mass="60"/>
+            <Fragment length="3000" mass="85"/>
+            <Fragment length="2000" mass="150" format="bold"/>
+            <Fragment length="1550" mass="100"/>
+            <Fragment length="1400" mass="100"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="750" mass="30"/>
+            <Fragment length="500" mass="60" format="bold"/>
+            <Fragment length="400" mass="20"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="20"/>
+            <Fragment length="50" mass="15"/>
+        </Ladder>
+        <Ladder name="DNA Mass Marker" preferredUnits="bp" concentration="445" url="http://www.bionexus.net/product/BN2055.html">
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="2000" mass="200"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Biozym">
+        <Ladder name="Quantitas DNA Marker: 25 – 500 bp" preferredUnits="bp" concentration="960" url="http://www.biozym.com/DesktopModules/WebShop/shopdisplayproducts.aspx?productid=8023&amp;id=401">
+            <Fragment length="500" mass="60"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="250" mass="60"/>
+            <Fragment length="200" mass="120" format="bold"/>
+            <Fragment length="175" mass="80"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="125" mass="80"/>
+            <Fragment length="100" mass="120" format="bold"/>
+            <Fragment length="75" mass="80"/>
+            <Fragment length="50" mass="80"/>
+            <Fragment length="25" mass="80"/>
+        </Ladder>
+        <Ladder name="Quantitas DNA Marker: 50 bp – 2 kb" preferredUnits="bp" concentration="600" url="http://www.biozym.com/DesktopModules/WebShop/shopdisplayproducts.aspx?productid=8017&amp;id=401">
+            <Fragment length="2000" mass="50" format="bold"/>
+            <Fragment length="1800" mass="20"/>
+            <Fragment length="1600" mass="20"/>
+            <Fragment length="1400" mass="20"/>
+            <Fragment length="1200" mass="20"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="800" mass="30"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="30"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="300" mass="100" format="bold"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="Quantitas DNA Marker: 100 bp – 1 kb" preferredUnits="bp" concentration="580" url="http://www.biozym.com/DesktopModules/WebShop/shopdisplayproducts.aspx?productid=8021&amp;id=401">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="Quantitas DNA Marker: 200 bp – 10 kb" preferredUnits="bp" concentration="700" url="http://www.biozym.com/DesktopModules/WebShop/shopdisplayproducts.aspx?productid=8013&amp;id=401">
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1500" mass="15"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+        </Ladder>
+        <Ladder name="Quantitas Fast DNA Marker: 100 bp – 2 kb" preferredUnits="bp" concentration="250" url="http://www.biozym.com/DesktopModules/WebShop/shopdisplayproducts.aspx?productid=8027&amp;id=401">
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="250" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Canvax Biotech">
+        <Ladder name="50-1000 bp DNA Ladder" preferredUnits="bp" concentration="966" url="http://www.psparkcloning.com/web/product/buscarproductocategorias/idcategoria/20#">
+            <Fragment length="1000" mass="120"/>
+            <Fragment length="900" mass="108"/>
+            <Fragment length="800" mass="96"/>
+            <Fragment length="700" mass="84"/>
+            <Fragment length="600" mass="72"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="450" mass="54"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="350" mass="42"/>
+            <Fragment length="300" mass="36"/>
+            <Fragment length="250" mass="72" format="bold"/>
+            <Fragment length="200" mass="36"/>
+            <Fragment length="150" mass="30"/>
+            <Fragment length="100" mass="24"/>
+            <Fragment length="50" mass="24"/>
+        </Ladder>
+        <Ladder name="100-1000 bp DNA Ladder" preferredUnits="bp" concentration="744" url="http://www.psparkcloning.com/web/product/buscarproductocategorias/idcategoria/20#">
+            <Fragment length="1000" mass="120"/>
+            <Fragment length="900" mass="108"/>
+            <Fragment length="800" mass="96"/>
+            <Fragment length="700" mass="84"/>
+            <Fragment length="600" mass="72"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="300" mass="36"/>
+            <Fragment length="200" mass="36"/>
+            <Fragment length="100" mass="24"/>
+        </Ladder>
+        <Ladder name="100-1500 bp DNA Ladder" preferredUnits="bp" concentration="864" url="http://www.psparkcloning.com/web/product/buscarproductocategorias/idcategoria/20#">
+            <Fragment length="1500" mass="120"/>
+            <Fragment length="1000" mass="120"/>
+            <Fragment length="900" mass="108"/>
+            <Fragment length="800" mass="96"/>
+            <Fragment length="700" mass="84"/>
+            <Fragment length="600" mass="72"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="300" mass="36"/>
+            <Fragment length="200" mass="36"/>
+            <Fragment length="100" mass="24"/>
+        </Ladder>
+        <Ladder name="100-2000 bp DNA Ladder" preferredUnits="bp" concentration="1010" url="http://www.psparkcloning.com/web/product/buscarproductocategorias/idcategoria/20#">
+            <Fragment length="2000" mass="112"/>
+            <Fragment length="1500" mass="84"/>
+            <Fragment length="1250" mass="70"/>
+            <Fragment length="1000" mass="120"/>
+            <Fragment length="900" mass="108"/>
+            <Fragment length="800" mass="96"/>
+            <Fragment length="700" mass="84"/>
+            <Fragment length="600" mass="72"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="48"/>
+            <Fragment length="300" mass="36"/>
+            <Fragment length="200" mass="36"/>
+            <Fragment length="100" mass="24"/>
+        </Ladder>
+        <Ladder name="300-10 kb DNA Ladder" preferredUnits="bp" concentration="975" url="http://www.psparkcloning.com/web/product/buscarproductocategorias/idcategoria/20#">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2500" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="700" mass="75"/>
+            <Fragment length="500" mass="75"/>
+            <Fragment length="300" mass="75"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Eurogentec">
+        <Ladder name="SmartLadder" preferredUnits="bp" concentration="720" url="https://secure.eurogentec.com/product/research-smartladder.html">
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1500" mass="15"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+        </Ladder>
+        <Ladder name="SmartLadder SF" preferredUnits="bp" concentration="560" url="https://secure.eurogentec.com/product/research-smartladder-sf.html">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Evrogen">
+        <Ladder name="DNA Ladder 1 kb" preferredUnits="bp" concentration="300" url="https://evrogen.ru/products/evaluation/ladders">
+            <Fragment length="10000" mass="20"/>
+            <Fragment length="8000" mass="20"/>
+            <Fragment length="6000" mass="20"/>
+            <Fragment length="5000" mass="20"/>
+            <Fragment length="4000" mass="20"/>
+            <Fragment length="3000" mass="40" format="bold"/>
+            <Fragment length="2500" mass="20"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1500" mass="20"/>
+            <Fragment length="1000" mass="40" format="bold"/>
+            <Fragment length="750" mass="20"/>
+            <Fragment length="500" mass="20"/>
+            <Fragment length="250" mass="20"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 100 bp" preferredUnits="bp" concentration="100" url="https://evrogen.ru/products/evaluation/ladders">
+            <Fragment length="1000" mass="7"/>
+            <Fragment length="900" mass="5"/>
+            <Fragment length="800" mass="5"/>
+            <Fragment length="700" mass="20" format="bold"/>
+            <Fragment length="600" mass="5"/>
+            <Fragment length="500" mass="15"/>
+            <Fragment length="400" mass="10"/>
+            <Fragment length="300" mass="15"/>
+            <Fragment length="200" mass="9"/>
+            <Fragment length="100" mass="9"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 50+ bp" preferredUnits="bp" concentration="200" url="https://evrogen.ru/products/evaluation/ladders">
+            <Fragment length="700" mass="34" format="bold"/>
+            <Fragment length="500" mass="24"/>
+            <Fragment length="450" mass="8"/>
+            <Fragment length="400" mass="17"/>
+            <Fragment length="350" mass="14"/>
+            <Fragment length="300" mass="27" format="bold"/>
+            <Fragment length="250" mass="10"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="150" mass="14"/>
+            <Fragment length="100" mass="20"/>
+            <Fragment length="50" mass="12"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="EURx">
+        <Ladder name="Perfect™ 100 bp DNA Ladder" preferredUnits="bp" concentration="620" url="http://www.eurx.com.pl/product/136/zoom/perfect-100-bp-dna-ladder.html">
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1500" mass="15"/>
+            <Fragment length="1000" mass="70" format="bold"/>
+            <Fragment length="900" mass="30"/>
+            <Fragment length="800" mass="30"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="250" format="bold"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="30"/>
+        </Ladder>
+        <Ladder name="Perfect™ 100-1000 bp DNA Ladder" preferredUnits="bp" concentration="480" url="http://www.eurx.com.pl/product/176/zoom/perfect-100-1000-bp-dna-ladder.html">
+            <Fragment length="1000" mass="40"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="Perfect™ 1 kb DNA Ladder" preferredUnits="kb" concentration="520" url="http://www.eurx.com.pl/product/135/zoom/perfect-1-kb-dna-ladder.html">
+            <Fragment length="10000" mass="40"/>
+            <Fragment length="8000" mass="40"/>
+            <Fragment length="6000" mass="40"/>
+            <Fragment length="5000" mass="40"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2500" mass="40"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="500" mass="40"/>
+        </Ladder>
+        <Ladder name="Perfect Plus™ 50-500 bp DNA Ladder" preferredUnits="bp" concentration="280" url="http://www.eurx.com.pl/product/190/zoom/perfect-plus-50-500-bp-dna-ladder.html">
+            <Fragment length="500" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="250" mass="120" format="bold"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="Perfect Plus™ 1 kb DNA Ladder" preferredUnits="kb" concentration="500" url="http://www.eurx.com.pl/product/137/zoom/perfect-plus-1-kb-dna-ladder.html">
+            <Fragment length="10000" mass="60"/>
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="6000" mass="25"/>
+            <Fragment length="5000" mass="15"/>
+            <Fragment length="4000" mass="25"/>
+            <Fragment length="3000" mass="60" format="bold"/>
+            <Fragment length="2500" mass="30"/>
+            <Fragment length="2000" mass="35"/>
+            <Fragment length="1500" mass="20"/>
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="750" mass="45"/>
+            <Fragment length="500" mass="25"/>
+            <Fragment length="250" mass="30"/>
+        </Ladder>
+        <Ladder name="Perfect Plus™ 2 kb DNA Ladder" preferredUnits="bp" concentration="400" url="http://www.eurx.com.pl/product/199/zoom/perfect-plus-2-kb-dna-ladder.html">
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1000" mass="40"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="Perfect Plus™ Quantitative DNA Ladder" preferredUnits="bp" concentration="400" url="http://www.eurx.com.pl/product/200/zoom/perfect-plus-molecular-weight-quantitative-ladder.html">
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="750" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="250" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Fisher Scientific">
+        <Ladder name="50 bp Mini Ladder" preferredUnits="bp" concentration="752" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="650" mass="93"/>
+            <Fragment length="600" mass="66"/>
+            <Fragment length="550" mass="54"/>
+            <Fragment length="500" mass="44"/>
+            <Fragment length="450" mass="54"/>
+            <Fragment length="400" mass="129" format="bold"/>
+            <Fragment length="350" mass="42"/>
+            <Fragment length="300" mass="39"/>
+            <Fragment length="250" mass="23"/>
+            <Fragment length="200" mass="83" format="bold"/>
+            <Fragment length="150" mass="48"/>
+            <Fragment length="100" mass="30"/>
+            <Fragment length="50" mass="24"/>
+            <Fragment length="25" mass="23"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="753" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="1000" mass="116"/>
+            <Fragment length="900" mass="101"/>
+            <Fragment length="800" mass="95"/>
+            <Fragment length="700" mass="83"/>
+            <Fragment length="600" mass="71"/>
+            <Fragment length="500" mass="105" format="bold"/>
+            <Fragment length="400" mass="51"/>
+            <Fragment length="300" mass="39"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="42"/>
+        </Ladder>
+        <Ladder name="100 bp PCR DNA Ladder" preferredUnits="bp" concentration="749" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="1000" mass="135"/>
+            <Fragment length="900" mass="99"/>
+            <Fragment length="800" mass="87"/>
+            <Fragment length="700" mass="72"/>
+            <Fragment length="600" mass="62"/>
+            <Fragment length="500" mass="104" format="bold"/>
+            <Fragment length="400" mass="42"/>
+            <Fragment length="300" mass="32"/>
+            <Fragment length="200" mass="42"/>
+            <Fragment length="100" mass="30"/>
+            <Fragment length="50" mass="21"/>
+            <Fragment length="25" mass="23"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="bp" concentration="998" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="10000" mass="116"/>
+            <Fragment length="8000" mass="106"/>
+            <Fragment length="6000" mass="92"/>
+            <Fragment length="5000" mass="134" format="bold"/>
+            <Fragment length="4000" mass="112"/>
+            <Fragment length="3000" mass="94"/>
+            <Fragment length="2500" mass="82"/>
+            <Fragment length="2000" mass="68"/>
+            <Fragment length="1500" mass="58"/>
+            <Fragment length="1000" mass="36"/>
+            <Fragment length="700" mass="26"/>
+            <Fragment length="500" mass="46"/>
+            <Fragment length="300" mass="28"/>
+        </Ladder>
+        <Ladder name="1 kb Plus DNA Ladder" preferredUnits="bp" concentration="998" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="10000" mass="86"/>
+            <Fragment length="8000" mass="62"/>
+            <Fragment length="6000" mass="56"/>
+            <Fragment length="5000" mass="82" format="bold"/>
+            <Fragment length="4000" mass="72"/>
+            <Fragment length="3000" mass="62"/>
+            <Fragment length="2500" mass="52"/>
+            <Fragment length="2000" mass="46"/>
+            <Fragment length="1500" mass="44"/>
+            <Fragment length="1000" mass="70" format="bold"/>
+            <Fragment length="900" mass="52"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="62"/>
+            <Fragment length="600" mass="36"/>
+            <Fragment length="500" mass="70" format="bold"/>
+            <Fragment length="400" mass="24"/>
+            <Fragment length="300" mass="34"/>
+            <Fragment length="200" mass="24"/>
+            <Fragment length="100" mass="14"/>
+        </Ladder>
+        <Ladder name="2 kb DNA Ladder" preferredUnits="bp" concentration="499" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="2000" mass="105"/>
+            <Fragment length="1500" mass="87"/>
+            <Fragment length="1000" mass="68"/>
+            <Fragment length="750" mass="59"/>
+            <Fragment length="500" mass="94" format="bold"/>
+            <Fragment length="300" mass="27"/>
+            <Fragment length="150" mass="34"/>
+            <Fragment length="50" mass="25"/>
+        </Ladder>
+        <Ladder name="24 kb Max DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="24000" mass="56"/>
+            <Fragment length="14000" mass="56"/>
+            <Fragment length="10000" mass="118" format="bold"/>
+            <Fragment length="8000" mass="86"/>
+            <Fragment length="6000" mass="74"/>
+            <Fragment length="5000" mass="112" format="bold"/>
+            <Fragment length="4000" mass="96"/>
+            <Fragment length="3000" mass="80"/>
+            <Fragment length="2500" mass="68"/>
+            <Fragment length="2000" mass="62"/>
+            <Fragment length="1500" mass="68"/>
+            <Fragment length="1000" mass="18"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="500" mass="38"/>
+            <Fragment length="300" mass="28"/>
+        </Ladder>
+        <Ladder name="Cloning DNA Ladder" preferredUnits="bp" concentration="756" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="2686" mass="108"/>
+            <Fragment length="2000" mass="83"/>
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1200" mass="68"/>
+            <Fragment length="1000" mass="87" format="bold"/>
+            <Fragment length="900" mass="44"/>
+            <Fragment length="800" mass="42"/>
+            <Fragment length="700" mass="41"/>
+            <Fragment length="600" mass="39"/>
+            <Fragment length="500" mass="75" format="bold"/>
+            <Fragment length="400" mass="27"/>
+            <Fragment length="300" mass="32"/>
+            <Fragment length="200" mass="26"/>
+            <Fragment length="100" mass="24"/>
+        </Ladder>
+        <Ladder name="Low Range Plus DNA Ladder" preferredUnits="bp" concentration="749" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="2000" mass="129"/>
+            <Fragment length="1500" mass="123"/>
+            <Fragment length="1000" mass="86"/>
+            <Fragment length="800" mass="78"/>
+            <Fragment length="700" mass="62"/>
+            <Fragment length="600" mass="54"/>
+            <Fragment length="500" mass="78" format="bold"/>
+            <Fragment length="400" mass="36"/>
+            <Fragment length="300" mass="29"/>
+            <Fragment length="200" mass="33"/>
+            <Fragment length="100" mass="41"/>
+        </Ladder>
+        <Ladder name="Mid Range DNA Ladder" preferredUnits="bp" concentration="744" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="5000" mass="138"/>
+            <Fragment length="4000" mass="120"/>
+            <Fragment length="3000" mass="98"/>
+            <Fragment length="2500" mass="81"/>
+            <Fragment length="2000" mass="71"/>
+            <Fragment length="1500" mass="66"/>
+            <Fragment length="1000" mass="33"/>
+            <Fragment length="700" mass="48"/>
+            <Fragment length="500" mass="53"/>
+            <Fragment length="300" mass="36"/>
+        </Ladder>
+        <Ladder name="Mid Range Plus DNA Ladder" preferredUnits="bp" concentration="998" url="http://www.fishersci.com/ecomm/servlet/fsproductdetail?position=content&amp;tab=Items&amp;productId=1075632&amp;fromSearch=0&amp;catlogId=29104&amp;storeId=10652&amp;langId=-1">
+            <Fragment length="5000" mass="104"/>
+            <Fragment length="4000" mass="86"/>
+            <Fragment length="3000" mass="70"/>
+            <Fragment length="2500" mass="56"/>
+            <Fragment length="2000" mass="48"/>
+            <Fragment length="1500" mass="48"/>
+            <Fragment length="1000" mass="90" format="bold"/>
+            <Fragment length="900" mass="74"/>
+            <Fragment length="800" mass="70"/>
+            <Fragment length="700" mass="82"/>
+            <Fragment length="600" mass="54"/>
+            <Fragment length="500" mass="94" format="bold"/>
+            <Fragment length="400" mass="34"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="28"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Geneaid">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.geneaid.com/products/dna-ladders/100-bp-dna-ladder">
+            <Fragment length="3000" mass="97"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="900" mass="60"/>
+            <Fragment length="800" mass="60"/>
+            <Fragment length="700" mass="45"/>
+            <Fragment length="600" mass="45"/>
+            <Fragment length="500" mass="105" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="38"/>
+            <Fragment length="200" mass="45"/>
+            <Fragment length="100" mass="45"/>
+        </Ladder>
+        <Ladder name="1 Kb DNA Ladder" preferredUnits="kb" concentration="1000" url="http://www.geneaid.com/products/dna-ladders/1-kb-dna-ladder">
+            <Fragment length="10000" mass="56"/>
+            <Fragment length="8000" mass="56"/>
+            <Fragment length="6000" mass="56"/>
+            <Fragment length="5000" mass="56"/>
+            <Fragment length="4000" mass="36"/>
+            <Fragment length="3000" mass="184" format="bold"/>
+            <Fragment length="2500" mass="68"/>
+            <Fragment length="2000" mass="68"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1000" mass="184" format="bold"/>
+            <Fragment length="750" mass="46"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="250" mass="90"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="GeneMate">
+        <Ladder name="Quanti-Marker 25 bp" preferredUnits="bp" concentration="960" url="https://bioexpress.com/store/catalog/product.jsp?catalog_number=C-5089-200">
+            <Fragment length="500" mass="60"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="250" mass="60"/>
+            <Fragment length="200" mass="120" format="bold"/>
+            <Fragment length="175" mass="80"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="125" mass="80"/>
+            <Fragment length="100" mass="120" format="bold"/>
+            <Fragment length="75" mass="80"/>
+            <Fragment length="50" mass="80"/>
+            <Fragment length="25" mass="80"/>
+        </Ladder>
+        <Ladder name="Quanti-Marker 100 bp" preferredUnits="bp" concentration="800" url="https://www.bioexpress.com/store/catalog/product.jsp?catalog_number=C-5088-200">
+            <Fragment length="2531" mass="88"/>
+            <Fragment length="2000" mass="70"/>
+            <Fragment length="1500" mass="53"/>
+            <Fragment length="1000" mass="88"/>
+            <Fragment length="800" mass="70"/>
+            <Fragment length="700" mass="61"/>
+            <Fragment length="600" mass="53"/>
+            <Fragment length="517" mass="44"/>
+            <Fragment length="500" mass="44"/>
+            <Fragment length="400" mass="70"/>
+            <Fragment length="300" mass="53"/>
+            <Fragment length="200" mass="53"/>
+            <Fragment length="100" mass="53"/>
+        </Ladder>
+        <Ladder name="Quanti-Marker 1 kb" preferredUnits="bp" concentration="1015" url="https://www.bioexpress.com/store/catalog/product.jsp?catalog_number=C-5087-200">
+            <Fragment length="12007" mass="125"/>
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="63"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="38"/>
+            <Fragment length="2500" mass="63"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="38"/>
+            <Fragment length="1000" mass="125" format="bold"/>
+            <Fragment length="700" mass="88"/>
+            <Fragment length="517" mass="31"/>
+            <Fragment length="500" mass="31"/>
+            <Fragment length="250" mass="63"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="GenScript">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.genscript.com/molecule/M102O-100_bp_DNA_Ladder_original_format.html">
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="800" mass="75"/>
+            <Fragment length="600" mass="75"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="Plus 100 bp DNA Ladder" preferredUnits="bp" concentration="675" url="http://www.genscript.com/molecule/M105R_500-Ready_to_Use_sup_TM_sup_Plus_100_bp_DNA_Ladder.html">
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="750" mass="75"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="250" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="PCR DNA Ladder" preferredUnits="bp" concentration="600" url="http://www.genscript.com/molecule/M106O-PCR_DNA_Ladder_original_format.html">
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="700" mass="75"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Invitrogen (Life Technologies)">
+        <Ladder name="10 bp DNA Ladder" preferredUnits="bp" concentration="1185" url="http://www.lifetechnologies.com/order/catalog/product/10821015">
+            <Fragment length="1668" mass="150"/>
+            <Fragment length="330" mass="30"/>
+            <Fragment length="320" mass="30" format="hidden"/>
+            <Fragment length="310" mass="30" format="hidden"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="290" mass="30" format="hidden"/>
+            <Fragment length="280" mass="30" format="hidden"/>
+            <Fragment length="270" mass="30" format="hidden"/>
+            <Fragment length="260" mass="30" format="hidden"/>
+            <Fragment length="250" mass="30"/>
+            <Fragment length="240" mass="30" format="hidden"/>
+            <Fragment length="230" mass="30" format="hidden"/>
+            <Fragment length="220" mass="30" format="hidden"/>
+            <Fragment length="210" mass="30" format="hidden"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="190" mass="30" format="hidden"/>
+            <Fragment length="180" mass="30" format="hidden"/>
+            <Fragment length="170" mass="30" format="hidden"/>
+            <Fragment length="160" mass="30" format="hidden"/>
+            <Fragment length="150" mass="30"/>
+            <Fragment length="140" mass="30" format="hidden"/>
+            <Fragment length="130" mass="30" format="hidden"/>
+            <Fragment length="120" mass="30" format="hidden"/>
+            <Fragment length="110" mass="30" format="hidden"/>
+            <Fragment length="100" mass="75" format="bold"/>
+            <Fragment length="90" mass="30"/>
+            <Fragment length="80" mass="30"/>
+            <Fragment length="70" mass="30"/>
+            <Fragment length="60" mass="30"/>
+            <Fragment length="50" mass="30"/>
+            <Fragment length="40" mass="30"/>
+            <Fragment length="30" mass="30"/>
+            <Fragment length="20" mass="30"/>
+            <Fragment length="10" mass="30"/>
+        </Ladder>
+        <Ladder name="25 bp DNA Ladder" preferredUnits="bp" concentration="835" url="http://products.invitrogen.com/ivgn/product/10597011">
+            <Fragment length="2652" mass="150"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="450" mass="35"/>
+            <Fragment length="425" mass="35"/>
+            <Fragment length="400" mass="35"/>
+            <Fragment length="375" mass="35"/>
+            <Fragment length="350" mass="35"/>
+            <Fragment length="325" mass="35"/>
+            <Fragment length="300" mass="35"/>
+            <Fragment length="275" mass="35"/>
+            <Fragment length="250" mass="35"/>
+            <Fragment length="225" mass="35"/>
+            <Fragment length="200" mass="35"/>
+            <Fragment length="175" mass="35"/>
+            <Fragment length="150" mass="35"/>
+            <Fragment length="125" mass="90" format="bold"/>
+            <Fragment length="100" mass="35"/>
+            <Fragment length="75" mass="35"/>
+            <Fragment length="50" mass="35"/>
+            <Fragment length="25" mass="35"/>
+        </Ladder>
+        <Ladder name="50 bp DNA Ladder" preferredUnits="bp" concentration="880" url="http://products.invitrogen.com/ivgn/product/10416014">
+            <Fragment length="2652" mass="150"/>
+            <Fragment length="800" mass="70"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="550" mass="40"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="450" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="350" mass="100" format="bold"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="250" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://products.invitrogen.com/ivgn/product/15628019">
+            <Fragment length="2072" mass="150"/>
+            <Fragment length="1500" mass="70"/>
+            <Fragment length="1400" mass="40"/>
+            <Fragment length="1300" mass="40"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1100" mass="40"/>
+            <Fragment length="1000" mass="40"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="600" mass="100" format="bold"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="250 bp DNA Ladder" preferredUnits="bp" concentration="620" url="http://products.invitrogen.com/ivgn/product/10596013">
+            <Fragment length="3500" mass="40"/>
+            <Fragment length="3250" mass="40"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2750" mass="40"/>
+            <Fragment length="2500" mass="40"/>
+            <Fragment length="2250" mass="40"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1750" mass="40"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1250" mass="40"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="250" mass="40"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="1 Kb Plus DNA Ladder" preferredUnits="bp" concentration="1000" url="http://products.invitrogen.com/ivgn/product/10787018">
+            <Fragment length="12000" mass="40"/>
+            <Fragment length="11000" mass="40"/>
+            <Fragment length="10000" mass="40"/>
+            <Fragment length="9000" mass="40"/>
+            <Fragment length="8000" mass="40"/>
+            <Fragment length="7000" mass="40"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1650" mass="80"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="850" mass="50"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="1 Kb DNA Extension Ladder" preferredUnits="kb" concentration="775" url="http://products.invitrogen.com/ivgn/product/10511012">
+            <Fragment length="40000" mass="50"/>
+            <Fragment length="20000" mass="50"/>
+            <Fragment length="15000" mass="50"/>
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="8144" mass="50"/>
+            <Fragment length="7126" mass="50"/>
+            <Fragment length="6108" mass="50"/>
+            <Fragment length="5090" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4072" mass="50"/>
+            <Fragment length="3054" mass="50"/>
+            <Fragment length="2036" mass="50"/>
+            <Fragment length="1636" mass="75"/>
+            <Fragment length="1018" mass="50"/>
+            <Fragment length="506" mass="50"/>
+            <Fragment length="517" mass="50"/>
+        </Ladder>
+        <Ladder name="E-Gel® Low Range Quantitative DNA Ladder" preferredUnits="bp" concentration="350" url="http://www.lifetechnologies.com/order/catalog/product/12373031">
+            <Fragment length="2000" mass="200"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="10"/>
+        </Ladder>
+        <Ladder name="E-Gel® 96 High Range DNA Marker" preferredUnits="bp" concentration="750" url="http://www.lifetechnologies.com/order/catalog/product/12352019">
+            <Fragment length="10000" mass="150"/>
+            <Fragment length="4000" mass="150"/>
+            <Fragment length="2000" mass="150"/>
+            <Fragment length="800" mass="150"/>
+            <Fragment length="400" mass="150"/>
+        </Ladder>
+        <Ladder name="E-Gel® 25 bp DNA Ladder" preferredUnits="bp" concentration="835" url="http://www.lifetechnologies.com/order/catalog/product/10488095">
+            <Fragment length="2652" mass="150"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="450" mass="35"/>
+            <Fragment length="425" mass="35"/>
+            <Fragment length="400" mass="35"/>
+            <Fragment length="375" mass="35"/>
+            <Fragment length="350" mass="35"/>
+            <Fragment length="325" mass="35"/>
+            <Fragment length="300" mass="35"/>
+            <Fragment length="275" mass="35"/>
+            <Fragment length="250" mass="35"/>
+            <Fragment length="225" mass="35"/>
+            <Fragment length="200" mass="35"/>
+            <Fragment length="175" mass="35"/>
+            <Fragment length="150" mass="35"/>
+            <Fragment length="125" mass="90" format="bold"/>
+            <Fragment length="100" mass="35"/>
+            <Fragment length="75" mass="35"/>
+            <Fragment length="50" mass="35"/>
+            <Fragment length="25" mass="35"/>
+        </Ladder>
+        <Ladder name="E-Gel® 50 bp DNA Ladder" preferredUnits="bp" concentration="880" url="http://www.lifetechnologies.com/order/catalog/product/10488099">
+            <Fragment length="2652" mass="150"/>
+            <Fragment length="800" mass="70"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="550" mass="40"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="450" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="350" mass="100" format="bold"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="250" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="E-Gel® 1 Kb Plus DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.lifetechnologies.com/order/catalog/product/10488090">
+            <Fragment length="12000" mass="40"/>
+            <Fragment length="11000" mass="40"/>
+            <Fragment length="10000" mass="40"/>
+            <Fragment length="9000" mass="40"/>
+            <Fragment length="8000" mass="40"/>
+            <Fragment length="7000" mass="40"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1650" mass="80"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="850" mass="50"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="Low DNA Mass™ Ladder" preferredUnits="bp" concentration="470" url="http://products.invitrogen.com/ivgn/product/10068013">
+            <Fragment length="2000" mass="200"/>
+            <Fragment length="1200" mass="120"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="10"/>
+        </Ladder>
+        <Ladder name="High DNA Mass™ Ladder" preferredUnits="kb" concentration="520" url="http://products.invitrogen.com/ivgn/product/10496016">
+            <Fragment length="10000" mass="200"/>
+            <Fragment length="6000" mass="120"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1000" mass="20"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Jena Bioscience">
+        <Ladder name="20 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="200" mass="80"/>
+            <Fragment length="180" mass="80"/>
+            <Fragment length="160" mass="80"/>
+            <Fragment length="140" mass="80"/>
+            <Fragment length="120" mass="80"/>
+            <Fragment length="100" mass="120" format="bold"/>
+            <Fragment length="80" mass="80"/>
+            <Fragment length="60" mass="80"/>
+            <Fragment length="40" mass="80"/>
+            <Fragment length="20" mass="80"/>
+        </Ladder>
+        <Ladder name="50 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="500" mass="80"/>
+            <Fragment length="450" mass="80"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="350" mass="80"/>
+            <Fragment length="300" mass="80"/>
+            <Fragment length="250" mass="120" format="bold"/>
+            <Fragment length="200" mass="80"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="100" mass="80"/>
+            <Fragment length="50" mass="80"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="1000" mass="80"/>
+            <Fragment length="900" mass="80"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="80"/>
+            <Fragment length="600" mass="80"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="300" mass="80"/>
+            <Fragment length="200" mass="80"/>
+            <Fragment length="100" mass="80"/>
+        </Ladder>
+        <Ladder name="200 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1800" mass="80"/>
+            <Fragment length="1600" mass="80"/>
+            <Fragment length="1400" mass="80"/>
+            <Fragment length="1200" mass="80"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="80"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="200" mass="80"/>
+        </Ladder>
+        <Ladder name="500 bp DNA Ladder" preferredUnits="bp" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="5000" mass="80"/>
+            <Fragment length="4500" mass="80"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="3500" mass="80"/>
+            <Fragment length="3000" mass="80"/>
+            <Fragment length="2500" mass="120" format="bold"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1500" mass="80"/>
+            <Fragment length="1000" mass="80"/>
+            <Fragment length="500" mass="80"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="1 kb DNA Ladder" preferredUnits="kb" concentration="840" url="http://www.jenabioscience.com/cms/en/1/catalog/614_log_scale_dna_ladders.html">
+            <Fragment length="10000" mass="80"/>
+            <Fragment length="9000" mass="80"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="7000" mass="80"/>
+            <Fragment length="6000" mass="80"/>
+            <Fragment length="5000" mass="120" format="bold"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="3000" mass="80"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1000" mass="80"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="Long Range DNA Ladder" preferredUnits="bp" concentration="1050" url="http://www.jenabioscience.com/cms/en/1/catalog/613_linear_scale_dna_ladders.html">
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="75" format="bold"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1200" mass="50"/>
+            <Fragment length="1000" mass="75" format="bold"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="75" format="bold"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="Low Range DNA Ladder" preferredUnits="bp" concentration="960" url="http://www.jenabioscience.com/cms/en/1/catalog/613_linear_scale_dna_ladders.html">
+            <Fragment length="1000" mass="80"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="80"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="300" mass="80"/>
+            <Fragment length="200" mass="120" format="bold"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="100" mass="80"/>
+            <Fragment length="75" mass="80"/>
+            <Fragment length="50" mass="80"/>
+        </Ladder>
+        <Ladder name="Mid Range DNA Ladder" preferredUnits="bp" concentration="976" url="http://www.jenabioscience.com/cms/en/1/catalog/613_linear_scale_dna_ladders.html">
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="113" format="bold"/>
+            <Fragment length="800" mass="75"/>
+            <Fragment length="600" mass="75"/>
+            <Fragment length="500" mass="113" format="bold"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="150" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="High Range DNA Ladder" preferredUnits="kb" concentration="976" url="http://www.jenabioscience.com/cms/en/1/catalog/613_linear_scale_dna_ladders.html">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="113" format="bold"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="113" format="bold"/>
+            <Fragment length="800" mass="75"/>
+            <Fragment length="600" mass="75"/>
+            <Fragment length="500" mass="75"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="KAPA Biosystems">
+        <Ladder name="KAPA Express DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.kapabiosystems.com/products/name/kapa-dna-ladders">
+            <Fragment length="8000" mass="62.5"/>
+            <Fragment length="4000" mass="62.5"/>
+            <Fragment length="1600" mass="125" format="bold"/>
+            <Fragment length="800" mass="62.5"/>
+            <Fragment length="400" mass="62.5"/>
+            <Fragment length="200" mass="62.5"/>
+            <Fragment length="100" mass="62.5"/>
+        </Ladder>
+        <Ladder name="KAPA Universal DNA Ladder" preferredUnits="bp" concentration="1040" url="http://www.kapabiosystems.com/products/name/kapa-dna-ladders">
+            <Fragment length="10000" mass="40"/>
+            <Fragment length="8000" mass="40"/>
+            <Fragment length="6000" mass="40"/>
+            <Fragment length="5000" mass="40"/>
+            <Fragment length="4000" mass="120" format="bold"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1600" mass="80" format="bold"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Lonza">
+        <Ladder name="DNA Ladder 20 bp" preferredUnits="bp" concentration="1040" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="500" mass="40"/>
+            <Fragment length="480" mass="40" format="hidden"/>
+            <Fragment length="460" mass="40" format="hidden"/>
+            <Fragment length="440" mass="40" format="hidden"/>
+            <Fragment length="420" mass="40" format="hidden"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="380" mass="40" format="hidden"/>
+            <Fragment length="360" mass="40" format="hidden"/>
+            <Fragment length="340" mass="40" format="hidden"/>
+            <Fragment length="320" mass="40" format="hidden"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="280" mass="40" format="hidden"/>
+            <Fragment length="260" mass="40" format="hidden"/>
+            <Fragment length="240" mass="40" format="hidden"/>
+            <Fragment length="220" mass="40" format="hidden"/>
+            <Fragment length="200" mass="80" format="bold"/>
+            <Fragment length="180" mass="40" format="hidden"/>
+            <Fragment length="160" mass="40" format="hidden"/>
+            <Fragment length="140" mass="40" format="hidden"/>
+            <Fragment length="120" mass="40" format="hidden"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="80" mass="40"/>
+            <Fragment length="60" mass="40"/>
+            <Fragment length="40" mass="40"/>
+            <Fragment length="20" mass="40"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 20 bp Extended" preferredUnits="bp" concentration="1300" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1000" mass="25"/>
+            <Fragment length="980" mass="25" format="hidden"/>
+            <Fragment length="960" mass="25" format="hidden"/>
+            <Fragment length="940" mass="25" format="hidden"/>
+            <Fragment length="920" mass="25" format="hidden"/>
+            <Fragment length="900" mass="25"/>
+            <Fragment length="880" mass="25" format="hidden"/>
+            <Fragment length="860" mass="25" format="hidden"/>
+            <Fragment length="840" mass="25" format="hidden"/>
+            <Fragment length="820" mass="25" format="hidden"/>
+            <Fragment length="800" mass="25"/>
+            <Fragment length="780" mass="25" format="hidden"/>
+            <Fragment length="760" mass="25" format="hidden"/>
+            <Fragment length="740" mass="25" format="hidden"/>
+            <Fragment length="720" mass="25" format="hidden"/>
+            <Fragment length="700" mass="25"/>
+            <Fragment length="680" mass="25" format="hidden"/>
+            <Fragment length="660" mass="25" format="hidden"/>
+            <Fragment length="640" mass="25" format="hidden"/>
+            <Fragment length="620" mass="25" format="hidden"/>
+            <Fragment length="600" mass="25"/>
+            <Fragment length="580" mass="25" format="hidden"/>
+            <Fragment length="560" mass="25" format="hidden"/>
+            <Fragment length="540" mass="25" format="hidden"/>
+            <Fragment length="520" mass="25" format="hidden"/>
+            <Fragment length="500" mass="50" format="bold"/>
+            <Fragment length="480" mass="25" format="hidden"/>
+            <Fragment length="460" mass="25" format="hidden"/>
+            <Fragment length="440" mass="25" format="hidden"/>
+            <Fragment length="420" mass="25" format="hidden"/>
+            <Fragment length="400" mass="25"/>
+            <Fragment length="380" mass="25" format="hidden"/>
+            <Fragment length="360" mass="25" format="hidden"/>
+            <Fragment length="340" mass="25" format="hidden"/>
+            <Fragment length="320" mass="25" format="hidden"/>
+            <Fragment length="300" mass="25"/>
+            <Fragment length="280" mass="25" format="hidden"/>
+            <Fragment length="260" mass="25" format="hidden"/>
+            <Fragment length="240" mass="25" format="hidden"/>
+            <Fragment length="220" mass="25" format="hidden"/>
+            <Fragment length="200" mass="50" format="bold"/>
+            <Fragment length="180" mass="25" format="hidden"/>
+            <Fragment length="160" mass="25" format="hidden"/>
+            <Fragment length="140" mass="25" format="hidden"/>
+            <Fragment length="120" mass="25" format="hidden"/>
+            <Fragment length="100" mass="25"/>
+            <Fragment length="80" mass="25"/>
+            <Fragment length="60" mass="25"/>
+            <Fragment length="40" mass="25"/>
+            <Fragment length="20" mass="25"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 100 bp" preferredUnits="bp" concentration="500" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 100 bp Extended" preferredUnits="bp" concentration="960" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="3000" mass="60" format="bold"/>
+            <Fragment length="2900" mass="30" format="hidden"/>
+            <Fragment length="2800" mass="30" format="hidden"/>
+            <Fragment length="2700" mass="30" format="hidden"/>
+            <Fragment length="2600" mass="30" format="hidden"/>
+            <Fragment length="2500" mass="30"/>
+            <Fragment length="2400" mass="30" format="hidden"/>
+            <Fragment length="2300" mass="30" format="hidden"/>
+            <Fragment length="2200" mass="30" format="hidden"/>
+            <Fragment length="2100" mass="30" format="hidden"/>
+            <Fragment length="2000" mass="30"/>
+            <Fragment length="1900" mass="30" format="hidden"/>
+            <Fragment length="1800" mass="30" format="hidden"/>
+            <Fragment length="1700" mass="30" format="hidden"/>
+            <Fragment length="1600" mass="30" format="hidden"/>
+            <Fragment length="1500" mass="30"/>
+            <Fragment length="1400" mass="30" format="hidden"/>
+            <Fragment length="1300" mass="30" format="hidden"/>
+            <Fragment length="1200" mass="30" format="hidden"/>
+            <Fragment length="1100" mass="30" format="hidden"/>
+            <Fragment length="1000" mass="60" format="bold"/>
+            <Fragment length="900" mass="30"/>
+            <Fragment length="800" mass="30"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="30"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="30"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 500 bp" preferredUnits="bp" concentration="850" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="7500" mass="50"/>
+            <Fragment length="7000" mass="50"/>
+            <Fragment length="6500" mass="50"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5500" mass="50"/>
+            <Fragment length="5000" mass="100" format="bold"/>
+            <Fragment length="4500" mass="50"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3500" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="500" mass="50"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 1 – 10 kb" preferredUnits="kb" concentration="450" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="7000" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 50 – 1000 bp" preferredUnits="bp" concentration="450" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="525" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+            <Fragment length="50" mass="50"/>
+        </Ladder>
+        <Ladder name="DNA Ladder 50 – 2500 bp" preferredUnits="bp" concentration="700" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1250" mass="50"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="525" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+            <Fragment length="50" mass="50"/>
+        </Ladder>
+        <Ladder name="FlashGel® DNA Marker 50 bp – 1.5 kb" preferredUnits="bp" concentration="450" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="100" format="bold"/>
+            <Fragment length="150" mass="50"/>
+            <Fragment length="100" mass="50"/>
+            <Fragment length="50" mass="50"/>
+        </Ladder>
+        <Ladder name="FlashGel® DNA Marker 100 bp – 3 kb" preferredUnits="bp" concentration="300" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="FlashGel® DNA Marker 100 bp – 4 kb" preferredUnits="bp" concentration="400" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1250" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="FlashGel® QuantLadder 100 bp – 1.5 kb" preferredUnits="bp" concentration="306" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1500" mass="120"/>
+            <Fragment length="800" mass="84"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="250" mass="30"/>
+            <Fragment length="100" mass="12"/>
+        </Ladder>
+        <Ladder name="QuantLadder" preferredUnits="bp" concentration="250" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="10"/>
+        </Ladder>
+        <Ladder name="Reverse QuantLadder" preferredUnits="bp" concentration="250" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="1000" mass="10"/>
+            <Fragment length="700" mass="20"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="200" mass="70"/>
+            <Fragment length="100" mass="100"/>
+        </Ladder>
+        <Ladder name="Tandem DNA Ladder" preferredUnits="bp" concentration="1150" url="http://www.lonza.com/products-services/bio-research/electrophoresis-of-nucleic-acids-and-proteins/nucleic-acid-electrophoresis/nucleic-acid-standards-and-loading-buffers/dna-ladders-and-markers.aspx">
+            <Fragment length="12000" mass="50"/>
+            <Fragment length="11000" mass="50"/>
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="9000" mass="50"/>
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="7000" mass="50"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5000" mass="100" format="bold"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="New England Biolabs">
+        <Ladder name="50 bp DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.neb.com/nebecomm/products/productN3236.asp">
+            <Fragment length="1350" mass="103"/>
+            <Fragment length="916" mass="70"/>
+            <Fragment length="766" mass="58"/>
+            <Fragment length="700" mass="54"/>
+            <Fragment length="650" mass="50"/>
+            <Fragment length="600" mass="46"/>
+            <Fragment length="550" mass="42"/>
+            <Fragment length="500" mass="76" format="bold"/>
+            <Fragment length="450" mass="34"/>
+            <Fragment length="400" mass="31"/>
+            <Fragment length="350" mass="27"/>
+            <Fragment length="300" mass="46"/>
+            <Fragment length="250" mass="57"/>
+            <Fragment length="200" mass="107" format="bold"/>
+            <Fragment length="150" mass="46"/>
+            <Fragment length="100" mass="69"/>
+            <Fragment length="50" mass="84"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.neb.com/nebecomm/products/productN3231.asp">
+            <Fragment length="1517" mass="45"/>
+            <Fragment length="1200" mass="35"/>
+            <Fragment length="1000" mass="95" format="bold"/>
+            <Fragment length="900" mass="27"/>
+            <Fragment length="800" mass="24"/>
+            <Fragment length="700" mass="21"/>
+            <Fragment length="600" mass="18"/>
+            <Fragment length="517" mass="49" format="bold"/>
+            <Fragment length="500" mass="48" format="bold"/>
+            <Fragment length="400" mass="38"/>
+            <Fragment length="300" mass="29"/>
+            <Fragment length="200" mass="25"/>
+            <Fragment length="100" mass="48"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="1 Kb DNA Ladder" preferredUnits="kb" concentration="500" url="http://www.neb.com/nebecomm/products/productn3232.asp">
+            <Fragment length="10002" mass="42"/>
+            <Fragment length="8001" mass="42"/>
+            <Fragment length="6001" mass="50"/>
+            <Fragment length="5001" mass="42"/>
+            <Fragment length="4001" mass="33"/>
+            <Fragment length="3001" mass="125" format="bold"/>
+            <Fragment length="2000" mass="48"/>
+            <Fragment length="1500" mass="36"/>
+            <Fragment length="1000" mass="42"/>
+            <Fragment length="517" mass="42"/>
+            <Fragment length="500" mass="42"/>
+        </Ladder>
+        <Ladder name="1 Kb Extend DNA Ladder" preferredUnits="kb" concentration="50" url="http://www.neb.com/nebecomm/products/productN3239.asp">
+            <Fragment length="39937" mass="30"/>
+            <Fragment length="20066" mass="30"/>
+            <Fragment length="19871" mass="30"/>
+            <Fragment length="15000" mass="45"/>
+            <Fragment length="10002" mass="33"/>
+            <Fragment length="8001" mass="33"/>
+            <Fragment length="6001" mass="40"/>
+            <Fragment length="5001" mass="33"/>
+            <Fragment length="4001" mass="26"/>
+            <Fragment length="3001" mass="100" format="bold"/>
+            <Fragment length="2000" mass="37"/>
+            <Fragment length="1500" mass="27"/>
+            <Fragment length="1000" mass="33"/>
+            <Fragment length="517" mass="33"/>
+            <Fragment length="500" mass="33"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="2-Log DNA Ladder" preferredUnits="kb" concentration="1000" url="http://www.neb.com/nebecomm/products/productN3200.asp">
+            <Fragment length="10002" mass="40"/>
+            <Fragment length="8001" mass="40"/>
+            <Fragment length="6001" mass="48"/>
+            <Fragment length="5001" mass="40"/>
+            <Fragment length="4001" mass="32"/>
+            <Fragment length="3001" mass="120" format="bold"/>
+            <Fragment length="2017" mass="40"/>
+            <Fragment length="1517" mass="57"/>
+            <Fragment length="1200" mass="45"/>
+            <Fragment length="1000" mass="122" format="bold"/>
+            <Fragment length="900" mass="34"/>
+            <Fragment length="800" mass="31"/>
+            <Fragment length="700" mass="27"/>
+            <Fragment length="600" mass="23"/>
+            <Fragment length="517" mass="62" format="bold"/>
+            <Fragment length="500" mass="62" format="bold"/>
+            <Fragment length="400" mass="49"/>
+            <Fragment length="300" mass="37"/>
+            <Fragment length="200" mass="32"/>
+            <Fragment length="100" mass="61"/>
+        </Ladder>
+        <Ladder name="Low Molecular Weight DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.neb.com/nebecomm/products/productN3233.asp">
+            <Fragment length="766" mass="42"/>
+            <Fragment length="500" mass="27"/>
+            <Fragment length="350" mass="20"/>
+            <Fragment length="300" mass="33"/>
+            <Fragment length="250" mass="27"/>
+            <Fragment length="200" mass="110" format="bold"/>
+            <Fragment length="150" mass="33"/>
+            <Fragment length="100" mass="43"/>
+            <Fragment length="75" mass="58"/>
+            <Fragment length="50" mass="63"/>
+            <Fragment length="25" mass="43"/>
+        </Ladder>
+        <Ladder name="PCR Marker" preferredUnits="bp" concentration="300" url="http://www.neb.com/nebecomm/products/productN3234.asp">
+            <Fragment length="766" mass="62"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="300" mass="48"/>
+            <Fragment length="150" mass="61"/>
+            <Fragment length="50" mass="89"/>
+        </Ladder>
+        <Ladder name="Fast DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.neb.com/nebecomm/products/productN3238.asp">
+            <Fragment length="10000" mass="36"/>
+            <Fragment length="5000" mass="36"/>
+            <Fragment length="3000" mass="36"/>
+            <Fragment length="2000" mass="38"/>
+            <Fragment length="1500" mass="28"/>
+            <Fragment length="1000" mass="108" format="bold"/>
+            <Fragment length="766" mass="43"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="300" mass="33"/>
+            <Fragment length="150" mass="41"/>
+            <Fragment length="50" mass="61"/>
+        </Ladder>
+        <Ladder name="Mass DNA Ladder" preferredUnits="kb" concentration="750" url="http://www.neb.com/nebecomm/products/productN3237.asp">
+            <Fragment length="10000" mass="240"/>
+            <Fragment length="6000" mass="180"/>
+            <Fragment length="4000" mass="120"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="60"/>
+            <Fragment length="1000" mass="45"/>
+            <Fragment length="500" mass="30"/>
+        </Ladder>
+        <Ladder name="Reverse Mass DNA Ladder" preferredUnits="kb" concentration="750" url="http://www.neb.com/nebecomm/products/productN3240.asp">
+            <Fragment length="10000" mass="15"/>
+            <Fragment length="6000" mass="30"/>
+            <Fragment length="4000" mass="45"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="120"/>
+            <Fragment length="1000" mass="180"/>
+            <Fragment length="500" mass="300"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="NZYTech">
+        <Ladder name="NZYDNA Ladder I" preferredUnits="bp" concentration="450" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-I">
+            <Fragment length="1800" mass="90"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="90"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="200" mass="30"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder II" preferredUnits="bp" concentration="414" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-II">
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="7500" mass="75"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1400" mass="14"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder III" preferredUnits="bp" concentration="714" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-III">
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="7500" mass="75"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="25"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1400" mass="14"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="20"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder IV" preferredUnits="bp" concentration="795" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-IV">
+            <Fragment length="500" mass="30"/>
+            <Fragment length="480" mass="30" format="hidden"/>
+            <Fragment length="460" mass="30" format="hidden"/>
+            <Fragment length="440" mass="30" format="hidden"/>
+            <Fragment length="420" mass="30" format="hidden"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="380" mass="30" format="hidden"/>
+            <Fragment length="360" mass="30" format="hidden"/>
+            <Fragment length="340" mass="30" format="hidden"/>
+            <Fragment length="320" mass="30" format="hidden"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="280" mass="30" format="hidden"/>
+            <Fragment length="260" mass="30" format="hidden"/>
+            <Fragment length="240" mass="30" format="hidden"/>
+            <Fragment length="220" mass="30" format="hidden"/>
+            <Fragment length="200" mass="75" format="bold"/>
+            <Fragment length="180" mass="30" format="hidden"/>
+            <Fragment length="160" mass="30" format="hidden"/>
+            <Fragment length="140" mass="30" format="hidden"/>
+            <Fragment length="120" mass="30" format="hidden"/>
+            <Fragment length="100" mass="30"/>
+            <Fragment length="80" mass="30"/>
+            <Fragment length="60" mass="30"/>
+            <Fragment length="40" mass="30"/>
+            <Fragment length="20" mass="30"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder V" preferredUnits="bp" concentration="600" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-V">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder VI" preferredUnits="bp" concentration="542" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-VI">
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1200" mass="35"/>
+            <Fragment length="1000" mass="33"/>
+            <Fragment length="900" mass="30"/>
+            <Fragment length="800" mass="27"/>
+            <Fragment length="700" mass="23"/>
+            <Fragment length="600" mass="20"/>
+            <Fragment length="500" mass="67" format="bold"/>
+            <Fragment length="450" mass="23"/>
+            <Fragment length="400" mass="27"/>
+            <Fragment length="350" mass="18"/>
+            <Fragment length="300" mass="20"/>
+            <Fragment length="250" mass="25"/>
+            <Fragment length="200" mass="67" format="bold"/>
+            <Fragment length="150" mass="30"/>
+            <Fragment length="100" mass="27"/>
+            <Fragment length="50" mass="30"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder VII" preferredUnits="bp" concentration="850" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-VII">
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1600" mass="85"/>
+            <Fragment length="1200" mass="65"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+        <Ladder name="NZYDNA Ladder VIII" preferredUnits="bp" concentration="748" url="https://www.nzytech.com/site/DNA-Markers/NZYDNA-Ladder-VIII">
+            <Fragment length="5000" mass="100"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1400" mass="116"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="600" mass="110"/>
+            <Fragment length="400" mass="106"/>
+            <Fragment length="200" mass="36"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="PHENIX Research">
+        <Ladder name="25-500 bp DNA Ladder" preferredUnits="bp" concentration="960" url="http://www.phenixresearch.com/products/dnal-25-100-dna-ladder.asp">
+            <Fragment length="500" mass="60"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="250" mass="60"/>
+            <Fragment length="200" mass="120" format="bold"/>
+            <Fragment length="175" mass="80"/>
+            <Fragment length="150" mass="80"/>
+            <Fragment length="125" mass="80"/>
+            <Fragment length="100" mass="120" format="bold"/>
+            <Fragment length="75" mass="80"/>
+            <Fragment length="50" mass="80"/>
+            <Fragment length="25" mass="80"/>
+        </Ladder>
+        <Ladder name="100-1000 bp DNA Ladder" preferredUnits="bp" concentration="610" url="http://www.phenixresearch.com/products/dnal-1000-100-dna-ladder.asp">
+            <Fragment length="1013" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="311" mass="30"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="100-3000 bp DNA Ladder" preferredUnits="bp" concentration="996" url="http://www.phenixresearch.com/products/dnal-100bp-dna-ladder.asp">
+            <Fragment length="3000" mass="108"/>
+            <Fragment length="2000" mass="147"/>
+            <Fragment length="1500" mass="116"/>
+            <Fragment length="1000" mass="77"/>
+            <Fragment length="800" mass="62"/>
+            <Fragment length="700" mass="54"/>
+            <Fragment length="600" mass="46"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="56"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="60"/>
+        </Ladder>
+        <Ladder name="250-8000 bp DNA Ladder" preferredUnits="bp" concentration="600" url="???">
+            <Fragment length="8000" mass="45"/>
+            <Fragment length="6000" mass="45"/>
+            <Fragment length="5000" mass="45"/>
+            <Fragment length="4000" mass="39"/>
+            <Fragment length="3000" mass="54"/>
+            <Fragment length="2000" mass="99" format="bold"/>
+            <Fragment length="1500" mass="36"/>
+            <Fragment length="1000" mass="126" format="bold"/>
+            <Fragment length="750" mass="30"/>
+            <Fragment length="500" mass="36"/>
+            <Fragment length="250" mass="45"/>
+        </Ladder>
+        <Ladder name="300-10,000 bp DNA Ladder" preferredUnits="bp" concentration="800" url="http://www.phenixresearch.com/products/dnal-1kb-dna-ladder.asp">
+            <Fragment length="10000" mass="60"/>
+            <Fragment length="8000" mass="60"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="100"/>
+            <Fragment length="4000" mass="100"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2500" mass="60"/>
+            <Fragment length="2000" mass="60"/>
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1000" mass="60"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="500" mass="40"/>
+            <Fragment length="300" mass="40"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Promega">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="900" url="http://www.promega.com/products/cloning-and-dna-markers/molecular-weight-markers/dna-ladders/">
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="900" mass="75"/>
+            <Fragment length="800" mass="75"/>
+            <Fragment length="700" mass="75"/>
+            <Fragment length="600" mass="75"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.promega.com/products/cloning-and-dna-markers/molecular-weight-markers/dna-ladders/">
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="100" format="bold"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="750" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="250" mass="50"/>
+        </Ladder>
+        <Ladder name="PCR Markers" preferredUnits="bp" concentration="600" url="http://www.promega.com/products/cloning-and-dna-markers/molecular-weight-markers/dna-ladders/">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="750" mass="100"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="300" mass="100"/>
+            <Fragment length="150" mass="100"/>
+            <Fragment length="50" mass="100"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Qiagen">
+        <Ladder name="GelPilot 50 bp Ladder" preferredUnits="bp" concentration="750" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="500" mass="75"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="350" mass="75"/>
+            <Fragment length="300" mass="150" format="bold"/>
+            <Fragment length="250" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="150" mass="75"/>
+            <Fragment length="100" mass="75"/>
+            <Fragment length="50" mass="75"/>
+        </Ladder>
+        <Ladder name="GelPilot 100 bp Ladder" preferredUnits="bp" concentration="700" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="600" mass="100"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="400" mass="200" format="bold"/>
+            <Fragment length="300" mass="100"/>
+            <Fragment length="200" mass="100"/>
+            <Fragment length="100" mass="100"/>
+        </Ladder>
+        <Ladder name="GelPilot 100 bp Plus Ladder" preferredUnits="bp" concentration="900" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="900" mass="75"/>
+            <Fragment length="800" mass="75"/>
+            <Fragment length="700" mass="75"/>
+            <Fragment length="600" mass="75"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="GelPilot 1 kb Ladder" preferredUnits="kb" concentration="750" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="7000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="150" format="bold"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+        </Ladder>
+        <Ladder name="GelPilot 1 kb Plus Ladder" preferredUnits="bp" concentration="975" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1600" mass="75"/>
+            <Fragment length="1000" mass="150" format="bold"/>
+            <Fragment length="700" mass="75"/>
+            <Fragment length="500" mass="75"/>
+            <Fragment length="400" mass="75"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="GelPilot Wide Range Ladder" preferredUnits="bp" concentration="800" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="4500" mass="100"/>
+            <Fragment length="3000" mass="100"/>
+            <Fragment length="2000" mass="100"/>
+            <Fragment length="1200" mass="200" format="bold"/>
+            <Fragment length="800" mass="100"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="200" mass="100"/>
+        </Ladder>
+        <Ladder name="GelPilot Mid Range Ladder" preferredUnits="bp" concentration="700" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="2000" mass="100"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="750" mass="200" format="bold"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="250" mass="100"/>
+            <Fragment length="100" mass="100"/>
+        </Ladder>
+        <Ladder name="GelPilot High Range Ladder" preferredUnits="bp" concentration="800" url="http://www.qiagen.com/products/dnamarkers/gelpilot/gelpilotdnamolecularweightmarkers.aspx?gaw=QVen2GADNAMarkers&amp;gkw=ladder%20marker">
+            <Fragment length="15000" mass="100"/>
+            <Fragment length="10000" mass="100"/>
+            <Fragment length="7500" mass="100"/>
+            <Fragment length="5000" mass="100"/>
+            <Fragment length="2500" mass="200" format="bold"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="250" mass="100"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Roche Applied Science">
+        <Ladder name="DNA Marker XIII (50 bp ladder)" preferredUnits="bp" concentration="1000" url="https://www.roche-applied-science.com/sis/cloning/cloning_content/mcct_010502.htm">
+            <Fragment length="2642" mass="280"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="550" mass="40"/>
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="450" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="350" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="250" mass="100" format="bold"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="DNA Marker XIV (100 bp ladder)" preferredUnits="bp" concentration="1000" url="https://www.roche-applied-science.com/sis/cloning/cloning_content/mcct_010502.htm">
+            <Fragment length="2642" mass="280"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1400" mass="40"/>
+            <Fragment length="1300" mass="40"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1100" mass="40"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="DNA Marker XVI (250 bp ladder)" preferredUnits="bp" concentration="960" url="https://www.roche-applied-science.com/sis/cloning/cloning_content/mcct_010502.htm">
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2750" mass="60"/>
+            <Fragment length="2500" mass="60"/>
+            <Fragment length="2250" mass="60"/>
+            <Fragment length="2000" mass="180" format="bold"/>
+            <Fragment length="1750" mass="60"/>
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1250" mass="60"/>
+            <Fragment length="1000" mass="180" format="bold"/>
+            <Fragment length="750" mass="60"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="250" mass="60"/>
+        </Ladder>
+        <Ladder name="DNA Marker XVII (500 bp ladder)" preferredUnits="kb" concentration="840" url="https://www.roche-applied-science.com/sis/cloning/cloning_content/mcct_010502.htm">
+            <Fragment length="5000" mass="60"/>
+            <Fragment length="4500" mass="60"/>
+            <Fragment length="4000" mass="180" format="bold"/>
+            <Fragment length="3500" mass="60"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2500" mass="60"/>
+            <Fragment length="2000" mass="180" format="bold"/>
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1000" mass="60"/>
+            <Fragment length="500" mass="60"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="SERVA">
+        <Ladder name="FastLoad 50 bp DNA Ladder" preferredUnits="bp" concentration="816" url="http://www.serva.de/enDE/ProductDetails/5027_39315_SERVA_FastLoad_50_bp_DNA_ladder.html">
+            <Fragment length="1500" mass="60"/>
+            <Fragment length="1200" mass="53"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="45"/>
+            <Fragment length="800" mass="41"/>
+            <Fragment length="700" mass="35"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="450" mass="35"/>
+            <Fragment length="400" mass="41"/>
+            <Fragment length="350" mass="27"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="250" mass="38"/>
+            <Fragment length="200" mass="100" format="bold"/>
+            <Fragment length="150" mass="45"/>
+            <Fragment length="100" mass="41"/>
+            <Fragment length="50" mass="45"/>
+        </Ladder>
+        <Ladder name="FastLoad 100 bp DNA Ladder" preferredUnits="bp" concentration="810" url="http://www.serva.de/enDE/CatalogDetails/5028_0_39316_SERVA_FastLoad_100_bp_DNA_ladder.html">
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="1500" mass="105" format="bold"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="900" mass="60"/>
+            <Fragment length="800" mass="60"/>
+            <Fragment length="700" mass="45"/>
+            <Fragment length="600" mass="45"/>
+            <Fragment length="500" mass="135" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="45"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="60"/>
+        </Ladder>
+        <Ladder name="FastLoad 1 kb DNA Ladder" preferredUnits="bp" concentration="775" url="http://www.serva.de/enDE/CatalogDetails/5029_0_39317_SERVA_FastLoad_1_kb_DNA_ladder.html">
+            <Fragment length="25000" mass="24"/>
+            <Fragment length="10000" mass="42"/>
+            <Fragment length="8000" mass="42"/>
+            <Fragment length="6000" mass="42"/>
+            <Fragment length="5000" mass="42"/>
+            <Fragment length="4000" mass="27"/>
+            <Fragment length="3000" mass="138" format="bold"/>
+            <Fragment length="2500" mass="51"/>
+            <Fragment length="2000" mass="51"/>
+            <Fragment length="1500" mass="30"/>
+            <Fragment length="1000" mass="138" format="bold"/>
+            <Fragment length="750" mass="35"/>
+            <Fragment length="500" mass="45"/>
+            <Fragment length="250" mass="68"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder Equimolar" preferredUnits="bp" concentration="1000" url="http://www.serva.de/enDE/ProductDetails/868_39311_SERVA_DNA_Standard_100_Bp_ladder_equimolar_lyophilized.html">
+            <Fragment length="1000" mass="163"/>
+            <Fragment length="900" mass="146"/>
+            <Fragment length="800" mass="130"/>
+            <Fragment length="700" mass="114"/>
+            <Fragment length="600" mass="97"/>
+            <Fragment length="500" mass="163" format="bold"/>
+            <Fragment length="400" mass="65"/>
+            <Fragment length="300" mass="49"/>
+            <Fragment length="200" mass="33"/>
+            <Fragment length="150" mass="24"/>
+            <Fragment length="100" mass="16"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder Extended" preferredUnits="bp" concentration="1000" url="http://www.serva.de/enDE/CatalogDetails/869_0_39312_SERVA_DNA_Standard_100_Bp_ladder_extended_lyophilized.html">
+            <Fragment length="5000" mass="111"/>
+            <Fragment length="4000" mass="89"/>
+            <Fragment length="3000" mass="67"/>
+            <Fragment length="2500" mass="56"/>
+            <Fragment length="2000" mass="44"/>
+            <Fragment length="1500" mass="33"/>
+            <Fragment length="1000" mass="98"/>
+            <Fragment length="900" mass="88"/>
+            <Fragment length="800" mass="78"/>
+            <Fragment length="700" mass="68"/>
+            <Fragment length="600" mass="58"/>
+            <Fragment length="500" mass="98" format="bold"/>
+            <Fragment length="400" mass="39"/>
+            <Fragment length="300" mass="29"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="150" mass="14"/>
+            <Fragment length="100" mass="10"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder Equalized" preferredUnits="bp" concentration="626" url="http://www.serva.de/enDE/CatalogDetails/867_0_39313_SERVA_DNA_Standard_100_Bp_ladder_equalized_lyophilized.html">
+            <Fragment length="1000" mass="55"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="48"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="55"/>
+            <Fragment length="500" mass="145" format="bold"/>
+            <Fragment length="400" mass="45"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="55"/>
+            <Fragment length="150" mass="38"/>
+            <Fragment length="100" mass="35"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Sigma-Aldrich">
+        <Ladder name="50 bp DNA Step Ladder" preferredUnits="bp" concentration="850" url="http://www.sigmaaldrich.com/catalog/product/sigma/S7025?lang=en&amp;region=US">
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="450" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="350" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="250" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="150" mass="50"/>
+            <Fragment length="100" mass="50"/>
+            <Fragment length="50" mass="50"/>
+        </Ladder>
+        <Ladder name="123 bp DNA Ladder" preferredUnits="bp" concentration="1020" url="http://www.sigmaaldrich.com/catalog/product/sigma/d5042?lang=en&amp;region=US">
+            <Fragment length="4182" mass="30"/>
+            <Fragment length="4059" mass="30" format="hidden"/>
+            <Fragment length="3936" mass="30" format="hidden"/>
+            <Fragment length="3813" mass="30" format="hidden"/>
+            <Fragment length="3690" mass="30" format="hidden"/>
+            <Fragment length="3567" mass="30" format="hidden"/>
+            <Fragment length="3444" mass="30" format="hidden"/>
+            <Fragment length="3321" mass="30" format="hidden"/>
+            <Fragment length="3198" mass="30" format="hidden"/>
+            <Fragment length="3075" mass="30" format="hidden"/>
+            <Fragment length="2952" mass="30" format="hidden"/>
+            <Fragment length="2829" mass="30" format="hidden"/>
+            <Fragment length="2706" mass="30" format="hidden"/>
+            <Fragment length="2583" mass="30" format="hidden"/>
+            <Fragment length="2460" mass="30" format="hidden"/>
+            <Fragment length="2337" mass="30" format="hidden"/>
+            <Fragment length="2214" mass="30" format="hidden"/>
+            <Fragment length="2091" mass="30"/>
+            <Fragment length="1968" mass="30"/>
+            <Fragment length="1845" mass="30"/>
+            <Fragment length="1722" mass="30"/>
+            <Fragment length="1599" mass="30"/>
+            <Fragment length="1476" mass="30"/>
+            <Fragment length="1353" mass="30"/>
+            <Fragment length="1230" mass="30"/>
+            <Fragment length="1107" mass="30"/>
+            <Fragment length="984" mass="30"/>
+            <Fragment length="861" mass="30"/>
+            <Fragment length="738" mass="30"/>
+            <Fragment length="615" mass="30"/>
+            <Fragment length="492" mass="30"/>
+            <Fragment length="369" mass="30"/>
+            <Fragment length="246" mass="30"/>
+            <Fragment length="123" mass="30"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="bp" concentration="825" url="http://www.sigmaaldrich.com/catalog/product/sigma/D0428?lang=en&amp;region=US">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2500" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="500" mass="75"/>
+        </Ladder>
+        <Ladder name="PCR 20 bp Low Ladder" preferredUnits="bp" concentration="1500" url="http://www.sigmaaldrich.com/catalog/product/sigma/p1598?lang=en&amp;region=US">
+            <Fragment length="1000" mass="30"/>
+            <Fragment length="980" mass="30" format="hidden"/>
+            <Fragment length="960" mass="30" format="hidden"/>
+            <Fragment length="940" mass="30" format="hidden"/>
+            <Fragment length="920" mass="30" format="hidden"/>
+            <Fragment length="900" mass="30"/>
+            <Fragment length="880" mass="30" format="hidden"/>
+            <Fragment length="860" mass="30" format="hidden"/>
+            <Fragment length="840" mass="30" format="hidden"/>
+            <Fragment length="820" mass="30" format="hidden"/>
+            <Fragment length="800" mass="30"/>
+            <Fragment length="780" mass="30" format="hidden"/>
+            <Fragment length="760" mass="30" format="hidden"/>
+            <Fragment length="740" mass="30" format="hidden"/>
+            <Fragment length="720" mass="30" format="hidden"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="680" mass="30" format="hidden"/>
+            <Fragment length="660" mass="30" format="hidden"/>
+            <Fragment length="640" mass="30" format="hidden"/>
+            <Fragment length="620" mass="30" format="hidden"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="580" mass="30" format="hidden"/>
+            <Fragment length="560" mass="30" format="hidden"/>
+            <Fragment length="540" mass="30" format="hidden"/>
+            <Fragment length="520" mass="30" format="hidden"/>
+            <Fragment length="500" mass="30"/>
+            <Fragment length="480" mass="30" format="hidden"/>
+            <Fragment length="460" mass="30" format="hidden"/>
+            <Fragment length="440" mass="30" format="hidden"/>
+            <Fragment length="420" mass="30" format="hidden"/>
+            <Fragment length="400" mass="30"/>
+            <Fragment length="380" mass="30" format="hidden"/>
+            <Fragment length="360" mass="30" format="hidden"/>
+            <Fragment length="340" mass="30" format="hidden"/>
+            <Fragment length="320" mass="30" format="hidden"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="280" mass="30" format="hidden"/>
+            <Fragment length="260" mass="30" format="hidden"/>
+            <Fragment length="240" mass="30" format="hidden"/>
+            <Fragment length="220" mass="30" format="hidden"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="180" mass="30" format="hidden"/>
+            <Fragment length="160" mass="30" format="hidden"/>
+            <Fragment length="140" mass="30" format="hidden"/>
+            <Fragment length="120" mass="30" format="hidden"/>
+            <Fragment length="100" mass="30"/>
+            <Fragment length="80" mass="30" format="hidden"/>
+            <Fragment length="60" mass="30" format="hidden"/>
+            <Fragment length="40" mass="30" format="hidden"/>
+            <Fragment length="20" mass="30"/>
+        </Ladder>
+        <Ladder name="PCR 50 – 2,000 bp Marker" preferredUnits="bp" concentration="800" url="http://www.sigmaaldrich.com/catalog/product/sigma/p9577?lang=en&amp;region=US">
+            <Fragment length="2000" mass="100"/>
+            <Fragment length="1500" mass="100"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="750" mass="100"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="300" mass="100"/>
+            <Fragment length="150" mass="100"/>
+            <Fragment length="50" mass="100"/>
+        </Ladder>
+        <Ladder name="PCR 100 bp Low Ladder" preferredUnits="bp" concentration="1000" url="http://www.sigmaaldrich.com/catalog/product/sigma/P1473?lang=en&amp;region=US">
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="900" mass="100"/>
+            <Fragment length="800" mass="100"/>
+            <Fragment length="700" mass="100"/>
+            <Fragment length="600" mass="100"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="400" mass="100"/>
+            <Fragment length="300" mass="100"/>
+            <Fragment length="200" mass="100"/>
+            <Fragment length="100" mass="100"/>
+        </Ladder>
+        <Ladder name="Wide Range DNA Marker" preferredUnits="bp" concentration="800" url="http://www.sigmaaldrich.com/catalog/product/sigma/D7058?lang=en&amp;region=US">
+            <Fragment length="10000" mass="50"/>
+            <Fragment length="8000" mass="50"/>
+            <Fragment length="6000" mass="50"/>
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1400" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="750" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+            <Fragment length="50" mass="50"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Solis BioDyne">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="500" url="https://www.sbd.ee/EN/products/dna_ladders/100_bp_dna_ladder_">
+            <Fragment length="3000" mass="108"/>
+            <Fragment length="2000" mass="147"/>
+            <Fragment length="1500" mass="116"/>
+            <Fragment length="1000" mass="77"/>
+            <Fragment length="800" mass="62"/>
+            <Fragment length="700" mass="54"/>
+            <Fragment length="600" mass="46"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="56"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="60"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="bp" concentration="500" url="https://www.sbd.ee/EN/products/dna_ladders/1_kb_dna_ladder">
+            <Fragment length="10000" mass="80"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="80"/>
+            <Fragment length="5000" mass="80"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="3000" mass="120"/>
+            <Fragment length="2500" mass="123"/>
+            <Fragment length="2000" mass="81"/>
+            <Fragment length="1500" mass="73"/>
+            <Fragment length="1000" mass="41"/>
+            <Fragment length="700" mass="57"/>
+            <Fragment length="500" mass="61"/>
+            <Fragment length="300" mass="44"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="TaKaRa">
+        <Ladder name="20 bp DNA ladder" preferredUnits="bp" concentration="800" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="100" format="bold"/>
+            <Fragment length="180" mass="50"/>
+            <Fragment length="160" mass="50"/>
+            <Fragment length="140" mass="50"/>
+            <Fragment length="120" mass="50"/>
+            <Fragment length="100" mass="100" format="bold"/>
+            <Fragment length="80" mass="50"/>
+            <Fragment length="60" mass="50"/>
+            <Fragment length="40" mass="50"/>
+            <Fragment length="20" mass="50"/>
+        </Ladder>
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="650" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="100" mass="50"/>
+        </Ladder>
+        <Ladder name="200 bp DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="4000" mass="50"/>
+            <Fragment length="3000" mass="50"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="100" format="bold"/>
+            <Fragment length="1800" mass="50"/>
+            <Fragment length="1600" mass="50"/>
+            <Fragment length="1400" mass="50"/>
+            <Fragment length="1200" mass="50"/>
+            <Fragment length="1000" mass="100" format="bold"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="200" mass="50"/>
+        </Ladder>
+        <Ladder name="250 bp DNA Ladder" preferredUnits="bp" concentration="675" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="4500" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2250" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="150" format="bold"/>
+            <Fragment length="750" mass="75"/>
+            <Fragment length="500" mass="75"/>
+            <Fragment length="250" mass="75"/>
+        </Ladder>
+        <Ladder name="500 bp DNA Ladder" preferredUnits="kb" concentration="825" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="4500" mass="75"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3500" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2500" mass="75"/>
+            <Fragment length="2000" mass="150" format="bold"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+            <Fragment length="500" mass="75"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="1 kb DNA Ladder" preferredUnits="kb" concentration="825" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="9000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="7000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="150" format="bold"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+        </Ladder>
+        <Ladder name="2.5 kb DNA Ladder" preferredUnits="kb" concentration="750" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="35000" mass="50"/>
+            <Fragment length="32500" mass="50"/>
+            <Fragment length="30000" mass="50"/>
+            <Fragment length="27500" mass="50"/>
+            <Fragment length="25000" mass="50"/>
+            <Fragment length="22500" mass="50"/>
+            <Fragment length="20000" mass="50"/>
+            <Fragment length="17500" mass="50"/>
+            <Fragment length="15000" mass="50"/>
+            <Fragment length="12500" mass="50"/>
+            <Fragment length="10000" mass="100" format="bold"/>
+            <Fragment length="7500" mass="50"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="2500" mass="50"/>
+        </Ladder>
+        <Ladder name="Wide-Range DNA Ladder (50-10,000 bp)" preferredUnits="bp" concentration="935" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="10000" mass="30"/>
+            <Fragment length="8000" mass="30"/>
+            <Fragment length="6000" mass="45"/>
+            <Fragment length="4000" mass="60"/>
+            <Fragment length="3000" mass="85"/>
+            <Fragment length="2000" mass="150" format="bold"/>
+            <Fragment length="1550" mass="100"/>
+            <Fragment length="1400" mass="100"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="750" mass="30"/>
+            <Fragment length="500" mass="60" format="bold"/>
+            <Fragment length="400" mass="20"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="20"/>
+            <Fragment length="50" mass="15"/>
+        </Ladder>
+        <Ladder name="Wide-Range DNA Ladder (100-2000 bp)" preferredUnits="bp" concentration="700" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="2000" mass="100"/>
+            <Fragment length="1000" mass="100"/>
+            <Fragment length="750" mass="200" format="bold"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="250" mass="100"/>
+            <Fragment length="100" mass="100"/>
+        </Ladder>
+        <Ladder name="Wide-Range DNA Ladder (100-5000 bp)" preferredUnits="bp" concentration="750" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1500" mass="75"/>
+            <Fragment length="1000" mass="150" format="bold"/>
+            <Fragment length="750" mass="75"/>
+            <Fragment length="500" mass="75"/>
+            <Fragment length="250" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="pHY Marker" preferredUnits="bp" concentration="1000" url="http://www.clontech.com/takara/US/Products/Molecular_Biology/Molecular_Biology_Reagents/Molecular_Weight_Markers/DNA_Molecular_Weight_Standard_Markers?sitex=10031:22372:US">
+            <Fragment length="4870" mass="77"/>
+            <Fragment length="2016" mass="64"/>
+            <Fragment length="1360" mass="258"/>
+            <Fragment length="1107" mass="175"/>
+            <Fragment length="926" mass="146"/>
+            <Fragment length="658" mass="125"/>
+            <Fragment length="489" mass="92"/>
+            <Fragment length="267" mass="51"/>
+            <Fragment length="80" mass="15"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Thermo Scientific (Fermentas)">
+        <Ladder name="FastRuler™ Low Range DNA Ladder" preferredUnits="bp" concentration="400" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/fastruler-dna-ladders/sm110-fastruler-low">
+            <Fragment length="1500" mass="80"/>
+            <Fragment length="850" mass="80"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="200" mass="80"/>
+            <Fragment length="50" mass="80"/>
+        </Ladder>
+        <Ladder name="FastRuler™ Middle Range DNA Ladder" preferredUnits="bp" concentration="400" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/fastruler-dna-ladders/sm111-fastruler-middle">
+            <Fragment length="5000" mass="80"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="850" mass="80"/>
+            <Fragment length="400" mass="80"/>
+            <Fragment length="100" mass="80"/>
+        </Ladder>
+        <Ladder name="FastRuler™ High Range DNA Ladder" preferredUnits="bp" concentration="400" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/fastruler-dna-ladders/sm112-fastruler-high">
+            <Fragment length="10000" mass="80"/>
+            <Fragment length="4000" mass="80"/>
+            <Fragment length="2000" mass="80"/>
+            <Fragment length="1000" mass="80"/>
+            <Fragment length="500" mass="80"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ 50 bp DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm037-generuler-50bp">
+            <Fragment length="1000" mass="60"/>
+            <Fragment length="900" mass="60"/>
+            <Fragment length="800" mass="60"/>
+            <Fragment length="700" mass="60"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="250" mass="150" format="bold"/>
+            <Fragment length="200" mass="70"/>
+            <Fragment length="150" mass="70"/>
+            <Fragment length="100" mass="70"/>
+            <Fragment length="50" mass="70"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ 100 bp DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm024-generuler-100bp">
+            <Fragment length="1000" mass="45"/>
+            <Fragment length="900" mass="45"/>
+            <Fragment length="800" mass="45"/>
+            <Fragment length="700" mass="45"/>
+            <Fragment length="600" mass="45"/>
+            <Fragment length="500" mass="115" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ 100 bp Plus DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm032-generuler-100bp-plus">
+            <Fragment length="3000" mass="56"/>
+            <Fragment length="2000" mass="56"/>
+            <Fragment length="1500" mass="56"/>
+            <Fragment length="1200" mass="56"/>
+            <Fragment length="1000" mass="160" format="bold"/>
+            <Fragment length="900" mass="54"/>
+            <Fragment length="800" mass="54"/>
+            <Fragment length="700" mass="54"/>
+            <Fragment length="600" mass="54"/>
+            <Fragment length="500" mass="160" format="bold"/>
+            <Fragment length="400" mass="60"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="200" mass="60"/>
+            <Fragment length="100" mass="60"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="GeneRuler™ 1 kb DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm031-generuler-1kb">
+            <Fragment length="10000" mass="60"/>
+            <Fragment length="8000" mass="60"/>
+            <Fragment length="6000" mass="140" format="bold"/>
+            <Fragment length="5000" mass="60"/>
+            <Fragment length="4000" mass="60"/>
+            <Fragment length="3500" mass="60"/>
+            <Fragment length="3000" mass="140" format="bold"/>
+            <Fragment length="2500" mass="50"/>
+            <Fragment length="2000" mass="50"/>
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="750" mass="50"/>
+            <Fragment length="500" mass="50"/>
+            <Fragment length="250" mass="50"/>
+        </Ladder>
+        <Ladder defaultLadder="1" name="GeneRuler™ 1 kb Plus DNA Ladder" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm133-generuler-1kb-plus">
+            <Fragment length="20000" mass="40"/>
+            <Fragment length="10000" mass="40"/>
+            <Fragment length="7000" mass="40"/>
+            <Fragment length="5000" mass="150" format="bold"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="160" format="bold"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="50"/>
+            <Fragment length="75" mass="50"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ DNA Ladder Mix" preferredUnits="bp" concentration="1000" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm033-generuler-mix">
+            <Fragment length="10000" mass="36"/>
+            <Fragment length="8000" mass="36"/>
+            <Fragment length="6000" mass="36"/>
+            <Fragment length="5000" mass="36"/>
+            <Fragment length="4000" mass="36"/>
+            <Fragment length="3500" mass="36"/>
+            <Fragment length="3000" mass="120" format="bold"/>
+            <Fragment length="2500" mass="32"/>
+            <Fragment length="2000" mass="32"/>
+            <Fragment length="1500" mass="32"/>
+            <Fragment length="1200" mass="32"/>
+            <Fragment length="1000" mass="120" format="bold"/>
+            <Fragment length="900" mass="34"/>
+            <Fragment length="800" mass="34"/>
+            <Fragment length="700" mass="34"/>
+            <Fragment length="600" mass="34"/>
+            <Fragment length="500" mass="120" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ Express DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm155-generuler-express">
+            <Fragment length="5000" mass="60"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="60"/>
+            <Fragment length="1500" mass="150" format="bold"/>
+            <Fragment length="1000" mass="60"/>
+            <Fragment length="750" mass="60"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="100" mass="75"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ Low Range DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm119-generuler-low">
+            <Fragment length="700" mass="30"/>
+            <Fragment length="500" mass="33"/>
+            <Fragment length="400" mass="35"/>
+            <Fragment length="300" mass="90" format="bold"/>
+            <Fragment length="200" mass="35"/>
+            <Fragment length="150" mass="35"/>
+            <Fragment length="100" mass="90" format="bold"/>
+            <Fragment length="75" mass="38"/>
+            <Fragment length="50" mass="40"/>
+            <Fragment length="25" mass="75"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ Ultra Low Range DNA Ladder" preferredUnits="bp" concentration="503" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/generuler-ultra-low-range-dna-ladder-10-to-300-bp/">
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="33"/>
+            <Fragment length="150" mass="35"/>
+            <Fragment length="100" mass="38"/>
+            <Fragment length="75" mass="38"/>
+            <Fragment length="50" mass="105" format="bold"/>
+            <Fragment length="35" mass="38"/>
+            <Fragment length="25" mass="38"/>
+            <Fragment length="20" mass="40"/>
+            <Fragment length="15" mass="48"/>
+            <Fragment length="10" mass="60"/>
+        </Ladder>
+        <Ladder name="GeneRuler™ High Range DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/generuler-high-range-dna-ladder-ready-to-use-10171-to-48502-bp/">
+            <Fragment length="48502" mass="80"/>
+            <Fragment length="24508" mass="88"/>
+            <Fragment length="20555" mass="80"/>
+            <Fragment length="17000" mass="59"/>
+            <Fragment length="15258" mass="59"/>
+            <Fragment length="13825" mass="50"/>
+            <Fragment length="12119" mass="47"/>
+            <Fragment length="10171" mass="37"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Low Range DNA Ladder" preferredUnits="bp" concentration="608" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-low-range-dna-ladder-ready-to-use-80-1031-bp/">
+            <Fragment length="1031" mass="100"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="10"/>
+            <Fragment length="80" mass="8"/>
+        </Ladder>
+        <Ladder name="MassRuler™ High Range DNA Ladder" preferredUnits="kb" concentration="633" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-high-range-dna-ladder-ready-to-use-1500-10000-bp/">
+            <Fragment length="10000" mass="150"/>
+            <Fragment length="8000" mass="120"/>
+            <Fragment length="6000" mass="90"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="4000" mass="60"/>
+            <Fragment length="3000" mass="45"/>
+            <Fragment length="2500" mass="39"/>
+            <Fragment length="2000" mass="30"/>
+            <Fragment length="1500" mass="24"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express LR Forward DNA Ladder" preferredUnits="bp" concentration="560" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-lr-forward-and-reverse-dna-ladders-ready-to-use-100-1000-bp/">
+            <Fragment length="1000" mass="200" format="bold"/>
+            <Fragment length="700" mass="140"/>
+            <Fragment length="500" mass="100"/>
+            <Fragment length="300" mass="60"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="20"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express LR Reverse DNA Ladder" preferredUnits="bp" concentration="560" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-lr-forward-and-reverse-dna-ladders-ready-to-use-100-1000-bp/">
+            <Fragment length="1000" mass="20"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="500" mass="60"/>
+            <Fragment length="300" mass="100"/>
+            <Fragment length="200" mass="140"/>
+            <Fragment length="100" mass="200" format="bold"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express HR Forward DNA Ladder" preferredUnits="kb" concentration="570" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-hr-forward-reverse-dna-ladders-ready-to-use-1500-10000-bp/">
+            <Fragment length="10000" mass="200" format="bold"/>
+            <Fragment length="7000" mass="140"/>
+            <Fragment length="5000" mass="100"/>
+            <Fragment length="3000" mass="60"/>
+            <Fragment length="2000" mass="40"/>
+            <Fragment length="1500" mass="30"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express HR Reverse DNA Ladder" preferredUnits="kb" concentration="570" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-hr-forward-reverse-dna-ladders-ready-to-use-1500-10000-bp/">
+            <Fragment length="10000" mass="30"/>
+            <Fragment length="7000" mass="40"/>
+            <Fragment length="5000" mass="60"/>
+            <Fragment length="3000" mass="100"/>
+            <Fragment length="2000" mass="140"/>
+            <Fragment length="1500" mass="200" format="bold"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express Forward DNA Ladder Mix" preferredUnits="bp" concentration="500" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-forward-and-reverse-dna-ladders-mixes-ready-to-use-100-10000-bp/">
+            <Fragment length="10000" mass="150" format="bold"/>
+            <Fragment length="7000" mass="105"/>
+            <Fragment length="5000" mass="75"/>
+            <Fragment length="3000" mass="45"/>
+            <Fragment length="2000" mass="30"/>
+            <Fragment length="1500" mass="22.5"/>
+            <Fragment length="1000" mass="150" format="bold"/>
+            <Fragment length="700" mass="105"/>
+            <Fragment length="500" mass="75"/>
+            <Fragment length="300" mass="45"/>
+            <Fragment length="200" mass="30"/>
+            <Fragment length="100" mass="15"/>
+        </Ladder>
+        <Ladder name="MassRuler™ Express Reverse DNA Ladder Mix" preferredUnits="bp" concentration="500" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-express-forward-and-reverse-dna-ladders-mixes-ready-to-use-100-10000-bp/">
+            <Fragment length="10000" mass="22.5"/>
+            <Fragment length="7000" mass="30"/>
+            <Fragment length="5000" mass="45"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="105"/>
+            <Fragment length="1500" mass="150" format="bold"/>
+            <Fragment length="1000" mass="15"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="500" mass="45"/>
+            <Fragment length="300" mass="75"/>
+            <Fragment length="200" mass="105"/>
+            <Fragment length="100" mass="150" format="bold"/>
+        </Ladder>
+        <Ladder name="MassRuler™ DNA Ladder Mix" preferredUnits="bp" concentration="1030" url="http://www.thermoscientificbio.com/nucleic-acid-electrophoresis/massruler-dna-ladder-mix-ready-to-use-80-10000-bp/">
+            <Fragment length="10000" mass="100" format="bold"/>
+            <Fragment length="8000" mass="80"/>
+            <Fragment length="6000" mass="60"/>
+            <Fragment length="5000" mass="50"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3000" mass="30"/>
+            <Fragment length="2500" mass="26"/>
+            <Fragment length="2000" mass="20"/>
+            <Fragment length="1500" mass="16"/>
+            <Fragment length="1031" mass="100" format="bold"/>
+            <Fragment length="900" mass="90"/>
+            <Fragment length="800" mass="80"/>
+            <Fragment length="700" mass="70"/>
+            <Fragment length="600" mass="60"/>
+            <Fragment length="500" mass="100" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="20"/>
+            <Fragment length="100" mass="10"/>
+            <Fragment length="80" mass="8"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 5 bp DNA Ladder" preferredUnits="bp" concentration="660" url="https://www.lifetechnologies.com/order/catalog/product/SM1303">
+            <Fragment length="100" mass="75" format="bold"/>
+            <Fragment length="95" mass="30"/>
+            <Fragment length="90" mass="30"/>
+            <Fragment length="85" mass="30"/>
+            <Fragment length="80" mass="30"/>
+            <Fragment length="75" mass="30"/>
+            <Fragment length="70" mass="30"/>
+            <Fragment length="65" mass="30"/>
+            <Fragment length="60" mass="30"/>
+            <Fragment length="55" mass="30"/>
+            <Fragment length="50" mass="75" format="bold"/>
+            <Fragment length="45" mass="30"/>
+            <Fragment length="40" mass="30"/>
+            <Fragment length="35" mass="30"/>
+            <Fragment length="30" mass="30"/>
+            <Fragment length="25" mass="30"/>
+            <Fragment length="20" mass="30"/>
+            <Fragment length="15" mass="30"/>
+            <Fragment length="10" mass="30"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 10 bp DNA Ladder" preferredUnits="bp" concentration="585" url="https://www.lifetechnologies.com/order/catalog/product/SM1313">
+            <Fragment length="150" mass="75" format="bold"/>
+            <Fragment length="140" mass="30"/>
+            <Fragment length="130" mass="30"/>
+            <Fragment length="120" mass="30"/>
+            <Fragment length="110" mass="30"/>
+            <Fragment length="100" mass="75" format="bold"/>
+            <Fragment length="90" mass="30"/>
+            <Fragment length="80" mass="30"/>
+            <Fragment length="70" mass="30"/>
+            <Fragment length="60" mass="30"/>
+            <Fragment length="50" mass="75" format="bold"/>
+            <Fragment length="40" mass="30"/>
+            <Fragment length="30" mass="30"/>
+            <Fragment length="20" mass="30"/>
+            <Fragment length="10" mass="30"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 20 bp DNA Ladder" preferredUnits="bp" concentration="720" url="https://www.lifetechnologies.com/order/catalog/product/SM1323">
+            <Fragment length="300" mass="80" format="bold"/>
+            <Fragment length="280" mass="40"/>
+            <Fragment length="260" mass="40"/>
+            <Fragment length="240" mass="40"/>
+            <Fragment length="220" mass="40"/>
+            <Fragment length="200" mass="80" format="bold"/>
+            <Fragment length="180" mass="40"/>
+            <Fragment length="160" mass="40"/>
+            <Fragment length="140" mass="40"/>
+            <Fragment length="120" mass="40"/>
+            <Fragment length="100" mass="80" format="bold"/>
+            <Fragment length="80" mass="40"/>
+            <Fragment length="60" mass="40"/>
+            <Fragment length="40" mass="40"/>
+            <Fragment length="20" mass="40"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 50 bp DNA Ladder" preferredUnits="bp" concentration="920" url="https://www.lifetechnologies.com/order/catalog/product/SM0613">
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="950" mass="40"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="850" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="750" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="650" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="550" mass="40"/>
+            <Fragment length="500" mass="80" format="bold"/>
+            <Fragment length="450" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="350" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="250" mass="40"/>
+            <Fragment length="200" mass="80" format="bold"/>
+            <Fragment length="150" mass="40"/>
+            <Fragment length="100" mass="40"/>
+            <Fragment length="50" mass="40"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 100 bp DNA Ladder" preferredUnits="bp" concentration="720" url="https://www.lifetechnologies.com/order/catalog/product/SM0623">
+            <Fragment length="1500" mass="80" format="bold"/>
+            <Fragment length="1400" mass="40"/>
+            <Fragment length="1300" mass="40"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1100" mass="40"/>
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="500" mass="80" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 200 bp DNA Ladder" preferredUnits="bp" concentration="720" url="https://www.lifetechnologies.com/order/catalog/product/SM0633">
+            <Fragment length="3000" mass="80" format="bold"/>
+            <Fragment length="2800" mass="40"/>
+            <Fragment length="2600" mass="40"/>
+            <Fragment length="2400" mass="40"/>
+            <Fragment length="2200" mass="40"/>
+            <Fragment length="2000" mass="80" format="bold"/>
+            <Fragment length="1800" mass="40"/>
+            <Fragment length="1600" mass="40"/>
+            <Fragment length="1400" mass="40"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="40"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 500 bp DNA Ladder" preferredUnits="bp" concentration="560" url="https://www.lifetechnologies.com/order/catalog/product/SM0643">
+            <Fragment length="6000" mass="80" format="bold"/>
+            <Fragment length="5500" mass="40"/>
+            <Fragment length="5000" mass="40"/>
+            <Fragment length="4500" mass="40"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3500" mass="40"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2500" mass="40"/>
+            <Fragment length="2000" mass="80" format="bold"/>
+            <Fragment length="1500" mass="40"/>
+            <Fragment length="1000" mass="40"/>
+            <Fragment length="500" mass="40"/>
+        </Ladder>
+        <Ladder name="O’RangeRuler™ 100 bp + 500 bp DNA Ladder" preferredUnits="bp" concentration="1160" url="https://www.lifetechnologies.com/order/catalog/product/SM0653">
+            <Fragment length="6000" mass="80" format="bold"/>
+            <Fragment length="5500" mass="40"/>
+            <Fragment length="5000" mass="40"/>
+            <Fragment length="4500" mass="40"/>
+            <Fragment length="4000" mass="40"/>
+            <Fragment length="3500" mass="40"/>
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="2500" mass="40"/>
+            <Fragment length="2000" mass="80" format="bold"/>
+            <Fragment length="1500" mass="80" format="bold"/>
+            <Fragment length="1400" mass="40"/>
+            <Fragment length="1300" mass="40"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="1100" mass="40"/>
+            <Fragment length="1000" mass="80" format="bold"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="600" mass="40"/>
+            <Fragment length="500" mass="80" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="ZipRuler™ Express DNA Ladder 1" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/zipruler-dna-ladders/sm137-zipruler-express">
+            <Fragment length="10000" mass="44"/>
+            <Fragment length="5000" mass="128" format="bold"/>
+            <Fragment length="3000" mass="44"/>
+            <Fragment length="2000" mass="44"/>
+            <Fragment length="1200" mass="40"/>
+            <Fragment length="850" mass="40"/>
+            <Fragment length="500" mass="80" format="bold"/>
+            <Fragment length="300" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="ZipRuler™ Express DNA Ladder 2" preferredUnits="bp" concentration="500" url="http://www.fermentas.com/en/products/all/dna-electrophoresis/zipruler-dna-ladders/sm137-zipruler-express">
+            <Fragment length="20000" mass="48"/>
+            <Fragment length="7000" mass="48"/>
+            <Fragment length="4000" mass="46"/>
+            <Fragment length="2500" mass="46"/>
+            <Fragment length="1500" mass="152" format="bold"/>
+            <Fragment length="1000" mass="40"/>
+            <Fragment length="700" mass="40"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="200" mass="40"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="Toyobo">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="750" url="http://www.toyobo-global.com/seihin/xr/lifescience/products/cloning.html#008">
+            <Fragment length="1500" mass="50"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="50"/>
+            <Fragment length="800" mass="50"/>
+            <Fragment length="700" mass="50"/>
+            <Fragment length="600" mass="50"/>
+            <Fragment length="500" mass="150" format="bold"/>
+            <Fragment length="400" mass="50"/>
+            <Fragment length="300" mass="50"/>
+            <Fragment length="200" mass="75"/>
+            <Fragment length="100" mass="125"/>
+        </Ladder>
+        <Ladder name="1 kb DNA Ladder" preferredUnits="kb" concentration="825" url="http://www.toyobo-global.com/seihin/xr/lifescience/products/cloning.html#008">
+            <Fragment length="10000" mass="75"/>
+            <Fragment length="9000" mass="75"/>
+            <Fragment length="8000" mass="75"/>
+            <Fragment length="7000" mass="75"/>
+            <Fragment length="6000" mass="75"/>
+            <Fragment length="5000" mass="150" format="bold"/>
+            <Fragment length="4000" mass="75"/>
+            <Fragment length="3000" mass="75"/>
+            <Fragment length="2000" mass="75"/>
+            <Fragment length="1000" mass="75"/>
+        </Ladder>
+    </Supplier>
+    <Supplier name="UBPBio">
+        <Ladder name="100 bp DNA Ladder" preferredUnits="bp" concentration="540" url="http://www.ubpbio.com/index.php/product/dna-protein-ladders/100-bp-dna-ladder.html">
+            <Fragment length="3000" mass="40"/>
+            <Fragment length="1500" mass="70" format="bold"/>
+            <Fragment length="1000" mass="50"/>
+            <Fragment length="900" mass="40"/>
+            <Fragment length="800" mass="40"/>
+            <Fragment length="700" mass="30"/>
+            <Fragment length="600" mass="30"/>
+            <Fragment length="500" mass="90" format="bold"/>
+            <Fragment length="400" mass="40"/>
+            <Fragment length="300" mass="30"/>
+            <Fragment length="200" mass="40"/>
+            <Fragment length="100" mass="40"/>
+        </Ladder>
+        <Ladder name="1 Kb DNA Ladder" preferredUnits="bp" concentration="500" url="http://www.ubpbio.com/index.php/product/dna-protein-ladders/1-kb-dna-ladder.html">
+            <Fragment length="10000" mass="28"/>
+            <Fragment length="8000" mass="28"/>
+            <Fragment length="6000" mass="28"/>
+            <Fragment length="5000" mass="28"/>
+            <Fragment length="4000" mass="18"/>
+            <Fragment length="3000" mass="92" format="bold"/>
+            <Fragment length="2500" mass="34"/>
+            <Fragment length="2000" mass="34"/>
+            <Fragment length="1500" mass="20"/>
+            <Fragment length="1000" mass="92" format="bold"/>
+            <Fragment length="750" mass="23"/>
+            <Fragment length="500" mass="30"/>
+            <Fragment length="250" mass="45"/>
+        </Ladder>
+    </Supplier>
+</LadderDatabase>

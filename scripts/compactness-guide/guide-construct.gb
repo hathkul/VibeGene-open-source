@@ -1,0 +1,24 @@
+LOCUS       CompactnessGuide 800 bp ds-DNA circular SYN 17-NOV-2026
+DEFINITION  Bounded synthetic guide-containing construct for map compactness regression.
+ACCESSION   CGR0001
+FEATURES             Location/Qualifiers
+     misc_feature    391..410
+                     /label="SpCas9 guide target"
+     misc_feature    411..413
+                     /label="NGG PAM"
+ORIGIN
+        1 atatcaccag cacttggtgc ctcacaccat ataaccgcgt ggagtagcgc ttggttgtat
+       61 cacgatgatc cctaaacgtg tgctcgtacc ggtaattcac tattaaggag gcgggctttt
+      121 agtaagttgg caacgcgccg aggactttac aaacacgagt gaaccctgca atgtacgctt
+      181 tcgcacgggg ctcgtcaagt gaatcggaat ctgttgtcgc acgactaggt ttttcacaac
+      241 tctttaccaa tgatcaacgg tcaatccacc cagcaaagta cgcgttgact ttgctagggg
+      301 gctggctgat gtgcaataag gctaacgttt ctatgaaacc gttatgtgcg attattttcc
+      361 ctaatacagg tcttctttcc ccagcccatt acgtacgtac gtacgtacga aggagttttt
+      421 gttactctta cgtaatccac cacatggtgt cttcgcttgt acaatcagcc ctttgtcact
+      481 cccacctcgc gctcttgtaa tggtaggcgt tcacgtagtc ccgcaaacgg tgcaggatac
+      541 gcacaggcca ctgcacgagg gttctgcaaa tgtgactgtg cgaaattcca atactagtca
+      601 ttcgtgtcct tagttgcgtt gtatgggcag ggaccatatc cgctccgaaa cgcagaaagg
+      661 tcgggtattg gagcgtttgg gaggtgccgc ttgtgtcatt ggtactttcc gttttagggt
+      721 ccaaattatg tttcacagtc ccctggacaa gggtagtgtc atgtgctaac acctccggcg
+      781 ttcagactta gcacttacca
+//

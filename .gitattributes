@@ -1,0 +1,7 @@
+# Keep source and byte-sensitive fixtures consistent across platforms.
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+src/domain/primer3/__fixtures__/*.txt text eol=lf

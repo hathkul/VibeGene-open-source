@@ -1,0 +1,4608 @@
+{
+  "version": 2,
+  "generatedAt": "2026-10-27T14:37:12.094Z",
+  "revisedBy": "grok-approve-with-rule-changes",
+  "productNote": "Historical shades and gradients need not be preserved; ordinary UI converges when contrast and state relationships stay sound.",
+  "sourceCounts": {
+    "rawFindings": 278,
+    "enforcedBaseline": 0,
+    "scientificRegistry": 278
+  },
+  "outcomeTotals": {
+    "raw": {
+      "generic-ui": 0,
+      "semantic-feedback": 0,
+      "scientific-data": 278,
+      "dead-or-shadowed": 0,
+      "special-exception": 0
+    },
+    "enforced": {
+      "generic-ui": 0,
+      "semantic-feedback": 0,
+      "scientific-data": 0,
+      "dead-or-shadowed": 0,
+      "special-exception": 0
+    }
+  },
+  "projectedEnforcedRetirement": 0,
+  "proofChecks": {
+    "motifHitF8e16c": {
+      "outcome": "scientific-data",
+      "token": ""
+    },
+    "linearPrimerPolyline": {
+      "outcome": "scientific-data",
+      "token": ""
+    }
+  },
+  "groups": [
+    {
+      "groupId": "671e36592a2b7a7e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/primerBindingPolicy.ts",
+        "src/domain/primerExport.ts",
+        "src/storage/commonPrimers.ts",
+        "src/storage/databasePrimers.ts",
+        "src/storage/folderPrimerLists.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 7,
+      "enforcedCount": 0,
+      "findingIds": [
+        "181a78d874f47e9b",
+        "2e83568a4b738e70",
+        "8a132316fa5cde78",
+        "8f9d5882f41cfa99",
+        "b89b5bbedbd7760b",
+        "dfef4f678fd17967",
+        "ff890896e7b42a47"
+      ]
+    },
+    {
+      "groupId": "d5a694be301e5ea2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#31849b",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/gatewayBpCloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 6,
+      "enforcedCount": 0,
+      "findingIds": [
+        "590d50ec758921f0",
+        "815b626b117c6ce2",
+        "8fabb0095fcf9c24",
+        "927e2d4c5c26d49f",
+        "ad0ec7957c4d8d4c",
+        "ad426c020080f349"
+      ]
+    },
+    {
+      "groupId": "00c24bd3a8cfdc8c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/PcrDialog.tsx",
+        "src/domain/cloning.ts",
+        "src/domain/gatewayBpPrimers.ts",
+        "src/presentation/sequence/SequenceRows.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 4,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5b36671cd008e0b5",
+        "c6d7a63b6a581d6a",
+        "d21e64e85d4ac5ef",
+        "e35eac679eae8d5b"
+      ]
+    },
+    {
+      "groupId": "840c98717f0c1e29",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#db2777",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/PcrDialog.tsx",
+        "src/domain/bridgePcr.ts",
+        "src/domain/cloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 4,
+      "enforcedCount": 0,
+      "findingIds": [
+        "429b668c7e846386",
+        "99ddc5cfe2e4b170",
+        "b917ca2d122519b2",
+        "d24a1c535d235c09"
+      ]
+    },
+    {
+      "groupId": "0a94354328774fee",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0ea5e9",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/bridgeOverlapPrimers.ts",
+        "src/domain/gibsonAssembly.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4b425c34d055cf8e",
+        "a7c2cc19cdbfb384",
+        "fd5eb660ff772456"
+      ]
+    },
+    {
+      "groupId": "0f348fdfa4748187",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/annealedOligos.ts",
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1450694a418b4840",
+        "8f73fbf5d4ef460c",
+        "cb7297573da2c7e5"
+      ]
+    },
+    {
+      "groupId": "202fc4b32681b5ff",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#64748b",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/proteinAnnotationToDna.ts",
+        "src/domain/proteinFeatures.ts",
+        "src/domain/proteinLibraryFeatureImport.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c2116b5abde6dbe",
+        "bce7f907f97e77ea",
+        "ebc2d845c96a1587"
+      ]
+    },
+    {
+      "groupId": "21c7b2af437515ef",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": "object:primer.color",
+      "files": [
+        "src/domain/mutagenesis.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "23f6955761ca83b3",
+        "93f8175b6931dc59",
+        "962d06d26db6b996"
+      ]
+    },
+    {
+      "groupId": "8f404de400496bbb",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": "object:raw.color",
+      "files": [
+        "src/domain/gatewayBpPrimers.ts",
+        "src/domain/gibsonOverlapPrimers.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "13658f4dd1fc918a",
+        "2d7876902781e131",
+        "4190cdf99ecb9ebe"
+      ]
+    },
+    {
+      "groupId": "bd64d59c565417bf",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#db2777",
+      "ownerFamily": "object:raw.color",
+      "files": [
+        "src/domain/gatewayBpPrimers.ts",
+        "src/domain/gibsonOverlapPrimers.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1415f2b8206575ca",
+        "3799440ded09d6f6",
+        "c2d0663616ed903c"
+      ]
+    },
+    {
+      "groupId": "04b3f94d6975de54",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#ffffff",
+      "ownerFamily": ".primer-callout.is-* text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "09cad488f9033a24",
+        "76190db49687e819"
+      ]
+    },
+    {
+      "groupId": "427c116fdb5eb8af",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#a020f0",
+      "ownerFamily": "object:primerCalloutBundle.color",
+      "files": [
+        "src/presentation/map/PlasmidMap.tsx",
+        "src/presentation/map/TrackMap.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5c0f9cb3c1a59c02",
+        "ec5bf6f7afbae5dc"
+      ]
+    },
+    {
+      "groupId": "4894eee5f71d7d21",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#eab308",
+      "ownerFamily": "object:bonds.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "19b5ba8e36c38fab",
+        "ab4f3eecd7773216"
+      ]
+    },
+    {
+      "groupId": "7fad5d6cdc0d3bf7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#84cc16",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "07cb4c9ad6b1d804",
+        "e6b831af89207ea7"
+      ]
+    },
+    {
+      "groupId": "997ad23036e72c87",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:oligoPrimers.color",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e62743c109c66938",
+        "f31052e98e7a722f"
+      ]
+    },
+    {
+      "groupId": "9c4c6d9c3907f67c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f97316",
+      "ownerFamily": "object:imgtRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e019395f40400913",
+        "e69e8cc959da32d8"
+      ]
+    },
+    {
+      "groupId": "b4ca6bff0c053bad",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:primers.color",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "524c89aace4d3780",
+        "735d0ef6b519f9f3"
+      ]
+    },
+    {
+      "groupId": "b50368cd3d1f99e6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:imgtRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2e6eb12a2f78ed7b",
+        "f23a7cb04e3e1e66"
+      ]
+    },
+    {
+      "groupId": "b8ce18c6e77cb9b8",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "outline",
+      "literal": "#2563eb",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "30354ff279403d28",
+        "e67759e32fbf8863"
+      ]
+    },
+    {
+      "groupId": "e72ede0c27be1ad1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#e11d48",
+      "ownerFamily": "object:imgtRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "70f74583da975053",
+        "d17da3a11ac13cef"
+      ]
+    },
+    {
+      "groupId": "e86e34c3c7b9c475",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts",
+        "src/storage/databaseProteins.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "35de99dcfad2a9fb",
+        "585d325a6180e7d3"
+      ]
+    },
+    {
+      "groupId": "f0d1b273ea9f4b7f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#a020f0",
+      "ownerFamily": ".linear-primer-callout text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0905493023ad03da",
+        "504354877af2b347"
+      ]
+    },
+    {
+      "groupId": "01dbceb23569e6b2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "rgb(226 232 240 / 16%)",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "37ac7a88bc60d8be"
+      ]
+    },
+    {
+      "groupId": "02a5671bfef6cb85",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#dc2626",
+      "ownerFamily": ".protein-map-hit.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0248c6856e07d541"
+      ]
+    },
+    {
+      "groupId": "02a7feef95fe4ed0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#b45309",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c4565fc3216a93ed"
+      ]
+    },
+    {
+      "groupId": "04cee57cb550af1c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0891b2",
+      "ownerFamily": "object:primers.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0bb5de911cef21bb"
+      ]
+    },
+    {
+      "groupId": "07a614a2856df141",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fde68a",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6fa151f9c6055965"
+      ]
+    },
+    {
+      "groupId": "089781ce1a6bcdb7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#bfdbfe",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "70287e18e006537c"
+      ]
+    },
+    {
+      "groupId": "09bf66360356e53c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "rgb(23 23 23 / 12%)",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9d7a10f978c20ec6"
+      ]
+    },
+    {
+      "groupId": "0b8768354ee01981",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#ebf8ee",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "38dff620e3dbeab4"
+      ]
+    },
+    {
+      "groupId": "0d6f76eef939e625",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fffbeb",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f7f0e5725fadf305"
+      ]
+    },
+    {
+      "groupId": "0f3ae716a88cb0c1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#0a2342",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-name-background",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ac9990b03a6f09d5"
+      ]
+    },
+    {
+      "groupId": "10b8e5a9511299f1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-closed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "514095f5cf6ef0c3"
+      ]
+    },
+    {
+      "groupId": "139334e29a770b34",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fff0ef",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8af6716770f6d5f8"
+      ]
+    },
+    {
+      "groupId": "1541626c89efe30d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-closed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "52e0449b1e72a549"
+      ]
+    },
+    {
+      "groupId": "177f5784321d0e60",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#f59e0b",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b82d6362c353cb60"
+      ]
+    },
+    {
+      "groupId": "18095a0e50470a31",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#58715a",
+      "ownerFamily": ".sgrna-cloning-oligo-additions",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2c69766b67e5286f"
+      ]
+    },
+    {
+      "groupId": "1833589fab315ce7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fef3c7",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fa63c8e406288e22"
+      ]
+    },
+    {
+      "groupId": "18b82cbe7ff071af",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#6f91a8",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/crisprDetection.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c39450ec07d8f95"
+      ]
+    },
+    {
+      "groupId": "196550b686ef4c4b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#16803f",
+      "ownerFamily": ".enzyme-callout .sgrna-map-leader",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c2f0e456080e2441"
+      ]
+    },
+    {
+      "groupId": "19678f1db99dfe98",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0f766e",
+      "ownerFamily": ".dna-base-A",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "14921c020b4c1efa"
+      ]
+    },
+    {
+      "groupId": "1bd97f3f4dee7e99",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#16803f",
+      "ownerFamily": ".sequence-sgrna-frame-outline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0e461b046f429ffa"
+      ]
+    },
+    {
+      "groupId": "1bdcc84c42751f94",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0d9488",
+      "ownerFamily": "object:domainFeature.color",
+      "files": [
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c653cf9c5f30425f"
+      ]
+    },
+    {
+      "groupId": "1ca3c88d9df8f696",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075fa8",
+      "ownerFamily": ".enzyme-callout text.enzyme-callout-name:not(.is-*)",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d993d2c16094cdf7"
+      ]
+    },
+    {
+      "groupId": "233cf812894e8ee0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#dc2626",
+      "ownerFamily": ".trace-viewer__base-glyph--T",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "57db47b8a951bd9d"
+      ]
+    },
+    {
+      "groupId": "236f73292577c7ef",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#86efac",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b87b4ca6f412456a"
+      ]
+    },
+    {
+      "groupId": "23f98efa2f3fe2ce",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "ownerFamily": "object:vhhFeatures.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b9b28c496237d4d0"
+      ]
+    },
+    {
+      "groupId": "23fbdcab1257c132",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dbeafe",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11b6fc6029295a75"
+      ]
+    },
+    {
+      "groupId": "2494ace0faa3ef79",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#73dfa0",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "81a9f649b053d8a8"
+      ]
+    },
+    {
+      "groupId": "250190b4b136fbb1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#000",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ed307d678abb6d35"
+      ]
+    },
+    {
+      "groupId": "25d67a6aa953b29d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:antisensePrimer.color",
+      "files": [
+        "src/domain/annealedOligos.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5a93229fe8b24a2b"
+      ]
+    },
+    {
+      "groupId": "269bb8209eb39aa7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#000",
+      "ownerFamily": ".sequence-bases-trace-annotation .sequence-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ff73a87ecf582223"
+      ]
+    },
+    {
+      "groupId": "28598063d9fe3d64",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9bf88202f07404a2"
+      ]
+    },
+    {
+      "groupId": "286f17a21fa33da0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#15803d",
+      "ownerFamily": ".enzyme-callout text.enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8cf96afe7908f5d0"
+      ]
+    },
+    {
+      "groupId": "28fa9d1e08d17b11",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#9df0b9",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2629dac9713b1239"
+      ]
+    },
+    {
+      "groupId": "29aa78854d782621",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "708fc5c2be65d934"
+      ]
+    },
+    {
+      "groupId": "2b0696714d021c74",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "outline",
+      "literal": "#f59e0b",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "682f15eb7c080c6d"
+      ]
+    },
+    {
+      "groupId": "2bbd73d8bb5217b5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#000",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "21ff7c857134e9dc"
+      ]
+    },
+    {
+      "groupId": "2bc7975cfc83b7c9",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#cbd5e1",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0b5bea6c350e47b3"
+      ]
+    },
+    {
+      "groupId": "2c593f9ee1cf9232",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:features.color",
+      "files": [
+        "src/application/databaseProtein.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e476e345a4aa99de"
+      ]
+    },
+    {
+      "groupId": "2c637d926278f2f6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#4a9eff",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "74e62dd7497b3815"
+      ]
+    },
+    {
+      "groupId": "2c94d176ac1999e0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": ".dna-base-C",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "898282026f4cbe24"
+      ]
+    },
+    {
+      "groupId": "32efbb7355c76b3f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#ffffff",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-name",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b91ab88bc99308f8"
+      ]
+    },
+    {
+      "groupId": "3471147b2eab9042",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#16803f",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bf7785cab846a70c"
+      ]
+    },
+    {
+      "groupId": "357c93bc313e7e40",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#111",
+      "ownerFamily": ".linear-enzyme-callout text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "eb1a9636db58c956"
+      ]
+    },
+    {
+      "groupId": "36071f083d168e9a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-name-background",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "aad406100ee3cd0a"
+      ]
+    },
+    {
+      "groupId": "37a494066d26c602",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "840ee4094b4e0753"
+      ]
+    },
+    {
+      "groupId": "390a95ad2ceb390a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0891b2",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "089d1758efd573b6"
+      ]
+    },
+    {
+      "groupId": "39b477d3156bb35c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#1d6fb8",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3f657931578c082c"
+      ]
+    },
+    {
+      "groupId": "3a2f2e20a6c90f0d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#eab308",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "879c886c60e9d706"
+      ]
+    },
+    {
+      "groupId": "3ab6112cb2032055",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#e11d48",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f89ed7789ff65131"
+      ]
+    },
+    {
+      "groupId": "3f17b251feff996f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#b91c1c",
+      "ownerFamily": ".dna-base-T",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d90171ce030948cc"
+      ]
+    },
+    {
+      "groupId": "417e77efd14a10da",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#cbd5e1",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "982ef9a74f7753c0"
+      ]
+    },
+    {
+      "groupId": "41c6bc8c420b4d37",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#f2e9ff",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a133c1e5ee018431"
+      ]
+    },
+    {
+      "groupId": "432da894c395b66a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075e2f",
+      "ownerFamily": ".sequence-sgrna-base",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11780117a16771c9"
+      ]
+    },
+    {
+      "groupId": "437a8671f41ac98d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#000",
+      "ownerFamily": ".sequence-primer-base",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "36232302db108ae1"
+      ]
+    },
+    {
+      "groupId": "4588c7255ee63b29",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#db2777",
+      "ownerFamily": "object:primers.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a8e12432eb0c5516"
+      ]
+    },
+    {
+      "groupId": "458fa32ad350fea0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#c026d3",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "109b49d1b9fbb839"
+      ]
+    },
+    {
+      "groupId": "47bd0a2ea54c4ab4",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#8fc5f4",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "40216096cf6cd15e"
+      ]
+    },
+    {
+      "groupId": "47d87bdd841cb9cb",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fef3c7",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8b0b9dbc7a0faba0"
+      ]
+    },
+    {
+      "groupId": "4b9ec54612aeb8fd",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "rgb(22 163 74 / 18%)",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "214d1159cd859e95"
+      ]
+    },
+    {
+      "groupId": "4cddd9f53c84937e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#2f855a",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1e154593afa28b7a"
+      ]
+    },
+    {
+      "groupId": "4e18a2040b600c5a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#db2777",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "53064a39c114bd62"
+      ]
+    },
+    {
+      "groupId": "50cb358b1974e44f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#15803d",
+      "ownerFamily": ".sequence-enzyme-callout.is-* text.enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "05250aeb7d51e3fc"
+      ]
+    },
+    {
+      "groupId": "52beeee42991a87c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#10b981",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "de2d2c9a069f0fe1"
+      ]
+    },
+    {
+      "groupId": "53a6070f340b2620",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#111827",
+      "ownerFamily": ".protein-sequence-view.is-* .protein-residue.is-*::before",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a806d630f3b4046"
+      ]
+    },
+    {
+      "groupId": "576be416e802e238",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f97316",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "715985d138d17e3c"
+      ]
+    },
+    {
+      "groupId": "5a3c9bf3c408e995",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fecaca",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f1ab7a907e5f44ad"
+      ]
+    },
+    {
+      "groupId": "5a85829ee23b1dfc",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#214b36",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "06e050c458075f69"
+      ]
+    },
+    {
+      "groupId": "5b375a701d337e93",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#f66",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b0955538314413de"
+      ]
+    },
+    {
+      "groupId": "5e41dcd1f0b485b4",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#171717",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ff630c701d8d9007"
+      ]
+    },
+    {
+      "groupId": "5e640a74acea7ee2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f5bf3d",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/orfPrediction.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7ff175b44ba33e47"
+      ]
+    },
+    {
+      "groupId": "60348ba5bddb9b8c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#111",
+      "ownerFamily": ".motif-hit",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fe88b283814c3770"
+      ]
+    },
+    {
+      "groupId": "613d4a6c44c8729f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6c45169dd0f252ca"
+      ]
+    },
+    {
+      "groupId": "62bc20054da3544e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#0f70e2",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name:not(.is-*)",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b3c7e3dd654c2c85"
+      ]
+    },
+    {
+      "groupId": "62fcfe59e9a4fb49",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#d97706",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "488ff99a1ea98418"
+      ]
+    },
+    {
+      "groupId": "63ca3904e1de17e1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "border-color",
+      "literal": "#000",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "03e6d8dba207797f"
+      ]
+    },
+    {
+      "groupId": "63ed84b0593d0985",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f97316",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7434b84d96cd1935"
+      ]
+    },
+    {
+      "groupId": "651737756b1c0249",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#047857",
+      "ownerFamily": ".sequence-primer-callout.is-* text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "646e2197a766bcfd"
+      ]
+    },
+    {
+      "groupId": "659942892218b777",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "border-color",
+      "literal": "#e5aaa6",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "10fcd1be689b25d9"
+      ]
+    },
+    {
+      "groupId": "6617d9d8b9c0449a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#f2f2f2",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4a99853284996688"
+      ]
+    },
+    {
+      "groupId": "6836ed666fc2e3b0",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "border",
+      "literal": "rgba(0, 0, 0, 0.14)",
+      "ownerFamily": ".protein-color-class-dot",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "af6190e25c979b48"
+      ]
+    },
+    {
+      "groupId": "6915ecbc4c274647",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075e2f",
+      "ownerFamily": ".sgrna-map-pam-arrow",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9d392fb19b98b11b"
+      ]
+    },
+    {
+      "groupId": "6941e8c82362885d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1743cfcdce1f5a2b"
+      ]
+    },
+    {
+      "groupId": "6969f7c2a8f537f7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0e7490",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cf95a8f0666fd376"
+      ]
+    },
+    {
+      "groupId": "6b84b39765229b21",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#6cf",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0175aee837fb2e3c"
+      ]
+    },
+    {
+      "groupId": "6bcb9685c4da9428",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#f59e0b",
+      "ownerFamily": ".protein-map-hit",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3a932a4ee8eda829"
+      ]
+    },
+    {
+      "groupId": "6c5f4118e64e6a7e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#102b20",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b1204dd7f1a63700"
+      ]
+    },
+    {
+      "groupId": "6ca7f3df14731e74",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "box-shadow",
+      "literal": "#e11d48",
+      "ownerFamily": ".protein-comparison-cell.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3834688512083036"
+      ]
+    },
+    {
+      "groupId": "6e00b5bd43230826",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#a020f0",
+      "ownerFamily": ".primer-callout text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ec8ef1a9214ee2de"
+      ]
+    },
+    {
+      "groupId": "6ede38db1b6febb5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "outline",
+      "literal": "#d97706",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "35319d2502e48440"
+      ]
+    },
+    {
+      "groupId": "6f4ded8d96faedfd",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "ownerFamily": ".enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "23e3c27c1a608fbd"
+      ]
+    },
+    {
+      "groupId": "72b6d90209533e27",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": "object:primer.color",
+      "files": [
+        "src/domain/pcrRecipe.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "838f7b2b8145bdaa"
+      ]
+    },
+    {
+      "groupId": "72db3da919fd0783",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "ownerFamily": ".enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8286eaad656f790b"
+      ]
+    },
+    {
+      "groupId": "73d262fa59add7a6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "ownerFamily": ".linear-enzyme-callout polyline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6dc0ab8e4f25af72"
+      ]
+    },
+    {
+      "groupId": "75b807c1ba62f1f5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:sensePrimer.color",
+      "files": [
+        "src/domain/annealedOligos.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b1853afb105cf0fc"
+      ]
+    },
+    {
+      "groupId": "75e2131c094c745b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#6b7280",
+      "ownerFamily": ".history-glyph-leader",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d343597673d85a07"
+      ]
+    },
+    {
+      "groupId": "773a21d71ac54952",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#4ade80",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "72565ff7cc58dd5f"
+      ]
+    },
+    {
+      "groupId": "79c03b48b782287d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": "object:fallbackPrimers.color",
+      "files": [
+        "src/domain/historyRecord.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "da2f78ebaaf8a171"
+      ]
+    },
+    {
+      "groupId": "7c95712b0cfc9026",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2702a0d397b9bbf8"
+      ]
+    },
+    {
+      "groupId": "7db62d9f99ede359",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#f8e16c",
+      "ownerFamily": ".motif-hit",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5ae1dbbb2570263b"
+      ]
+    },
+    {
+      "groupId": "7f94940c2d456e0f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2d6c36",
+      "ownerFamily": ".sgrna-cloning-compatibility",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "eaa3852f11c330dc"
+      ]
+    },
+    {
+      "groupId": "8175d5b57fd3c845",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dcfce7",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8b74860e2bdb053a"
+      ]
+    },
+    {
+      "groupId": "8188e8e5ed883a97",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "ownerFamily": ".linear-enzyme-callout.is-* .linear-cut-tick",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "663e684953cabfaa"
+      ]
+    },
+    {
+      "groupId": "82984a0162275c13",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#c6f",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "068d664f6aef0a9c"
+      ]
+    },
+    {
+      "groupId": "837f091bb3a16013",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#dc2626",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/presentation/sequence/SequenceRows.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "333837d126ff7c27"
+      ]
+    },
+    {
+      "groupId": "870d090de18d81e6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dcefdc",
+      "ownerFamily": ".sgrna-cloning-oligo-sequence mark",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "21964677585c28d8"
+      ]
+    },
+    {
+      "groupId": "89aa44362b1ea35c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-fill",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "88e4eb3636b460d0"
+      ]
+    },
+    {
+      "groupId": "8a1af792e76cccb4",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#fff",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a9e537cbdc4b2ede"
+      ]
+    },
+    {
+      "groupId": "8b81ccf5e4fff2ad",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f79cc38e2a63e183"
+      ]
+    },
+    {
+      "groupId": "8d21baf358ccedfd",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#8b6914",
+      "ownerFamily": ".sequence-minimap-alignment-coverage",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1a105cb7391488c1"
+      ]
+    },
+    {
+      "groupId": "8d6688b668503ec9",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#961c1c",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bedcb19ec3b14b0f"
+      ]
+    },
+    {
+      "groupId": "8d873af5dedc496b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f59e0b",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5e4acaa84bdc4e7d"
+      ]
+    },
+    {
+      "groupId": "8dfc62c9eaa9202f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "rgb(220 38 38 / 18%)",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3d469ac9fd6b72ba"
+      ]
+    },
+    {
+      "groupId": "8f82864a07b0c404",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#2563eb",
+      "ownerFamily": ".trace-viewer__base-glyph--C",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7ce696dfaeb1989b"
+      ]
+    },
+    {
+      "groupId": "91849456ca0bdaf5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#111",
+      "ownerFamily": ".history-glyph-site text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6366e4ce4c325f6f"
+      ]
+    },
+    {
+      "groupId": "9188033951d08897",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#c45c26",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ed65fa02a0e582c0"
+      ]
+    },
+    {
+      "groupId": "927a18c0576728ef",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#f8f5ef",
+      "ownerFamily": ".mass-restriction-members-list > label.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8e24d3f37c1b4636"
+      ]
+    },
+    {
+      "groupId": "92b2343480c5ca36",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#111",
+      "ownerFamily": ".history-glyph-site line",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "294b540ce61be786"
+      ]
+    },
+    {
+      "groupId": "9344d1d248b23335",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fecaca",
+      "ownerFamily": ".sequence-bases-trace-annotation .sequence-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a5624bc988851435"
+      ]
+    },
+    {
+      "groupId": "9375c3dc79222354",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dbeafe",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8cd7a585e6175fee"
+      ]
+    },
+    {
+      "groupId": "94a00aaf79f78500",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#14532d",
+      "ownerFamily": ".sgrna-cloning-oligo-sequence mark",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11c7ba22bb8ec2c0"
+      ]
+    },
+    {
+      "groupId": "94cc79a98cca6470",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#be185d",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a7f97c20544e600d"
+      ]
+    },
+    {
+      "groupId": "94d6d40dea8ad405",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#ede9fe",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fc5670d34fde417d"
+      ]
+    },
+    {
+      "groupId": "973b61d62641ec48",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "ownerFamily": ".linear-primer-callout polyline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e1246f4bdfdabed7"
+      ]
+    },
+    {
+      "groupId": "979da87da77b369c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#fde68a",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a93efc27242d2315"
+      ]
+    },
+    {
+      "groupId": "97b63eacf438f456",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#dcffe7",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "dfa5b0075c87575e"
+      ]
+    },
+    {
+      "groupId": "991c123f8def38f1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#0f766e",
+      "ownerFamily": "object:domainFeature.color",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a960fe98694e236"
+      ]
+    },
+    {
+      "groupId": "99fda7dc40fbf25f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#475569",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e3c37eb0d9efbbe5"
+      ]
+    },
+    {
+      "groupId": "9af42b85c5b87ef1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "ownerFamily": ".sequence-enzyme-callout text.enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "100b0e4f837bb7be"
+      ]
+    },
+    {
+      "groupId": "9e16a02a13caac73",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f2e9ff",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9307b5e2eff9c433"
+      ]
+    },
+    {
+      "groupId": "9e605823ff437f0f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075e2f",
+      "ownerFamily": ".enzyme-callout .sgrna-map-name",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b3dc1ce062d4029b"
+      ]
+    },
+    {
+      "groupId": "9eedb6ef2e6993c6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#766e63",
+      "ownerFamily": ".mass-restriction-members-list > label.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "758454d2946ff9c6"
+      ]
+    },
+    {
+      "groupId": "9fa8ad15bb5509c2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#93c5fd",
+      "ownerFamily": ".motif-hit.sequence-selected",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8af3a3cd60377fc4"
+      ]
+    },
+    {
+      "groupId": "9fe4a35378620ac7",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "ownerFamily": ".primer-callout polyline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a55aab5a5e144eda"
+      ]
+    },
+    {
+      "groupId": "a07c874d8b3b7459",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#a7f3c2",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4d899d6a52140a3b"
+      ]
+    },
+    {
+      "groupId": "a0df0f0269cda639",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#153629",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c5e00bdc70c503d"
+      ]
+    },
+    {
+      "groupId": "a123501aca5a4d3b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#fda4af",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c51a77931c11a1d0"
+      ]
+    },
+    {
+      "groupId": "a172634af9b7e124",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#c7bda3",
+      "ownerFamily": ".history-glyph .history-glyph-backbone",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "085a1ab6adc7f26e"
+      ]
+    },
+    {
+      "groupId": "a17858a081b43ee2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "ownerFamily": ".linear-enzyme-callout .linear-cut-tick",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9699e6e701605670"
+      ]
+    },
+    {
+      "groupId": "a1f690b54038a214",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#154f86",
+      "ownerFamily": ".history-glyph-site text.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1988bd4c0d101566"
+      ]
+    },
+    {
+      "groupId": "a52f48e89372d4de",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#16a34a",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ee67515280b01c40"
+      ]
+    },
+    {
+      "groupId": "a5b3afe211ac1f92",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#1e3a8a",
+      "ownerFamily": ".motif-hit.sequence-selected",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "409200796105df66"
+      ]
+    },
+    {
+      "groupId": "a64aa2c012b9c3ee",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "ownerFamily": ".linear-primer-callout .linear-primer-annealed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5490934a3eec9977"
+      ]
+    },
+    {
+      "groupId": "a752ef364d0c2395",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b5da3eebbab86f67"
+      ]
+    },
+    {
+      "groupId": "a885562577a4cc2b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#0f766e",
+      "ownerFamily": ".sequence-primer-callout text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "45b30d49b5a2baaf"
+      ]
+    },
+    {
+      "groupId": "a8a8fe26e578b4f1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "ownerFamily": ".enzyme-callout.is-* polyline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "114f8d9f219b5e21"
+      ]
+    },
+    {
+      "groupId": "abe2b397f3e49df2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#86efac",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "898bbbe01e1bcc41"
+      ]
+    },
+    {
+      "groupId": "acc75d82786e8d64",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "border",
+      "literal": "#b91c1c",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "93707494144e0eab"
+      ]
+    },
+    {
+      "groupId": "ad9730beddf1ead5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "ownerFamily": ".primer-callout-annealed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "02d60bf59da02b6a"
+      ]
+    },
+    {
+      "groupId": "ae0e28fb4907340c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#993366",
+      "ownerFamily": "variable:color",
+      "files": [
+        "src/domain/featureQualifiers.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cddf7979b139a1e7"
+      ]
+    },
+    {
+      "groupId": "ae4c84a40bde0e70",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#07111f",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4af659748d23b087"
+      ]
+    },
+    {
+      "groupId": "ae68620241cd096e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#93c5fd",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "292a9b864624429c"
+      ]
+    },
+    {
+      "groupId": "ae7d3a0aa469e39b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#e11d48",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0047546b52272e8a"
+      ]
+    },
+    {
+      "groupId": "afae58b16d56e072",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": ".trace-viewer__base-glyph--A",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8fde9d66cb6faf5a"
+      ]
+    },
+    {
+      "groupId": "b048ca28f2135b51",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-fill",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0add4aca08ab2db8"
+      ]
+    },
+    {
+      "groupId": "b06dde8102b01319",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "border-color",
+      "literal": "#a6d6b6",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "13d70681dac54674"
+      ]
+    },
+    {
+      "groupId": "b09c474cfc980cd1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "box-shadow",
+      "literal": "#f59e0b",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2a78e98564e3cf35"
+      ]
+    },
+    {
+      "groupId": "b16e01f27355709b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bcc63fbc2d8baf93"
+      ]
+    },
+    {
+      "groupId": "b25367a753c5644c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f97316",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "97abd061a1df4339"
+      ]
+    },
+    {
+      "groupId": "b2a348f7aaa84824",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#a855f7",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ea6fc16c4acf2ece"
+      ]
+    },
+    {
+      "groupId": "b5aa99a18b3c48a1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dcfce7",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "19ada2e07bdb7889"
+      ]
+    },
+    {
+      "groupId": "b647d0878a9b9743",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fee2e2",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "08cebb418e4be9eb"
+      ]
+    },
+    {
+      "groupId": "b7540411350c6d0b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-frame-outline",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3a98378d252e82e5"
+      ]
+    },
+    {
+      "groupId": "b7d3998725f9b8aa",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#9be06a",
+      "ownerFamily": "object:color",
+      "files": [
+        "src/domain/orfPrediction.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cfe7fc63aac701ea"
+      ]
+    },
+    {
+      "groupId": "b9773a2fc3221b60",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": "object:probe.color",
+      "files": [
+        "src/domain/primerExport.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "18a1012dedb7c294"
+      ]
+    },
+    {
+      "groupId": "bb4b8cfeabdc217c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fee2e2",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "60829ca218e3fd98"
+      ]
+    },
+    {
+      "groupId": "bd74200d98d98735",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#6d28d9",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "58042db4eace8a96"
+      ]
+    },
+    {
+      "groupId": "c186776954eb0ef2",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "rgb(37 99 235 / 18%)",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "491fe5e91a9d9fa0"
+      ]
+    },
+    {
+      "groupId": "c26b51a852b5230f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#8617ca",
+      "ownerFamily": ".primer-callout text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "967c8aaa57d4c528"
+      ]
+    },
+    {
+      "groupId": "c2af3e9a42d6b34d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#93c5fd",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "85b3bfe50178d759"
+      ]
+    },
+    {
+      "groupId": "c3b259d882bd353d",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fda4af",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1fa25d440811426a"
+      ]
+    },
+    {
+      "groupId": "c477923c2d48f492",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#102b20",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1e94d2db738398d3"
+      ]
+    },
+    {
+      "groupId": "c86de4ce2f8eed9f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#245d31",
+      "ownerFamily": ".sgrna-cloning-oligo-additions strong",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e0d9a11063ca6351"
+      ]
+    },
+    {
+      "groupId": "c92bd03e9bff66e3",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#2a2a2a",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "97a1e05a101831e8"
+      ]
+    },
+    {
+      "groupId": "cb22db501baf1757",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075fa8",
+      "ownerFamily": ".sequence-enzyme-callout.is-* text.enzyme-callout-name:not(.is-*)",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d213ab9fda11aaae"
+      ]
+    },
+    {
+      "groupId": "cbb0cfe79a3414ce",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#15803d",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cc68d9c7214180b1"
+      ]
+    },
+    {
+      "groupId": "cc184b253170ddc1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "outline",
+      "literal": "#2f74b5",
+      "ownerFamily": ".trace-viewer__base-sequence-visible",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "94c121e357709367"
+      ]
+    },
+    {
+      "groupId": "ce2aec61293702c5",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#daf2e2",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bac9b9e44986db2f"
+      ]
+    },
+    {
+      "groupId": "d1d6ef051a0f3ea9",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d5f9aae6b2b552d5"
+      ]
+    },
+    {
+      "groupId": "d430f835b93689aa",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#3b6fd8",
+      "ownerFamily": "object:resolvedFragments.assembly.color",
+      "files": [
+        "src/domain/gibsonOverlapPrimers.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "55b7fe61bceb4879"
+      ]
+    },
+    {
+      "groupId": "d6c98060485cf0aa",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#10233c",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7eac1081a2b80543"
+      ]
+    },
+    {
+      "groupId": "d6c9f9b3a0a8d72a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#b45309",
+      "ownerFamily": ".pick-primers-spec-toggle.is-*",
+      "files": [
+        "src/PickPrimersDialog.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a1c431fde672eda"
+      ]
+    },
+    {
+      "groupId": "d6f37c7d44fbb12e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#dc2626",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "26bdaf250fa48964"
+      ]
+    },
+    {
+      "groupId": "d805b3d011d78cd6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fc6",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f20d6fb2c2e52fc4"
+      ]
+    },
+    {
+      "groupId": "d9993161bf305424",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3f4ca8e0c58cb87c"
+      ]
+    },
+    {
+      "groupId": "d9cbbb68ecb8dded",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#07111f",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "da75fcc9e359bac1"
+      ]
+    },
+    {
+      "groupId": "da405dc83244bccd",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#66f",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0b80a31a4bcf3ac9"
+      ]
+    },
+    {
+      "groupId": "dcbcf42431134370",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#16a34a",
+      "ownerFamily": "object:feature.color",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6e5274ceb0427c35"
+      ]
+    },
+    {
+      "groupId": "e1549ecdf48231e8",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#60a5fa",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "50e6f5957777a4c8"
+      ]
+    },
+    {
+      "groupId": "e52b6595b145a182",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#fffdf8",
+      "ownerFamily": ".history-glyph-site text",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cc0da21dd14164db"
+      ]
+    },
+    {
+      "groupId": "e942c5c8ea188819",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-guide-pam-boundary",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7e93bfc05c77d9d4"
+      ]
+    },
+    {
+      "groupId": "e9dc565a8b4646ee",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#64748b",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2da9ce3884c6c78d"
+      ]
+    },
+    {
+      "groupId": "ea96c374e81a8658",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dbeafe",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "51fadd10d7c5e479"
+      ]
+    },
+    {
+      "groupId": "ecb16c1a63f79e99",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#6c6",
+      "ownerFamily": ".common-feature-color-header",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Feature color header encodes biological feature class.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c0ab8e1e81833f27"
+      ]
+    },
+    {
+      "groupId": "ee425a181fd438e9",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#fb7185",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5ba51052ce9563ee"
+      ]
+    },
+    {
+      "groupId": "eea34af12b55a1dc",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fee2e2",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c76d36c07b4d7d30"
+      ]
+    },
+    {
+      "groupId": "eff56b94a135d1d6",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#dc2626",
+      "ownerFamily": ".primer-editor-sequence-highlight .is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "db3376c4db0c40fa"
+      ]
+    },
+    {
+      "groupId": "f0c66170d7fc3d49",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "17b6b72f4cc736a7"
+      ]
+    },
+    {
+      "groupId": "f164f590b0e1ffc3",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#dc2626",
+      "ownerFamily": ".sequence-mutagenic-base",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4403ab942d4d0c94"
+      ]
+    },
+    {
+      "groupId": "f29fc168871ec8fb",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#ede9fe",
+      "ownerFamily": ".protein-residue.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "51cf6de829122d28"
+      ]
+    },
+    {
+      "groupId": "f2b66ff251a3442c",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#ede9fe",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c27a6532cbac6a57"
+      ]
+    },
+    {
+      "groupId": "f3d2c14645239888",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#c0392b",
+      "ownerFamily": "object:deletedRegionHighlights.color",
+      "files": [
+        "src/RestrictionCloningDialog.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "10b620ee929bdfaf"
+      ]
+    },
+    {
+      "groupId": "f45a2f37fbc8333e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9b22a8bfcc162e2a"
+      ]
+    },
+    {
+      "groupId": "f45b2c40fb4712dd",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#f8fafc",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "86744055e142d9d8"
+      ]
+    },
+    {
+      "groupId": "f4cfe397b66a217b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#000",
+      "ownerFamily": ".sequence-bases > span",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "938f78815a158594"
+      ]
+    },
+    {
+      "groupId": "f5c19f68ff8bc2fc",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#101a28",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Primer callout geometry encodes map/primer identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e9c9396f8761f937"
+      ]
+    },
+    {
+      "groupId": "f6dca4781548449e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#176a3b",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "83ffa3b8d061bbaf"
+      ]
+    },
+    {
+      "groupId": "f7569cde0e285a5a",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#7c3aed",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "579f355a7eb16e45"
+      ]
+    },
+    {
+      "groupId": "f7572359008b93e1",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#fef3c7",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "22a2905930db701a"
+      ]
+    },
+    {
+      "groupId": "f819a0433e4fdc5b",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "stroke",
+      "literal": "#b7791f",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Analytical stroke encodes feature or map geometry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4db68072e591173e"
+      ]
+    },
+    {
+      "groupId": "f86470a0b019f39f",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "background",
+      "literal": "#dcfce7",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "acac195f317c979b"
+      ]
+    },
+    {
+      "groupId": "f8933cd1bdd6e200",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#a16207",
+      "ownerFamily": ".dna-base-G",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Trace or sequence base tint encodes read identity.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9b04b362df8762e9"
+      ]
+    },
+    {
+      "groupId": "f92253e39a450716",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "color",
+      "literal": "#10233c",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "082cf3dcaba5bba9"
+      ]
+    },
+    {
+      "groupId": "fa9234418bff9920",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#075e2f",
+      "ownerFamily": ".sequence-sgrna-name",
+      "files": [
+        "src/App.css"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8337869709d91773"
+      ]
+    },
+    {
+      "groupId": "fb9543e76e4df24e",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#dc2626",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2c4ad10989a7424a"
+      ]
+    },
+    {
+      "groupId": "fff8a1564fcd9979",
+      "outcome": "scientific-data",
+      "mappingRule": "retain-biological-or-analytical-encoding",
+      "destinationToken": "",
+      "property": "fill",
+      "literal": "#2563eb",
+      "ownerFamily": "jsx:rect",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "exceptions": [],
+      "rationale": "Biological or analytical encoding retained outside the 67-row registry.",
+      "findingCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d0f728b214bd8bba"
+      ]
+    }
+  ]
+}

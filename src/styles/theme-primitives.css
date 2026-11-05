@@ -1,0 +1,236 @@
+/*
+ * Opt-in visual primitives for new or migrated UI.  Nothing in this file
+ * targets an element without a `vg-*` class or `data-vg-*` attribute, so it
+ * is safe to import before legacy feature styles are migrated.
+ */
+
+.vg-panel,
+[data-vg-surface='panel'] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel);
+  border: 1px solid var(--vg-border);
+}
+
+.vg-panel--muted,
+[data-vg-surface='muted'] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel-muted);
+  border: 1px solid var(--vg-border);
+}
+
+.vg-panel--raised,
+[data-vg-surface='raised'] {
+  color: var(--vg-text);
+  background: var(--vg-surface-raised);
+  border: 1px solid var(--vg-border-strong);
+  box-shadow: 0 12px 28px var(--app-dialog-shadow);
+}
+
+.vg-card,
+[data-vg-card] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel);
+  border: 1px solid var(--vg-border);
+  border-radius: 8px;
+}
+
+.vg-dialog,
+[role='dialog'][data-vg-dialog] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel);
+  border: 1px solid var(--vg-border-strong);
+  box-shadow: 0 18px 40px var(--app-dialog-shadow);
+}
+
+.vg-dialog__header,
+.vg-dialog__footer,
+[data-vg-dialog] > [data-vg-region='header'],
+[data-vg-dialog] > [data-vg-region='footer'] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel-muted);
+  border-color: var(--vg-border);
+}
+
+.vg-dialog__title,
+[data-vg-dialog] [data-vg-role='title'] {
+  color: var(--vg-text-strong);
+}
+
+.vg-dialog__description,
+[data-vg-dialog] [data-vg-role='description'] {
+  color: var(--vg-text-muted);
+}
+
+.vg-button,
+[data-vg-button] {
+  border: 1px solid var(--vg-control-border);
+  border-radius: 5px;
+  color: var(--vg-control-ink);
+  background: var(--vg-control-surface);
+}
+
+.vg-button:hover:not(:disabled),
+[data-vg-button]:hover:not(:disabled) {
+  border-color: var(--vg-focus);
+  color: var(--vg-control-ink);
+  background: var(--vg-control-surface-hover);
+}
+
+.vg-button:is(.is-selected, [aria-pressed='true'], [data-vg-state='selected']),
+[data-vg-button]:is(.is-selected, [aria-pressed='true'], [data-vg-state='selected']) {
+  border-color: var(--vg-focus);
+  color: var(--vg-interactive-selected-ink);
+  background: var(--vg-interactive-selected);
+}
+
+.vg-button:is(.is-selected, [aria-pressed='true'], [data-vg-state='selected']):hover:not(:disabled),
+[data-vg-button]:is(.is-selected, [aria-pressed='true'], [data-vg-state='selected']):hover:not(:disabled) {
+  background: var(--vg-interactive-selected-hover);
+}
+
+.vg-button:disabled,
+[data-vg-button]:disabled,
+[data-vg-button][aria-disabled='true'] {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.vg-button:focus-visible,
+[data-vg-button]:focus-visible,
+.vg-field:focus-visible,
+[data-vg-field]:focus-visible {
+  outline: 2px solid var(--vg-focus);
+  outline-offset: 2px;
+}
+
+.vg-field,
+[data-vg-field] {
+  border: 1px solid var(--vg-control-border);
+  color: var(--vg-text);
+  background: var(--vg-surface-inset);
+}
+
+.vg-field::placeholder,
+[data-vg-field]::placeholder {
+  color: var(--vg-text-muted);
+}
+
+.vg-selectable-row,
+[data-vg-selectable] {
+  color: var(--vg-text);
+  background: var(--vg-surface-panel);
+  border-color: var(--vg-border);
+}
+
+.vg-selectable-row:hover:not(:disabled),
+[data-vg-selectable]:hover:not(:disabled) {
+  color: var(--vg-text-strong);
+  background: var(--vg-interactive-hover);
+}
+
+.vg-selectable-row:is(.is-selected, [aria-selected='true'], [data-vg-state='selected']),
+[data-vg-selectable]:is(.is-selected, [aria-selected='true'], [data-vg-state='selected']) {
+  color: var(--vg-interactive-selected-ink);
+  background: var(--vg-interactive-selected);
+}
+
+.vg-selectable-row:is(.is-selected, [aria-selected='true'], [data-vg-state='selected']):hover:not(:disabled),
+[data-vg-selectable]:is(.is-selected, [aria-selected='true'], [data-vg-state='selected']):hover:not(:disabled) {
+  background: var(--vg-interactive-selected-hover);
+}
+
+.vg-chip,
+[data-vg-chip] {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--vg-chip-border);
+  border-radius: 999px;
+  color: var(--vg-chip-ink);
+  background: var(--vg-chip-surface);
+}
+
+.vg-chip[data-vg-tone='warning'],
+[data-vg-chip][data-vg-tone='warning'],
+.vg-notice--warning,
+[data-vg-notice='warning'] {
+  border-color: var(--vg-warning-border);
+  color: var(--vg-warning-ink);
+  background: var(--vg-warning-surface);
+}
+
+.vg-chip[data-vg-tone='danger'],
+[data-vg-chip][data-vg-tone='danger'],
+.vg-notice--danger,
+[data-vg-notice='danger'] {
+  border-color: var(--vg-danger-border);
+  color: var(--vg-danger-ink);
+  background: var(--vg-danger-surface);
+}
+
+.vg-chip[data-vg-tone='success'],
+[data-vg-chip][data-vg-tone='success'],
+.vg-notice--success,
+[data-vg-notice='success'] {
+  border-color: var(--vg-success-border);
+  color: var(--vg-success-ink);
+  background: var(--vg-success-surface);
+}
+
+.vg-diagram,
+[data-vg-diagram] {
+  color: var(--vg-diagram-ink);
+  background: var(--vg-diagram-surface);
+  border-color: var(--vg-diagram-line);
+}
+
+.vg-diagram__inset,
+[data-vg-diagram] [data-vg-region='inset'] {
+  color: var(--vg-diagram-ink);
+  background: var(--vg-diagram-inset);
+  border-color: var(--vg-diagram-line);
+}
+
+.vg-diagram__muted,
+[data-vg-diagram] [data-vg-role='muted'] {
+  color: var(--vg-diagram-muted);
+}
+
+/* SVG properties are explicit: inherited `color` does not recolor fixed fill/stroke. */
+.vg-svg-surface,
+[data-vg-svg='surface'] { fill: var(--vg-map-surface); }
+
+.vg-svg-ink,
+[data-vg-svg='ink'] { fill: var(--vg-map-ink); }
+
+.vg-svg-muted,
+[data-vg-svg='muted'] { fill: var(--vg-map-muted); }
+
+.vg-svg-line,
+[data-vg-svg='line'] { stroke: var(--vg-map-line); }
+
+.vg-svg-callout,
+[data-vg-svg='callout'] { fill: var(--vg-map-callout); }
+
+.vg-annotation-label,
+[data-vg-annotation-label] {
+  color: var(--vg-annotation-label-ink);
+  background: var(--vg-annotation-label-surface);
+}
+
+.vg-annotation-label:is(.is-selected, [data-vg-state='selected']),
+[data-vg-annotation-label]:is(.is-selected, [data-vg-state='selected']) {
+  color: var(--vg-annotation-label-selected-ink);
+  background: var(--vg-annotation-label-selected-surface);
+}
+
+.vg-svg-annotation-label,
+[data-vg-svg='annotation-label'] { fill: var(--vg-annotation-label-ink); }
+
+.vg-svg-annotation-label-surface,
+[data-vg-svg='annotation-label-surface'] { fill: var(--vg-annotation-label-surface); }
+
+.vg-svg-annotation-label.is-selected,
+[data-vg-svg='annotation-label'][data-vg-state='selected'] { fill: var(--vg-annotation-label-selected-ink); }
+
+.vg-svg-annotation-label-surface.is-selected,
+[data-vg-svg='annotation-label-surface'][data-vg-state='selected'] { fill: var(--vg-annotation-label-selected-surface); }

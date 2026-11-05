@@ -1,0 +1,72 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window + hybrid popup windows",
+  "windows": [
+    "main",
+    "workspace-*",
+    "hybrid-*"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-title",
+    "core:window:allow-create",
+    "core:window:allow-set-focus",
+    "core:window:allow-show",
+    "core:window:allow-close",
+    "core:window:allow-destroy",
+    "core:window:allow-center",
+    "core:window:allow-set-size",
+    "core:window:allow-set-min-size",
+    "core:window:allow-set-max-size",
+    "core:window:allow-inner-size",
+    "core:window:allow-outer-size",
+    "core:window:allow-scale-factor",
+    "core:webview:allow-create-webview-window",
+    "core:webview:allow-create-webview",
+    "core:event:allow-emit",
+    "core:event:allow-listen",
+    "core:event:allow-emit-to",
+    "dialog:default",
+    "updater:default",
+    "clipboard-manager:allow-read-text",
+    "clipboard-manager:allow-write-text",
+    "fs:allow-write-file",
+    "fs:allow-read-file",
+    "fs:allow-read-dir",
+    "fs:allow-mkdir",
+    "fs:allow-exists",
+    "fs:allow-stat",
+    "fs:allow-remove",
+    "fs:allow-rename",
+    "allow-take-pending-open-paths",
+    "allow-register-user-file-paths",
+    "allow-read-user-file",
+    "allow-exit-sync-lifecycle",
+    "allow-ncbi-blast-request",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        { "url": "https://ko-fi.com/*" },
+        { "url": "https://github.com/hathkul/VibeGene-open-source" },
+        { "url": "https://vibe-gene.com/*" },
+        { "url": "https://t.me/+f7I7mZQptuQyOGQy" },
+        { "url": "https://www.ncbi.nlm.nih.gov/*" },
+        { "url": "https://www.uniprot.org/*" },
+        { "url": "https://www.ebi.ac.uk/*" },
+        { "url": "https://www.ensembl.org/*" }
+      ]
+    },
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        { "path": "$HOME/**" },
+        { "path": "$DOCUMENT/**" },
+        { "path": "$DOWNLOAD/**" },
+        { "path": "$DESKTOP/**" },
+        { "path": "$APPDATA/database-folders" },
+        { "path": "$APPDATA/database-folders/**" }
+      ]
+    }
+  ]
+}

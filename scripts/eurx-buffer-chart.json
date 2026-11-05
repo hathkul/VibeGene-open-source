@@ -1,0 +1,1597 @@
+{
+  "AccI": {
+    "eurxName": "AccI",
+    "catalogName": "AccI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2004",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2004/",
+    "prototype": "AccI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcvI": {
+    "eurxName": "AcvI",
+    "catalogName": "AcvI",
+    "alsoKnownAs": "PmaCI",
+    "catalogNumber": "E2005",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2005/",
+    "prototype": "PmaCI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "eurxName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2010",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2010/",
+    "prototype": "AluI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "eurxName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2015",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 25,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2015/",
+    "prototype": "ApaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaI": {
+    "eurxName": "AvaI",
+    "catalogName": "AvaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2006",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2006/",
+    "prototype": "AvaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaII": {
+    "eurxName": "AvaII",
+    "catalogName": "AvaII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2007",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2007/",
+    "prototype": "AvaII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BalI": {
+    "eurxName": "BalI",
+    "catalogName": "BalI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2008",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2008/",
+    "prototype": "BalI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "eurxName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2050",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2050/",
+    "prototype": "BamHI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanII": {
+    "eurxName": "BanII",
+    "catalogName": "BanII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2060",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2060/",
+    "prototype": "HgiJII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "eurxName": "BglI",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2080",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2080/",
+    "prototype": "Bgll",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "BglII": {
+    "eurxName": "BglII",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2090",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2090/",
+    "prototype": "BgllI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsiHKCI": {
+    "eurxName": "BsiHKCI",
+    "catalogName": "BsiHKCI",
+    "alsoKnownAs": "AvaI",
+    "catalogNumber": "E2109",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2109/",
+    "prototype": "AvaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssHII": {
+    "eurxName": "BssHII",
+    "catalogName": "BssHII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2115",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 50,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2115/",
+    "prototype": "BsePI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "eurxName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2118",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "25%",
+      "specific": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2118/",
+    "prototype": "BstXI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ClaI": {
+    "eurxName": "ClaI",
+    "catalogName": "ClaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2110",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2110/",
+    "prototype": "ClaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CviJI": {
+    "eurxName": "CviJI",
+    "catalogName": "CviJI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2125",
+    "preferredBuffer": "cviJI",
+    "suppliedBuffer": "CviJI Buffer (5×)",
+    "bufferActivity": {
+      "one": "NR",
+      "specific": "100%",
+      "cviJI": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": null,
+    "productUrl": "https://eurx.com.pl/product/e2125/",
+    "prototype": "CviJI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CviJI(*)": {
+    "eurxName": "CviJI(*)",
+    "catalogName": "CviJI(*)",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2126",
+    "preferredBuffer": "cviJIStar",
+    "suppliedBuffer": "CviJI(*) Buffer (2×)",
+    "bufferActivity": {
+      "one": "NR",
+      "specific": "100%",
+      "cviJIStar": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": null,
+    "productUrl": "https://eurx.com.pl/product/e2126/",
+    "prototype": "CviJI(*)",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DdeI": {
+    "eurxName": "DdeI",
+    "catalogName": "DdeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2140",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2140/",
+    "prototype": "DdeI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DpnI": {
+    "eurxName": "DpnI",
+    "catalogName": "DpnI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2135",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2135/",
+    "prototype": "DpnI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "eurxName": "DraI",
+    "catalogName": "DraI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2145",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2145/",
+    "prototype": "AhaIII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "eurxName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2150",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2150/",
+    "prototype": "EcoRI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "EcoRV": {
+    "eurxName": "EcoRV",
+    "catalogName": "EcoRV",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2160",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2160/",
+    "prototype": "EcoRV",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "FokI": {
+    "eurxName": "FokI",
+    "catalogName": "FokI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2170",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2170/",
+    "prototype": "FokI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "eurxName": "HaeIII",
+    "catalogName": "HaeIII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2180",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2180/",
+    "prototype": "HaeIII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HhaI": {
+    "eurxName": "HhaI",
+    "catalogName": "HhaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2190",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2190/",
+    "prototype": "HhaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HincII": {
+    "eurxName": "HincII",
+    "catalogName": "HincII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2200",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2200/",
+    "prototype": "HindII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "eurxName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2220",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2220/",
+    "prototype": "HindIII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "eurxName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2240",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2240/",
+    "prototype": "HinfI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "eurxName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2250",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2250/",
+    "prototype": "HpaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "HpaII": {
+    "eurxName": "HpaII",
+    "catalogName": "HpaII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2260",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2260/",
+    "prototype": "HpaII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "eurxName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2280",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2280/",
+    "prototype": "KpnI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboI": {
+    "eurxName": "MboI",
+    "catalogName": "MboI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2283",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2283/",
+    "prototype": "MboI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "MboII": {
+    "eurxName": "MboII",
+    "catalogName": "MboII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2284",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2284/",
+    "prototype": "MboII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluILS": {
+    "eurxName": "MluILS",
+    "catalogName": "MluILS",
+    "alsoKnownAs": "MluI",
+    "catalogNumber": "E2287",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2287/",
+    "prototype": "MluI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MnlI": {
+    "eurxName": "MnlI",
+    "catalogName": "MnlI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2289",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2289/",
+    "prototype": "MnlI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "MspI": {
+    "eurxName": "MspI",
+    "catalogName": "MspI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2290",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2290/",
+    "prototype": "HpaII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NarI": {
+    "eurxName": "NarI",
+    "catalogName": "NarI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2291",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2291/",
+    "prototype": "NarI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "eurxName": "NcoI",
+    "catalogName": "NcoI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2292",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2292/",
+    "prototype": "NcoI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "eurxName": "NdeI",
+    "catalogName": "NdeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2293",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2293/",
+    "prototype": "NdeI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI": {
+    "eurxName": "NheI",
+    "catalogName": "NheI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2294",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2294/",
+    "prototype": "NheI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "NotILS": {
+    "eurxName": "NotILS",
+    "catalogName": "NotILS",
+    "alsoKnownAs": "NotI",
+    "catalogNumber": "E2295",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2295/",
+    "prototype": "NotI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "eurxName": "NruI",
+    "catalogName": "NruI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2297",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2297/",
+    "prototype": "NruI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NsiI": {
+    "eurxName": "NsiI",
+    "catalogName": "NsiI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2298",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2298/",
+    "prototype": "NsiI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PinAI": {
+    "eurxName": "PinAI",
+    "catalogName": "PinAI",
+    "alsoKnownAs": "AgeI",
+    "catalogNumber": "E2299",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2299/",
+    "prototype": "AgeI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "eurxName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2300",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2300/",
+    "prototype": "PstI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "eurxName": "PvuI",
+    "catalogName": "PvuI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2320",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "80°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2320/",
+    "prototype": "PvuI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuIILS": {
+    "eurxName": "PvuIILS",
+    "catalogName": "PvuIILS",
+    "alsoKnownAs": "PvuII",
+    "catalogNumber": "E2330",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2330/",
+    "prototype": "PvuII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "eurxName": "RsaI",
+    "catalogName": "RsaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2340",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2340/",
+    "prototype": "RsaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsrII": {
+    "eurxName": "RsrII",
+    "catalogName": "RsrII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2342",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2342/",
+    "prototype": "RsrII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "eurxName": "SacI",
+    "catalogName": "SacI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2350",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2350/",
+    "prototype": "SacI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "SacII": {
+    "eurxName": "SacII",
+    "catalogName": "SacII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2352",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2352/",
+    "prototype": "SacII",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalILS": {
+    "eurxName": "SalILS",
+    "catalogName": "SalILS",
+    "alsoKnownAs": "SalI",
+    "catalogNumber": "E2370",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2370/",
+    "prototype": "SalI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau3AI": {
+    "eurxName": "Sau3AI",
+    "catalogName": "Sau3AI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2375",
+    "preferredBuffer": "sau3AI",
+    "suppliedBuffer": "Sau3AI Buffer",
+    "bufferActivity": {
+      "one": "NR",
+      "specific": "100%",
+      "sau3AI": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2375/",
+    "prototype": "MboI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "ScaILS": {
+    "eurxName": "ScaILS",
+    "catalogName": "ScaILS",
+    "alsoKnownAs": "ScaI",
+    "catalogNumber": "E2378",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2378/",
+    "prototype": "ScaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "eurxName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2380",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2380/",
+    "prototype": "SfiI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "eurxName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2390",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 25,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2390/",
+    "prototype": "SmaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SpeI": {
+    "eurxName": "SpeI",
+    "catalogName": "SpeI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2398",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2398/",
+    "prototype": "SpeI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "eurxName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2400",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2400/",
+    "prototype": "SphI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "SspI": {
+    "eurxName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2402",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2402/",
+    "prototype": "SspI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StuI": {
+    "eurxName": "StuI",
+    "catalogName": "StuI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2405",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2405/",
+    "prototype": "StuI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "eurxName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2410",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2410/",
+    "prototype": "TaqI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqII": {
+    "eurxName": "TaqII",
+    "catalogName": "TaqII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2411",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "incubationMinutes": 180,
+    "productUrl": "https://eurx.com.pl/product/e2411/",
+    "prototype": "TaqII",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "TspDTI": {
+    "eurxName": "TspDTI",
+    "catalogName": "TspDTI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2502",
+    "preferredBuffer": "tspDTI",
+    "suppliedBuffer": "TspDTI Buffer",
+    "bufferActivity": {
+      "one": "NR",
+      "specific": "100%",
+      "tspDTI": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 70,
+    "incubationMinutes": 180,
+    "productUrl": "https://eurx.com.pl/product/e2502/",
+    "prototype": "TspDTI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TspGWI": {
+    "eurxName": "TspGWI",
+    "catalogName": "TspGWI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2501",
+    "preferredBuffer": "tspGWI",
+    "suppliedBuffer": "TspGWI Buffer",
+    "bufferActivity": {
+      "one": "NR",
+      "specific": "100%",
+      "tspGWI": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 70,
+    "incubationMinutes": null,
+    "productUrl": "https://eurx.com.pl/product/e2501/",
+    "prototype": "TspGWI",
+    "requiresBsa": false,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "Potential inhibition (CpG)"
+    }
+  },
+  "Tth111I": {
+    "eurxName": "Tth111I",
+    "catalogName": "Tth111I",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2420",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2420/",
+    "prototype": "Tth111I",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "eurxName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2430",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2430/",
+    "prototype": "XbaI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "eurxName": "XhoI",
+    "catalogName": "XhoI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2440",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100%"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2440/",
+    "prototype": "XhoI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvrII": {
+    "eurxName": "AvrII",
+    "catalogName": "AvrII",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2003",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2003/",
+    "prototype": "AvrII",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspHI": {
+    "eurxName": "BspHI",
+    "catalogName": "BspHI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2116",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2116/",
+    "prototype": "BspHI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpySP4III": {
+    "eurxName": "HpySP4III",
+    "catalogName": "HpySP4III",
+    "alsoKnownAs": "TaaI",
+    "catalogNumber": "E2270",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2270/",
+    "prototype": "Tsp4CI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "LlaDII": {
+    "eurxName": "LlaDII",
+    "catalogName": "LlaDII",
+    "alsoKnownAs": "Fnu4HI",
+    "catalogNumber": "E2281",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2281/",
+    "prototype": "Fnu4HI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScrFI": {
+    "eurxName": "ScrFI",
+    "catalogName": "ScrFI",
+    "alsoKnownAs": null,
+    "catalogNumber": "E2377",
+    "preferredBuffer": "one",
+    "suppliedBuffer": "ONE Buffer",
+    "bufferActivity": {
+      "one": "100"
+    },
+    "heatInactivation": "65°C for 20 min",
+    "incubationC": 37,
+    "incubationMinutes": 60,
+    "productUrl": "https://eurx.com.pl/product/e2377/",
+    "prototype": "ScrFI",
+    "requiresBsa": true,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

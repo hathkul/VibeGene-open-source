@@ -1,0 +1,92 @@
+.primer-tm-conditions {
+  min-width: 0;
+  border-top: 1px solid var(--vg-border);
+  border-bottom: 1px solid var(--vg-border);
+  color: var(--vg-text);
+}
+
+.primer-tm-conditions > summary {
+  padding: 7px 2px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.primer-tm-conditions__body {
+  min-width: 0;
+  padding: 2px 0 8px;
+}
+
+.primer-tm-conditions__fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  gap: 8px;
+  align-items: start;
+}
+
+.primer-tm-conditions__field {
+  display: grid;
+  min-width: 0;
+  gap: 4px;
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.primer-tm-conditions__field input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border: 1px solid var(--vg-control-border);
+  border-radius: 3px;
+  padding: 5px 6px;
+  background: var(--vg-surface-inset);
+  color: var(--vg-text);
+  font: inherit;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.primer-tm-conditions__field input[aria-invalid='true'] {
+  border-color: var(--vg-danger-border);
+}
+
+.primer-tm-conditions__field input:focus-visible,
+.primer-tm-conditions__presets button:focus-visible {
+  outline: 2px solid var(--vg-focus);
+  outline-offset: 1px;
+}
+
+.primer-tm-conditions__field-error,
+.primer-tm-conditions__error {
+  color: var(--vg-danger-ink);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.primer-tm-conditions__error,
+.primer-tm-conditions__note {
+  margin: 6px 0 0;
+  font-size: 11px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.primer-tm-conditions__presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.primer-tm-conditions__presets button {
+  max-width: 100%;
+  white-space: normal;
+}
+
+@media (max-width: 520px) {
+  .primer-tm-conditions__fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

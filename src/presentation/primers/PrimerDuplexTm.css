@@ -1,0 +1,38 @@
+.primer-duplex-info {
+  position: relative;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.primer-editor-dialog .primer-duplex-info-button {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  min-height: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  border: 1px solid var(--vg-control-border);
+  border-radius: 50%;
+  background: var(--vg-surface-panel);
+  color: var(--vg-text-link);
+  font: 600 11px/1 sans-serif;
+  cursor: pointer;
+}
+
+.primer-duplex-info-popup {
+  position: absolute;
+  z-index: 5;
+  top: calc(100% + 5px);
+  right: 0;
+  box-sizing: border-box;
+  width: min(280px, calc(100vw - 64px));
+  padding: 8px 10px;
+  border: 1px solid var(--vg-border);
+  border-radius: 4px;
+  background: var(--vg-surface-panel);
+  color: var(--vg-text);
+  box-shadow: var(--vg-shadow-overlay);
+  white-space: normal;
+  line-height: 1.4;
+}

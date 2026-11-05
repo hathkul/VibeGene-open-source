@@ -1,0 +1,93 @@
+import { describe, expect, it, vi } from 'vitest'
+import { labPlasmid } from '../src/domain/fixtures'
+import { defaultDisplaySettings } from '../src/presentation/sequence'
+import { createWorkspaceSequenceModel } from '../src/presentation/workspace/workspaceSequenceViewModel'
+
+describe('createWorkspaceSequenceModel DNA database pick routing', () => {
+  it('routes the same onPickFromDatabase action to comparison and sequence panes', () => {
+    const pickFromDatabase = vi.fn()
+    const model = createWorkspaceSequenceModel({
+      mounted: true,
+      activeTab: 'Sequence',
+      layoutClassName: '',
+      protein: null,
+      dna: {
+        record: labPlasmid,
+        displaySettings: defaultDisplaySettings,
+        enzymePreferences: { selectedEnzymes: [], hiddenEnzymes: [] },
+        fileEnzymeSets: [],
+        restrictionSites: [],
+        parentalRestrictionSites: [],
+        selectedRange: null,
+        selectedFeatureId: null,
+        selectedFeatureIds: [],
+        selectedPrimerId: null,
+        selectedPrimerIds: [],
+        selectedRestrictionSites: [],
+        displayAnnotationFeatures: [],
+        orfTranslationByFeatureId: {},
+        displayedRestrictionSites: [],
+        cutStrandSelection: null,
+        sequenceHoverSiteKey: null,
+        motifHits: [],
+        motifQueryLength: 0,
+        displayablePrimerSites: [],
+        activeEnzymePool: [],
+        traceFiles: [],
+        traceAlignBusy: false,
+        selectedAlignmentTraceId: null,
+        dnaComparisonSources: [],
+        dnaComparisonEntries: [],
+        dnaComparisonPending: false,
+        dnaAlignmentMode: 'comparative',
+        libraryComparativeMemberIds: null,
+        mapZoomRange: null,
+        mapZoomSlider: 0,
+        canCropLibrary: false,
+        trace: null,
+        actions: {
+          onChange: vi.fn(),
+          onToggleMapZoom: vi.fn(),
+          onEnzymeInfo: vi.fn(),
+          onPreferencesChange: vi.fn(),
+          onFileEnzymeSetsChange: vi.fn(),
+          onPaintStrandColor: vi.fn(),
+          onSourcesChange: vi.fn(),
+          onStatus: vi.fn(),
+          onPickFromDatabase: pickFromDatabase,
+          onNavigate: vi.fn(),
+          onTraceFilesChange: vi.fn(),
+          onSelectAlignmentTrace: vi.fn(),
+          onTracesAdded: vi.fn(),
+          onRebuildLibraryConsensus: vi.fn(),
+          onFlipLibrary: vi.fn(),
+          onFlipLibraryMember: vi.fn(),
+          onOpenLibraryMemberAsConstruct: vi.fn(),
+          onOpenCombineLibraryReads: vi.fn(),
+          onCropLibrary: vi.fn(),
+          onGroupLibraryMembers: vi.fn(),
+          onReassembleLibraryMember: vi.fn(),
+          onDetachLibraryMemberRead: vi.fn(),
+          onAcceptReadBaseAtTemplate: vi.fn(),
+          onFeatureSelect: vi.fn(),
+          onFeatureEdit: vi.fn(),
+          onPrimerSelect: vi.fn(),
+          onRestrictionSelect: vi.fn(),
+          onRangeSelect: vi.fn(),
+          onExtendToBase: vi.fn(),
+          onPrimerEdit: vi.fn(),
+          onApplyReferenceReplacement: vi.fn(),
+          onDisplaySettingsChange: vi.fn(),
+          onSaveVisualSettings: vi.fn(),
+          onRevertVisualSettings: vi.fn(),
+          onRegisterTemplateNavigator: vi.fn(),
+          onViewRangeChange: vi.fn(),
+          onZoomSliderValueChange: vi.fn(),
+        },
+      },
+    })
+
+    expect(model.dna?.comparison.onPickFromDatabase).toBe(pickFromDatabase)
+    expect(model.dna?.sequence.onPickFromDatabase).toBe(pickFromDatabase)
+  })
+})

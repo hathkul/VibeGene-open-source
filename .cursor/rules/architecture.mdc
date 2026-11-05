@@ -1,0 +1,25 @@
+---
+description: Keep VibeGene's domain, adapters, and presentation dependencies directional
+alwaysApply: true
+---
+
+# Architecture boundaries
+
+Read `ARCHITECTURE.md` before introducing a cross-layer dependency. Use
+`docs/architecture/feature-ownership.md` to find the existing feature owner,
+and load the linked theme or verification guide only when relevant.
+
+- Put deterministic biology, parsing, geometry, selection, and normalization in `src/domain/`.
+- New `src/domain/` code must not import React, `storage/`, `desktop/`, Tauri, Dexie/IndexedDB, browser file APIs, or concrete workers/WASM. Pass I/O through a caller, a port, or an application workflow.
+- `src/storage/` owns IndexedDB/repository work and must not import Tauri packages; `src/desktop/` owns Tauri/native filesystem/windows; `src/workers/` contains only worker entry points plus domain protocols/algorithms.
+- New protected presentation (`src/presentation/` and `src/ui/`) must not implement direct storage, worker, WASM, Dexie, or Tauri access. Call a focused workflow or receive data/actions through props. Root-level dialogs and older `src/components/` modules may be legacy composition hosts; do not copy their direct-I/O pattern or refactor them incidentally during an unrelated bug fix.
+- For a multi-step workflow that combines UI, domain logic, and I/O, add a focused `src/application/<feature>/` module rather than growing `App.tsx`.
+- `SequenceRecord` from `src/domain/types.ts` is the canonical editable construct. Normalize it at import, persistence, and mutation boundaries; do not invent competing record shapes.
+- Use `src/domain/fileFormats.ts` for file extensions, capabilities, parsers/serializers, and UI filters.
+- Keep worker messages serializable and defined by explicit request/response protocol types.
+- The protected architecture guardrail has zero import exceptions. Treat legacy composition hosts as documented seams, not as examples for new code.
+- The broad `App.tsx` extraction phase is closed. Keep it as a composition root; do not move code merely to reduce line count or perform opportunistic refactoring during a bug fix.
+- Legacy large-file budgets include limited headroom for normal wiring and readable formatting. Never compress code, delete useful whitespace, or create hollow wrappers solely to satisfy a line ceiling. Ratchet a recorded legacy baseline only at Tier 2 or Tier 3 after a genuine reduction of at least 50 lines; see `ARCHITECTURE.md`.
+- For bugs, reproduce the live path, record the lowest practical regression case, and make the narrowest fix. A focused test may be written or queued during Tier 1, but all queued tests must be completed at Tier 2. Verify live browser/Tauri behavior when cascade, timing, pointer, renderer, or native behavior is involved.
+
+Follow the three tiers in `docs/architecture/verification.md`: focused or queued proof per fix, affected checks once per 5–10-fix batch, and the full gate once before merging. Do not run repository-wide tests/builds after every minor edit. The lint baseline is zero; do not update it during ordinary work.

@@ -1,0 +1,4682 @@
+{
+  "AatII": {
+    "sibName": "Aat II",
+    "catalogName": "AatII",
+    "recognitionRaw": "GACGT ↑ C C ↓ TGCAG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AbsI": {
+    "sibName": "Abs I",
+    "catalogName": "AbsI",
+    "recognitionRaw": "CC ↑ TCGAGG GGAGCT ↓ CC",
+    "preferredRaw": "*",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "*",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10-25",
+      "g": "10-25",
+      "o": "0-10",
+      "w": "25-50",
+      "y": "10-25",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc16I": {
+    "sibName": "Acc16 I",
+    "catalogName": "Acc16I",
+    "recognitionRaw": "TGC ↑ GCA ACG ↓ CGT",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "25",
+      "w": "100",
+      "y": "75",
+      "rose": "70"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc36I": {
+    "sibName": "Acc36 I",
+    "catalogName": "Acc36I",
+    "recognitionRaw": "ACCTGC(N) 4 ↑ TGGACG(N) 8 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "50",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc65I": {
+    "sibName": "Acc65 I",
+    "catalogName": "Acc65I",
+    "recognitionRaw": "G ↑ GTACC CCATG ↓ G",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccB1I": {
+    "sibName": "AccB1 I",
+    "catalogName": "AccB1I",
+    "recognitionRaw": "G ↑ GYRCC CCRYG ↓ G",
+    "preferredRaw": "K",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "K",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "10",
+      "o": "10",
+      "w": "75",
+      "y": "50",
+      "rose": "30"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccB7I": {
+    "sibName": "AccB7 I",
+    "catalogName": "AccB7I",
+    "recognitionRaw": "CCANNNN ↑ NTGG GGTN ↓ NNNNACC",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "100",
+      "o": "25",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccBSI": {
+    "sibName": "AccBS I",
+    "catalogName": "AccBSI",
+    "recognitionRaw": "GAG ↑ CGG CTC ↓ GCC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AclI": {
+    "sibName": "Acl I",
+    "catalogName": "AclI",
+    "recognitionRaw": "AA ↑ CGTT TTGC ↓ AA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "0",
+      "g": "0",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "80"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AclWI": {
+    "sibName": "AclW I",
+    "catalogName": "AclWI",
+    "recognitionRaw": "GGATC(N) 4 ↑ CCTAG(N) 5 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "30"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcoI": {
+    "sibName": "Aco I",
+    "catalogName": "AcoI",
+    "recognitionRaw": "Y ↑ GGCCR RCCGG ↓ Y",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "50",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcsI": {
+    "sibName": "Acs I",
+    "catalogName": "AcsI",
+    "recognitionRaw": "R ↑ AATTY YTTAA ↓ R",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "50",
+      "w": "100",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AcuI": {
+    "sibName": "Acu I",
+    "catalogName": "AcuI",
+    "recognitionRaw": "CTGAAG(N) 16 ↑ GACTTC(N) 14 ↓",
+    "preferredRaw": "Y+ SAM",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "Y+ SAM",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "50",
+      "w": "75",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AfeI": {
+    "sibName": "Afe I",
+    "catalogName": "AfeI",
+    "recognitionRaw": "AGC ↑ GCT TCG ↓ CGA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "75",
+      "w": "75",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AgsI": {
+    "sibName": "Ags I",
+    "catalogName": "AgsI",
+    "recognitionRaw": "TTS ↑ AA AA ↓ STT",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "10",
+      "w": "10",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AhlI": {
+    "sibName": "Ahl I",
+    "catalogName": "AhlI",
+    "recognitionRaw": "A ↑ CTAGT TGATC ↓ A",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "25",
+      "w": "25",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AjnI": {
+    "sibName": "Ajn I",
+    "catalogName": "AjnI",
+    "recognitionRaw": "↑ CCWGG GGWCC ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "10",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "sibName": "Alu I",
+    "catalogName": "AluI",
+    "recognitionRaw": "AG ↑ CT TC ↓ GA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "10",
+      "w": "50",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluBI": {
+    "sibName": "AluB I",
+    "catalogName": "AluBI",
+    "recognitionRaw": "AG ↑ CT TC ↓ GA",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "10",
+      "w": "10",
+      "y": "75",
+      "rose": "60"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ama87I": {
+    "sibName": "Ama87 I",
+    "catalogName": "Ama87I",
+    "recognitionRaw": "C ↑ YCGRG GRGCY ↓ C",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10 – 25",
+      "g": "50 – 75",
+      "o": "75 – 100",
+      "w": "100",
+      "y": "0 – 10",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "sibName": "Apa I",
+    "catalogName": "ApaI",
+    "recognitionRaw": "GGGCC ↑ C C ↓ CCGGG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "25",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ArsI": {
+    "sibName": "Ars I",
+    "catalogName": "ArsI",
+    "recognitionRaw": "↑ (N) 8 GACNNNNNNTTYG(N) 11 ↑ ↓ (N) 13 CTGNNNNNNAARC(N) 6 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "0",
+      "g": "0",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "20"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 30,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsiGI": {
+    "sibName": "AsiG I",
+    "catalogName": "AsiGI",
+    "recognitionRaw": "A ↑ CCGGT TGGCC ↓ A",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspA2I": {
+    "sibName": "AspA2 I",
+    "catalogName": "AspA2I",
+    "recognitionRaw": "C ↑ CTAGG GGATC ↓ C",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "50",
+      "o": "75",
+      "w": "100",
+      "y": "75",
+      "rose": "10"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspLEI": {
+    "sibName": "AspLE I",
+    "catalogName": "AspLEI",
+    "recognitionRaw": "GCG ↑ C C ↓ GCG",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "75",
+      "o": "100",
+      "w": "50",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AspS9I": {
+    "sibName": "AspS9 I",
+    "catalogName": "AspS9I",
+    "recognitionRaw": "G ↑ GNCC CCNG ↓ G",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "75",
+      "w": "100",
+      "y": "50",
+      "rose": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsuC2I": {
+    "sibName": "AsuC2 I",
+    "catalogName": "AsuC2I",
+    "recognitionRaw": "CC ↑ SGG GGS ↓ CC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "40"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsuHPI": {
+    "sibName": "AsuHP I",
+    "catalogName": "AsuHPI",
+    "recognitionRaw": "GGTGA(N) 8 ↑ CCACT(N) 7 ↓",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10-25",
+      "g": "50-75",
+      "o": "100",
+      "w": "75-100",
+      "y": "25-50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AsuNHI": {
+    "sibName": "AsuNH I",
+    "catalogName": "AsuNHI",
+    "recognitionRaw": "G ↑ CTAGC CGATC ↓ G",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "sibName": "BamH I",
+    "catalogName": "BamHI",
+    "recognitionRaw": "G ↑ GATCC CCTAG ↓ G",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "100",
+      "o": "75",
+      "w": "75",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BarI": {
+    "sibName": "Bar I",
+    "catalogName": "BarI",
+    "recognitionRaw": "↑ (N) 7 GAAGNNNNNNTAC(N) 12 ↑ ↓ (N) 12 CTTCNNNNNNATG(N) 7 ↓",
+    "preferredRaw": "*",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "*",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "0",
+      "o": "25",
+      "w": "50",
+      "y": "10",
+      "rose": "40"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bbv12I": {
+    "sibName": "Bbv12 I",
+    "catalogName": "Bbv12I",
+    "recognitionRaw": "GWGCW ↑ C C ↓ WCGWG",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "60"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "sibName": "Bgl I",
+    "catalogName": "BglI",
+    "recognitionRaw": "GCCNNNN ↑ NGGC CGGN ↓ NNNNCCG",
+    "preferredRaw": "2W",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "2W",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "0",
+      "w": "75",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "sibName": "Bgl II",
+    "catalogName": "BglII",
+    "recognitionRaw": "A ↑ GATCT TCTAG ↓ A",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "100",
+      "w": "25",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bme18I": {
+    "sibName": "Bme18 I",
+    "catalogName": "Bme18I",
+    "recognitionRaw": "G ↑ GWCC CCWG ↓ G",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "80"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmtI": {
+    "sibName": "Bmt I",
+    "catalogName": "BmtI",
+    "recognitionRaw": "GCTAG ↑ C C ↓ GATCG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "50",
+      "o": "50",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BmuI": {
+    "sibName": "Bmu I",
+    "catalogName": "BmuI",
+    "recognitionRaw": "ACTGGG(N) 5 ↑ TGACCC(N) 4 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "10",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BpmI": {
+    "sibName": "BpmI",
+    "catalogName": "BpmI",
+    "recognitionRaw": "CTGGAG(N) 16 ↑ GACCTC(N) 14 ↓",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25 – 50",
+      "g": "50 – 75",
+      "o": "75 – 100",
+      "w": "100",
+      "y": "50 – 75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu10I": {
+    "sibName": "Bpu10I",
+    "catalogName": "Bpu10I",
+    "recognitionRaw": "CC ↑ TNAGC GGANT ↓ CG",
+    "preferredRaw": "K",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "K",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10 – 25",
+      "g": "25 – 50",
+      "o": "50 – 75",
+      "w": "50 – 75",
+      "y": "25 – 50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bpu14I": {
+    "sibName": "Bpu14 I",
+    "catalogName": "Bpu14I",
+    "recognitionRaw": "TT ↑ CGAA AAGC ↓ TT",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "100",
+      "o": "25",
+      "w": "25",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsa29I": {
+    "sibName": "Bsa29 I",
+    "catalogName": "Bsa29I",
+    "recognitionRaw": "AT ↑ CGAT TAGC ↓ TA",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "100",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsc4I": {
+    "sibName": "Bsc4 I",
+    "catalogName": "Bsc4I",
+    "recognitionRaw": "CCNNNNN ↑ NNGG GGNN ↓ NNNNNCC",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "50",
+      "w": "100",
+      "y": "25",
+      "rose": "90"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse1I": {
+    "sibName": "Bse1 I",
+    "catalogName": "Bse1I",
+    "recognitionRaw": "ACTGGN ↑ TGAC ↓ CN",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "10",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse118I": {
+    "sibName": "Bse118 I",
+    "catalogName": "Bse118I",
+    "recognitionRaw": "R ↑ CCGGY YGGCC ↓ R",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "50",
+      "o": "100",
+      "w": "75",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse21I": {
+    "sibName": "Bse21 I",
+    "catalogName": "Bse21I",
+    "recognitionRaw": "CC ↑ TNAGG GGANT ↓ CC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "40"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse3DI": {
+    "sibName": "Bse3D I",
+    "catalogName": "Bse3DI",
+    "recognitionRaw": "GCAATGNN ↑ CGTTAC ↓ NN",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "100",
+      "o": "25",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bse8I": {
+    "sibName": "Bse8 I",
+    "catalogName": "Bse8I",
+    "recognitionRaw": "GATNN ↑ NNATC CTANN ↓ NNTAG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "100",
+      "o": "75",
+      "w": "75",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsePI": {
+    "sibName": "BseP I",
+    "catalogName": "BsePI",
+    "recognitionRaw": "G ↑ CGCGC CGCGC ↓ G",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "100",
+      "o": "75",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BseX3I": {
+    "sibName": "BseX3 I",
+    "catalogName": "BseX3I",
+    "recognitionRaw": "C ↑ GGCCG GCCGG ↓ C",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "50",
+      "y": "10",
+      "rose": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BslFI": {
+    "sibName": "BslF I",
+    "catalogName": "BslFI",
+    "recognitionRaw": "GGGAC(N) 10 ↑ CCCTG(N) 14 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bso31I": {
+    "sibName": "Bso31 I",
+    "catalogName": "Bso31I",
+    "recognitionRaw": "GGTCTC(N) 1 ↑ CCAGAG(N) 5 ↓",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "75",
+      "o": "100",
+      "w": "75",
+      "y": "25",
+      "rose": "40"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp13I": {
+    "sibName": "Bsp13 I",
+    "catalogName": "Bsp13I",
+    "recognitionRaw": "T ↑ CCGGA AGGCC ↓ T",
+    "preferredRaw": "2K",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "2K",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "75",
+      "w": "50",
+      "y": "0",
+      "rose": "5"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1720I": {
+    "sibName": "Bsp1720 I",
+    "catalogName": "Bsp1720I",
+    "recognitionRaw": "GC ↑ TNAGC CGANT ↓ CG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "100",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "75"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp19I": {
+    "sibName": "Bsp19 I",
+    "catalogName": "Bsp19I",
+    "recognitionRaw": "C ↑ CATGG GGTAC ↓ C",
+    "preferredRaw": "2W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "2W",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "50",
+      "w": "75",
+      "y": "10",
+      "rose": "5"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspACI": {
+    "sibName": "BspAC I",
+    "catalogName": "BspACI",
+    "recognitionRaw": "C ↑ CGC GGC ↓ G",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BspFNI": {
+    "sibName": "BspFN I",
+    "catalogName": "BspFNI",
+    "recognitionRaw": "CG ↑ CG GC ↓ GC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "75",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssECI": {
+    "sibName": "BssEC I",
+    "catalogName": "BssECI",
+    "recognitionRaw": "C ↑ CNNGG GGNNC ↓ C",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "50",
+      "w": "75",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssNAI": {
+    "sibName": "BssNA I",
+    "catalogName": "BssNAI",
+    "recognitionRaw": "GTA ↑ TAC CAT ↓ ATG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "75",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssT1I": {
+    "sibName": "BssT1 I",
+    "catalogName": "BssT1I",
+    "recognitionRaw": "C ↑ CWWGG GGWWC ↓ C",
+    "preferredRaw": "2K",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "2K",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "25",
+      "w": "75",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst2BI": {
+    "sibName": "Bst2B I",
+    "catalogName": "Bst2BI",
+    "recognitionRaw": "C ↑ TCGTG GAGCA ↓ C",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "25",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst2UI": {
+    "sibName": "Bst2U I",
+    "catalogName": "Bst2UI",
+    "recognitionRaw": "CC ↑ WGG GGW ↓ CC",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "50",
+      "w": "50",
+      "y": "10",
+      "rose": "50"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst4CI": {
+    "sibName": "Bst4C I",
+    "catalogName": "Bst4CI",
+    "recognitionRaw": "ACN ↑ GT TG ↓ NCA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst6I": {
+    "sibName": "Bst6 I",
+    "catalogName": "Bst6I",
+    "recognitionRaw": "CTCTTC(N) 1 ↑ GAGAAG(N) 4 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "50",
+      "w": "75",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstACI": {
+    "sibName": "BstAC I",
+    "catalogName": "BstACI",
+    "recognitionRaw": "GR ↑ CGYC CYGC ↓ RG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "50",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstAFI": {
+    "sibName": "BstAF I",
+    "catalogName": "BstAFI",
+    "recognitionRaw": "C ↑ TTAAG GAATT ↓ C",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstAPI": {
+    "sibName": "BstAP I",
+    "catalogName": "BstAPI",
+    "recognitionRaw": "GCANNNN ↑ NTGC CGTN ↓ NNNNACG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstAUI": {
+    "sibName": "BstAU I",
+    "catalogName": "BstAUI",
+    "recognitionRaw": "T ↑ GTACA ACATG ↓ T",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "50",
+      "o": "25",
+      "w": "100",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstBAI": {
+    "sibName": "BstBA I",
+    "catalogName": "BstBAI",
+    "recognitionRaw": "YAC ↑ GTR RTG ↓ CAY",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "25",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstC8I": {
+    "sibName": "BstC8I",
+    "catalogName": "BstC8I",
+    "recognitionRaw": "GCN ↑ NGC CGN ↓ NCG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10 – 25",
+      "g": "25 – 50",
+      "o": "50 – 75",
+      "w": "75 – 100",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstDEI": {
+    "sibName": "BstDE I",
+    "catalogName": "BstDEI",
+    "recognitionRaw": "C ↑ TNAG GANT ↓ C",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "50",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstDSI": {
+    "sibName": "BstDS I",
+    "catalogName": "BstDSI",
+    "recognitionRaw": "C ↑ CRYGG GGYRC ↓ C",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "75",
+      "o": "50",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstENI": {
+    "sibName": "BstEN I",
+    "catalogName": "BstENI",
+    "recognitionRaw": "CCTNN ↑ NNNAGG GGANNN ↓ NNTCC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstF5I": {
+    "sibName": "BstF5 I",
+    "catalogName": "BstF5I",
+    "recognitionRaw": "GGATGNN ↑ CCTAC ↓ NN",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "25",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstFNI": {
+    "sibName": "BstFN I",
+    "catalogName": "BstFNI",
+    "recognitionRaw": "CG ↑ CG GC ↓ GC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "75"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstH2I": {
+    "sibName": "BstH2 I",
+    "catalogName": "BstH2I",
+    "recognitionRaw": "RGCGC ↑ Y Y ↓ CGCGR",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "0",
+      "w": "10",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstHHI": {
+    "sibName": "BstHH I",
+    "catalogName": "BstHHI",
+    "recognitionRaw": "GCG ↑ C C ↓ GCG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "25",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstKTI": {
+    "sibName": "BstKTI",
+    "catalogName": "BstKTI",
+    "recognitionRaw": "GAT ↑ C C ↓ TAG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25 – 50",
+      "g": "50 – 75",
+      "o": "75 – 100",
+      "w": "100",
+      "y": "50 – 75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstMAI": {
+    "sibName": "BstMA I",
+    "catalogName": "BstMAI",
+    "recognitionRaw": "GTCTC(N) 1 ↑ CAGAG(N) 5 ↓",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "50",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstMBI": {
+    "sibName": "BstMB I",
+    "catalogName": "BstMBI",
+    "recognitionRaw": "↑ GATC CTAG ↓",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstMCI": {
+    "sibName": "BstMC I",
+    "catalogName": "BstMCI",
+    "recognitionRaw": "CGRY ↑ CG GC ↓ YRGC",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "10",
+      "w": "10",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstMWI": {
+    "sibName": "BstMW I",
+    "catalogName": "BstMWI",
+    "recognitionRaw": "GCNNNNN ↑ NNGC CGNN ↓ NNNNNCG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "25",
+      "w": "50",
+      "y": "100",
+      "rose": "40"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstNSI": {
+    "sibName": "BstNS I",
+    "catalogName": "BstNSI",
+    "recognitionRaw": "RCATG ↑ Y Y ↓ GTACR",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "10",
+      "w": "10",
+      "y": "75",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstPAI": {
+    "sibName": "BstPA I",
+    "catalogName": "BstPAI",
+    "recognitionRaw": "GACNN ↑ NNGTC CTGNN ↓ NNCAG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "25",
+      "o": "50",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstSCI": {
+    "sibName": "BstSCI",
+    "catalogName": "BstSCI",
+    "recognitionRaw": "↑ CCNGG GGNCC ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50 – 75",
+      "g": "50 – 75",
+      "o": "50 – 75",
+      "w": "50 – 75",
+      "y": "100",
+      "rose": "60"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstSFI": {
+    "sibName": "BstSF I",
+    "catalogName": "BstSFI",
+    "recognitionRaw": "C ↑ TRYAG GAYRT ↓ C",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "25",
+      "o": "100",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstSLI": {
+    "sibName": "BstSL I",
+    "catalogName": "BstSLI",
+    "recognitionRaw": "GKGCM ↑ C C ↓ MCGKG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "100",
+      "o": "50",
+      "w": "75",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstSNI": {
+    "sibName": "BstSN I",
+    "catalogName": "BstSNI",
+    "recognitionRaw": "TAC ↑ GTA ATG ↓ CAT",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "0",
+      "w": "10",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstV1I": {
+    "sibName": "BstV1I",
+    "catalogName": "BstV1I",
+    "recognitionRaw": "GCAGC(N) 8 ↑ CGTCG(N) 12 ↓",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75 – 100",
+      "g": "100",
+      "o": "75 – 100",
+      "w": "75 – 100",
+      "y": "75 – 100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstV2I": {
+    "sibName": "BstV2 I",
+    "catalogName": "BstV2I",
+    "recognitionRaw": "GAAGAC(N) 2 ↑ CTTCTG(N) 6 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "70"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "sibName": "BstX I",
+    "catalogName": "BstXI",
+    "recognitionRaw": "CCANNNNN ↑ NTGG GGTN ↓ NNNNNACC",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "10",
+      "o": "100",
+      "w": "75",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstX2I": {
+    "sibName": "BstX2 I Temporarily unavailable",
+    "catalogName": "BstX2I",
+    "recognitionRaw": "R ↑ GATCY YCTAG ↓ R",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75 – 100",
+      "g": "100",
+      "o": "0 – 10",
+      "w": "10 – 25",
+      "y": "25 – 50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsuI": {
+    "sibName": "Bsu I",
+    "catalogName": "BsuI",
+    "recognitionRaw": "GTATCC(N) 6 ↑ CATAGG(N) 5 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsuRI": {
+    "sibName": "BsuR I",
+    "catalogName": "BsuRI",
+    "recognitionRaw": "GG ↑ CC CC ↓ GG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BtrI": {
+    "sibName": "Btr I",
+    "catalogName": "BtrI",
+    "recognitionRaw": "CAC ↑ GTC GTG ↓ CAG",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "100",
+      "w": "75",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 60,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CciI": {
+    "sibName": "Cci I",
+    "catalogName": "CciI",
+    "recognitionRaw": "T ↑ CATGA AGTAC ↓ T",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "25",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CciNI": {
+    "sibName": "CciN I",
+    "catalogName": "CciNI",
+    "recognitionRaw": "GC ↑ GGCCGC CGCCGG ↓ CG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "75",
+      "w": "75",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "sibName": "Dra I",
+    "catalogName": "DraI",
+    "recognitionRaw": "TTT ↑ AAA AAA ↓ TTT",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "75",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraIII": {
+    "sibName": "DraIII",
+    "catalogName": "DraIII",
+    "recognitionRaw": "CACNNN ↑ GTG GTG ↓ NNNCAC",
+    "preferredRaw": "2K",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "2K",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25 – 50",
+      "g": "50 – 75",
+      "o": "75 – 100",
+      "w": "75 – 100",
+      "y": "50 – 75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DriI": {
+    "sibName": "Dri I",
+    "catalogName": "DriI",
+    "recognitionRaw": "GACNNN ↑ NNGTC CTGNN ↓ NNNCAG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "10",
+      "w": "10",
+      "y": "100",
+      "rose": "40"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DseDI": {
+    "sibName": "DseD I",
+    "catalogName": "DseDI",
+    "recognitionRaw": "GACNNNN ↑ NNGTC CTGNN ↓ NNNNCAG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "50",
+      "y": "100",
+      "rose": "30"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoICRI": {
+    "sibName": "EcoICR I",
+    "catalogName": "EcoICRI",
+    "recognitionRaw": "GAG ↑ CTC CTC ↓ GAG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "0",
+      "w": "0",
+      "y": "75",
+      "rose": "5"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "sibName": "EcoR I",
+    "catalogName": "EcoRI",
+    "recognitionRaw": "G ↑ AATTC CTTAA ↓ G",
+    "preferredRaw": "*",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "*",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "75",
+      "w": "75",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRV": {
+    "sibName": "EcoR V",
+    "catalogName": "EcoRV",
+    "recognitionRaw": "GAT ↑ ATC CTA ↓ TAG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "0",
+      "g": "25",
+      "o": "50",
+      "w": "100",
+      "y": "25",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EgeI": {
+    "sibName": "Ege I",
+    "catalogName": "EgeI",
+    "recognitionRaw": "GGC ↑ GCC CCG ↓ CGG",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "10",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ErhI": {
+    "sibName": "Erh I",
+    "catalogName": "ErhI",
+    "recognitionRaw": "C ↑ CWWGG GGWWC ↓ C",
+    "preferredRaw": "2W",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "2W",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "50",
+      "w": "75",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FaeI": {
+    "sibName": "FaeI",
+    "catalogName": "FaeI",
+    "recognitionRaw": "CATG ↑ ↓ GTAC",
+    "preferredRaw": "*",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "*",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25 – 50",
+      "g": "50 – 75",
+      "o": "10 – 25",
+      "w": "10 – 25",
+      "y": "75 – 100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FaiI": {
+    "sibName": "FaiI",
+    "catalogName": "FaiI",
+    "recognitionRaw": "YA ↑ TR RT ↓ AY",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50 – 75",
+      "o": "10 – 25",
+      "w": "25 – 50",
+      "y": "25 – 50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FalI": {
+    "sibName": "FalI",
+    "catalogName": "FalI",
+    "recognitionRaw": "↑ (N) 8 AAGNNNNNCTT(N) 13 ↑ ↓ (N) 13 TTCNNNNNGAA(N) 8 ↓",
+    "preferredRaw": "W+ SAM",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "W+ SAM",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0 – 10",
+      "g": "25 – 50",
+      "o": "75 – 100",
+      "w": "100",
+      "y": "50 – 75",
+      "rose": "70"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FatI": {
+    "sibName": "FatI",
+    "catalogName": "FatI",
+    "recognitionRaw": "↑ CATG GTAC ↓",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10 – 25",
+      "g": "100",
+      "o": "25 – 50",
+      "w": "10 – 25",
+      "y": "50 – 75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FauI": {
+    "sibName": "Fau I",
+    "catalogName": "FauI",
+    "recognitionRaw": "CCCGC(N) 4 ↑ GGGCG(N) 6 ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "25",
+      "o": "0",
+      "w": "0",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FauNDI": {
+    "sibName": "FauND I",
+    "catalogName": "FauNDI",
+    "recognitionRaw": "CA ↑ TATG GTAT ↓ AC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "10",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FblI": {
+    "sibName": "Fbl I",
+    "catalogName": "FblI",
+    "recognitionRaw": "GT ↑ MKAC CAKM ↓ TG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "0",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FokI": {
+    "sibName": "Fok I",
+    "catalogName": "FokI",
+    "recognitionRaw": "GGATG(N) 9 ↑ CCTAC(N) 13 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "FriOI": {
+    "sibName": "FriO I",
+    "catalogName": "FriOI",
+    "recognitionRaw": "GRGCY ↑ C C ↓ YCGRG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "10",
+      "w": "0",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Fsp4HI": {
+    "sibName": "Fsp4H I",
+    "catalogName": "Fsp4HI",
+    "recognitionRaw": "GC ↑ NGC CGN ↓ CG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "GsaI": {
+    "sibName": "Gsa I",
+    "catalogName": "GsaI",
+    "recognitionRaw": "CCCAG ↑ C G ↓ GGTCG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 70,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "sibName": "Hae III",
+    "catalogName": "HaeIII",
+    "recognitionRaw": "GG ↑ CC CC ↓ GG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HgaI": {
+    "sibName": "Hga I",
+    "catalogName": "HgaI",
+    "recognitionRaw": "GACGC(N) 5 ↑ CTGCG(N) 10 ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindII": {
+    "sibName": "Hind II",
+    "catalogName": "HindII",
+    "recognitionRaw": "GTY ↑ RAC CAR ↓ YTG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "25",
+      "y": "75",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "sibName": "Hind III",
+    "catalogName": "HindIII",
+    "recognitionRaw": "A ↑ AGCTT TTCGA ↓ A",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "0",
+      "w": "100",
+      "y": "0",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "sibName": "Hinf I",
+    "catalogName": "HinfI",
+    "recognitionRaw": "G ↑ ANTC CTNA ↓ G",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "75",
+      "o": "100",
+      "w": "75",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "sibName": "Hpa I",
+    "catalogName": "HpaI",
+    "recognitionRaw": "GTT ↑ AAC CAA ↓ TTG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "sibName": "Hpa II",
+    "catalogName": "HpaII",
+    "recognitionRaw": "C ↑ CGG GGC ↓ C",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpySE526I": {
+    "sibName": "HpySE526 I",
+    "catalogName": "HpySE526I",
+    "recognitionRaw": "A ↑ CGT TGC ↓ A",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HspAI": {
+    "sibName": "HspA I",
+    "catalogName": "HspAI",
+    "recognitionRaw": "G ↑ CGC CGC ↓ G",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "sibName": "Kpn I",
+    "catalogName": "KpnI",
+    "recognitionRaw": "GGTAC ↑ C C ↓ CATGG",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "25",
+      "o": "25",
+      "w": "25",
+      "y": "75",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ksp22I": {
+    "sibName": "Ksp22 I",
+    "catalogName": "Ksp22I",
+    "recognitionRaw": "T ↑ GATCA ACTAG ↓ T",
+    "preferredRaw": "2K",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "2K",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "50",
+      "w": "50",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Kzo9I": {
+    "sibName": "Kzo9 I",
+    "catalogName": "Kzo9I",
+    "recognitionRaw": "↑ GATC CTAG ↓",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "100",
+      "o": "50",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "LmnI": {
+    "sibName": "Lmn I",
+    "catalogName": "LmnI",
+    "recognitionRaw": "GCTCCN ↑ CGAG ↓ GN",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "80"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MabI": {
+    "sibName": "Mab I",
+    "catalogName": "MabI",
+    "recognitionRaw": "A ↑ CCWGGT TGGWCC ↓ A",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "75",
+      "w": "100",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboII": {
+    "sibName": "Mbo II",
+    "catalogName": "MboII",
+    "recognitionRaw": "GAAGA(N) 8 ↑ CTTCT(N) 7 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "50",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MfeI": {
+    "sibName": "Mfe I",
+    "catalogName": "MfeI",
+    "recognitionRaw": "C ↑ AATTG GTTAA ↓ C",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "75",
+      "rose": "25"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MhlI": {
+    "sibName": "Mhl I",
+    "catalogName": "MhlI",
+    "recognitionRaw": "GDGCH ↑ C C ↓ HCGDG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "75",
+      "w": "100",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "sibName": "Mlu I",
+    "catalogName": "MluI",
+    "recognitionRaw": "A ↑ CGCGT TGCGC ↓ A",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "100",
+      "w": "25",
+      "y": "10",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Mly113I": {
+    "sibName": "Mly113 I",
+    "catalogName": "Mly113I",
+    "recognitionRaw": "GG ↑ CGCC CCGC ↓ GG",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "25",
+      "o": "10",
+      "w": "10",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MnlI": {
+    "sibName": "Mnl I",
+    "catalogName": "MnlI",
+    "recognitionRaw": "CCTC(N) 7 ↑ GGAG(N) 6 ↓",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "25",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Mox20I": {
+    "sibName": "Mox20 I",
+    "catalogName": "Mox20I",
+    "recognitionRaw": "TGG ↑ CCA ACC ↓ GGT",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "25",
+      "rose": "75"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MroNI": {
+    "sibName": "MroN I",
+    "catalogName": "MroNI",
+    "recognitionRaw": "G ↑ CCGGC CGGCC ↓ G",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "10",
+      "w": "0",
+      "y": "10",
+      "rose": "5"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MroXI": {
+    "sibName": "MroX I",
+    "catalogName": "MroXI",
+    "recognitionRaw": "GAANN ↑ NNTTC CTTNN ↓ NNAAG",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "50",
+      "w": "100",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "sibName": "Msp I",
+    "catalogName": "MspI",
+    "recognitionRaw": "C ↑ CGG GGC ↓ C",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "50",
+      "w": "75",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspA1I": {
+    "sibName": "MspA1 I",
+    "catalogName": "MspA1I",
+    "recognitionRaw": "CMG ↑ CKG GKC ↓ GMC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "75",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspR9I": {
+    "sibName": "MspR9 I",
+    "catalogName": "MspR9I",
+    "recognitionRaw": "CC ↑ NGG GGN ↓ CC",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "100",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "sibName": "Nru I",
+    "catalogName": "NruI",
+    "recognitionRaw": "TCG ↑ CGA AGC ↓ GCT",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "75",
+      "w": "100",
+      "y": "10",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PalAI": {
+    "sibName": "PalA I",
+    "catalogName": "PalAI",
+    "recognitionRaw": "GG ↑ CGCGCC CCGCGC ↓ GG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "10",
+      "o": "-10",
+      "w": "-10",
+      "y": "100",
+      "rose": "40"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PecI": {
+    "sibName": "Pec I",
+    "catalogName": "PecI",
+    "recognitionRaw": "TTA↑TAA AAT↓ATT",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50-75",
+      "g": "75-100",
+      "o": "10-25",
+      "w": "25-50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PceI": {
+    "sibName": "Pce I",
+    "catalogName": "PceI",
+    "recognitionRaw": "AGG ↑ CCT TCC ↓ GGA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "50",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PciI": {
+    "sibName": "Pci I",
+    "catalogName": "PciI",
+    "recognitionRaw": "A ↑ CATGT TGTAC ↓ A",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "100",
+      "w": "75",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PciSI": {
+    "sibName": "PciS I",
+    "catalogName": "PciSI",
+    "recognitionRaw": "GCTCTTCN ↑ CGAGAAG(N) 4 ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "75",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PctI": {
+    "sibName": "Pct I",
+    "catalogName": "PctI",
+    "recognitionRaw": "GAATGCN ↑ CTTAC ↓ GN",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "100",
+      "w": "75",
+      "y": "10",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Ple19I": {
+    "sibName": "Ple19 I",
+    "catalogName": "Ple19I",
+    "recognitionRaw": "CGAT ↑ CG GC ↓ TAGC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PpsI": {
+    "sibName": "Pps I",
+    "catalogName": "PpsI",
+    "recognitionRaw": "GAGTC(N) 4 ↑ CTCAG(N) 5 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "10",
+      "o": "0",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Pse31I": {
+    "sibName": "Pse31 I",
+    "catalogName": "Pse31I",
+    "recognitionRaw": "GGTCTC(N) 1 ↑ CCAGAG(N) 5 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25-50",
+      "g": "75-100",
+      "o": "10-25",
+      "w": "25-50",
+      "y": "100",
+      "rose": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PsiI": {
+    "sibName": "Psi I",
+    "catalogName": "PsiI",
+    "recognitionRaw": "TTA ↑ TAA AAT ↓ ATT",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "25",
+      "o": "10",
+      "w": "25",
+      "y": "75",
+      "rose": "40"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp124BI": {
+    "sibName": "Psp124B I",
+    "catalogName": "Psp124BI",
+    "recognitionRaw": "GAGCT ↑ C C ↓ TCGAG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "10",
+      "w": "0",
+      "y": "75",
+      "rose": "30"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Psp6I": {
+    "sibName": "Psp6 I",
+    "catalogName": "Psp6I",
+    "recognitionRaw": "↑ CCWGG GGWCC ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "75",
+      "rose": "10"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspCI": {
+    "sibName": "PspC I",
+    "catalogName": "PspCI",
+    "recognitionRaw": "CAC ↑ GTG GTG ↓ CAC",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "50",
+      "rose": "5"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspEI": {
+    "sibName": "PspE I",
+    "catalogName": "PspEI",
+    "recognitionRaw": "G ↑ GTNACC CCANTG ↓ G",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "25",
+      "w": "50",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspLI": {
+    "sibName": "PspL I",
+    "catalogName": "PspLI",
+    "recognitionRaw": "C ↑ GTACG GCATG ↓ C",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "25",
+      "w": "10",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspN4I": {
+    "sibName": "PspN4 I",
+    "catalogName": "PspN4I",
+    "recognitionRaw": "GGN ↑ NCC CCN ↓ NGG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "10",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspOMI": {
+    "sibName": "PspOM I",
+    "catalogName": "PspOMI",
+    "recognitionRaw": "G ↑ GGCCC CCCGG ↓ G",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "10",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspPPI": {
+    "sibName": "PspPP I",
+    "catalogName": "PspPPI",
+    "recognitionRaw": "RG ↑ GWCCY YCCWG ↓ GR",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "10",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PspXI": {
+    "sibName": "PspX I",
+    "catalogName": "PspXI",
+    "recognitionRaw": "VC ↑ TCGAGB BGAGCT ↓ CV",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "50",
+      "o": "25",
+      "w": "75",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PsrI": {
+    "sibName": "Psr I",
+    "catalogName": "PsrI",
+    "recognitionRaw": "↑ (N) 7 GAACNNNNNNTAC(N) 12 ↑ ↓ (N) 12 CTTGNNNNNNATG(N) 7 ↓",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "10",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "30"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 30,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "sibName": "Pst I",
+    "catalogName": "PstI",
+    "recognitionRaw": "CTGCA ↑ G G ↓ ACGTC",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "25",
+      "y": "25",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstNI": {
+    "sibName": "PstN I",
+    "catalogName": "PstNI",
+    "recognitionRaw": "CAGNNN ↑ CTG GTC ↓ NNNGAC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "sibName": "Pvu II",
+    "catalogName": "PvuII",
+    "recognitionRaw": "CAG ↑ CTG GTC ↓ GAC",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "100",
+      "o": "25",
+      "w": "25",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RgaI": {
+    "sibName": "Rga I",
+    "catalogName": "RgaI",
+    "recognitionRaw": "GCGAT ↑ CGC CGC ↓ TAGCG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "10",
+      "w": "25",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RigI": {
+    "sibName": "Rig I",
+    "catalogName": "RigI",
+    "recognitionRaw": "GGCCGG ↑ CC CC ↓ GGCCGG",
+    "preferredRaw": "*",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "*",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "0",
+      "w": "10",
+      "y": "50",
+      "rose": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "sibName": "Rsa I",
+    "catalogName": "RsaI",
+    "recognitionRaw": "GT ↑ AC CA ↓ TG",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "0-10",
+      "w": "50",
+      "y": "75",
+      "rose": "50"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaNI": {
+    "sibName": "RsaN I",
+    "catalogName": "RsaNI",
+    "recognitionRaw": "G ↑ TAC CAT ↓ G",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Rsr2I": {
+    "sibName": "Rsr2 I",
+    "catalogName": "Rsr2I",
+    "recognitionRaw": "CG ↑ GWCCG GCCWG ↓ GC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "0",
+      "w": "10",
+      "y": "100",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "sibName": "Sal I",
+    "catalogName": "SalI",
+    "recognitionRaw": "G ↑ TCGAC CAGCT ↓ G",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "100",
+      "w": "25",
+      "y": "0",
+      "rose": "5"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SbfI": {
+    "sibName": "Sbf I",
+    "catalogName": "SbfI",
+    "recognitionRaw": "CCTGCA ↑ GG GG ↓ ACGTCC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SetI": {
+    "sibName": "Set I",
+    "catalogName": "SetI",
+    "recognitionRaw": "ASST ↑ ↓ TSSA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "75",
+      "w": "75",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfaNI": {
+    "sibName": "SfaN I",
+    "catalogName": "SfaNI",
+    "recognitionRaw": "GCATC(N) 5 ↑ CGTAG(N) 9 ↓",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "0",
+      "rose": "25"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "sibName": "Sfi I",
+    "catalogName": "SfiI",
+    "recognitionRaw": "GGCCNNNN ↑ NGGCC CCGGN ↓ NNNNCCGG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "100",
+      "o": "25",
+      "w": "25",
+      "y": "25",
+      "rose": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sfr274I": {
+    "sibName": "Sfr274 I",
+    "catalogName": "Sfr274I",
+    "recognitionRaw": "C ↑ TCGAG GAGCT ↓ C",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 50,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sfr303I": {
+    "sibName": "Sfr303 I",
+    "catalogName": "Sfr303I",
+    "recognitionRaw": "CCGC ↑ GG GG ↓ CGCC",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "10",
+      "w": "10",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "sibName": "Sma I",
+    "catalogName": "SmaI",
+    "recognitionRaw": "CCC ↑ GGG GGG ↓ CCC",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "0",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 25,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiI": {
+    "sibName": "Smi I",
+    "catalogName": "SmiI",
+    "recognitionRaw": "ATTT ↑ AAAT TAAA ↓ TTTA",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "25",
+      "o": "100",
+      "w": "75",
+      "y": "25",
+      "rose": "10"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmiMI": {
+    "sibName": "SmiM I",
+    "catalogName": "SmiMI",
+    "recognitionRaw": "CAYNN ↑ NNRTG GTRNN ↓ NNYAC",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "10",
+      "o": "75",
+      "w": "100",
+      "y": "10",
+      "rose": "60"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "sibName": "Sph I",
+    "catalogName": "SphI",
+    "recognitionRaw": "GCATG ↑ C C ↓ GTACG",
+    "preferredRaw": "G",
+    "preferredBuffer": "g",
+    "suppliedBuffer": "SE Buffer G (green)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "25",
+      "g": "100",
+      "o": "75",
+      "w": "75",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sse9I": {
+    "sibName": "Sse9 I",
+    "catalogName": "Sse9I",
+    "recognitionRaw": "↑ AATT TTAA ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "75",
+      "o": "50",
+      "w": "50",
+      "y": "75",
+      "rose": "75"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 55,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "sibName": "Ssp I",
+    "catalogName": "SspI",
+    "recognitionRaw": "AAT ↑ ATT TTA ↓ TAA",
+    "preferredRaw": "K",
+    "preferredBuffer": "rose",
+    "suppliedBuffer": "K",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "25",
+      "w": "50",
+      "y": "75",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "sibName": "Taq I",
+    "catalogName": "TaqI",
+    "recognitionRaw": "T ↑ CGA AGC ↓ T",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "75",
+      "o": "75",
+      "w": "50",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tru9I": {
+    "sibName": "Tru9 I",
+    "catalogName": "Tru9I",
+    "recognitionRaw": "T ↑ TAA AAT ↓ T",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "25",
+      "o": "25",
+      "w": "100",
+      "y": "50",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TseFI": {
+    "sibName": "TseF I",
+    "catalogName": "TseFI",
+    "recognitionRaw": "↑ GTSAC CASTG ↓",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "0",
+      "w": "25",
+      "y": "50",
+      "rose": "50"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tth111I": {
+    "sibName": "Tth111 I",
+    "catalogName": "Tth111I",
+    "recognitionRaw": "GACN ↑ NNGTC CTGNN ↓ NCAG",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "10",
+      "w": "10",
+      "y": "100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 65,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VneI": {
+    "sibName": "Vne I",
+    "catalogName": "VneI",
+    "recognitionRaw": "G ↑ TGCAC CACGT ↓ G",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "10",
+      "g": "25",
+      "o": "100",
+      "w": "25",
+      "y": "25",
+      "rose": "100"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VspI": {
+    "sibName": "Vsp I",
+    "catalogName": "VspI",
+    "recognitionRaw": "AT ↑ TAAT TAAT ↓ TA",
+    "preferredRaw": "W",
+    "preferredBuffer": "w",
+    "suppliedBuffer": "SE Buffer W (white)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "0",
+      "g": "10",
+      "o": "50",
+      "w": "100",
+      "y": "25",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "sibName": "Xba I",
+    "catalogName": "XbaI",
+    "recognitionRaw": "T ↑ CTAGA AGATC ↓ T",
+    "preferredRaw": "O",
+    "preferredBuffer": "o",
+    "suppliedBuffer": "SE Buffer O (orange)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "75",
+      "g": "75",
+      "o": "100",
+      "w": "50",
+      "y": "75",
+      "rose": "25"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmaI": {
+    "sibName": "Xma I",
+    "catalogName": "XmaI",
+    "recognitionRaw": "C ↑ CCGGG GGGCC ↓ C",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "75",
+      "g": "50",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ZraI": {
+    "sibName": "ZraI",
+    "catalogName": "ZraI",
+    "recognitionRaw": "GAC ↑ GTC CTG ↓ CAG",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": null,
+    "bufferActivity": {
+      "b": "100",
+      "g": "50 – 75",
+      "o": "25 – 50",
+      "w": "25 – 50",
+      "y": "75 – 100",
+      "rose": "100"
+    },
+    "heatInactivation": "80°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ZrmI": {
+    "sibName": "Zrm I",
+    "catalogName": "ZrmI",
+    "recognitionRaw": "AGT ↑ ACT TCA ↓ TGA",
+    "preferredRaw": "Y",
+    "preferredBuffer": "y",
+    "suppliedBuffer": "SE Buffer Y (yellow)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "50",
+      "g": "25",
+      "o": "0",
+      "w": "0",
+      "y": "100",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Zsp2I": {
+    "sibName": "Zsp2 I",
+    "catalogName": "Zsp2I",
+    "recognitionRaw": "ATGCA ↑ T T ↓ ACGTA",
+    "preferredRaw": "B",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "SE Buffer B (blue)",
+    "bsa": "+",
+    "bufferActivity": {
+      "b": "100",
+      "g": "50",
+      "o": "25",
+      "w": "25",
+      "y": "25",
+      "rose": "50"
+    },
+    "heatInactivation": "65°C",
+    "incubationC": 37,
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}

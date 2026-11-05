@@ -1,0 +1,136 @@
+name: Linux release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing GitHub release tag to build and update
+        required: true
+        default: v1.7.3
+        type: string
+      signed_updater:
+        description: Build signed AppImage updater artifacts (requires updater secrets)
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linux-release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  linux:
+    name: Linux ${{ matrix.name }} packages
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: x86-64
+            runner: ubuntu-22.04
+            checksum_suffix: ""
+          - name: ARM64
+            runner: ubuntu-22.04-arm
+            checksum_suffix: -arm64
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 45
+    env:
+      RELEASE_TAG: ${{ inputs.tag }}
+      GH_TOKEN: ${{ github.token }}
+      CHECKSUM_SUFFIX: ${{ matrix.checksum_suffix }}
+
+    steps:
+      - name: Check out the release tag
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.tag }}
+
+      - name: Validate tag and release version
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Expected a release tag such as v1.7.0, got: $RELEASE_TAG" >&2
+            exit 1
+          fi
+          package_version="$(node -p "require('./package.json').version")"
+          if [[ "v${package_version}" != "$RELEASE_TAG" ]]; then
+            echo "Tag $RELEASE_TAG does not match package version $package_version" >&2
+            exit 1
+          fi
+          gh release view "$RELEASE_TAG" >/dev/null
+
+      - name: Install Linux build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            curl \
+            file \
+            libayatana-appindicator3-dev \
+            libfuse2 \
+            librsvg2-dev \
+            libssl-dev \
+            libwebkit2gtk-4.1-dev \
+            libxdo-dev \
+            patchelf \
+            wget \
+            xdg-utils
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust build products
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - name: Install JavaScript dependencies
+        run: npm ci
+
+      - name: Prepare signed updater configuration
+        if: inputs.signed_updater
+        env:
+          VIBEGENE_UPDATER_PUBLIC_KEY: ${{ secrets.VIBEGENE_UPDATER_PUBLIC_KEY }}
+        run: node scripts/create-updater-config.mjs
+
+      - name: Build and upload Linux packages
+        id: tauri
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ inputs.signed_updater && secrets.TAURI_SIGNING_PRIVATE_KEY || '' }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ inputs.signed_updater && secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD || '' }}
+          VIBEGENE_UPDATER_PUBLIC_KEY: ${{ inputs.signed_updater && secrets.VIBEGENE_UPDATER_PUBLIC_KEY || '' }}
+        with:
+          tagName: ${{ inputs.tag }}
+          args: ${{ inputs.signed_updater && format('--bundles appimage,deb --config {0}/vibegene-updater.json', runner.temp) || '--bundles appimage,deb' }}
+          retryAttempts: 2
+          uploadUpdaterJson: false
+          uploadWorkflowArtifacts: true
+
+      - name: Upload Linux checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+          package_version="${RELEASE_TAG#v}"
+          mapfile -t packages < <(
+            find src-tauri/target/release/bundle -type f \
+              \( -name '*.AppImage' -o -name '*.deb' \) -print | sort
+          )
+          if [[ "${#packages[@]}" -ne 2 ]]; then
+            echo "Expected one AppImage and one Debian package, found ${#packages[@]}" >&2
+            printf '%s\n' "${packages[@]}" >&2
+            exit 1
+          fi
+          checksum_file="SHA256SUMS-linux${CHECKSUM_SUFFIX}-${package_version}.txt"
+          sha256sum "${packages[@]}" | sed 's#  .*/#  #' > "$checksum_file"
+          gh release upload "$RELEASE_TAG" "$checksum_file" --clobber

@@ -1,0 +1,766 @@
+{
+  "donor": [
+    {
+      "id": "donor:pDONR221 P5-P2.dna",
+      "kind": "donor",
+      "label": "pDONR221™ P5-P2",
+      "fileName": "pDONR221 P5-P2.json",
+      "path": "gateway-vectors/donor/pDONR221 P5-P2.json",
+      "length": 4774
+    },
+    {
+      "id": "donor:pDONR P2r-P3.dna",
+      "kind": "donor",
+      "label": "pDONR™ P2r-P3",
+      "fileName": "pDONR P2r-P3.json",
+      "path": "gateway-vectors/donor/pDONR P2r-P3.json",
+      "length": 4773
+    },
+    {
+      "id": "donor:pDONR P4-P1r.dna",
+      "kind": "donor",
+      "label": "pDONR™ P4-P1r",
+      "fileName": "pDONR P4-P1r.json",
+      "path": "gateway-vectors/donor/pDONR P4-P1r.json",
+      "length": 4777
+    },
+    {
+      "id": "donor:pDONR Zeo.dna",
+      "kind": "donor",
+      "label": "pDONR™/Zeo",
+      "fileName": "pDONR Zeo.json",
+      "path": "gateway-vectors/donor/pDONR Zeo.json",
+      "length": 4291
+    },
+    {
+      "id": "donor:pDONR201.dna",
+      "kind": "donor",
+      "label": "pDONR™201",
+      "fileName": "pDONR201.json",
+      "path": "gateway-vectors/donor/pDONR201.json",
+      "length": 4470
+    },
+    {
+      "id": "donor:pDONR207.dna",
+      "kind": "donor",
+      "label": "pDONR™207",
+      "fileName": "pDONR207.json",
+      "path": "gateway-vectors/donor/pDONR207.json",
+      "length": 5585
+    },
+    {
+      "id": "donor:pDONR221.dna",
+      "kind": "donor",
+      "label": "pDONR™221",
+      "fileName": "pDONR221.json",
+      "path": "gateway-vectors/donor/pDONR221.json",
+      "length": 4761
+    },
+    {
+      "id": "donor:pDONR221 P1-P4.dna",
+      "kind": "donor",
+      "label": "pDONR™221 P1-P4",
+      "fileName": "pDONR221 P1-P4.json",
+      "path": "gateway-vectors/donor/pDONR221 P1-P4.json",
+      "length": 4774
+    },
+    {
+      "id": "donor:pDONR221 P1-P5r.dna",
+      "kind": "donor",
+      "label": "pDONR™221 P1-P5r",
+      "fileName": "pDONR221 P1-P5r.json",
+      "path": "gateway-vectors/donor/pDONR221 P1-P5r.json",
+      "length": 4765
+    },
+    {
+      "id": "donor:pDONR221 P3-P2.dna",
+      "kind": "donor",
+      "label": "pDONR™221 P3-P2",
+      "fileName": "pDONR221 P3-P2.json",
+      "path": "gateway-vectors/donor/pDONR221 P3-P2.json",
+      "length": 4774
+    },
+    {
+      "id": "donor:pDONR221 P4r-P3r.dna",
+      "kind": "donor",
+      "label": "pDONR™221 P4r-P3r",
+      "fileName": "pDONR221 P4r-P3r.json",
+      "path": "gateway-vectors/donor/pDONR221 P4r-P3r.json",
+      "length": 4717
+    },
+    {
+      "id": "donor:pDONR221 P5-P4.dna",
+      "kind": "donor",
+      "label": "pDONR™221 P5-P4",
+      "fileName": "pDONR221 P5-P4.json",
+      "path": "gateway-vectors/donor/pDONR221 P5-P4.json",
+      "length": 4726
+    },
+    {
+      "id": "donor:pDONR222.dna",
+      "kind": "donor",
+      "label": "pDONR™222",
+      "fileName": "pDONR222.json",
+      "path": "gateway-vectors/donor/pDONR222.json",
+      "length": 4718
+    },
+    {
+      "id": "donor:pDONR223.dna",
+      "kind": "donor",
+      "label": "pDONR™223",
+      "fileName": "pDONR223.json",
+      "path": "gateway-vectors/donor/pDONR223.json",
+      "length": 5005
+    }
+  ],
+  "destination": [
+    {
+      "id": "destination:pAd BLOCK-iT-DEST.dna",
+      "kind": "destination",
+      "label": "pAd/BLOCK-iT™-DEST",
+      "fileName": "pAd BLOCK-iT-DEST.json",
+      "path": "gateway-vectors/destination/pAd BLOCK-iT-DEST.json",
+      "length": 34864
+    },
+    {
+      "id": "destination:pAd CMV V5-DEST.dna",
+      "kind": "destination",
+      "label": "pAd/CMV/V5-DEST™",
+      "fileName": "pAd CMV V5-DEST.json",
+      "path": "gateway-vectors/destination/pAd CMV V5-DEST.json",
+      "length": 36686
+    },
+    {
+      "id": "destination:pAd PL-DEST.dna",
+      "kind": "destination",
+      "label": "pAd/PL-DEST™",
+      "fileName": "pAd PL-DEST.json",
+      "path": "gateway-vectors/destination/pAd PL-DEST.json",
+      "length": 34864
+    },
+    {
+      "id": "destination:pBAD-DEST49.dna",
+      "kind": "destination",
+      "label": "pBAD-DEST49",
+      "fileName": "pBAD-DEST49.json",
+      "path": "gateway-vectors/destination/pBAD-DEST49.json",
+      "length": 6160
+    },
+    {
+      "id": "destination:pcDNA-DEST40.dna",
+      "kind": "destination",
+      "label": "pcDNA™-DEST40",
+      "fileName": "pcDNA-DEST40.json",
+      "path": "gateway-vectors/destination/pcDNA-DEST40.json",
+      "length": 7143
+    },
+    {
+      "id": "destination:pcDNA-DEST47.dna",
+      "kind": "destination",
+      "label": "pcDNA™-DEST47",
+      "fileName": "pcDNA-DEST47.json",
+      "path": "gateway-vectors/destination/pcDNA-DEST47.json",
+      "length": 7780
+    },
+    {
+      "id": "destination:pcDNA-DEST53.dna",
+      "kind": "destination",
+      "label": "pcDNA™-DEST53",
+      "fileName": "pcDNA-DEST53.json",
+      "path": "gateway-vectors/destination/pcDNA-DEST53.json",
+      "length": 7767
+    },
+    {
+      "id": "destination:pcDNA3.1 nV5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™3.1/nV5-DEST",
+      "fileName": "pcDNA3.1 nV5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA3.1 nV5-DEST.json",
+      "length": 7136
+    },
+    {
+      "id": "destination:pcDNA3.2 capTEV-CT V5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™3.2/capTEV-CT/V5-DEST",
+      "fileName": "pcDNA3.2 capTEV-CT V5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA3.2 capTEV-CT V5-DEST.json",
+      "length": 8010
+    },
+    {
+      "id": "destination:pcDNA3.2 capTEV-NT V5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™3.2/capTEV-NT/V5-DEST",
+      "fileName": "pcDNA3.2 capTEV-NT V5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA3.2 capTEV-NT V5-DEST.json",
+      "length": 7921
+    },
+    {
+      "id": "destination:pcDNA3.2 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™3.2/V5-DEST",
+      "fileName": "pcDNA3.2 V5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA3.2 V5-DEST.json",
+      "length": 7711
+    },
+    {
+      "id": "destination:pcDNA6.2 C-EmGFP-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/C-EmGFP-DEST",
+      "fileName": "pcDNA6.2 C-EmGFP-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 C-EmGFP-DEST.json",
+      "length": 7442
+    },
+    {
+      "id": "destination:pcDNA6.2 C-YFP-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/C-YFP-DEST",
+      "fileName": "pcDNA6.2 C-YFP-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 C-YFP-DEST.json",
+      "length": 7442
+    },
+    {
+      "id": "destination:pcDNA6.2 cGeneBLAzer-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/cGeneBLAzer™-DEST",
+      "fileName": "pcDNA6.2 cGeneBLAzer-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 cGeneBLAzer-DEST.json",
+      "length": 7519
+    },
+    {
+      "id": "destination:pcDNA6.2 cLumio-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/cLumio™-DEST",
+      "fileName": "pcDNA6.2 cLumio-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 cLumio-DEST.json",
+      "length": 6809
+    },
+    {
+      "id": "destination:pcDNA6.2 EmGFP-Bsd V5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/EmGFP-Bsd/V5-DEST",
+      "fileName": "pcDNA6.2 EmGFP-Bsd V5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 EmGFP-Bsd V5-DEST.json",
+      "length": 8198
+    },
+    {
+      "id": "destination:pcDNA6.2 N-EmGFP-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/N-EmGFP-DEST",
+      "fileName": "pcDNA6.2 N-EmGFP-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 N-EmGFP-DEST.json",
+      "length": 7528
+    },
+    {
+      "id": "destination:pcDNA6.2 N-YFP-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/N-YFP-DEST",
+      "fileName": "pcDNA6.2 N-YFP-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 N-YFP-DEST.json",
+      "length": 7530
+    },
+    {
+      "id": "destination:pcDNA6.2 nGeneBLAzer-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/nGeneBLAzer™-DEST",
+      "fileName": "pcDNA6.2 nGeneBLAzer-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 nGeneBLAzer-DEST.json",
+      "length": 7564
+    },
+    {
+      "id": "destination:pcDNA6.2 nLumio-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/nLumio™-DEST",
+      "fileName": "pcDNA6.2 nLumio-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 nLumio-DEST.json",
+      "length": 6796
+    },
+    {
+      "id": "destination:pcDNA6.2 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/V5-DEST",
+      "fileName": "pcDNA6.2 V5-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 V5-DEST.json",
+      "length": 7341
+    },
+    {
+      "id": "destination:pcDNA6.2 V5-pL-DEST.dna",
+      "kind": "destination",
+      "label": "pcDNA™6.2/V5-pL-DEST",
+      "fileName": "pcDNA6.2 V5-pL-DEST.json",
+      "path": "gateway-vectors/destination/pcDNA6.2 V5-pL-DEST.json",
+      "length": 6693
+    },
+    {
+      "id": "destination:pCOLA-2-DEST.dna",
+      "kind": "destination",
+      "label": "pCOLA-2-DEST™",
+      "fileName": "pCOLA-2-DEST.json",
+      "path": "gateway-vectors/destination/pCOLA-2-DEST.json",
+      "length": 5131
+    },
+    {
+      "id": "destination:pCOLA-3-DEST.dna",
+      "kind": "destination",
+      "label": "pCOLA-3-DEST™",
+      "fileName": "pCOLA-3-DEST.json",
+      "path": "gateway-vectors/destination/pCOLA-3-DEST.json",
+      "length": 5134
+    },
+    {
+      "id": "destination:pDEST R4-R3.dna",
+      "kind": "destination",
+      "label": "pDEST™ R4-R3",
+      "fileName": "pDEST R4-R3.json",
+      "path": "gateway-vectors/destination/pDEST R4-R3.json",
+      "length": 4107
+    },
+    {
+      "id": "destination:pDEST R4-R3 Vector II.dna",
+      "kind": "destination",
+      "label": "pDEST™ R4-R3 Vector II",
+      "fileName": "pDEST R4-R3 Vector II.json",
+      "path": "gateway-vectors/destination/pDEST R4-R3 Vector II.json",
+      "length": 4555
+    },
+    {
+      "id": "destination:pDEST10.dna",
+      "kind": "destination",
+      "label": "pDEST™10",
+      "fileName": "pDEST10.json",
+      "path": "gateway-vectors/destination/pDEST10.json",
+      "length": 6708
+    },
+    {
+      "id": "destination:pDEST14.dna",
+      "kind": "destination",
+      "label": "pDEST™14",
+      "fileName": "pDEST14.json",
+      "path": "gateway-vectors/destination/pDEST14.json",
+      "length": 6422
+    },
+    {
+      "id": "destination:pDEST15.dna",
+      "kind": "destination",
+      "label": "pDEST™15",
+      "fileName": "pDEST15.json",
+      "path": "gateway-vectors/destination/pDEST15.json",
+      "length": 7012
+    },
+    {
+      "id": "destination:pDEST17.dna",
+      "kind": "destination",
+      "label": "pDEST™17",
+      "fileName": "pDEST17.json",
+      "path": "gateway-vectors/destination/pDEST17.json",
+      "length": 6354
+    },
+    {
+      "id": "destination:pDEST20.dna",
+      "kind": "destination",
+      "label": "pDEST™20",
+      "fileName": "pDEST20.json",
+      "path": "gateway-vectors/destination/pDEST20.json",
+      "length": 7066
+    },
+    {
+      "id": "destination:pDEST24.dna",
+      "kind": "destination",
+      "label": "pDEST™24",
+      "fileName": "pDEST24.json",
+      "path": "gateway-vectors/destination/pDEST24.json",
+      "length": 6961
+    },
+    {
+      "id": "destination:pDEST26.dna",
+      "kind": "destination",
+      "label": "pDEST™26",
+      "fileName": "pDEST26.json",
+      "path": "gateway-vectors/destination/pDEST26.json",
+      "length": 7481
+    },
+    {
+      "id": "destination:pDEST27.dna",
+      "kind": "destination",
+      "label": "pDEST™27",
+      "fileName": "pDEST27.json",
+      "path": "gateway-vectors/destination/pDEST27.json",
+      "length": 8123
+    },
+    {
+      "id": "destination:pDEST8.dna",
+      "kind": "destination",
+      "label": "pDEST™8",
+      "fileName": "pDEST8.json",
+      "path": "gateway-vectors/destination/pDEST8.json",
+      "length": 6526
+    },
+    {
+      "id": "destination:pEF-DEST51.dna",
+      "kind": "destination",
+      "label": "pEF-DEST51",
+      "fileName": "pEF-DEST51.json",
+      "path": "gateway-vectors/destination/pEF-DEST51.json",
+      "length": 7464
+    },
+    {
+      "id": "destination:pEF5 FRT V5-DEST.dna",
+      "kind": "destination",
+      "label": "pEF5 FRT V5-DEST",
+      "fileName": "pEF5 FRT V5-DEST.json",
+      "path": "gateway-vectors/destination/pEF5 FRT V5-DEST.json",
+      "length": 7528
+    },
+    {
+      "id": "destination:pET-53-DEST.dna",
+      "kind": "destination",
+      "label": "pET-53-DEST™",
+      "fileName": "pET-53-DEST.json",
+      "path": "gateway-vectors/destination/pET-53-DEST.json",
+      "length": 6832
+    },
+    {
+      "id": "destination:pET-54-DEST.dna",
+      "kind": "destination",
+      "label": "pET-54-DEST™",
+      "fileName": "pET-54-DEST.json",
+      "path": "gateway-vectors/destination/pET-54-DEST.json",
+      "length": 6865
+    },
+    {
+      "id": "destination:pET-55-DEST.dna",
+      "kind": "destination",
+      "label": "pET-55-DEST™",
+      "fileName": "pET-55-DEST.json",
+      "path": "gateway-vectors/destination/pET-55-DEST.json",
+      "length": 6835
+    },
+    {
+      "id": "destination:pET-56-DEST.dna",
+      "kind": "destination",
+      "label": "pET-56-DEST™",
+      "fileName": "pET-56-DEST.json",
+      "path": "gateway-vectors/destination/pET-56-DEST.json",
+      "length": 6862
+    },
+    {
+      "id": "destination:pET-57-DEST.dna",
+      "kind": "destination",
+      "label": "pET-57-DEST™",
+      "fileName": "pET-57-DEST.json",
+      "path": "gateway-vectors/destination/pET-57-DEST.json",
+      "length": 8362
+    },
+    {
+      "id": "destination:pET-58-DEST.dna",
+      "kind": "destination",
+      "label": "pET-58-DEST™",
+      "fileName": "pET-58-DEST.json",
+      "path": "gateway-vectors/destination/pET-58-DEST.json",
+      "length": 8395
+    },
+    {
+      "id": "destination:pET-59-DEST.dna",
+      "kind": "destination",
+      "label": "pET-59-DEST™",
+      "fileName": "pET-59-DEST.json",
+      "path": "gateway-vectors/destination/pET-59-DEST.json",
+      "length": 7198
+    },
+    {
+      "id": "destination:pET-60-DEST.dna",
+      "kind": "destination",
+      "label": "pET-60-DEST™",
+      "fileName": "pET-60-DEST.json",
+      "path": "gateway-vectors/destination/pET-60-DEST.json",
+      "length": 7480
+    },
+    {
+      "id": "destination:pET-61-DEST.dna",
+      "kind": "destination",
+      "label": "pET-61-DEST™",
+      "fileName": "pET-61-DEST.json",
+      "path": "gateway-vectors/destination/pET-61-DEST.json",
+      "length": 6846
+    },
+    {
+      "id": "destination:pET-62-DEST.dna",
+      "kind": "destination",
+      "label": "pET-62-DEST™",
+      "fileName": "pET-62-DEST.json",
+      "path": "gateway-vectors/destination/pET-62-DEST.json",
+      "length": 6828
+    },
+    {
+      "id": "destination:pET-DEST42.dna",
+      "kind": "destination",
+      "label": "pET-DEST42",
+      "fileName": "pET-DEST42.json",
+      "path": "gateway-vectors/destination/pET-DEST42.json",
+      "length": 7440
+    },
+    {
+      "id": "destination:pET104-DEST.dna",
+      "kind": "destination",
+      "label": "pET104-DEST",
+      "fileName": "pET104-DEST.json",
+      "path": "gateway-vectors/destination/pET104-DEST.json",
+      "length": 7618
+    },
+    {
+      "id": "destination:pET104.1-DEST.dna",
+      "kind": "destination",
+      "label": "pET104.1-DEST",
+      "fileName": "pET104.1-DEST.json",
+      "path": "gateway-vectors/destination/pET104.1-DEST.json",
+      "length": 7650
+    },
+    {
+      "id": "destination:pET160-DEST.dna",
+      "kind": "destination",
+      "label": "pET160-DEST",
+      "fileName": "pET160-DEST.json",
+      "path": "gateway-vectors/destination/pET160-DEST.json",
+      "length": 7437
+    },
+    {
+      "id": "destination:pET161-DEST.dna",
+      "kind": "destination",
+      "label": "pET161-DEST",
+      "fileName": "pET161-DEST.json",
+      "path": "gateway-vectors/destination/pET161-DEST.json",
+      "length": 7480
+    },
+    {
+      "id": "destination:pEXP1-DEST.dna",
+      "kind": "destination",
+      "label": "pEXP1-DEST",
+      "fileName": "pEXP1-DEST.json",
+      "path": "gateway-vectors/destination/pEXP1-DEST.json",
+      "length": 4622
+    },
+    {
+      "id": "destination:pEXP2-DEST.dna",
+      "kind": "destination",
+      "label": "pEXP2-DEST",
+      "fileName": "pEXP2-DEST.json",
+      "path": "gateway-vectors/destination/pEXP2-DEST.json",
+      "length": 4403
+    },
+    {
+      "id": "destination:pEXP3-DEST.dna",
+      "kind": "destination",
+      "label": "pEXP3-DEST",
+      "fileName": "pEXP3-DEST.json",
+      "path": "gateway-vectors/destination/pEXP3-DEST.json",
+      "length": 4607
+    },
+    {
+      "id": "destination:pEXP4-DEST.dna",
+      "kind": "destination",
+      "label": "pEXP4-DEST",
+      "fileName": "pEXP4-DEST.json",
+      "path": "gateway-vectors/destination/pEXP4-DEST.json",
+      "length": 4415
+    },
+    {
+      "id": "destination:pHELLSGATE.dna",
+      "kind": "destination",
+      "label": "pHELLSGATE",
+      "fileName": "pHELLSGATE.json",
+      "path": "gateway-vectors/destination/pHELLSGATE.json",
+      "length": 18691
+    },
+    {
+      "id": "destination:pHELLSGATE 12.dna",
+      "kind": "destination",
+      "label": "pHELLSGATE 12",
+      "fileName": "pHELLSGATE 12.json",
+      "path": "gateway-vectors/destination/pHELLSGATE 12.json",
+      "length": 17681
+    },
+    {
+      "id": "destination:pHELLSGATE 4.dna",
+      "kind": "destination",
+      "label": "pHELLSGATE 4",
+      "fileName": "pHELLSGATE 4.json",
+      "path": "gateway-vectors/destination/pHELLSGATE 4.json",
+      "length": 17861
+    },
+    {
+      "id": "destination:pHELLSGATE 8.dna",
+      "kind": "destination",
+      "label": "pHELLSGATE 8",
+      "fileName": "pHELLSGATE 8.json",
+      "path": "gateway-vectors/destination/pHELLSGATE 8.json",
+      "length": 17485
+    },
+    {
+      "id": "destination:pIB V5-His-DEST.dna",
+      "kind": "destination",
+      "label": "pIB V5-His-DEST",
+      "fileName": "pIB V5-His-DEST.json",
+      "path": "gateway-vectors/destination/pIB V5-His-DEST.json",
+      "length": 5038
+    },
+    {
+      "id": "destination:pLenti4 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti4 V5-DEST",
+      "fileName": "pLenti4 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti4 V5-DEST.json",
+      "length": 8634
+    },
+    {
+      "id": "destination:pLenti4 BLOCK-iT-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti4/BLOCK-iT™-DEST",
+      "fileName": "pLenti4 BLOCK-iT-DEST.json",
+      "path": "gateway-vectors/destination/pLenti4 BLOCK-iT-DEST.json",
+      "length": 8054
+    },
+    {
+      "id": "destination:pLenti6 UbC V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6 UbC V5-DEST",
+      "fileName": "pLenti6 UbC V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6 UbC V5-DEST.json",
+      "length": 9319
+    },
+    {
+      "id": "destination:pLenti6 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6 V5-DEST",
+      "fileName": "pLenti6 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6 V5-DEST.json",
+      "length": 8687
+    },
+    {
+      "id": "destination:pLenti6.2 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.2 V5-DEST",
+      "fileName": "pLenti6.2 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.2 V5-DEST.json",
+      "length": 8813
+    },
+    {
+      "id": "destination:pLenti6.2 C-Lumio V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.2/C-Lumio™/V5-DEST",
+      "fileName": "pLenti6.2 C-Lumio V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.2 C-Lumio V5-DEST.json",
+      "length": 8835
+    },
+    {
+      "id": "destination:pLenti6.2 N-Lumio V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.2/N-Lumio™/V5-DEST",
+      "fileName": "pLenti6.2 N-Lumio V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.2 N-Lumio V5-DEST.json",
+      "length": 8956
+    },
+    {
+      "id": "destination:pLenti6.3 TO V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.3 TO V5-DEST",
+      "fileName": "pLenti6.3 TO V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.3 TO V5-DEST.json",
+      "length": 9351
+    },
+    {
+      "id": "destination:pLenti6.3 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.3 V5-DEST",
+      "fileName": "pLenti6.3 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.3 V5-DEST.json",
+      "length": 9387
+    },
+    {
+      "id": "destination:pLenti6.4 R4R2 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6.4 R4R2 V5-DEST",
+      "fileName": "pLenti6.4 R4R2 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6.4 R4R2 V5-DEST.json",
+      "length": 8922
+    },
+    {
+      "id": "destination:pLenti6 BLOCK-iT-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6/BLOCK-iT™-DEST",
+      "fileName": "pLenti6 BLOCK-iT-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6 BLOCK-iT-DEST.json",
+      "length": 8675
+    },
+    {
+      "id": "destination:pLenti6 capTEV-CT-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti6/capTEV™-CT-DEST",
+      "fileName": "pLenti6 capTEV-CT-DEST.json",
+      "path": "gateway-vectors/destination/pLenti6 capTEV-CT-DEST.json",
+      "length": 8991
+    },
+    {
+      "id": "destination:pLenti6 capTEV-NT-DEST1.dna",
+      "kind": "destination",
+      "label": "pLenti6/capTEV™-NT-DEST1",
+      "fileName": "pLenti6 capTEV-NT-DEST1.json",
+      "path": "gateway-vectors/destination/pLenti6 capTEV-NT-DEST1.json",
+      "length": 9087
+    },
+    {
+      "id": "destination:pLenti7.3 V5-DEST.dna",
+      "kind": "destination",
+      "label": "pLenti7.3 V5-DEST",
+      "fileName": "pLenti7.3 V5-DEST.json",
+      "path": "gateway-vectors/destination/pLenti7.3 V5-DEST.json",
+      "length": 9630
+    },
+    {
+      "id": "destination:pMT-DEST48.dna",
+      "kind": "destination",
+      "label": "pMT-DEST48",
+      "fileName": "pMT-DEST48.json",
+      "path": "gateway-vectors/destination/pMT-DEST48.json",
+      "length": 5179
+    },
+    {
+      "id": "destination:pMT BioEase-DEST.dna",
+      "kind": "destination",
+      "label": "pMT/BioEase™-DEST",
+      "fileName": "pMT BioEase-DEST.json",
+      "path": "gateway-vectors/destination/pMT BioEase-DEST.json",
+      "length": 5375
+    },
+    {
+      "id": "destination:pSCREEN-iT lacZ-DEST.dna",
+      "kind": "destination",
+      "label": "pSCREEN-iT™/lacZ-DEST",
+      "fileName": "pSCREEN-iT lacZ-DEST.json",
+      "path": "gateway-vectors/destination/pSCREEN-iT lacZ-DEST.json",
+      "length": 8702
+    },
+    {
+      "id": "destination:pT-REx-DEST30.dna",
+      "kind": "destination",
+      "label": "pT-REx™-DEST30",
+      "fileName": "pT-REx-DEST30.json",
+      "path": "gateway-vectors/destination/pT-REx-DEST30.json",
+      "length": 7544
+    },
+    {
+      "id": "destination:pT-REx-DEST31.dna",
+      "kind": "destination",
+      "label": "pT-REx™-DEST31",
+      "fileName": "pT-REx-DEST31.json",
+      "path": "gateway-vectors/destination/pT-REx-DEST31.json",
+      "length": 7559
+    },
+    {
+      "id": "destination:pYES-DEST52.dna",
+      "kind": "destination",
+      "label": "pYES-DEST52",
+      "fileName": "pYES-DEST52.json",
+      "path": "gateway-vectors/destination/pYES-DEST52.json",
+      "length": 7621
+    }
+  ]
+}

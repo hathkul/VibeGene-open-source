@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "schemaNotes": {
+    "declarationOwnership": "Each included entry is authoritative by file + selector context + property + originalValue + currentValue + scannerOccurrenceCount. Tests prove scanner behavior on isolated rule text extracted from git base and live CSS.",
+    "projectFingerprintSetDelta": "Whole-project baseline fingerprint IDs are SHA1 hashes that include a file-wide occurrence index for identical property/literal/line-text keys. A baseline count drop of 5 after five declaration edits does not map those five removed IDs to the edited selectors. Tests may compute set-delta for count/equality only; never attribute project-level IDs to ledger rows."
+  },
+  "baseCommit": "a519b6b",
+  "startingBaselineCount": 1999,
+  "finalBaselineCount": 1994,
+  "projectFingerprintSetDeltaCount": 5,
+  "includedMigrationCount": 5,
+  "included": [
+    {
+      "file": "src/App.css",
+      "selector": ".toolbar-edit-dropdown",
+      "property": "background",
+      "originalValue": "#fffdf8",
+      "currentValue": "var(--vg-surface-panel)",
+      "token": "--vg-surface-panel",
+      "scannerOccurrenceCount": 1,
+      "role": "shared-toolbar-edit-dropdown-panel",
+      "state": "default"
+    },
+    {
+      "file": "src/App.css",
+      "selector": ".toolbar-edit-submenu-panel",
+      "property": "background",
+      "originalValue": "#fffdf8",
+      "currentValue": "var(--vg-surface-panel)",
+      "token": "--vg-surface-panel",
+      "scannerOccurrenceCount": 1,
+      "role": "shared-toolbar-edit-submenu-panel",
+      "state": "default"
+    },
+    {
+      "file": "src/App.css",
+      "selector": ".sidebar-menu",
+      "property": "background",
+      "originalValue": "#fffdf8",
+      "currentValue": "var(--vg-surface-panel)",
+      "token": "--vg-surface-panel",
+      "scannerOccurrenceCount": 1,
+      "role": "shared-sidebar-menu-panel",
+      "state": "default"
+    },
+    {
+      "file": "src/App.css",
+      "selector": ".sequence-translation-context-menu",
+      "property": "background",
+      "originalValue": "#fffdf8",
+      "currentValue": "var(--vg-surface-panel)",
+      "token": "--vg-surface-panel",
+      "scannerOccurrenceCount": 1,
+      "role": "shared-sequence-context-menu-panel",
+      "state": "default"
+    },
+    {
+      "file": "src/App.css",
+      "selector": ".toolbar-save-mode-menu",
+      "property": "border",
+      "originalValue": "1px solid #a7a7a7",
+      "currentValue": "1px solid var(--vg-border-strong)",
+      "token": "--vg-border-strong",
+      "scannerOccurrenceCount": 1,
+      "role": "shared-toolbar-save-mode-menu-frame",
+      "state": "default"
+    }
+  ],
+  "deferredCategories": [
+    {
+      "category": "shadow-overlay-ink-other-borders",
+      "reason": "Supervisor locked a five-declaration tranche; box-shadow, backdrop alphas, menu ink, and non-listed borders remain literal at a519b6b."
+    },
+    {
+      "category": "triggers-footers-windows-hybrid-shells",
+      "reason": "Toolbar triggers, mobile footers, hybrid window roots, and dialog shells outside the five selectors stay unchanged versus base."
+    },
+    {
+      "category": "scientific-workflow-data-colors",
+      "reason": "Feature, map, enzyme workflow, and status palettes remain out of scope for popup chrome phase 1."
+    }
+  ]
+}

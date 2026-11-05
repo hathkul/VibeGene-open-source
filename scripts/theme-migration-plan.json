@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "generatedBy": "npm run plan:theme-migration",
+  "sourceManifest": "scripts/theme-debt-manifest.json",
+  "tokenSource": "src/index.css",
+  "summary": {
+    "rawFindings": 278,
+    "consideredFindings": 171,
+    "highConfidence": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "excluded": 278,
+    "groups": 0
+  },
+  "groups": [],
+  "findings": [],
+  "applied": {
+    "ledger": "scripts/theme-migration-ledger.json",
+    "app": {
+      "count": 424,
+      "removalCount": 229,
+      "evidence": [
+        {
+          "token": "--app-button-bottom",
+          "beigePrior": [
+            "#dddddd"
+          ],
+          "beigeEffective": "#dddddd",
+          "beigeTarget": "var(--app-button-bottom)",
+          "brightTarget": "#e8eef5",
+          "darkTarget": "#1b2736"
+        },
+        {
+          "token": "--app-button-top",
+          "beigePrior": [
+            "#ffffff"
+          ],
+          "beigeEffective": "#ffffff",
+          "beigeTarget": "var(--app-button-top)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#2a384a"
+        },
+        {
+          "token": "--app-field",
+          "beigePrior": [
+            "#ffffff",
+            "#fff"
+          ],
+          "beigeEffective": "#ffffff",
+          "beigeTarget": "var(--app-field)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#101925"
+        },
+        {
+          "token": "--accent",
+          "beigePrior": [
+            "#0f766e"
+          ],
+          "beigeEffective": "#0f766e",
+          "beigeTarget": "var(--accent)",
+          "brightTarget": "#087b73",
+          "darkTarget": "#45d6c8"
+        },
+        {
+          "token": "--app-button-border",
+          "beigePrior": [
+            "#a7a7a7"
+          ],
+          "beigeEffective": "#a7a7a7",
+          "beigeTarget": "var(--app-button-border)",
+          "brightTarget": "#aebdcb",
+          "darkTarget": "#52657a"
+        },
+        {
+          "token": "--app-divider",
+          "beigePrior": [
+            "#d5cbb9"
+          ],
+          "beigeEffective": "#d5cbb9",
+          "beigeTarget": "var(--app-divider)",
+          "brightTarget": "#d6e0ea",
+          "darkTarget": "#35465a"
+        },
+        {
+          "token": "--app-button-text",
+          "beigePrior": [
+            "#202020"
+          ],
+          "beigeEffective": "#202020",
+          "beigeTarget": "var(--app-button-text)",
+          "brightTarget": "#1e293b",
+          "darkTarget": "#e8eef6"
+        },
+        {
+          "token": "--app-chrome",
+          "beigePrior": [
+            "#eeeeee"
+          ],
+          "beigeEffective": "#eeeeee",
+          "beigeTarget": "var(--app-chrome)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#1c2735"
+        },
+        {
+          "token": "--app-chrome-end",
+          "beigePrior": [
+            "#d3d3d3"
+          ],
+          "beigeEffective": "#d3d3d3",
+          "beigeTarget": "var(--app-chrome-end)",
+          "brightTarget": "#e9f0f7",
+          "darkTarget": "#111a27"
+        },
+        {
+          "token": "--app-dialog-shadow",
+          "beigePrior": [
+            "rgb(20 16 10 / 28%)"
+          ],
+          "beigeEffective": "rgb(20 16 10 / 28%)",
+          "beigeTarget": "var(--app-dialog-shadow)",
+          "brightTarget": "rgb(15 23 42 / 20%)",
+          "darkTarget": "rgb(0 0 0 / 50%)"
+        },
+        {
+          "token": "--app-overlay",
+          "beigePrior": [
+            "rgb(20 18 14 / 35%)"
+          ],
+          "beigeEffective": "rgb(20 18 14 / 35%)",
+          "beigeTarget": "var(--app-overlay)",
+          "brightTarget": "rgb(15 23 42 / 35%)",
+          "darkTarget": "rgb(0 0 0 / 56%)"
+        },
+        {
+          "token": "--app-panel",
+          "beigePrior": [
+            "#fffdf8"
+          ],
+          "beigeEffective": "#fffdf8",
+          "beigeTarget": "var(--app-panel)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#182333"
+        },
+        {
+          "token": "--app-panel-muted",
+          "beigePrior": [
+            "#f7f3ea"
+          ],
+          "beigeEffective": "#f7f3ea",
+          "beigeTarget": "var(--app-panel-muted)",
+          "brightTarget": "#f3f7fb",
+          "darkTarget": "#202c3c"
+        },
+        {
+          "token": "--app-selection",
+          "beigePrior": [
+            "#dbeafe"
+          ],
+          "beigeEffective": "#dbeafe",
+          "beigeTarget": "var(--app-selection)",
+          "brightTarget": "#dcecff",
+          "darkTarget": "#1c3d5a"
+        },
+        {
+          "token": "--app-selection-text",
+          "beigePrior": [
+            "#0f4f9c"
+          ],
+          "beigeEffective": "#0f4f9c",
+          "beigeTarget": "var(--app-selection-text)",
+          "brightTarget": "#124e86",
+          "darkTarget": "#b8e1ff"
+        },
+        {
+          "token": "--app-table",
+          "beigePrior": [
+            "#fff9e8"
+          ],
+          "beigeEffective": "#fff9e8",
+          "beigeTarget": "var(--app-table)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#141f2d"
+        },
+        {
+          "token": "--app-table-alt",
+          "beigePrior": [
+            "#fff3cd"
+          ],
+          "beigeEffective": "#fff3cd",
+          "beigeTarget": "var(--app-table-alt)",
+          "brightTarget": "#f6f9fc",
+          "darkTarget": "#182535"
+        },
+        {
+          "token": "--app-table-border",
+          "beigePrior": [
+            "#eadfca"
+          ],
+          "beigeEffective": "#eadfca",
+          "beigeTarget": "var(--app-table-border)",
+          "brightTarget": "#dce5ee",
+          "darkTarget": "#304157"
+        },
+        {
+          "token": "--app-table-head",
+          "beigePrior": [
+            "#bff2bf"
+          ],
+          "beigeEffective": "#bff2bf",
+          "beigeTarget": "var(--app-table-head)",
+          "brightTarget": "#e8f4eb",
+          "darkTarget": "#24443c"
+        },
+        {
+          "token": "--app-table-head-border",
+          "beigePrior": [
+            "#b9d8b9"
+          ],
+          "beigeEffective": "#b9d8b9",
+          "beigeTarget": "var(--app-table-head-border)",
+          "brightTarget": "#b9d8c0",
+          "darkTarget": "#3b695c"
+        },
+        {
+          "token": "--app-table-hover",
+          "beigePrior": [
+            "#dcedff"
+          ],
+          "beigeEffective": "#dcedff",
+          "beigeTarget": "var(--app-table-hover)",
+          "brightTarget": "#eaf4ff",
+          "darkTarget": "#203b55"
+        },
+        {
+          "token": "--app-workspace",
+          "beigePrior": [
+            "#f7f3e9"
+          ],
+          "beigeEffective": "#f7f3e9",
+          "beigeTarget": "var(--app-workspace)",
+          "brightTarget": "#f8fbfe",
+          "darkTarget": "#111a27"
+        },
+        {
+          "token": "--field",
+          "beigePrior": [
+            "#f8fafc"
+          ],
+          "beigeEffective": "#f8fafc",
+          "beigeTarget": "var(--field)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#111a28"
+        },
+        {
+          "token": "--muted",
+          "beigePrior": [
+            "#64748b"
+          ],
+          "beigeEffective": "#64748b",
+          "beigeTarget": "var(--muted)",
+          "brightTarget": "#64748b",
+          "darkTarget": "#9baabd"
+        },
+        {
+          "token": "--text",
+          "beigePrior": [
+            "#475569"
+          ],
+          "beigeEffective": "#475569",
+          "beigeTarget": "var(--text)",
+          "brightTarget": "#334155",
+          "darkTarget": "#d7e1ed"
+        },
+        {
+          "token": "--vg-border",
+          "beigePrior": [],
+          "beigeEffective": "#d5cbb9",
+          "beigeTarget": "var(--vg-border)",
+          "brightTarget": "#d6e0ea",
+          "darkTarget": "#35465a"
+        },
+        {
+          "token": "--vg-text",
+          "beigePrior": [],
+          "beigeEffective": "#475569",
+          "beigeTarget": "var(--vg-text)",
+          "brightTarget": "#334155",
+          "darkTarget": "#d7e1ed"
+        },
+        {
+          "token": "--vg-text-muted",
+          "beigePrior": [],
+          "beigeEffective": "#64748b",
+          "beigeTarget": "var(--vg-text-muted)",
+          "brightTarget": "#64748b",
+          "darkTarget": "#9baabd"
+        },
+        {
+          "token": "--vg-control-border",
+          "beigePrior": [],
+          "beigeEffective": "#a7a7a7",
+          "beigeTarget": "var(--vg-control-border)",
+          "brightTarget": "#aebdcb",
+          "darkTarget": "#52657a"
+        },
+        {
+          "token": "--vg-control-ink",
+          "beigePrior": [],
+          "beigeEffective": "#202020",
+          "beigeTarget": "var(--vg-control-ink)",
+          "brightTarget": "#1e293b",
+          "darkTarget": "#e8eef6"
+        },
+        {
+          "token": "--vg-surface-raised",
+          "beigePrior": [],
+          "beigeEffective": "#ffffff",
+          "beigeTarget": "var(--vg-surface-raised)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#101925"
+        },
+        {
+          "token": "--vg-surface-panel",
+          "beigePrior": [],
+          "beigeEffective": "#fffdf8",
+          "beigeTarget": "var(--vg-surface-panel)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#182333"
+        },
+        {
+          "token": "--vg-control-surface",
+          "beigePrior": [],
+          "beigeEffective": "linear-gradient(var(--app-button-top), var(--app-button-bottom))",
+          "beigeTarget": "var(--vg-control-surface)",
+          "brightTarget": "linear-gradient(var(--app-button-top), var(--app-button-bottom))",
+          "darkTarget": "linear-gradient(var(--app-button-top), var(--app-button-bottom))"
+        },
+        {
+          "token": "--vg-control-surface-hover",
+          "beigePrior": [],
+          "beigeEffective": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))",
+          "beigeTarget": "var(--vg-control-surface-hover)",
+          "brightTarget": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))",
+          "darkTarget": "linear-gradient(var(--app-button-top), var(--app-button-hover-bottom))"
+        },
+        {
+          "token": "--vg-surface-inset",
+          "beigePrior": [],
+          "beigeEffective": "#ffffff",
+          "beigeTarget": "var(--vg-surface-inset)",
+          "brightTarget": "#ffffff",
+          "darkTarget": "#101925"
+        },
+        {
+          "token": "--vg-surface-panel-muted",
+          "beigePrior": [],
+          "beigeEffective": "#f7f3ea",
+          "beigeTarget": "var(--vg-surface-panel-muted)",
+          "brightTarget": "#f3f7fb",
+          "darkTarget": "#202c3c"
+        },
+        {
+          "token": "--vg-text-strong",
+          "beigePrior": [],
+          "beigeEffective": "#0f172a",
+          "beigeTarget": "var(--vg-text-strong)",
+          "brightTarget": "#0f172a",
+          "darkTarget": "#f8fafc"
+        }
+      ]
+    },
+    "pickPrimers": {
+      "count": 33,
+      "removeCount": 31,
+      "replaceCount": 2
+    }
+  }
+}

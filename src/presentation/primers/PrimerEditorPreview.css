@@ -1,0 +1,5 @@
+/* Space outside the cropped template must be scrollable, not clipped at the sequence pane edge. */
+.primer-editor-anneal-pane .sequence-rows-single-row .sequence-row-content {
+  margin-left: calc(var(--primer-preview-left-bases, 0) * var(--base-step));
+  margin-right: calc(var(--primer-preview-right-bases, 0) * var(--base-step));
+}

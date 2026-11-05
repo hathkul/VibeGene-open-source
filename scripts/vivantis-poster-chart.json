@@ -1,0 +1,1583 @@
+{
+  "AatII": {
+    "posterName": "AatII",
+    "catalogName": "AatII",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "25",
+      "v4": "50",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "50",
+      "ub2": "25"
+    }
+  },
+  "Acc16I": {
+    "posterName": "Acc16I",
+    "catalogName": "Acc16I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Acc65I": {
+    "posterName": "Acc65I",
+    "catalogName": "Acc65I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "10",
+      "v3": "100",
+      "v4": "100",
+      "v5": "10",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "AccB1I": {
+    "posterName": "AccB1I",
+    "catalogName": "AccB1I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "50",
+      "v5": "75",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "AccB7I": {
+    "posterName": "AccB7I",
+    "catalogName": "AccB7I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "75",
+      "ub05": "50",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "AccBSI": {
+    "posterName": "AccBSI",
+    "catalogName": "AccBSI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "AclI": {
+    "posterName": "AclI",
+    "catalogName": "AclI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "50",
+      "ub2": "50"
+    }
+  },
+  "AcsI": {
+    "posterName": "AcsI",
+    "catalogName": "AcsI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "50",
+      "ub05": "25",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "AfiI": {
+    "posterName": "AfiI",
+    "catalogName": "AfiI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "10",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "10",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "AhlI": {
+    "posterName": "AhlI",
+    "catalogName": "AhlI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "AluI": {
+    "posterName": "AluI",
+    "catalogName": "AluI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "Ama87I": {
+    "posterName": "Ama87I",
+    "catalogName": "Ama87I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "50",
+      "v4": "100",
+      "v5": "10",
+      "ub05": "25",
+      "ub": "50",
+      "ub15": "50",
+      "ub2": "75"
+    }
+  },
+  "ApaI": {
+    "posterName": "ApaI",
+    "catalogName": "ApaI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "AsiGI": {
+    "posterName": "AsiGI",
+    "catalogName": "AsiGI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "50",
+      "v5": "75",
+      "ub05": "50",
+      "ub": "75",
+      "ub15": "50",
+      "ub2": "75"
+    }
+  },
+  "AspA2I": {
+    "posterName": "AspA2I",
+    "catalogName": "AspA2I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "AspLEI": {
+    "posterName": "AspLEI",
+    "catalogName": "AspLEI",
+    "incubationC": 37,
+    "heatInactivation": "NO",
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "50",
+      "v3": "75",
+      "v4": "25",
+      "v5": "10",
+      "ub05": "25",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "AspS9I": {
+    "posterName": "AspS9I",
+    "catalogName": "AspS9I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "50",
+      "v3": "75",
+      "v4": "100",
+      "v5": "50",
+      "ub05": "25",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "AsuHPI": {
+    "posterName": "AsuHPI",
+    "catalogName": "AsuHPI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "AsuNHI": {
+    "posterName": "AsuNHI",
+    "catalogName": "AsuNHI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BamHI": {
+    "posterName": "BamHI",
+    "catalogName": "BamHI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "75",
+      "ub05": "100",
+      "ub": "25",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "Bbv12I": {
+    "posterName": "Bbv12I",
+    "catalogName": "Bbv12I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "10",
+      "v2": "25",
+      "v3": "100",
+      "v4": "75",
+      "v5": "25",
+      "ub05": "10",
+      "ub": "10",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "BglI": {
+    "posterName": "BglI",
+    "catalogName": "BglI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "10",
+      "v3": "10",
+      "v4": "10",
+      "v5": "25",
+      "ub05": "25",
+      "ub": "25",
+      "ub15": "10",
+      "ub2": "25"
+    }
+  },
+  "BglII": {
+    "posterName": "BglII",
+    "catalogName": "BglII",
+    "incubationC": 37,
+    "heatInactivation": "NO",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "100"
+    }
+  },
+  "BmcAI": {
+    "posterName": "BmcAI",
+    "catalogName": "BmcAI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Bme18I": {
+    "posterName": "Bme18I",
+    "catalogName": "Bme18I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "10",
+      "v4": "10",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "25",
+      "ub15": "10",
+      "ub2": "10"
+    }
+  },
+  "BmeRI": {
+    "posterName": "BmeRI",
+    "catalogName": "BmeRI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BmiI": {
+    "posterName": "BmiI",
+    "catalogName": "BmiI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "50",
+      "v5": "75",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BmrFI": {
+    "posterName": "BmrFI",
+    "catalogName": "BmrFI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "50",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "BmtI": {
+    "posterName": "BmtI",
+    "catalogName": "BmtI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "25",
+      "v3": "75",
+      "v4": "100",
+      "v5": "75",
+      "ub05": "50",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "Bpu10I": {
+    "posterName": "Bpu10I",
+    "catalogName": "Bpu10I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "Bpu14I": {
+    "posterName": "Bpu14I",
+    "catalogName": "Bpu14I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "50",
+      "ub2": "75"
+    }
+  },
+  "BpuMI": {
+    "posterName": "BpuMI",
+    "catalogName": "BpuMI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "25",
+      "v4": "75",
+      "v5": "75",
+      "ub05": "25",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "100"
+    }
+  },
+  "BpvUI": {
+    "posterName": "BpvUI",
+    "catalogName": "BpvUI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "50",
+      "v4": "25",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "50",
+      "ub2": "25"
+    }
+  },
+  "BseX3I": {
+    "posterName": "BseX3I",
+    "catalogName": "BseX3I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "75",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "BshVI": {
+    "posterName": "BshVI",
+    "catalogName": "BshVI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "50",
+      "ub2": "50"
+    }
+  },
+  "BsnI": {
+    "posterName": "BsnI",
+    "catalogName": "BsnI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "75",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Bso31I": {
+    "posterName": "Bso31I",
+    "catalogName": "Bso31I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "50",
+      "v3": "75",
+      "v4": "100",
+      "v5": "50",
+      "ub05": "25",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "Bsp13I": {
+    "posterName": "Bsp13I",
+    "catalogName": "Bsp13I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "50",
+      "ub2": "50"
+    }
+  },
+  "Bsp1720I": {
+    "posterName": "Bsp1720I",
+    "catalogName": "Bsp1720I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "75",
+      "v4": "50",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "Bsp19I": {
+    "posterName": "Bsp19I",
+    "catalogName": "Bsp19I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "75",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "50",
+      "ub2": "50"
+    }
+  },
+  "BssMI": {
+    "posterName": "BssMI",
+    "catalogName": "BssMI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "75",
+      "ub05": "50",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "BssNI": {
+    "posterName": "BssNI",
+    "catalogName": "BssNI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "75",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BssNAI": {
+    "posterName": "BssNAI",
+    "catalogName": "BssNAI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "50",
+      "v3": "25",
+      "v4": "25",
+      "v5": "25",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "25"
+    }
+  },
+  "BssT1I": {
+    "posterName": "BssT1I",
+    "catalogName": "BssT1I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "25",
+      "ub2": "25"
+    }
+  },
+  "Bst2BI": {
+    "posterName": "Bst2BI",
+    "catalogName": "Bst2BI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "Bst2UI": {
+    "posterName": "Bst2UI",
+    "catalogName": "Bst2UI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "75",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Bst4CI": {
+    "posterName": "Bst4CI",
+    "catalogName": "Bst4CI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "100",
+      "v5": "50",
+      "ub05": "25",
+      "ub": "75",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Bst6I": {
+    "posterName": "Bst6I",
+    "catalogName": "Bst6I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "50",
+      "ub05": "75",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "BstAUI": {
+    "posterName": "BstAUI",
+    "catalogName": "BstAUI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "25",
+      "v2": "75",
+      "v3": "100",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "25",
+      "ub": "50",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BstBAI": {
+    "posterName": "BstBAI",
+    "catalogName": "BstBAI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "75",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BstDEI": {
+    "posterName": "BstDEI",
+    "catalogName": "BstDEI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "50",
+      "ub2": "25"
+    }
+  },
+  "BstDSI": {
+    "posterName": "BstDSI",
+    "catalogName": "BstDSI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BstENI": {
+    "posterName": "BstENI",
+    "catalogName": "BstENI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "25",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "BstF5I": {
+    "posterName": "BstF5I",
+    "catalogName": "BstF5I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "25"
+    }
+  },
+  "BstFNI": {
+    "posterName": "BstFNI",
+    "catalogName": "BstFNI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BstH2I": {
+    "posterName": "BstH2I",
+    "catalogName": "BstH2I",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub05": "50",
+      "ub": "50",
+      "ub15": "50",
+      "ub2": "50"
+    }
+  },
+  "BstHHI": {
+    "posterName": "BstHHI",
+    "catalogName": "BstHHI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "BstMAI": {
+    "posterName": "BstMAI",
+    "catalogName": "BstMAI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "75",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "BstMBI": {
+    "posterName": "BstMBI",
+    "catalogName": "BstMBI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "50"
+    }
+  },
+  "BstMCI": {
+    "posterName": "BstMCI",
+    "catalogName": "BstMCI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "75",
+      "v3": "50",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "75",
+      "ub15": "50",
+      "ub2": "25"
+    }
+  },
+  "BstNSI": {
+    "posterName": "BstNSI",
+    "catalogName": "BstNSI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "50",
+      "v5": "25",
+      "ub05": "25",
+      "ub": "25",
+      "ub15": "50",
+      "ub2": "75"
+    }
+  },
+  "BstPAI": {
+    "posterName": "BstPAI",
+    "catalogName": "BstPAI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "DseDI": {
+    "posterName": "DseDI",
+    "catalogName": "DseDI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "EcoICRI": {
+    "posterName": "EcoICRI",
+    "catalogName": "EcoICRI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "EcoRI": {
+    "posterName": "EcoRI",
+    "catalogName": "EcoRI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "EcoRV": {
+    "posterName": "EcoRV",
+    "catalogName": "EcoRV",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "ErhI": {
+    "posterName": "ErhI",
+    "catalogName": "ErhI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "FauNDI": {
+    "posterName": "FauNDI",
+    "catalogName": "FauNDI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "FblI": {
+    "posterName": "FblI",
+    "catalogName": "FblI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "75",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "FokI": {
+    "posterName": "FokI",
+    "catalogName": "FokI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "75"
+    }
+  },
+  "FriOI": {
+    "posterName": "FriOI",
+    "catalogName": "FriOI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "HindII": {
+    "posterName": "HindII",
+    "catalogName": "HindII",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "HindIII": {
+    "posterName": "HindIII",
+    "catalogName": "HindIII",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "50",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "HinfI": {
+    "posterName": "HinfI",
+    "catalogName": "HinfI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "25",
+      "ub2": "75"
+    }
+  },
+  "HpaI": {
+    "posterName": "HpaI",
+    "catalogName": "HpaI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "HpaII": {
+    "posterName": "HpaII",
+    "catalogName": "HpaII",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "HspAI": {
+    "posterName": "HspAI",
+    "catalogName": "HspAI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "75",
+      "v4": "75",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "KpnI": {
+    "posterName": "KpnI",
+    "catalogName": "KpnI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "50"
+    }
+  },
+  "Ksp22I": {
+    "posterName": "Ksp22I",
+    "catalogName": "Ksp22I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "50",
+      "v3": "100",
+      "v4": "50",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "50",
+      "ub15": "100",
+      "ub2": "50"
+    }
+  },
+  "MboII": {
+    "posterName": "MboII",
+    "catalogName": "MboII",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "50",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "MhlI": {
+    "posterName": "MhlI",
+    "catalogName": "MhlI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "50",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "MluI": {
+    "posterName": "MluI",
+    "catalogName": "MluI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "MnlI": {
+    "posterName": "MnlI",
+    "catalogName": "MnlI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "50",
+      "v5": "50",
+      "ub05": "100",
+      "ub": "75",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  },
+  "MroNI": {
+    "posterName": "MroNI",
+    "catalogName": "MroNI",
+    "incubationC": 60,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "75",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "MroXI": {
+    "posterName": "MroXI",
+    "catalogName": "MroXI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "25"
+    }
+  },
+  "MspI": {
+    "posterName": "MspI",
+    "catalogName": "MspI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Msp20I": {
+    "posterName": "Msp20I",
+    "catalogName": "Msp20I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "MspA1I": {
+    "posterName": "MspA1I",
+    "catalogName": "MspA1I",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "PceI": {
+    "posterName": "PceI",
+    "catalogName": "PceI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "PctI": {
+    "posterName": "PctI",
+    "catalogName": "PctI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "Psp124BI": {
+    "posterName": "Psp124BI",
+    "catalogName": "Psp124BI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "50",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "25"
+    }
+  },
+  "PspCI": {
+    "posterName": "PspCI",
+    "catalogName": "PspCI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "100",
+      "v3": "100",
+      "v4": "100",
+      "v5": "100",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "100",
+      "ub2": "100"
+    }
+  },
+  "PspEI": {
+    "posterName": "PspEI",
+    "catalogName": "PspEI",
+    "incubationC": 37,
+    "heatInactivation": "65°C",
+    "bufferActivity": {
+      "v1": "100",
+      "v2": "75",
+      "v3": "25",
+      "v4": "75",
+      "v5": "25",
+      "ub05": "100",
+      "ub": "100",
+      "ub15": "75",
+      "ub2": "75"
+    }
+  }
+}

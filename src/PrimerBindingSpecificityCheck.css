@@ -1,0 +1,104 @@
+.primer-binding-specificity {
+  min-width: 0;
+}
+
+.primer-binding-specificity-toolbar {
+  flex-wrap: wrap;
+}
+
+.primer-binding-specificity-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.primer-binding-specificity-panel {
+  display: grid;
+  gap: 0.65rem;
+  padding: 0.75rem;
+  border: 1px solid var(--vg-border);
+  border-radius: 0.5rem;
+  min-width: 0;
+  margin-top: 8px;
+}
+
+.primer-binding-specificity-panel p {
+  margin: 0;
+}
+
+.primer-binding-specificity-privacy,
+.primer-binding-specificity-message {
+  font-size: 0.9em;
+}
+
+.primer-binding-specificity-options {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.primer-binding-specificity-options > label:not(.primer-binding-specificity-fast) {
+  display: grid;
+  gap: 0.25rem;
+  min-width: min(12rem, 100%);
+  flex: 1 1 12rem;
+}
+
+.primer-binding-specificity-fast,
+.primer-binding-specificity-tail-choice {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.primer-binding-specificity-fast input[type='checkbox'],
+.primer-binding-specificity-tail-choice input[type='checkbox'] {
+  width: auto;
+  flex: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primer-binding-specificity-results {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.primer-binding-specificity-table-scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-width: 100%;
+  max-height: 16rem;
+}
+
+.primer-binding-specificity-table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.primer-binding-specificity-table-scroll th,
+.primer-binding-specificity-table-scroll td {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--vg-border);
+  text-align: left;
+}
+
+.primer-binding-specificity-record-title {
+  display: block;
+  max-width: 34rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9em;
+  color: var(--vg-text-muted);
+}
+
+.primer-binding-specificity-message.is-error {
+  color: var(--vg-status-error);
+}

@@ -1,0 +1,20 @@
+---
+description: Enforce compact, visually verified dialog layouts across Vibegene
+alwaysApply: true
+---
+
+# Dialog UI Quality
+
+Every dialog must be inspected in the running app at desktop and narrow widths before shipping.
+
+- Keep short controls on one row. Labels such as “Gene symbol or Entrez ID”, “Reference genome”, and “Cas enzyme” must not wrap.
+- Size fields by their content: symbols/IDs and small numbers stay compact; long paths/sequences may grow.
+- Dropdowns must be wide enough to show their longest normal value without clipping.
+- Use a dense grid or toolbar with consistent 6–10 px gaps. Do not leave large empty columns or arbitrary vertical gaps.
+- Do not inherit global `input { width: 100% }` behavior for radios, checkboxes, or intrinsically short fields.
+- Radios and checkboxes must be native-sized, horizontally aligned, and clickable.
+- Results that look tabular must use compact rows, not cards.
+- Dialogs must fit the viewport with internal scrolling where needed; controls and action buttons remain visible.
+- Reuse established primer/enzyme visual geometry for related scientific annotations instead of inventing parallel spacing.
+
+Before handoff, verify the actual workflow by clicking its controls in the running app. Component tests alone are not visual verification.

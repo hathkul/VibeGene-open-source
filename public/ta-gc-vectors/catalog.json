@@ -1,0 +1,470 @@
+{
+  "ta": [
+    {
+      "id": "ta:Allele TA Vector (linearized).dna",
+      "method": "ta",
+      "label": "Allele TA Vector",
+      "fileName": "Allele TA Vector (linearized).json",
+      "path": "ta-gc-vectors/ta/Allele TA Vector (linearized).json",
+      "length": 2708
+    },
+    {
+      "id": "ta:pBAD-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pBAD-TOPO®",
+      "fileName": "pBAD-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pBAD-TOPO (linearized).json",
+      "length": 4127
+    },
+    {
+      "id": "ta:pBAD Thio-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pBAD/Thio-TOPO®",
+      "fileName": "pBAD Thio-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pBAD Thio-TOPO (linearized).json",
+      "length": 4454
+    },
+    {
+      "id": "ta:pBlue-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pBlue-TOPO®",
+      "fileName": "pBlue-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pBlue-TOPO (linearized).json",
+      "length": 7793
+    },
+    {
+      "id": "ta:pcDNA3.1 CT-GFP-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™3.1/CT-GFP-TOPO®",
+      "fileName": "pcDNA3.1 CT-GFP-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA3.1 CT-GFP-TOPO (linearized).json",
+      "length": 6157
+    },
+    {
+      "id": "ta:pcDNA3.1 NT-GFP-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™3.1/NT-GFP-TOPO®",
+      "fileName": "pcDNA3.1 NT-GFP-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA3.1 NT-GFP-TOPO (linearized).json",
+      "length": 6176
+    },
+    {
+      "id": "ta:pcDNA3.1 V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™3.1/V5-His-TOPO®",
+      "fileName": "pcDNA3.1 V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA3.1 V5-His-TOPO (linearized).json",
+      "length": 5523
+    },
+    {
+      "id": "ta:pcDNA3.3-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™3.3-TOPO®",
+      "fileName": "pcDNA3.3-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA3.3-TOPO (linearized).json",
+      "length": 5407
+    },
+    {
+      "id": "ta:pcDNA3.4-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™3.4-TOPO®",
+      "fileName": "pcDNA3.4-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA3.4-TOPO (linearized).json",
+      "length": 6011
+    },
+    {
+      "id": "ta:pcDNA4 HisMax-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™4/HisMax-TOPO®",
+      "fileName": "pcDNA4 HisMax-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA4 HisMax-TOPO (linearized).json",
+      "length": 5274
+    },
+    {
+      "id": "ta:pcDNA5 FRT TO-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™5/FRT/TO-TOPO®",
+      "fileName": "pcDNA5 FRT TO-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA5 FRT TO-TOPO (linearized).json",
+      "length": 5155
+    },
+    {
+      "id": "ta:pcDNA5 FRT V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™5/FRT/V5-His-TOPO®",
+      "fileName": "pcDNA5 FRT V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA5 FRT V5-His-TOPO (linearized).json",
+      "length": 5094
+    },
+    {
+      "id": "ta:pcDNA6.2 C-EmGFP-GW TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™6.2/C-EmGFP-GW TOPO®",
+      "fileName": "pcDNA6.2 C-EmGFP-GW TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA6.2 C-EmGFP-GW TOPO (linearized).json",
+      "length": 5814
+    },
+    {
+      "id": "ta:pcDNA6.2 C-YFP-GW TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™6.2/C-YFP-GW TOPO®",
+      "fileName": "pcDNA6.2 C-YFP-GW TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA6.2 C-YFP-GW TOPO (linearized).json",
+      "length": 5814
+    },
+    {
+      "id": "ta:pcDNA6.2 N-EmGFP-GW TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pcDNA™6.2/N-EmGFP-GW TOPO®",
+      "fileName": "pcDNA6.2 N-EmGFP-GW TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pcDNA6.2 N-EmGFP-GW TOPO (linearized).json",
+      "length": 5902
+    },
+    {
+      "id": "ta:pCR-XL-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pCR®-XL-TOPO®",
+      "fileName": "pCR-XL-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pCR-XL-TOPO (linearized).json",
+      "length": 3519
+    },
+    {
+      "id": "ta:pCR2.1-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pCR®2.1-TOPO®",
+      "fileName": "pCR2.1-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pCR2.1-TOPO (linearized).json",
+      "length": 3931
+    },
+    {
+      "id": "ta:pCR4-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pCR®4-TOPO®",
+      "fileName": "pCR4-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pCR4-TOPO (linearized).json",
+      "length": 3956
+    },
+    {
+      "id": "ta:pCR8 GW TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pCR®8/GW/TOPO®",
+      "fileName": "pCR8 GW TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pCR8 GW TOPO (linearized).json",
+      "length": 2817
+    },
+    {
+      "id": "ta:pCRII-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pCR®II-TOPO®",
+      "fileName": "pCRII-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pCRII-TOPO (linearized).json",
+      "length": 3973
+    },
+    {
+      "id": "ta:pDrive (linearized).dna",
+      "method": "ta",
+      "label": "pDrive",
+      "fileName": "pDrive (linearized).json",
+      "path": "ta-gc-vectors/ta/pDrive (linearized).json",
+      "length": 3853
+    },
+    {
+      "id": "ta:pEF6 V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pEF6/V5-His-TOPO®",
+      "fileName": "pEF6 V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pEF6 V5-His-TOPO (linearized).json",
+      "length": 5841
+    },
+    {
+      "id": "ta:pENTR5'-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pENTR™5'-TOPO® (linearized)",
+      "fileName": "pENTR5'-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pENTR5'-TOPO (linearized).json",
+      "length": 2680
+    },
+    {
+      "id": "ta:pET SUMO (linearized).dna",
+      "method": "ta",
+      "label": "pET SUMO",
+      "fileName": "pET SUMO (linearized).json",
+      "path": "ta-gc-vectors/ta/pET SUMO (linearized).json",
+      "length": 5643
+    },
+    {
+      "id": "ta:pETBlue-1 AccepTor.dna",
+      "method": "ta",
+      "label": "pETBlue™-1 AccepTor™",
+      "fileName": "pETBlue-1 AccepTor.json",
+      "path": "ta-gc-vectors/ta/pETBlue-1 AccepTor.json",
+      "length": 3478
+    },
+    {
+      "id": "ta:pEXP5-CT TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pEXP5-CT/TOPO®",
+      "fileName": "pEXP5-CT TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pEXP5-CT TOPO (linearized).json",
+      "length": 2685
+    },
+    {
+      "id": "ta:pEXP5-NT TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pEXP5-NT/TOPO®",
+      "fileName": "pEXP5-NT TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pEXP5-NT TOPO (linearized).json",
+      "length": 2745
+    },
+    {
+      "id": "ta:pGEM-T (linearized).dna",
+      "method": "ta",
+      "label": "pGEM®-T",
+      "fileName": "pGEM-T (linearized).json",
+      "path": "ta-gc-vectors/ta/pGEM-T (linearized).json",
+      "length": 3002
+    },
+    {
+      "id": "ta:pGEM-T Easy (linearized).dna",
+      "method": "ta",
+      "label": "pGEM®-T Easy",
+      "fileName": "pGEM-T Easy (linearized).json",
+      "path": "ta-gc-vectors/ta/pGEM-T Easy (linearized).json",
+      "length": 3017
+    },
+    {
+      "id": "ta:pGlow-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pGlow-TOPO®",
+      "fileName": "pGlow-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pGlow-TOPO (linearized).json",
+      "length": 5333
+    },
+    {
+      "id": "ta:pIB V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pIB/V5-His-TOPO®",
+      "fileName": "pIB V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pIB V5-His-TOPO (linearized).json",
+      "length": 3537
+    },
+    {
+      "id": "ta:pLenti6.3 V5-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pLenti6.3/V5-TOPO®",
+      "fileName": "pLenti6.3 V5-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pLenti6.3 V5-TOPO (linearized).json",
+      "length": 7691
+    },
+    {
+      "id": "ta:pLenti7.3 V5-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pLenti7.3/V5-TOPO®",
+      "fileName": "pLenti7.3 V5-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pLenti7.3 V5-TOPO (linearized).json",
+      "length": 7935
+    },
+    {
+      "id": "ta:pLUG (linearized).dna",
+      "method": "ta",
+      "label": "pLUG®",
+      "fileName": "pLUG (linearized).json",
+      "path": "ta-gc-vectors/ta/pLUG (linearized).json",
+      "length": 2982
+    },
+    {
+      "id": "ta:pLUG-Multi (linearized).dna",
+      "method": "ta",
+      "label": "pLUG®-Multi",
+      "fileName": "pLUG-Multi (linearized).json",
+      "path": "ta-gc-vectors/ta/pLUG-Multi (linearized).json",
+      "length": 2766
+    },
+    {
+      "id": "ta:pMT V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pMT/V5-His-TOPO®",
+      "fileName": "pMT V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pMT V5-His-TOPO (linearized).json",
+      "length": 3558
+    },
+    {
+      "id": "ta:pOptiVEC-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pOptiVEC™-TOPO®",
+      "fileName": "pOptiVEC-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pOptiVEC-TOPO (linearized).json",
+      "length": 4402
+    },
+    {
+      "id": "ta:pPrime (linearized).dna",
+      "method": "ta",
+      "label": "pPrime",
+      "fileName": "pPrime (linearized).json",
+      "path": "ta-gc-vectors/ta/pPrime (linearized).json",
+      "length": 3853
+    },
+    {
+      "id": "ta:pQE-30 UA (linearized).dna",
+      "method": "ta",
+      "label": "pQE-30 UA",
+      "fileName": "pQE-30 UA (linearized).json",
+      "path": "ta-gc-vectors/ta/pQE-30 UA (linearized).json",
+      "length": 3504
+    },
+    {
+      "id": "ta:pSC-A-amp kan (linearized).dna",
+      "method": "ta",
+      "label": "pSC-A-amp kan",
+      "fileName": "pSC-A-amp kan (linearized).json",
+      "path": "ta-gc-vectors/ta/pSC-A-amp kan (linearized).json",
+      "length": 4270
+    },
+    {
+      "id": "ta:pSecTag FRT V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pSecTag/FRT/V5-His-TOPO®",
+      "fileName": "pSecTag FRT V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pSecTag FRT V5-His-TOPO (linearized).json",
+      "length": 5185
+    },
+    {
+      "id": "ta:pSpark TA.dna",
+      "method": "ta",
+      "label": "pSpark® TA",
+      "fileName": "pSpark TA.json",
+      "path": "ta-gc-vectors/ta/pSpark TA.json",
+      "length": 3002
+    },
+    {
+      "id": "ta:pSpark TA Done.dna",
+      "method": "ta",
+      "label": "pSpark® TA Done",
+      "fileName": "pSpark TA Done.json",
+      "path": "ta-gc-vectors/ta/pSpark TA Done.json",
+      "length": 3017
+    },
+    {
+      "id": "ta:pSTBlue-1 AccepTor.dna",
+      "method": "ta",
+      "label": "pSTBlue-1 AccepTor™",
+      "fileName": "pSTBlue-1 AccepTor.json",
+      "path": "ta-gc-vectors/ta/pSTBlue-1 AccepTor.json",
+      "length": 3853
+    },
+    {
+      "id": "ta:pT7Blue T-Vector.dna",
+      "method": "ta",
+      "label": "pT7Blue T-Vector",
+      "fileName": "pT7Blue T-Vector.json",
+      "path": "ta-gc-vectors/ta/pT7Blue T-Vector.json",
+      "length": 2889
+    },
+    {
+      "id": "ta:pTA Plus (linearized).dna",
+      "method": "ta",
+      "label": "pTA Plus",
+      "fileName": "pTA Plus (linearized).json",
+      "path": "ta-gc-vectors/ta/pTA Plus (linearized).json",
+      "length": 2965
+    },
+    {
+      "id": "ta:pTargeT (linearized).dna",
+      "method": "ta",
+      "label": "pTargeT™",
+      "fileName": "pTargeT (linearized).json",
+      "path": "ta-gc-vectors/ta/pTargeT (linearized).json",
+      "length": 5672
+    },
+    {
+      "id": "ta:pTrcHis-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pTrcHis-TOPO®",
+      "fileName": "pTrcHis-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pTrcHis-TOPO (linearized).json",
+      "length": 4390
+    },
+    {
+      "id": "ta:pTrcHis2-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pTrcHis2-TOPO®",
+      "fileName": "pTrcHis2-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pTrcHis2-TOPO (linearized).json",
+      "length": 4381
+    },
+    {
+      "id": "ta:pTZ57R_T.dna",
+      "method": "ta",
+      "label": "pTZ57R_T",
+      "fileName": "pTZ57R_T.json",
+      "path": "ta-gc-vectors/ta/pTZ57R_T.json",
+      "length": 2888
+    },
+    {
+      "id": "ta:pUC57-T.dna",
+      "method": "ta",
+      "label": "pUC57-T",
+      "fileName": "pUC57-T.json",
+      "path": "ta-gc-vectors/ta/pUC57-T.json",
+      "length": 2712
+    },
+    {
+      "id": "ta:pYES2.1 V5-His-TOPO (linearized).dna",
+      "method": "ta",
+      "label": "pYES2.1/V5-His-TOPO®",
+      "fileName": "pYES2.1 V5-His-TOPO (linearized).json",
+      "path": "ta-gc-vectors/ta/pYES2.1 V5-His-TOPO (linearized).json",
+      "length": 5886
+    },
+    {
+      "id": "ta:RBC T&A Cloning Vector (linearized).dna",
+      "method": "ta",
+      "label": "RBC T&A Cloning Vector",
+      "fileName": "RBC T&A Cloning Vector (linearized).json",
+      "path": "ta-gc-vectors/ta/RBC T&A Cloning Vector (linearized).json",
+      "length": 2730
+    },
+    {
+      "id": "ta:T-Vector pMD19 (Simple).dna",
+      "method": "ta",
+      "label": "T-Vector pMD19 (Simple)",
+      "fileName": "T-Vector pMD19 (Simple).json",
+      "path": "ta-gc-vectors/ta/T-Vector pMD19 (Simple).json",
+      "length": 2694
+    },
+    {
+      "id": "ta:T-Vector pMD20.dna",
+      "method": "ta",
+      "label": "T-Vector pMD20",
+      "fileName": "T-Vector pMD20.json",
+      "path": "ta-gc-vectors/ta/T-Vector pMD20.json",
+      "length": 2738
+    }
+  ],
+  "gc": [
+    {
+      "id": "gc:pGC Blue (linearized).dna",
+      "method": "gc",
+      "label": "pGC™ Blue",
+      "fileName": "pGC Blue (linearized).json",
+      "path": "ta-gc-vectors/gc/pGC Blue (linearized).json",
+      "length": 2251
+    },
+    {
+      "id": "gc:pSMART GC HK (linearized).dna",
+      "method": "gc",
+      "label": "pSMART® GC HK",
+      "fileName": "pSMART GC HK (linearized).json",
+      "path": "ta-gc-vectors/gc/pSMART GC HK (linearized).json",
+      "length": 1797
+    },
+    {
+      "id": "gc:pSMART GC LK (linearized).dna",
+      "method": "gc",
+      "label": "pSMART® GC LK",
+      "fileName": "pSMART GC LK (linearized).json",
+      "path": "ta-gc-vectors/gc/pSMART GC LK (linearized).json",
+      "length": 1993
+    }
+  ]
+}

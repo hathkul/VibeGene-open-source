@@ -1,0 +1,753 @@
+.translation-dialog.pick-primers-dialog {
+  width: min(1180px, 96vw);
+  height: min(860px, 94vh);
+  min-width: min(560px, calc(100vw - 16px));
+  min-height: min(420px, calc(100vh - 16px));
+  max-width: calc(100vw - 16px);
+  max-height: calc(100vh - 16px);
+  position: relative;
+  container: pick-primers / inline-size;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--app-panel);
+  border-color: var(--border);
+  color: var(--text, inherit);
+}
+
+.pick-primers-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--border, #ccc);
+  cursor: grab;
+  flex: none;
+  min-width: 0;
+}
+
+.pick-primers-header h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.pick-primers-pane-tabs {
+  display: inline-flex;
+  flex: none;
+  margin-left: auto;
+  border: 1px solid var(--vg-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pick-primers-pane-tabs button {
+  font-size: 12px;
+  padding: 3px 12px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text, inherit);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pick-primers-pane-tabs button + button {
+  border-left: 1px solid var(--border, #ccc);
+}
+
+.pick-primers-pane-tabs button.is-active {
+  background: var(--vg-interactive-selected);
+  color: var(--accent);
+}
+
+.pick-primers-pane-stale {
+  color: var(--vg-text);
+}
+
+.pick-primers-header h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--text-h, var(--text, inherit));
+}
+
+.pick-primers-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border, #ccc);
+  flex: none;
+  white-space: nowrap;
+}
+
+.pick-primers-toolbar-group {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.pick-primers-selection-summary {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.pick-primers-toolbar-label {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.pick-primers-radio-group {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pick-primers-inline-radio,
+.pick-primers-inline-check,
+.pick-primers-bool-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: auto;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.pick-primers-inline-radio input[type='radio'],
+.pick-primers-inline-check input[type='checkbox'],
+.pick-primers-bool-control input[type='checkbox'],
+.pick-primers-results-table input[type='checkbox'] {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  flex: none;
+}
+
+.pick-primers-toolbar-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.pick-primers-dialog .pick-primers-toolbar-field select {
+  width: auto;
+  min-width: 12rem;
+  max-width: 20rem;
+  margin: 0;
+}
+
+.pick-primers-num-return input {
+  width: 4.5ch;
+  padding: 2px 4px;
+}
+
+.pick-primers-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pick-primers-settings-pane {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pick-primers-settings-pane > .pick-primers-error-list {
+  flex: none;
+  margin: 6px 10px 2px;
+}
+
+.pick-primers-tabs-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  flex: none;
+  border-bottom: 1px solid var(--border, #ccc);
+  background: color-mix(in srgb, var(--app-panel) 92%, var(--border));
+}
+
+.pick-primers-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pick-primers-tabs button {
+  font-size: 12px;
+  padding: 3px 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text, inherit);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pick-primers-tabs button.is-active {
+  border-color: var(--vg-control-border);
+  background: var(--field);
+}
+
+.pick-primers-tab-actions {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.pick-primers-tab-actions-sep {
+  color: var(--vg-text);
+}
+
+.pick-primers-tab-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 8px 10px;
+}
+
+.pick-primers-link {
+  font-size: 12px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--app-focus);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pick-primers-sections-grid {
+  columns: 360px;
+  column-gap: 10px;
+}
+
+.pick-primers-section {
+  break-inside: avoid;
+  margin-bottom: 8px;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--app-panel) 88%, var(--field));
+}
+
+.pick-primers-section-title {
+  margin: 0 0 6px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.pick-primers-section-grid {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 4px 10px;
+  align-items: center;
+}
+
+.pick-primers-setting-label {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--text, inherit);
+}
+
+.pick-primers-setting-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pick-primers-setting-control.is-modified::after,
+.pick-primers-inline-control.is-modified::after {
+  content: '•';
+  color: var(--accent);
+  flex: none;
+}
+
+.pick-primers-modified-label {
+  font-weight: 600;
+}
+
+.pick-primers-triplet-row {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.pick-primers-triplet-row > .pick-primers-setting-label {
+  flex: none;
+}
+
+.pick-primers-triplet-controls {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pick-primers-triplet-controls .pick-primers-inline-control {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.pick-primers-triplet-controls .pick-primers-inline-control > .pick-primers-setting-label,
+.pick-primers-triplet-controls .pick-primers-unit {
+  flex: none;
+}
+
+.pick-primers-dialog .pick-primers-num-input {
+  appearance: textfield;
+}
+
+.pick-primers-dialog .pick-primers-num-input::-webkit-inner-spin-button,
+.pick-primers-dialog .pick-primers-num-input::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.pick-primers-triplet-controls .pick-primers-num-input {
+  flex: 0 1 10ch;
+  width: 10ch;
+  min-width: 5ch;
+}
+
+.pick-primers-inline-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.pick-primers-num-input {
+  width: 7ch;
+  max-width: 100%;
+  padding: 2px 4px;
+}
+
+.pick-primers-text-input {
+  width: min(24ch, 100%);
+  padding: 2px 6px;
+}
+
+.pick-primers-seq-input,
+.pick-primers-select-input {
+  font: inherit;
+  padding: 2px 6px;
+}
+
+.pick-primers-seq-input {
+  font-family: var(--mono, ui-monospace, monospace);
+  width: min(40ch, 100%);
+}
+
+.pick-primers-select-input {
+  width: min(24ch, 100%);
+}
+
+.pick-primers-unit {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.pick-primers-library-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 4px 10px;
+  align-items: center;
+}
+
+.pick-primers-library-select {
+  width: 30ch;
+  max-width: 100%;
+  font: inherit;
+  padding: 2px 6px;
+}
+
+.pick-primers-library-file {
+  margin-left: 8px;
+  max-width: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.pick-primers-results-pane {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+}
+
+.pick-primers-results-pane.is-stale .pick-primers-results-scroll {
+  opacity: 0.78;
+}
+
+.pick-primers-results-empty {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.pick-primers-explain {
+  margin: 0 0 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pick-primers-warn {
+  color: var(--vg-warning-ink);
+}
+
+.pick-primers-error-inline,
+.pick-primers-error-list {
+  color: var(--vg-danger-ink);
+}
+
+.pick-primers-error-list {
+  margin: 0 0 4px;
+  padding-left: 1.2rem;
+  font-size: 12px;
+}
+
+.pick-primers-stale-note {
+  margin: 0 0 4px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.pick-primers-spec-toolbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.pick-primers-spec-heading {
+  font-weight: 600;
+}
+
+.pick-primers-dialog .pick-primers-spec-toolbar select,
+.pick-primers-dialog .pick-primers-spec-toolbar input {
+  flex: none;
+  margin: 0;
+  font: inherit;
+  padding: 2px 6px;
+}
+
+.pick-primers-dialog .pick-primers-spec-toolbar .pick-primers-spec-database {
+  width: 28ch;
+}
+
+.pick-primers-dialog .pick-primers-spec-toolbar .pick-primers-spec-organism {
+  width: 26ch;
+}
+
+.pick-primers-dialog .pick-primers-spec-toolbar .pick-primers-spec-custom {
+  width: 18ch;
+}
+
+.pick-primers-spec-toolbar button {
+  flex: none;
+}
+
+.pick-primers-spec-status {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--muted);
+}
+
+.pick-primers-spec-status.is-warning,
+.pick-primers-spec-fast {
+  color: var(--vg-warning-ink);
+}
+
+.pick-primers-spec-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 4px;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pick-primers-spec-caret {
+  width: 1em;
+  color: var(--muted);
+}
+
+.pick-primers-spec-toggle.is-specific {
+  color: var(--vg-text);
+}
+
+.pick-primers-spec-toggle.is-offtarget {
+  color: var(--warn, #b45309);
+  font-weight: 600;
+}
+
+.pick-primers-spec-toggle.is-similar {
+  color: var(--vg-text);
+}
+
+.pick-primers-spec-toggle.is-none {
+  color: var(--muted);
+}
+
+.pick-primers-results-table tr.is-expanded > td {
+  border-bottom-color: transparent;
+}
+
+.pick-primers-results-table tr.pick-primers-spec-row > td {
+  padding: 0 6px 6px 28px;
+  white-space: normal;
+}
+
+.pick-primers-spec-detail {
+  max-width: 1100px;
+}
+
+.pick-primers-spec-summary {
+  margin: 0 0 3px;
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pick-primers-spec-table-scroll {
+  width: max-content;
+  max-width: 100%;
+  max-height: 190px;
+  overflow: auto;
+  border: 1px solid var(--border);
+}
+
+.pick-primers-spec-table {
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.pick-primers-spec-table th,
+.pick-primers-spec-table td {
+  padding: 1px 6px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.pick-primers-spec-table th {
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--app-panel);
+}
+
+.pick-primers-spec-table .pick-primers-link {
+  font-size: 11px;
+}
+
+.pick-primers-spec-title {
+  max-width: 46ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pick-primers-spec-table tr.is-offtarget td {
+  color: var(--vg-danger-ink);
+}
+
+.pick-primers-spec-table tr.is-similar td {
+  color: var(--vg-text);
+}
+
+.pick-primers-results-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.pick-primers-results-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.pick-primers-results-table th,
+.pick-primers-results-table td {
+  padding: 2px 6px;
+  border-bottom: 1px solid var(--border, #ddd);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.pick-primers-results-table thead th {
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--app-table-head);
+  box-shadow: 0 1px 0 var(--border);
+}
+
+.pick-primers-seq {
+  font-family: var(--mono, ui-monospace, monospace);
+  min-width: 28ch;
+  max-width: 36ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pick-primers-boulder-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.pick-primers-boulder-panel label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.pick-primers-boulder-panel textarea {
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 11px;
+  min-height: 12rem;
+  width: 100%;
+  resize: vertical;
+  background: var(--field);
+  color: var(--text, inherit);
+  border: 1px solid var(--border);
+}
+
+.pick-primers-footer {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 18px 8px 12px;
+  border-top: 1px solid var(--border, #ccc);
+  background: var(--app-panel);
+}
+
+.pick-primers-footer .translation-actions {
+  flex: none;
+}
+
+.pick-primers-footer .translation-actions button {
+  white-space: nowrap;
+}
+
+.pick-primers-status {
+  font-size: 12px;
+  color: var(--vg-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.pick-primers-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.pick-primers-dialog input:not([type='checkbox']):not([type='radio']),
+.pick-primers-dialog select,
+.pick-primers-dialog textarea {
+  background: var(--field, var(--app-field, var(--vg-surface-inset)));
+  color: var(--text, inherit);
+  border: 1px solid var(--border);
+}
+
+.translation-dialog.pick-primers-dialog select {
+  margin-bottom: 0;
+}
+
+@container pick-primers (max-width: 720px) {
+  .pick-primers-toolbar-group {
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .pick-primers-boulder-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .pick-primers-spec-toolbar {
+    flex-wrap: wrap;
+    row-gap: 4px;
+  }
+
+  .pick-primers-seq {
+    min-width: 16ch;
+    max-width: 22ch;
+  }
+}
+
+@container pick-primers (max-width: 480px) {
+  .pick-primers-tabs-row {
+    align-items: flex-start;
+  }
+
+  .pick-primers-tab-actions {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-end;
+  }
+}

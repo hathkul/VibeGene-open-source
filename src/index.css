@@ -1,0 +1,521 @@
+:root {
+  /* Global application palette.  App.css consumes the `app-*` aliases for the
+     legacy desktop chrome, while the shorter names are used by newer panels. */
+  --text: #475569;
+  --text-h: #0f172a;
+  --muted: #64748b;
+  --bg: #eef6f4;
+  --surface: rgba(255, 255, 255, 0.92);
+  --field: #f8fafc;
+  --button: #ffffff;
+  --border: #dbe7e4;
+  --border-strong: #b6ccc7;
+  --accent: #0f766e;
+  --shadow: rgba(15, 23, 42, 0.06) 0 18px 50px;
+  --app-chrome: #eeeeee;
+  --app-chrome-end: #d3d3d3;
+  --app-chrome-border: #a9a9a9;
+  --app-workspace: #f7f3e9;
+  --app-sidebar: #f8f5ed;
+  --app-panel: #fffdf8;
+  --app-panel-muted: #f7f3ea;
+  --app-field: #ffffff;
+  --app-button-top: #ffffff;
+  --app-button-bottom: #dddddd;
+  --app-button-hover-bottom: #cfe4fb;
+  --app-button-border: #a7a7a7;
+  --app-button-text: #202020;
+  --app-divider: #d5cbb9;
+  --app-table: #fff9e8;
+  --app-table-alt: #fff3cd;
+  --app-table-head: #bff2bf;
+  --app-table-head-border: #b9d8b9;
+  --app-table-border: #eadfca;
+  --app-table-hover: #dcedff;
+  --app-selection: #dbeafe;
+  --app-selection-hover: #e8f3ff;
+  --app-selection-text: #0f4f9c;
+  --app-overlay: rgb(20 18 14 / 35%);
+  --app-dialog-shadow: rgb(20 16 10 / 28%);
+  --app-focus: #2f74b5;
+
+  /*
+   * Semantic visual contract for new components.  These deliberately alias
+   * the established palette above: changing a scheme updates every semantic
+   * role without a component needing its own scheme selector.
+   */
+  --vg-surface-canvas: var(--app-workspace);
+  --vg-surface-sidebar: var(--app-sidebar);
+  --vg-surface-panel: var(--app-panel);
+  --vg-surface-panel-muted: var(--app-panel-muted);
+  --vg-surface-raised: var(--app-field);
+  --vg-surface-inset: var(--app-field);
+  --vg-surface-chrome: var(--app-chrome);
+  --vg-surface-chrome-end: var(--app-chrome-end);
+  --vg-border: var(--app-divider);
+  --vg-border-strong: var(--app-button-border);
+  --vg-text: var(--text);
+  --vg-text-strong: var(--text-h);
+  --vg-text-muted: var(--muted);
+  --vg-control-surface: linear-gradient(var(--app-button-top), var(--app-button-bottom));
+  --vg-control-surface-hover: linear-gradient(var(--app-button-top), var(--app-button-hover-bottom));
+  --vg-control-border: var(--app-button-border);
+  --vg-control-ink: var(--app-button-text);
+  --vg-interactive-hover: var(--app-table-hover);
+  --vg-interactive-selected: var(--app-selection);
+  --vg-interactive-selected-hover: var(--app-selection-hover);
+  --vg-interactive-selected-ink: var(--app-selection-text);
+  --vg-focus: var(--app-focus);
+  --vg-chip-surface: var(--app-table-alt);
+  --vg-chip-border: var(--app-table-border);
+  --vg-chip-ink: var(--text-h);
+  --vg-warning-surface: color-mix(in srgb, #d49a2e 13%, var(--app-panel));
+  --vg-warning-border: color-mix(in srgb, #d49a2e 56%, var(--app-divider));
+  --vg-warning-ink: #854d0e;
+  --vg-danger-surface: color-mix(in srgb, #e06a72 15%, var(--app-panel));
+  --vg-danger-border: color-mix(in srgb, #e06a72 64%, var(--app-divider));
+  --vg-danger-ink: #9f1239;
+  --vg-success-surface: color-mix(in srgb, #4aa36b 14%, var(--app-panel));
+  --vg-success-border: color-mix(in srgb, #4aa36b 56%, var(--app-divider));
+  --vg-success-ink: #166534;
+  --vg-text-link: var(--app-focus);
+  --vg-text-inverse: #ffffff;
+  --vg-text-disabled: var(--muted);
+  --vg-control-surface-pressed: linear-gradient(var(--app-button-top), color-mix(in srgb, var(--app-button-hover-bottom) 70%, var(--app-button-bottom)));
+  --vg-control-primary: #2563eb;
+  --vg-control-primary-hover: #1d4ed8;
+  --vg-control-primary-border: #1d4ed8;
+  --vg-control-destructive: #dc2626;
+  --vg-control-destructive-hover: #b91c1c;
+  --vg-control-affirmative: #16803f;
+  --vg-control-affirmative-hover: #14532d;
+  --vg-control-segment-active: #c73b2d;
+  --vg-control-segment-active-hover: #9f1239;
+  --vg-surface-disabled: var(--app-panel-muted);
+  --vg-border-disabled: color-mix(in srgb, var(--app-button-border) 45%, var(--app-panel-muted));
+  --vg-overlay-scrim: color-mix(in srgb, var(--text-h) 28%, transparent);
+  --vg-info-surface: color-mix(in srgb, var(--app-focus) 12%, var(--app-panel));
+  --vg-info-border: color-mix(in srgb, var(--app-focus) 45%, var(--app-divider));
+  --vg-info-ink: #1e4976;
+  --vg-shadow-elevation: 0 1px 2px color-mix(in srgb, var(--text-h) 8%, transparent);
+  --vg-shadow-overlay: 0 8px 24px color-mix(in srgb, var(--text-h) 18%, transparent);
+  --vg-shadow-inset-control: inset 0 1px 2px color-mix(in srgb, var(--text-h) 12%, transparent);
+  --vg-diagram-surface: var(--app-panel);
+  --vg-diagram-inset: var(--app-field);
+  --vg-diagram-ink: var(--text-h);
+  --vg-diagram-muted: var(--muted);
+  --vg-diagram-line: var(--app-divider);
+  --vg-diagram-label-surface: var(--app-panel);
+  --vg-diagram-label-ink: var(--text-h);
+  --vg-annotation-label-surface: transparent;
+  --vg-annotation-label-ink: var(--text-h);
+  --vg-annotation-label-selected-surface: var(--app-selection);
+  --vg-annotation-label-selected-ink: var(--app-selection-text);
+  --vg-map-surface: var(--app-workspace);
+  --vg-map-ink: var(--text-h);
+  --vg-map-muted: var(--muted);
+  --vg-map-line: var(--app-divider);
+  --vg-map-callout: var(--app-panel);
+  --vg-data-track: var(--app-panel-muted);
+  --vg-data-mark: var(--text-h);
+  --vg-data-mark-selected: var(--app-focus);
+
+  /* Scientific renderers need stronger contrast than ordinary application
+     chrome. Keep these roles separate from panel/divider tokens so palette
+     cleanup cannot flatten maps, sequences, traces, or cloning diagrams. */
+  --vg-scientific-ruler-ink: #111111;
+  --vg-scientific-outline-ink: #111111;
+  --vg-scientific-leader-ink: #4b5563;
+  --vg-scientific-label-ink: #111111;
+  --vg-scientific-label-halo: #fffdf8;
+  --vg-scientific-selection-ink: #2563eb;
+  --vg-scientific-cut-ink: #dc2626;
+  --vg-scientific-selection-overlay: rgb(37 99 235 / 38%);
+  --vg-residue-glyph-ink: #10233c;
+  --vg-residue-selection-ink: #10233c;
+  --vg-residue-selection-surface: #8fc5f4;
+  --vg-cloning-diagram-ink: #334155;
+  --vg-trace-g-line: #171717;
+  --vg-trace-g-fill: rgb(23 23 23 / 20%);
+
+  /* These are previews of fixed schemes, not colors from the active scheme. */
+  --vg-scheme-preview-beige: #e8dcc2;
+  --vg-scheme-preview-bright: #ffffff;
+  --vg-scheme-preview-dark: #182333;
+
+  /* Startup shell roles.  This surface has a richer visual language than
+     ordinary application panels, so its complete palette is scheme-owned. */
+  --vg-startup-canvas: #f7f8fb;
+  --vg-startup-gradient-top: rgb(255 255 255 / 92%);
+  --vg-startup-gradient-bottom: rgb(247 248 251 / 98%);
+  --vg-startup-ambient-one: rgb(126 20 255 / 13%);
+  --vg-startup-ambient-two: rgb(29 177 183 / 14%);
+  --vg-startup-ink: #172033;
+  --vg-startup-muted: #6b7280;
+  --vg-startup-card-border: rgb(196 202 216 / 72%);
+  --vg-startup-card-surface: rgb(255 255 255 / 86%);
+  --vg-startup-card-shadow: rgb(50 55 77 / 5.5%);
+  --vg-startup-interaction-border: rgb(126 20 255 / 42%);
+  --vg-startup-interaction-shadow: rgb(75 46 126 / 10%);
+  --vg-startup-focus-ring: rgb(126 20 255 / 22%);
+  --vg-startup-strong-ink: #20263a;
+  --vg-startup-icon-purple-ink: #6d28d9;
+  --vg-startup-icon-purple-surface: #f0e8ff;
+  --vg-startup-icon-blue-ink: #1768ba;
+  --vg-startup-icon-blue-surface: #e7f2ff;
+  --vg-startup-icon-teal-ink: #087f7b;
+  --vg-startup-icon-teal-surface: #def7f3;
+  --vg-startup-icon-amber-ink: #a75a00;
+  --vg-startup-icon-amber-surface: #fff1d7;
+  --vg-startup-icon-slate-ink: #536079;
+  --vg-startup-icon-slate-surface: #edf0f5;
+  --vg-startup-icon-rose-ink: #b4235a;
+  --vg-startup-icon-rose-surface: #fde8f0;
+  --vg-startup-option-border: #e3e6ed;
+  --vg-startup-option-ink: #7252a5;
+  --vg-startup-option-surface: #fbfaff;
+  --vg-startup-caret: #a2a8b7;
+  --vg-startup-list-divider: #eceef3;
+  --vg-startup-hover-surface: #f5f1fb;
+  --vg-startup-delete-ink: #b42318;
+  --vg-startup-delete-surface: #fdecea;
+  --vg-startup-delete-focus: #7c3aed;
+  --vg-startup-file-ink: #272d3d;
+  --vg-startup-metadata: #818796;
+  --vg-startup-dna-dot: #7c3aed;
+  --vg-startup-dna-ring: #f0e8ff;
+  --vg-startup-protein-dot: #0891b2;
+  --vg-startup-protein-ring: #e2f6fa;
+  --vg-startup-source-ink: #3474a9;
+  --vg-startup-source-surface: #eaf4fc;
+  --vg-startup-database-ink: #087f7b;
+  --vg-startup-database-surface: #e2f6f2;
+  --vg-startup-faint: #979cab;
+  --vg-startup-footer: #8a8f9d;
+  --vg-startup-status: #6d4ca0;
+  --vg-startup-drop-border: rgb(109 40 217 / 54%);
+  --vg-startup-drop-surface: rgb(247 244 253 / 94%);
+  --vg-startup-drop-ink: #6d28d9;
+  --vg-startup-drop-muted: #777185;
+  --vg-startup-modal-overlay: rgb(31 35 48 / 28%);
+  --vg-startup-modal-border: rgb(116 122 140 / 26%);
+  --vg-startup-modal-surface: #f7f7f7;
+  --vg-startup-modal-shadow: rgb(20 24 36 / 30%);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 15px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* The explicit setting deliberately wins over the operating-system preference:
+   Vibegene windows should all show the scheme selected by the user. */
+:root[data-color-scheme='beige'] {
+  color-scheme: light;
+}
+
+:root[data-color-scheme='bright'] {
+  color-scheme: light;
+  --text: #334155;
+  --text-h: #0f172a;
+  --muted: #64748b;
+  --bg: #f4f8fc;
+  --surface: rgb(255 255 255 / 94%);
+  --field: #ffffff;
+  --button: #ffffff;
+  --border: #d7e1ec;
+  --border-strong: #aebed0;
+  --accent: #087b73;
+  --shadow: rgb(15 23 42 / 10%) 0 18px 50px;
+  --app-chrome: #ffffff;
+  --app-chrome-end: #e9f0f7;
+  --app-chrome-border: #c5d0dc;
+  --app-workspace: #f8fbfe;
+  --app-sidebar: #f7fafc;
+  --app-panel: #ffffff;
+  --app-panel-muted: #f3f7fb;
+  --app-field: #ffffff;
+  --app-button-top: #ffffff;
+  --app-button-bottom: #e8eef5;
+  --app-button-hover-bottom: #dcecff;
+  --app-button-border: #aebdcb;
+  --app-button-text: #1e293b;
+  --app-divider: #d6e0ea;
+  --app-table: #ffffff;
+  --app-table-alt: #f6f9fc;
+  --app-table-head: #e8f4eb;
+  --app-table-head-border: #b9d8c0;
+  --app-table-border: #dce5ee;
+  --app-table-hover: #eaf4ff;
+  --app-selection: #dcecff;
+  --app-selection-hover: #eaf4ff;
+  --app-selection-text: #124e86;
+  --app-overlay: rgb(15 23 42 / 35%);
+  --app-dialog-shadow: rgb(15 23 42 / 20%);
+  --app-focus: #1d75c7;
+  --vg-warning-ink: #92400e;
+  --vg-danger-ink: #991b1b;
+  --vg-success-ink: #15803d;
+  --vg-info-ink: #1d4ed8;
+  --vg-text-inverse: #ffffff;
+  --vg-control-primary: #1d4ed8;
+  --vg-control-primary-hover: #1e40af;
+  --vg-control-primary-border: #1e40af;
+  --vg-control-destructive: #dc2626;
+  --vg-control-destructive-hover: #b91c1c;
+  --vg-control-affirmative: #15803d;
+  --vg-control-affirmative-hover: #14532d;
+  --vg-control-segment-active: #dc2626;
+  --vg-control-segment-active-hover: #b91c1c;
+  --vg-startup-canvas: #f8fbfe;
+  --vg-startup-gradient-top: rgb(255 255 255 / 96%);
+  --vg-startup-gradient-bottom: rgb(248 251 254 / 98%);
+  --vg-startup-ambient-one: rgb(93 82 220 / 11%);
+  --vg-startup-ambient-two: rgb(29 145 155 / 12%);
+  --vg-startup-ink: #1e293b;
+  --vg-startup-muted: #64748b;
+  --vg-startup-card-border: rgb(174 190 208 / 76%);
+  --vg-startup-card-surface: rgb(255 255 255 / 90%);
+  --vg-startup-card-shadow: rgb(15 23 42 / 8%);
+  --vg-startup-interaction-border: rgb(93 82 220 / 42%);
+  --vg-startup-interaction-shadow: rgb(61 58 135 / 12%);
+  --vg-startup-focus-ring: rgb(29 117 199 / 25%);
+  --vg-startup-strong-ink: #172554;
+  --vg-startup-icon-purple-ink: #5b21b6;
+  --vg-startup-icon-purple-surface: #f1ebff;
+  --vg-startup-icon-blue-ink: #155eaa;
+  --vg-startup-icon-blue-surface: #e8f3ff;
+  --vg-startup-icon-teal-ink: #08766f;
+  --vg-startup-icon-teal-surface: #e1f8f4;
+  --vg-startup-icon-amber-ink: #9a5300;
+  --vg-startup-icon-amber-surface: #fff4df;
+  --vg-startup-icon-slate-ink: #475569;
+  --vg-startup-icon-slate-surface: #edf2f7;
+  --vg-startup-icon-rose-ink: #a51d52;
+  --vg-startup-icon-rose-surface: #ffeaf2;
+  --vg-startup-option-border: #d7e1ec;
+  --vg-startup-option-ink: #60469a;
+  --vg-startup-option-surface: #fbfaff;
+  --vg-startup-caret: #64748b;
+  --vg-startup-list-divider: #e1e8f0;
+  --vg-startup-hover-surface: #f1f5ff;
+  --vg-startup-delete-ink: #b42318;
+  --vg-startup-delete-surface: #fff0ee;
+  --vg-startup-delete-focus: #6d28d9;
+  --vg-startup-file-ink: #1e293b;
+  --vg-startup-metadata: #64748b;
+  --vg-startup-dna-dot: #6d28d9;
+  --vg-startup-dna-ring: #f1ebff;
+  --vg-startup-protein-dot: #087f9b;
+  --vg-startup-protein-ring: #e4f7fb;
+  --vg-startup-source-ink: #2f6698;
+  --vg-startup-source-surface: #edf6ff;
+  --vg-startup-database-ink: #087f7b;
+  --vg-startup-database-surface: #e4f8f4;
+  --vg-startup-faint: #64748b;
+  --vg-startup-footer: #64748b;
+  --vg-startup-status: #60469a;
+  --vg-startup-drop-border: rgb(109 40 217 / 58%);
+  --vg-startup-drop-surface: rgb(247 244 253 / 96%);
+  --vg-startup-drop-ink: #5b21b6;
+  --vg-startup-drop-muted: #64748b;
+  --vg-startup-modal-overlay: rgb(15 23 42 / 30%);
+  --vg-startup-modal-border: rgb(116 122 140 / 34%);
+  --vg-startup-modal-surface: #ffffff;
+  --vg-startup-modal-shadow: rgb(15 23 42 / 26%);
+  --vg-shadow-elevation: 0 1px 2px color-mix(in srgb, var(--text-h) 10%, transparent);
+  --vg-shadow-overlay: 0 8px 24px color-mix(in srgb, var(--text-h) 20%, transparent);
+  --vg-shadow-inset-control: inset 0 1px 2px color-mix(in srgb, var(--text-h) 14%, transparent);
+  --vg-scientific-label-halo: #ffffff;
+}
+
+:root[data-color-scheme='dark'] {
+  color-scheme: dark;
+  --text: #d7e1ed;
+  --text-h: #f8fafc;
+  --muted: #9baabd;
+  --bg: #0b1220;
+  --surface: rgb(20 29 43 / 94%);
+  --field: #111a28;
+  --button: #1c2838;
+  --border: #314155;
+  --border-strong: #51647b;
+  --accent: #45d6c8;
+  --shadow: rgb(0 0 0 / 42%) 0 18px 50px;
+  --app-chrome: #1c2735;
+  --app-chrome-end: #111a27;
+  --app-chrome-border: #3b4c60;
+  --app-workspace: #111a27;
+  --app-sidebar: #151f2d;
+  --app-panel: #182333;
+  --app-panel-muted: #202c3c;
+  --app-field: #101925;
+  --app-button-top: #2a384a;
+  --app-button-bottom: #1b2736;
+  --app-button-hover-bottom: #25445b;
+  --app-button-border: #52657a;
+  --app-button-text: #e8eef6;
+  --app-divider: #35465a;
+  --app-table: #141f2d;
+  --app-table-alt: #182535;
+  --app-table-head: #24443c;
+  --app-table-head-border: #3b695c;
+  --app-table-border: #304157;
+  --app-table-hover: #203b55;
+  --app-selection: #1c3d5a;
+  --app-selection-hover: #285473;
+  --app-selection-text: #b8e1ff;
+  --app-overlay: rgb(0 0 0 / 56%);
+  --app-dialog-shadow: rgb(0 0 0 / 50%);
+  --app-focus: #69b8ff;
+  --vg-warning-ink: #fcd34d;
+  --vg-danger-ink: #fecaca;
+  --vg-success-ink: #86efac;
+  --vg-info-ink: #93c5fd;
+  --vg-text-inverse: #f8fafc;
+  --vg-control-primary: #1e40af;
+  --vg-control-primary-hover: #172554;
+  --vg-control-primary-border: #1e3a8a;
+  --vg-control-destructive: #991b1b;
+  --vg-control-destructive-hover: #7f1d1d;
+  --vg-control-affirmative: #166534;
+  --vg-control-affirmative-hover: #14532d;
+  --vg-control-segment-active: #9f1239;
+  --vg-control-segment-active-hover: #881337;
+  --vg-startup-canvas: #111a27;
+  --vg-startup-gradient-top: rgb(24 35 51 / 96%);
+  --vg-startup-gradient-bottom: rgb(17 26 39 / 98%);
+  --vg-startup-ambient-one: rgb(149 105 255 / 16%);
+  --vg-startup-ambient-two: rgb(47 205 197 / 13%);
+  --vg-startup-ink: #d7e1ed;
+  --vg-startup-muted: #9baabd;
+  --vg-startup-card-border: rgb(81 100 123 / 78%);
+  --vg-startup-card-surface: rgb(24 35 51 / 90%);
+  --vg-startup-card-shadow: rgb(0 0 0 / 30%);
+  --vg-startup-interaction-border: rgb(174 142 255 / 68%);
+  --vg-startup-interaction-shadow: rgb(0 0 0 / 36%);
+  --vg-startup-focus-ring: rgb(105 184 255 / 35%);
+  --vg-startup-strong-ink: #f8fafc;
+  --vg-startup-icon-purple-ink: #d2b7ff;
+  --vg-startup-icon-purple-surface: #33244d;
+  --vg-startup-icon-blue-ink: #9dccff;
+  --vg-startup-icon-blue-surface: #203a5a;
+  --vg-startup-icon-teal-ink: #83e7dc;
+  --vg-startup-icon-teal-surface: #173d3d;
+  --vg-startup-icon-amber-ink: #ffd18a;
+  --vg-startup-icon-amber-surface: #49351d;
+  --vg-startup-icon-slate-ink: #c4d0e2;
+  --vg-startup-icon-slate-surface: #2a3546;
+  --vg-startup-icon-rose-ink: #ffadca;
+  --vg-startup-icon-rose-surface: #4b273c;
+  --vg-startup-option-border: #51647b;
+  --vg-startup-option-ink: #d2b7ff;
+  --vg-startup-option-surface: #202c3c;
+  --vg-startup-caret: #aebbd0;
+  --vg-startup-list-divider: #35465a;
+  --vg-startup-hover-surface: #25354b;
+  --vg-startup-delete-ink: #ffaaa4;
+  --vg-startup-delete-surface: #4b272b;
+  --vg-startup-delete-focus: #b999ff;
+  --vg-startup-file-ink: #e8eef6;
+  --vg-startup-metadata: #aebbd0;
+  --vg-startup-dna-dot: #b999ff;
+  --vg-startup-dna-ring: #33244d;
+  --vg-startup-protein-dot: #67d9ec;
+  --vg-startup-protein-ring: #193b48;
+  --vg-startup-source-ink: #a7d2ff;
+  --vg-startup-source-surface: #1e3a57;
+  --vg-startup-database-ink: #83e7dc;
+  --vg-startup-database-surface: #173d3d;
+  --vg-startup-faint: #aebbd0;
+  --vg-startup-footer: #9baabd;
+  --vg-startup-status: #d2b7ff;
+  --vg-startup-drop-border: rgb(185 153 255 / 72%);
+  --vg-startup-drop-surface: rgb(51 36 77 / 94%);
+  --vg-startup-drop-ink: #d2b7ff;
+  --vg-startup-drop-muted: #c4b8d5;
+  --vg-startup-modal-overlay: rgb(0 0 0 / 48%);
+  --vg-startup-modal-border: rgb(174 187 208 / 36%);
+  --vg-startup-modal-surface: #182333;
+  --vg-startup-modal-shadow: rgb(0 0 0 / 58%);
+  --vg-shadow-elevation: 0 1px 2px color-mix(in srgb, #000000 35%, transparent);
+  --vg-shadow-overlay: 0 8px 24px color-mix(in srgb, #000000 55%, transparent);
+  --vg-shadow-inset-control: inset 0 1px 2px color-mix(in srgb, #000000 45%, transparent);
+  --vg-scientific-ruler-ink: #e6edf7;
+  --vg-scientific-outline-ink: #f1f5f9;
+  --vg-scientific-leader-ink: #91a5bb;
+  --vg-scientific-label-ink: #f8fafc;
+  --vg-scientific-label-halo: #111a27;
+  --vg-scientific-selection-ink: #69b8ff;
+  --vg-scientific-cut-ink: #f87171;
+  --vg-scientific-selection-overlay: rgb(105 184 255 / 42%);
+  --vg-residue-glyph-ink: #e6edf7;
+  --vg-cloning-diagram-ink: #e6edf7;
+  --vg-trace-g-line: #e2e8f0;
+  --vg-trace-g-fill: rgb(226 232 240 / 18%);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  box-sizing: border-box;
+  overscroll-behavior-x: none;
+}
+
+html,
+body {
+  overscroll-behavior-x: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--accent) 16%, transparent), transparent 28rem),
+    radial-gradient(circle at top right, color-mix(in srgb, var(--app-focus) 14%, transparent), transparent 24rem),
+    var(--bg);
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 750;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: clamp(42px, 7vw, 78px);
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+  margin: 8px 0 14px;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}

@@ -1,0 +1,4235 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/build-theme-closure-accounting.ts",
+  "sourceCounts": {
+    "rawFindings": 278,
+    "enforcedBaseline": 0,
+    "scientificRegistry": 278,
+    "liveRawScan": 278,
+    "liveEnforcedScan": 0,
+    "nonScientificRaw": 0
+  },
+  "baselineIdentity": {
+    "enforcedCount": 0,
+    "nonScientificRawCount": 0,
+    "scientificInBaseline": 0,
+    "nonScientificNotInBaseline": 0,
+    "enforcedMinusNonScientificRaw": 0,
+    "scientificInBaselineMinusNonScientificNotInBaseline": 0
+  },
+  "enforcedDispositionTotals": {
+    "migrate-existing-token": 0,
+    "register-scientific": 0,
+    "delete-dead": 0,
+    "correct-stale-accounting": 0
+  },
+  "nonScientificRawOutcomeTotals": {
+    "ordinary-ui": 0,
+    "interaction-state": 0,
+    "feedback-state": 0,
+    "scientific-data": 278,
+    "dead-or-redundant": 0
+  },
+  "unmigratableScientificFamilies": [],
+  "groups": [
+    {
+      "groupId": "93953d3d750be05f",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#31849b",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/gatewayBpCloning.ts"
+      ],
+      "rawCount": 6,
+      "enforcedCount": 0,
+      "findingIds": [
+        "590d50ec758921f0",
+        "815b626b117c6ce2",
+        "8fabb0095fcf9c24",
+        "927e2d4c5c26d49f",
+        "ad0ec7957c4d8d4c",
+        "ad426c020080f349"
+      ]
+    },
+    {
+      "groupId": "28b786fc248a2086",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Stored primer or feature default color encodes library identity when user color is absent.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/storage/commonPrimers.ts",
+        "src/storage/databasePrimers.ts",
+        "src/storage/folderPrimerLists.ts"
+      ],
+      "rawCount": 5,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2e83568a4b738e70",
+        "8a132316fa5cde78",
+        "8f9d5882f41cfa99",
+        "dfef4f678fd17967",
+        "ff890896e7b42a47"
+      ]
+    },
+    {
+      "groupId": "1433cf1df939f45c",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#db2777",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/bridgePcr.ts",
+        "src/domain/cloning.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "429b668c7e846386",
+        "b917ca2d122519b2",
+        "d24a1c535d235c09"
+      ]
+    },
+    {
+      "groupId": "276008ae3c4f5bff",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#0ea5e9",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/bridgeOverlapPrimers.ts",
+        "src/domain/gibsonAssembly.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4b425c34d055cf8e",
+        "a7c2cc19cdbfb384",
+        "fd5eb660ff772456"
+      ]
+    },
+    {
+      "groupId": "3cd1965b5e389a9e",
+      "ownerFamily": "object:primer.color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/mutagenesis.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "23f6955761ca83b3",
+        "93f8175b6931dc59",
+        "962d06d26db6b996"
+      ]
+    },
+    {
+      "groupId": "4b6d082c25b1166f",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#64748b",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/proteinAnnotationToDna.ts",
+        "src/domain/proteinFeatures.ts",
+        "src/domain/proteinLibraryFeatureImport.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c2116b5abde6dbe",
+        "bce7f907f97e77ea",
+        "ebc2d845c96a1587"
+      ]
+    },
+    {
+      "groupId": "690899625c01b2bb",
+      "ownerFamily": "object:raw.color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/gatewayBpPrimers.ts",
+        "src/domain/gibsonOverlapPrimers.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "13658f4dd1fc918a",
+        "2d7876902781e131",
+        "4190cdf99ecb9ebe"
+      ]
+    },
+    {
+      "groupId": "e801e324028580a0",
+      "ownerFamily": "object:raw.color",
+      "property": "color",
+      "literal": "#db2777",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/gatewayBpPrimers.ts",
+        "src/domain/gibsonOverlapPrimers.ts",
+        "src/domain/taGcOverlapPrimers.ts"
+      ],
+      "rawCount": 3,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1415f2b8206575ca",
+        "3799440ded09d6f6",
+        "c2d0663616ed903c"
+      ]
+    },
+    {
+      "groupId": "0ebaf413c187e4dd",
+      "ownerFamily": "object:primerCalloutBundle.color",
+      "property": "color",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Track map primer callout bundle color encodes primer identity on the linear map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/map/PlasmidMap.tsx",
+        "src/presentation/map/TrackMap.tsx"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5c0f9cb3c1a59c02",
+        "ec5bf6f7afbae5dc"
+      ]
+    },
+    {
+      "groupId": "11ad4461ff9b151d",
+      "ownerFamily": "object:imgtRegions.color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2e6eb12a2f78ed7b",
+        "f23a7cb04e3e1e66"
+      ]
+    },
+    {
+      "groupId": "20ed7d1802e67b28",
+      "ownerFamily": "object:imgtRegions.color",
+      "property": "color",
+      "literal": "#f97316",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e019395f40400913",
+        "e69e8cc959da32d8"
+      ]
+    },
+    {
+      "groupId": "647a5fcddbfb3c84",
+      "ownerFamily": ".linear-primer-callout text",
+      "property": "fill",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0905493023ad03da",
+        "504354877af2b347"
+      ]
+    },
+    {
+      "groupId": "a400dcd367fe5880",
+      "ownerFamily": "object:imgtRegions.color",
+      "property": "color",
+      "literal": "#e11d48",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "70f74583da975053",
+        "d17da3a11ac13cef"
+      ]
+    },
+    {
+      "groupId": "ba6ed887644c26f7",
+      "ownerFamily": ".primer-callout.is-* text",
+      "property": "fill",
+      "literal": "#ffffff",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "09cad488f9033a24",
+        "76190db49687e819"
+      ]
+    },
+    {
+      "groupId": "baa5defd85f95d53",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1450694a418b4840",
+        "8f73fbf5d4ef460c"
+      ]
+    },
+    {
+      "groupId": "bf5ea52706dc3846",
+      "ownerFamily": "object:primers.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "524c89aace4d3780",
+        "735d0ef6b519f9f3"
+      ]
+    },
+    {
+      "groupId": "cfdbe1a06d3ddd5c",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "outline",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "30354ff279403d28",
+        "e67759e32fbf8863"
+      ]
+    },
+    {
+      "groupId": "df62fa349567021e",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#84cc16",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "07cb4c9ad6b1d804",
+        "e6b831af89207ea7"
+      ]
+    },
+    {
+      "groupId": "ed526105777c544f",
+      "ownerFamily": "object:bonds.color",
+      "property": "color",
+      "literal": "#eab308",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts",
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "19b5ba8e36c38fab",
+        "ab4f3eecd7773216"
+      ]
+    },
+    {
+      "groupId": "f8ebbdcd48875bba",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/cloning.ts",
+        "src/domain/gatewayBpPrimers.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5b36671cd008e0b5",
+        "e35eac679eae8d5b"
+      ]
+    },
+    {
+      "groupId": "fbbfbc8d3e2d9928",
+      "ownerFamily": "object:oligoPrimers.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "rawCount": 2,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e62743c109c66938",
+        "f31052e98e7a722f"
+      ]
+    },
+    {
+      "groupId": "001177d3657e97a6",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "#fecaca",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f1ab7a907e5f44ad"
+      ]
+    },
+    {
+      "groupId": "04a53284cdbf1673",
+      "ownerFamily": ".primer-callout text",
+      "property": "fill",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ec8ef1a9214ee2de"
+      ]
+    },
+    {
+      "groupId": "04b52ba86eb555d7",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#a855f7",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ea6fc16c4acf2ece"
+      ]
+    },
+    {
+      "groupId": "054ce236a9faf901",
+      "ownerFamily": ".trace-viewer__base-sequence-visible",
+      "property": "outline",
+      "literal": "#2f74b5",
+      "destinationOrRegistry": "registry:Stylesheet outline on .trace-viewer__base-sequence:focus-visible encodes analytical diagram or data identity (#2f74b5).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "94c121e357709367"
+      ]
+    },
+    {
+      "groupId": "0610b91cbea2c3b4",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/primerBindingPolicy.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b89b5bbedbd7760b"
+      ]
+    },
+    {
+      "groupId": "0769e993af98b56d",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#dcffe7",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "dfa5b0075c87575e"
+      ]
+    },
+    {
+      "groupId": "08404f0f7b90067b",
+      "ownerFamily": ".linear-enzyme-callout polyline",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6dc0ab8e4f25af72"
+      ]
+    },
+    {
+      "groupId": "08872d248ca6b3cc",
+      "ownerFamily": ".motif-hit.sequence-selected",
+      "property": "color",
+      "literal": "#1e3a8a",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "409200796105df66"
+      ]
+    },
+    {
+      "groupId": "08ee6eb43e2aef7e",
+      "ownerFamily": ".protein-sequence-view.is-* .protein-residue.is-*::before",
+      "property": "background",
+      "literal": "#111827",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a806d630f3b4046"
+      ]
+    },
+    {
+      "groupId": "0b1f75fa3cf5ebce",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "property": "background",
+      "literal": "#daf2e2",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bac9b9e44986db2f"
+      ]
+    },
+    {
+      "groupId": "0b87094ea78799e0",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "background",
+      "literal": "#8fc5f4",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "40216096cf6cd15e"
+      ]
+    },
+    {
+      "groupId": "0d07db07eb7c5f17",
+      "ownerFamily": ".sequence-enzyme-callout text.enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "100b0e4f837bb7be"
+      ]
+    },
+    {
+      "groupId": "0f6737a7bfbba131",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#6c6",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c0ab8e1e81833f27"
+      ]
+    },
+    {
+      "groupId": "0fc269ade2bc95a0",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-frame-outline",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3a98378d252e82e5"
+      ]
+    },
+    {
+      "groupId": "1145a7e18ce579e7",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "border-color",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "03e6d8dba207797f"
+      ]
+    },
+    {
+      "groupId": "11f58c81d6d1bfc6",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#dcfce7",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8b74860e2bdb053a"
+      ]
+    },
+    {
+      "groupId": "1296d4d15f79689e",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "840ee4094b4e0753"
+      ]
+    },
+    {
+      "groupId": "147e6a2b5a64262a",
+      "ownerFamily": ".linear-enzyme-callout .linear-cut-tick",
+      "property": "stroke",
+      "literal": "#8d8d8d",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9699e6e701605670"
+      ]
+    },
+    {
+      "groupId": "155fa7dcac88a8f4",
+      "ownerFamily": "object:primers.labPlasmid.color",
+      "property": "color",
+      "literal": "#0891b2",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0bb5de911cef21bb"
+      ]
+    },
+    {
+      "groupId": "15c5265cf57cd8d7",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "box-shadow",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2a78e98564e3cf35"
+      ]
+    },
+    {
+      "groupId": "15f017d87143beff",
+      "ownerFamily": "variable:color",
+      "property": "color",
+      "literal": "#993366",
+      "destinationOrRegistry": "registry:Default misc-feature color applied when GenBank-style qualifiers omit an explicit feature palette.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/featureQualifiers.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cddf7979b139a1e7"
+      ]
+    },
+    {
+      "groupId": "1837df541f08b75c",
+      "ownerFamily": ".protein-color-class-dot",
+      "property": "border",
+      "literal": "rgba(0, 0, 0, 0.14)",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "af6190e25c979b48"
+      ]
+    },
+    {
+      "groupId": "18d0fd18354685a4",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-name-background",
+      "property": "fill",
+      "literal": "#0a2342",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ac9990b03a6f09d5"
+      ]
+    },
+    {
+      "groupId": "1b320119ca292be7",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#f2f2f2",
+      "destinationOrRegistry": "registry:Gel band or slab fill encodes electrophoresis fragment identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4a99853284996688"
+      ]
+    },
+    {
+      "groupId": "1b79e407691af4ea",
+      "ownerFamily": ".dna-base-T",
+      "property": "color",
+      "literal": "#b91c1c",
+      "destinationOrRegistry": "registry:DNA base letter ink encodes nucleotide identity in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d90171ce030948cc"
+      ]
+    },
+    {
+      "groupId": "1b8e2b2ed6bd851d",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-name",
+      "property": "fill",
+      "literal": "#ffffff",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b91ab88bc99308f8"
+      ]
+    },
+    {
+      "groupId": "1cc3d60a54b16d44",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "property": "background",
+      "literal": "#ebf8ee",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "38dff620e3dbeab4"
+      ]
+    },
+    {
+      "groupId": "1db27da2e9b66166",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "property": "color",
+      "literal": "#b45309",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c4565fc3216a93ed"
+      ]
+    },
+    {
+      "groupId": "20b0236442317b0d",
+      "ownerFamily": ".motif-hit.sequence-selected",
+      "property": "background",
+      "literal": "#93c5fd",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8af3a3cd60377fc4"
+      ]
+    },
+    {
+      "groupId": "21e991c7490c4e89",
+      "ownerFamily": ".sequence-bases > span",
+      "property": "color",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "938f78815a158594"
+      ]
+    },
+    {
+      "groupId": "22468f93d7ddc72b",
+      "ownerFamily": ".pick-primers-spec-toggle.is-*",
+      "property": "color",
+      "literal": "#b45309",
+      "destinationOrRegistry": "registry:Off-target primer specificity toggle ink encodes mismatch warning, not neutral dialog chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/PickPrimersDialog.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a1c431fde672eda"
+      ]
+    },
+    {
+      "groupId": "224f83379d24c8a1",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "rgb(37 99 235 / 18%)",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "491fe5e91a9d9fa0"
+      ]
+    },
+    {
+      "groupId": "229b8fef09c7e47e",
+      "ownerFamily": ".enzyme-callout text.enzyme-callout-name:not(.is-*)",
+      "property": "fill",
+      "literal": "#075fa8",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d993d2c16094cdf7"
+      ]
+    },
+    {
+      "groupId": "24080ac4e07d503d",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#fc6",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f20d6fb2c2e52fc4"
+      ]
+    },
+    {
+      "groupId": "243bb4453f864163",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d5f9aae6b2b552d5"
+      ]
+    },
+    {
+      "groupId": "27e50c5eb651cc3d",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#60a5fa",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "50e6f5957777a4c8"
+      ]
+    },
+    {
+      "groupId": "29ccd34734172884",
+      "ownerFamily": "object:deletedRegionHighlights.color",
+      "property": "color",
+      "literal": "#c0392b",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/RestrictionCloningDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "10b620ee929bdfaf"
+      ]
+    },
+    {
+      "groupId": "2a3c18c113307c89",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#fef3c7",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fa63c8e406288e22"
+      ]
+    },
+    {
+      "groupId": "2a7227c7e7ab6224",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "property": "fill",
+      "literal": "#fde68a",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a93efc27242d2315"
+      ]
+    },
+    {
+      "groupId": "2b65f847c52dead3",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "property": "fill",
+      "literal": "#93c5fd",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "85b3bfe50178d759"
+      ]
+    },
+    {
+      "groupId": "2dd2c1064c4cd7bd",
+      "ownerFamily": ".sequence-bases-trace-annotation .sequence-base.is-*",
+      "property": "background",
+      "literal": "#fecaca",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a5624bc988851435"
+      ]
+    },
+    {
+      "groupId": "2de219c74936b7aa",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "property": "fill",
+      "literal": "#fda4af",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c51a77931c11a1d0"
+      ]
+    },
+    {
+      "groupId": "2e343b962927f599",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Owner object:color uses color #2563eb as scoped biological or analytical encoding in src/PcrDialog.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/PcrDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c6d7a63b6a581d6a"
+      ]
+    },
+    {
+      "groupId": "2e9b79d0b39b7060",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-fill",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "88e4eb3636b460d0"
+      ]
+    },
+    {
+      "groupId": "30350b0fa67c078b",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b5da3eebbab86f67"
+      ]
+    },
+    {
+      "groupId": "3127a16f0efd4a57",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "border",
+      "literal": "#b91c1c",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "93707494144e0eab"
+      ]
+    },
+    {
+      "groupId": "32fb5b15ca15a540",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "property": "background",
+      "literal": "#fde68a",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6fa151f9c6055965"
+      ]
+    },
+    {
+      "groupId": "3406c3a1c804d4d7",
+      "ownerFamily": "object:domainFeature.color",
+      "property": "color",
+      "literal": "#0f766e",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6a960fe98694e236"
+      ]
+    },
+    {
+      "groupId": "365bf6e881484ac6",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "property": "color",
+      "literal": "#d97706",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "488ff99a1ea98418"
+      ]
+    },
+    {
+      "groupId": "3679accea8354a7b",
+      "ownerFamily": ".primer-callout text",
+      "property": "fill",
+      "literal": "#8617ca",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "967c8aaa57d4c528"
+      ]
+    },
+    {
+      "groupId": "398a5ed19e6dec97",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "property": "color",
+      "literal": "#0891b2",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "089d1758efd573b6"
+      ]
+    },
+    {
+      "groupId": "3a92564339074724",
+      "ownerFamily": ".sequence-primer-callout text",
+      "property": "fill",
+      "literal": "#0f766e",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "45b30d49b5a2baaf"
+      ]
+    },
+    {
+      "groupId": "3ddc1985133b31c8",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "property": "color",
+      "literal": "#e11d48",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f89ed7789ff65131"
+      ]
+    },
+    {
+      "groupId": "3de555364ffacedb",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "color",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "26bdaf250fa48964"
+      ]
+    },
+    {
+      "groupId": "41e8833bfb58b5c1",
+      "ownerFamily": ".sequence-bases-trace-annotation .sequence-base.is-*",
+      "property": "color",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ff73a87ecf582223"
+      ]
+    },
+    {
+      "groupId": "42cd04e12a1766db",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "property": "background",
+      "literal": "#fda4af",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1fa25d440811426a"
+      ]
+    },
+    {
+      "groupId": "4352f944d33d60d6",
+      "ownerFamily": "object:primers.labPlasmid.color",
+      "property": "color",
+      "literal": "#db2777",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a8e12432eb0c5516"
+      ]
+    },
+    {
+      "groupId": "4479be90b0616ef6",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#f8fafc",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "86744055e142d9d8"
+      ]
+    },
+    {
+      "groupId": "454cb697a0a0102f",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#10b981",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "de2d2c9a069f0fe1"
+      ]
+    },
+    {
+      "groupId": "4717f90085f1cc5f",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#eab308",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "879c886c60e9d706"
+      ]
+    },
+    {
+      "groupId": "47ccc519b5c4e7df",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#4a9eff",
+      "destinationOrRegistry": "registry:Gel band or slab fill encodes electrophoresis fragment identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "74e62dd7497b3815"
+      ]
+    },
+    {
+      "groupId": "4959fbadd7d6caae",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#fee2e2",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "08cebb418e4be9eb"
+      ]
+    },
+    {
+      "groupId": "4988f29aaacf8d41",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "property": "border-color",
+      "literal": "#e5aaa6",
+      "destinationOrRegistry": "registry:CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "10fcd1be689b25d9"
+      ]
+    },
+    {
+      "groupId": "49a2761f57cba18b",
+      "ownerFamily": ".sgrna-cloning-oligo-additions strong",
+      "property": "color",
+      "literal": "#245d31",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e0d9a11063ca6351"
+      ]
+    },
+    {
+      "groupId": "4acbcb515dcda1d3",
+      "ownerFamily": ".sgrna-cloning-oligo-additions",
+      "property": "color",
+      "literal": "#58715a",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2c69766b67e5286f"
+      ]
+    },
+    {
+      "groupId": "4acf8efe80e47919",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "background",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "21ff7c857134e9dc"
+      ]
+    },
+    {
+      "groupId": "4b227a9d267a32e6",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#153629",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c5e00bdc70c503d"
+      ]
+    },
+    {
+      "groupId": "4d1c01cdd1598603",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "property": "fill",
+      "literal": "#cbd5e1",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0b5bea6c350e47b3"
+      ]
+    },
+    {
+      "groupId": "4d2066c224ee5fb5",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:History strand coloring distinguishes forward primer lanes from reverse primer lanes in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/sequence/SequenceRows.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "333837d126ff7c27"
+      ]
+    },
+    {
+      "groupId": "4daa765c9087b668",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#9be06a",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/orfPrediction.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cfe7fc63aac701ea"
+      ]
+    },
+    {
+      "groupId": "4e14843c213bbffc",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "rgb(23 23 23 / 12%)",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9d7a10f978c20ec6"
+      ]
+    },
+    {
+      "groupId": "514df426d2c130a1",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#f2e9ff",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9307b5e2eff9c433"
+      ]
+    },
+    {
+      "groupId": "5164fb34a8d8aa8b",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#c026d3",
+      "destinationOrRegistry": "registry:Owner jsx:rect uses fill #c026d3 as scoped biological or analytical encoding in src/presentation/protein/ProteinSidebarControls.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "109b49d1b9fbb839"
+      ]
+    },
+    {
+      "groupId": "542d8a4376373498",
+      "ownerFamily": "object:antisensePrimer.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/annealedOligos.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5a93229fe8b24a2b"
+      ]
+    },
+    {
+      "groupId": "5503567258aeb118",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-closed",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "52e0449b1e72a549"
+      ]
+    },
+    {
+      "groupId": "5762f151e53a2514",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "property": "color",
+      "literal": "#be185d",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a7f97c20544e600d"
+      ]
+    },
+    {
+      "groupId": "591821698d1b85a8",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "property": "background",
+      "literal": "#86efac",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b87b4ca6f412456a"
+      ]
+    },
+    {
+      "groupId": "5b1635b260a9f43d",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1743cfcdce1f5a2b"
+      ]
+    },
+    {
+      "groupId": "5ce51694d6ecb714",
+      "ownerFamily": ".protein-map-hit",
+      "property": "fill",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3a932a4ee8eda829"
+      ]
+    },
+    {
+      "groupId": "5de4cdac14573d9c",
+      "ownerFamily": ".history-glyph-leader",
+      "property": "stroke",
+      "literal": "#6b7280",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d343597673d85a07"
+      ]
+    },
+    {
+      "groupId": "5de9d5848bd04993",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#fff",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a9e537cbdc4b2ede"
+      ]
+    },
+    {
+      "groupId": "6147624f88062d5e",
+      "ownerFamily": ".sequence-mutagenic-base",
+      "property": "color",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4403ab942d4d0c94"
+      ]
+    },
+    {
+      "groupId": "6150ce49f9d87c35",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Imported primer list color defaults identify primer records in export and hybridization workflows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/primerExport.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "181a78d874f47e9b"
+      ]
+    },
+    {
+      "groupId": "630ef1a48cd39190",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/externalSequences/ensembl.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "35de99dcfad2a9fb"
+      ]
+    },
+    {
+      "groupId": "63983d912500f0d7",
+      "ownerFamily": ".mass-restriction-members-list > label.is-*",
+      "property": "color",
+      "literal": "#766e63",
+      "destinationOrRegistry": "registry:Mass-restriction cloneability state encodes workflow validity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "758454d2946ff9c6"
+      ]
+    },
+    {
+      "groupId": "65ac71fd186b1e53",
+      "ownerFamily": "object:domainFeature.color",
+      "property": "color",
+      "literal": "#0d9488",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/tcrAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c653cf9c5f30425f"
+      ]
+    },
+    {
+      "groupId": "65e284c64f6f45d4",
+      "ownerFamily": "object:feature.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/sgrnaCloning.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6e5274ceb0427c35"
+      ]
+    },
+    {
+      "groupId": "669504da73bac434",
+      "ownerFamily": ".linear-enzyme-callout text",
+      "property": "fill",
+      "literal": "#111",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "eb1a9636db58c956"
+      ]
+    },
+    {
+      "groupId": "66e9fd16e9298de7",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:History strand coloring distinguishes forward primer lanes from reverse primer lanes in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/sequence/SequenceRows.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d21e64e85d4ac5ef"
+      ]
+    },
+    {
+      "groupId": "694f2397fbf8d016",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "stroke",
+      "literal": "#a7f3c2",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4d899d6a52140a3b"
+      ]
+    },
+    {
+      "groupId": "6acbd38cee22e0be",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2702a0d397b9bbf8"
+      ]
+    },
+    {
+      "groupId": "6d3faeb53c7e59c9",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#07111f",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "da75fcc9e359bac1"
+      ]
+    },
+    {
+      "groupId": "6de5c16bf072a9ec",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "property": "background",
+      "literal": "#fff0ef",
+      "destinationOrRegistry": "registry:CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8af6716770f6d5f8"
+      ]
+    },
+    {
+      "groupId": "6defe1e3f3258631",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/annealedOligos.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cb7297573da2c7e5"
+      ]
+    },
+    {
+      "groupId": "6e764e7890e357f4",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#fee2e2",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c76d36c07b4d7d30"
+      ]
+    },
+    {
+      "groupId": "6ffdababbad7efeb",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#fee2e2",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "60829ca218e3fd98"
+      ]
+    },
+    {
+      "groupId": "728f0f422c918b5c",
+      "ownerFamily": "object:vhhFeatures.color",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b9b28c496237d4d0"
+      ]
+    },
+    {
+      "groupId": "742b1c9ffb8f5f59",
+      "ownerFamily": ".linear-primer-callout .linear-primer-annealed",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5490934a3eec9977"
+      ]
+    },
+    {
+      "groupId": "743aa37b1e8d059b",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "property": "stroke",
+      "literal": "#16803f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bf7785cab846a70c"
+      ]
+    },
+    {
+      "groupId": "748c3a8073fd7c2e",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#ede9fe",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c27a6532cbac6a57"
+      ]
+    },
+    {
+      "groupId": "74e979ac5ae78edb",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "stroke",
+      "literal": "#102b20",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1e94d2db738398d3"
+      ]
+    },
+    {
+      "groupId": "752ffd50339e073d",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "property": "color",
+      "literal": "#6d28d9",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "58042db4eace8a96"
+      ]
+    },
+    {
+      "groupId": "767da244d1b844fc",
+      "ownerFamily": ".linear-enzyme-callout.is-* .linear-cut-tick",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "663e684953cabfaa"
+      ]
+    },
+    {
+      "groupId": "769fce7ca50249f9",
+      "ownerFamily": ".primer-callout-annealed",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "02d60bf59da02b6a"
+      ]
+    },
+    {
+      "groupId": "77712de68289d474",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-closed",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "514095f5cf6ef0c3"
+      ]
+    },
+    {
+      "groupId": "77b979ac20112b10",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#dcfce7",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "19ada2e07bdb7889"
+      ]
+    },
+    {
+      "groupId": "78168a50f47a877b",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#8b5cf6",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6c45169dd0f252ca"
+      ]
+    },
+    {
+      "groupId": "78ad9876782cb728",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "property": "background",
+      "literal": "#cbd5e1",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "982ef9a74f7753c0"
+      ]
+    },
+    {
+      "groupId": "78c98251c53f809a",
+      "ownerFamily": ".sequence-primer-base",
+      "property": "fill",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "36232302db108ae1"
+      ]
+    },
+    {
+      "groupId": "7999138a770acde9",
+      "ownerFamily": ".enzyme-callout text.enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#15803d",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8cf96afe7908f5d0"
+      ]
+    },
+    {
+      "groupId": "79c7c5fcdeb69514",
+      "ownerFamily": "object:kabatLightRegions.color",
+      "property": "color",
+      "literal": "#f97316",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "97abd061a1df4339"
+      ]
+    },
+    {
+      "groupId": "79d93984012a1355",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "property": "stroke",
+      "literal": "#2f855a",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1e154593afa28b7a"
+      ]
+    },
+    {
+      "groupId": "7a14f9913a9b8e5a",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#6f91a8",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/crisprDetection.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0c39450ec07d8f95"
+      ]
+    },
+    {
+      "groupId": "7a4cff6f7833be0b",
+      "ownerFamily": ".motif-hit",
+      "property": "color",
+      "literal": "#111",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fe88b283814c3770"
+      ]
+    },
+    {
+      "groupId": "7af50c135252adfb",
+      "ownerFamily": ".sgrna-cloning-oligo-sequence mark",
+      "property": "color",
+      "literal": "#14532d",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11c7ba22bb8ec2c0"
+      ]
+    },
+    {
+      "groupId": "7b5cfb45ebf0284c",
+      "ownerFamily": ".primer-editor-sequence-highlight .is-*",
+      "property": "color",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Stylesheet color on .primer-editor-sequence-highlight .is-overhang encodes analytical diagram or data identity (#dc2626).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "db3376c4db0c40fa"
+      ]
+    },
+    {
+      "groupId": "7bde1fd8d9224fea",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "property": "stroke",
+      "literal": "#1d6fb8",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3f657931578c082c"
+      ]
+    },
+    {
+      "groupId": "7d77040fed3e39a6",
+      "ownerFamily": ".dna-base-A",
+      "property": "color",
+      "literal": "#0f766e",
+      "destinationOrRegistry": "registry:DNA base letter ink encodes nucleotide identity in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "14921c020b4c1efa"
+      ]
+    },
+    {
+      "groupId": "7f095252f2810eb2",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#dbeafe",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11b6fc6029295a75"
+      ]
+    },
+    {
+      "groupId": "7fff33a477e68ad3",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "#bfdbfe",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "70287e18e006537c"
+      ]
+    },
+    {
+      "groupId": "807ee0e24a7656df",
+      "ownerFamily": "object:primer.color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/pcrRecipe.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "838f7b2b8145bdaa"
+      ]
+    },
+    {
+      "groupId": "81f4f6979c627ace",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#f97316",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/vnarAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7434b84d96cd1935"
+      ]
+    },
+    {
+      "groupId": "82ce2e1428cc9777",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "color",
+      "literal": "#000",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ed307d678abb6d35"
+      ]
+    },
+    {
+      "groupId": "82f99c72e11d5e57",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Owner jsx:rect uses fill #2563eb as scoped biological or analytical encoding in src/presentation/protein/ProteinSidebarControls.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d0f728b214bd8bba"
+      ]
+    },
+    {
+      "groupId": "84dbb88610c2e416",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name:not(.is-*)",
+      "property": "fill",
+      "literal": "#0f70e2",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b3c7e3dd654c2c85"
+      ]
+    },
+    {
+      "groupId": "8552132e53d5d956",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "rgb(220 38 38 / 18%)",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3d469ac9fd6b72ba"
+      ]
+    },
+    {
+      "groupId": "873b8c94392decae",
+      "ownerFamily": ".mass-restriction-members-list > label.is-*",
+      "property": "background",
+      "literal": "#f8f5ef",
+      "destinationOrRegistry": "registry:Mass-restriction cloneability state encodes workflow validity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8e24d3f37c1b4636"
+      ]
+    },
+    {
+      "groupId": "8ac0f0e639670cae",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9bf88202f07404a2"
+      ]
+    },
+    {
+      "groupId": "8d625a163b4f75e9",
+      "ownerFamily": ".protein-alignment-map-segment.is-*",
+      "property": "fill",
+      "literal": "#86efac",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "898bbbe01e1bcc41"
+      ]
+    },
+    {
+      "groupId": "8e2db057b97bbff0",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#9df0b9",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2629dac9713b1239"
+      ]
+    },
+    {
+      "groupId": "9153b244aaeadac2",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f79cc38e2a63e183"
+      ]
+    },
+    {
+      "groupId": "9445df7370ed6756",
+      "ownerFamily": ".sequence-enzyme-callout.is-* text.enzyme-callout-name:not(.is-*)",
+      "property": "fill",
+      "literal": "#075fa8",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "d213ab9fda11aaae"
+      ]
+    },
+    {
+      "groupId": "949dff5cb0d43a8e",
+      "ownerFamily": ".dna-base-G",
+      "property": "color",
+      "literal": "#a16207",
+      "destinationOrRegistry": "registry:DNA base letter ink encodes nucleotide identity in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9b04b362df8762e9"
+      ]
+    },
+    {
+      "groupId": "9581e81a72a6b8ff",
+      "ownerFamily": ".trace-viewer__base-glyph--C",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7ce696dfaeb1989b"
+      ]
+    },
+    {
+      "groupId": "96ffb18d9d9f1dd9",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#fb7185",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5ba51052ce9563ee"
+      ]
+    },
+    {
+      "groupId": "97975aa786b459e9",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3f4ca8e0c58cb87c"
+      ]
+    },
+    {
+      "groupId": "97c0db3bea755f3e",
+      "ownerFamily": ".history-glyph-site text.is-*",
+      "property": "fill",
+      "literal": "#154f86",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1988bd4c0d101566"
+      ]
+    },
+    {
+      "groupId": "985c238a439fb024",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#ede9fe",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "51cf6de829122d28"
+      ]
+    },
+    {
+      "groupId": "9890e1be5337cf99",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "579f355a7eb16e45"
+      ]
+    },
+    {
+      "groupId": "9aa9b6f0566b3790",
+      "ownerFamily": ".history-glyph-site text",
+      "property": "fill",
+      "literal": "#111",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "6366e4ce4c325f6f"
+      ]
+    },
+    {
+      "groupId": "9c27ac2287f5e6bd",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "property": "color",
+      "literal": "#e11d48",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0047546b52272e8a"
+      ]
+    },
+    {
+      "groupId": "9cd8461a814036f2",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bcc63fbc2d8baf93"
+      ]
+    },
+    {
+      "groupId": "9dec03899667536c",
+      "ownerFamily": ".linear-primer-callout polyline",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e1246f4bdfdabed7"
+      ]
+    },
+    {
+      "groupId": "9dfa8cfe48ead607",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-name-background",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "aad406100ee3cd0a"
+      ]
+    },
+    {
+      "groupId": "9ecdff4e6ddb11ff",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#f2e9ff",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a133c1e5ee018431"
+      ]
+    },
+    {
+      "groupId": "9fec8c5e492ea471",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "property": "border-color",
+      "literal": "#a6d6b6",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "13d70681dac54674"
+      ]
+    },
+    {
+      "groupId": "a0226e7a2913e0f2",
+      "ownerFamily": ".hop-primer.hop-sgrna-oligos",
+      "property": "color",
+      "literal": "#176a3b",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "83ffa3b8d061bbaf"
+      ]
+    },
+    {
+      "groupId": "a0906fbd661f5639",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#4ade80",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "72565ff7cc58dd5f"
+      ]
+    },
+    {
+      "groupId": "a0a4c6bfba897772",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#66f",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0b80a31a4bcf3ac9"
+      ]
+    },
+    {
+      "groupId": "a0ab2dd2d300e6d7",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#2a2a2a",
+      "destinationOrRegistry": "registry:Gel band or slab fill encodes electrophoresis fragment identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/AgaroseGelDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "97a1e05a101831e8"
+      ]
+    },
+    {
+      "groupId": "a2e9688528466e6c",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Owner jsx:rect uses fill #16a34a as scoped biological or analytical encoding in src/presentation/protein/ProteinSidebarControls.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ee67515280b01c40"
+      ]
+    },
+    {
+      "groupId": "a3e69ad942f9242c",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#dcfce7",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "acac195f317c979b"
+      ]
+    },
+    {
+      "groupId": "a40878fcac8192ba",
+      "ownerFamily": ".motif-hit",
+      "property": "background",
+      "literal": "#f8e16c",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5ae1dbbb2570263b"
+      ]
+    },
+    {
+      "groupId": "a581e118dd7e784f",
+      "ownerFamily": ".sgrna-cloning-compatibility.is-*",
+      "property": "color",
+      "literal": "#961c1c",
+      "destinationOrRegistry": "registry:CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "bedcb19ec3b14b0f"
+      ]
+    },
+    {
+      "groupId": "aa35c18b15a029c9",
+      "ownerFamily": ".sequence-enzyme-callout.is-* text.enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#15803d",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "05250aeb7d51e3fc"
+      ]
+    },
+    {
+      "groupId": "aa718e551792166d",
+      "ownerFamily": ".sequence-sgrna-frame.is-* rect.sequence-sgrna-frame-fill",
+      "property": "fill",
+      "literal": "#dff9e7",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0add4aca08ab2db8"
+      ]
+    },
+    {
+      "groupId": "aaf7523d77005714",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#f66",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b0955538314413de"
+      ]
+    },
+    {
+      "groupId": "ab69fcfcf2d99c1c",
+      "ownerFamily": ".enzyme-callout .sgrna-map-leader",
+      "property": "stroke",
+      "literal": "#16803f",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "c2f0e456080e2441"
+      ]
+    },
+    {
+      "groupId": "ac1181bb3f4b5e0b",
+      "ownerFamily": ".dna-base-C",
+      "property": "color",
+      "literal": "#2563eb",
+      "destinationOrRegistry": "registry:DNA base letter ink encodes nucleotide identity in sequence rows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "898282026f4cbe24"
+      ]
+    },
+    {
+      "groupId": "ad1e932082395186",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "property": "color",
+      "literal": "#0e7490",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cf95a8f0666fd376"
+      ]
+    },
+    {
+      "groupId": "adddaf93c1a629b1",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#214b36",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "06e050c458075f69"
+      ]
+    },
+    {
+      "groupId": "ae8d24fc11228c55",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#fef3c7",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8b0b9dbc7a0faba0"
+      ]
+    },
+    {
+      "groupId": "afa00edcf483aebc",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "outline",
+      "literal": "#d97706",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "35319d2502e48440"
+      ]
+    },
+    {
+      "groupId": "b01655e463385279",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#f5bf3d",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/orfPrediction.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7ff175b44ba33e47"
+      ]
+    },
+    {
+      "groupId": "b07d269a3a99752f",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "5e4acaa84bdc4e7d"
+      ]
+    },
+    {
+      "groupId": "b0c5bc5fc9f37f3c",
+      "ownerFamily": ".trace-viewer__base-glyph--A",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8fde9d66cb6faf5a"
+      ]
+    },
+    {
+      "groupId": "b29e01c65bd96bb4",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "stroke",
+      "literal": "#101a28",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e9c9396f8761f937"
+      ]
+    },
+    {
+      "groupId": "b8a70c970002b66d",
+      "ownerFamily": "jsx:rect",
+      "property": "fill",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Owner jsx:rect uses fill #dc2626 as scoped biological or analytical encoding in src/presentation/protein/ProteinSidebarControls.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/presentation/protein/ProteinSidebarControls.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2c4ad10989a7424a"
+      ]
+    },
+    {
+      "groupId": "b9675a1e56284c0b",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#dbeafe",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8cd7a585e6175fee"
+      ]
+    },
+    {
+      "groupId": "b98c22c455dbf8e3",
+      "ownerFamily": ".sgrna-cloning-compatibility",
+      "property": "color",
+      "literal": "#2d6c36",
+      "destinationOrRegistry": "registry:CRISPR compatibility readout encodes assay compatibility, not chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "eaa3852f11c330dc"
+      ]
+    },
+    {
+      "groupId": "bab9e2d950131b28",
+      "ownerFamily": ".protein-residue.is-*",
+      "property": "background",
+      "literal": "#dbeafe",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "51fadd10d7c5e479"
+      ]
+    },
+    {
+      "groupId": "bb40ba56bc0dd5b4",
+      "ownerFamily": "object:probe.color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Imported primer list color defaults identify primer records in export and hybridization workflows.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/primerExport.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "18a1012dedb7c294"
+      ]
+    },
+    {
+      "groupId": "bbc7ca9407f81196",
+      "ownerFamily": ".protein-composition-code.is-*",
+      "property": "background",
+      "literal": "#ede9fe",
+      "destinationOrRegistry": "registry:Protein composition code tint encodes amino-acid property class in composition readouts.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "fc5670d34fde417d"
+      ]
+    },
+    {
+      "groupId": "bd84c0d1b3f8ad3c",
+      "ownerFamily": ".enzyme-callout.is-* polyline",
+      "property": "stroke",
+      "literal": "#0a2342",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "114f8d9f219b5e21"
+      ]
+    },
+    {
+      "groupId": "be683afce1c79a64",
+      "ownerFamily": "object:fallbackPrimers.color",
+      "property": "color",
+      "literal": "#7c3aed",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/historyRecord.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "da2f78ebaaf8a171"
+      ]
+    },
+    {
+      "groupId": "be713fa1431bd878",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "color",
+      "literal": "#10233c",
+      "destinationOrRegistry": "registry:Motif hit fill encodes sequence search highlighting, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "082cf3dcaba5bba9"
+      ]
+    },
+    {
+      "groupId": "bf2e8cd235cb8438",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#07111f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4af659748d23b087"
+      ]
+    },
+    {
+      "groupId": "c0669a5233785ec4",
+      "ownerFamily": ".primer-callout polyline",
+      "property": "stroke",
+      "literal": "#a020f0",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "a55aab5a5e144eda"
+      ]
+    },
+    {
+      "groupId": "c14429ed67bd7d2e",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "background",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b82d6362c353cb60"
+      ]
+    },
+    {
+      "groupId": "c2ab770b1e225451",
+      "ownerFamily": ".sequence-sgrna-frame-outline",
+      "property": "stroke",
+      "literal": "#16803f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0e461b046f429ffa"
+      ]
+    },
+    {
+      "groupId": "c38b28baada22119",
+      "ownerFamily": "object:features.color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Default protein feature color when persisted rows omit an explicit feature palette.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/application/databaseProtein.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e476e345a4aa99de"
+      ]
+    },
+    {
+      "groupId": "c3db6a1e4d5759be",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#6cf",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0175aee837fb2e3c"
+      ]
+    },
+    {
+      "groupId": "c43401e3565db425",
+      "ownerFamily": ".sequence-primer-callout.is-* text",
+      "property": "fill",
+      "literal": "#047857",
+      "destinationOrRegistry": "registry:Primer callout geometry encodes map/primer identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "646e2197a766bcfd"
+      ]
+    },
+    {
+      "groupId": "c53b8af69f2aab28",
+      "ownerFamily": ".protein-bond-track.is-*",
+      "property": "color",
+      "literal": "#475569",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "e3c37eb0d9efbbe5"
+      ]
+    },
+    {
+      "groupId": "c6a0968a36b562a7",
+      "ownerFamily": ".enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8286eaad656f790b"
+      ]
+    },
+    {
+      "groupId": "c73222a5e9a4ef23",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "stroke",
+      "literal": "#73dfa0",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "81a9f649b053d8a8"
+      ]
+    },
+    {
+      "groupId": "cb22c94ffebd3329",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#db2777",
+      "destinationOrRegistry": "registry:Owner object:color uses color #db2777 as scoped biological or analytical encoding in src/PcrDialog.tsx.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/PcrDialog.tsx"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "99ddc5cfe2e4b170"
+      ]
+    },
+    {
+      "groupId": "ce54407e9bf6ba4a",
+      "ownerFamily": ".history-glyph-site line",
+      "property": "stroke",
+      "literal": "#111",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "294b540ce61be786"
+      ]
+    },
+    {
+      "groupId": "cfdd764e11113764",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#9ca3af",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9b22a8bfcc162e2a"
+      ]
+    },
+    {
+      "groupId": "cff240efe680a72d",
+      "ownerFamily": ".history-glyph .history-glyph-backbone",
+      "property": "stroke",
+      "literal": "#c7bda3",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "085a1ab6adc7f26e"
+      ]
+    },
+    {
+      "groupId": "d04086492a613461",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "outline",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "682f15eb7c080c6d"
+      ]
+    },
+    {
+      "groupId": "d08adc346a078bbf",
+      "ownerFamily": ".enzyme-callout .sgrna-map-name",
+      "property": "fill",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b3dc1ce062d4029b"
+      ]
+    },
+    {
+      "groupId": "d0b282a702492af6",
+      "ownerFamily": ".protein-map-hit.is-*",
+      "property": "fill",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "0248c6856e07d541"
+      ]
+    },
+    {
+      "groupId": "d1470334ce9c276a",
+      "ownerFamily": "object:sensePrimer.color",
+      "property": "color",
+      "literal": "#16a34a",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/annealedOligos.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b1853afb105cf0fc"
+      ]
+    },
+    {
+      "groupId": "d157236c47f0d460",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "rgb(22 163 74 / 18%)",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "214d1159cd859e95"
+      ]
+    },
+    {
+      "groupId": "d2218ce8c1cb6ed1",
+      "ownerFamily": ".protein-comparison-cell.is-*",
+      "property": "box-shadow",
+      "literal": "#e11d48",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "3834688512083036"
+      ]
+    },
+    {
+      "groupId": "d2bae1dd6f9bb6a3",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#fef3c7",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "22a2905930db701a"
+      ]
+    },
+    {
+      "groupId": "d45565868d807b33",
+      "ownerFamily": "object:resolvedFragments.assembly.color",
+      "property": "color",
+      "literal": "#3b6fd8",
+      "destinationOrRegistry": "registry:Persisted record color field encodes primer, feature, or product identity in domain data.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/gibsonOverlapPrimers.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "55b7fe61bceb4879"
+      ]
+    },
+    {
+      "groupId": "d4e132139c6de033",
+      "ownerFamily": ".protein-map-bond.is-*",
+      "property": "color",
+      "literal": "#db2777",
+      "destinationOrRegistry": "registry:Protein map bond stroke color encodes covalent linkage class (disulfide, thioether, thiolester, cross-link).",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "53064a39c114bd62"
+      ]
+    },
+    {
+      "groupId": "d7e2f0bb2a8891c0",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "color",
+      "literal": "#171717",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ff630c701d8d9007"
+      ]
+    },
+    {
+      "groupId": "d938c4f1217dab85",
+      "ownerFamily": ".history-glyph-site text",
+      "property": "stroke",
+      "literal": "#fffdf8",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cc0da21dd14164db"
+      ]
+    },
+    {
+      "groupId": "da8ea9d6c8ac46cd",
+      "ownerFamily": "object:color",
+      "property": "color",
+      "literal": "#f59e0b",
+      "destinationOrRegistry": "registry:Stored primer or feature default color encodes library identity when user color is absent.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/storage/databaseProteins.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "585d325a6180e7d3"
+      ]
+    },
+    {
+      "groupId": "dda3cb5634cd9b06",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#102b20",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "b1204dd7f1a63700"
+      ]
+    },
+    {
+      "groupId": "dfcb9d63deaf660b",
+      "ownerFamily": "object:kabatHeavyRegions.color",
+      "property": "color",
+      "literal": "#f97316",
+      "destinationOrRegistry": "registry:Domain annotation color encodes CDR, domain, or highlight class on imported records.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/immunoglobulinAnnotations.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "715985d138d17e3c"
+      ]
+    },
+    {
+      "groupId": "e06f5e3396dd8b3c",
+      "ownerFamily": ".enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#1a8f3a",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "23e3c27c1a608fbd"
+      ]
+    },
+    {
+      "groupId": "e0b9ca5f3a3405c1",
+      "ownerFamily": ".protein-color-class-dot.is-*",
+      "property": "background",
+      "literal": "#e5e7eb",
+      "destinationOrRegistry": "registry:Residue or ORF tint encodes biochemical class or reading-frame identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "708fc5c2be65d934"
+      ]
+    },
+    {
+      "groupId": "e3d63967c43a6b82",
+      "ownerFamily": ".sgrna-map-pam-arrow",
+      "property": "fill",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:Map or CRISPR annotation geometry encodes biological identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "9d392fb19b98b11b"
+      ]
+    },
+    {
+      "groupId": "e3f95ce9b1f696dd",
+      "ownerFamily": ".sequence-sgrna-name",
+      "property": "fill",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "8337869709d91773"
+      ]
+    },
+    {
+      "groupId": "e806bcc3ebcf9a85",
+      "ownerFamily": ".sequence-sgrna-base",
+      "property": "fill",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "11780117a16771c9"
+      ]
+    },
+    {
+      "groupId": "eb938ea909b5aaa9",
+      "ownerFamily": ".alignment-trace-bases .alignment-base.is-*",
+      "property": "background",
+      "literal": "#fffbeb",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "f7f0e5725fadf305"
+      ]
+    },
+    {
+      "groupId": "ec03ce3f7bfdbcd9",
+      "ownerFamily": ".sequence-minimap-alignment-coverage",
+      "property": "fill",
+      "literal": "#8b6914",
+      "destinationOrRegistry": "registry:Coverage tint encodes alignment depth, not panel chrome.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "1a105cb7391488c1"
+      ]
+    },
+    {
+      "groupId": "ec087e2776c02399",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "property": "stroke",
+      "literal": "#b7791f",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "4db68072e591173e"
+      ]
+    },
+    {
+      "groupId": "ec56580f76d87657",
+      "ownerFamily": ".trace-viewer__base-glyph--T",
+      "property": "color",
+      "literal": "#dc2626",
+      "destinationOrRegistry": "registry:Trace viewer base glyph ink encodes called nucleotide identity under chromatogram peaks.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/TraceViewer.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "57db47b8a951bd9d"
+      ]
+    },
+    {
+      "groupId": "eeb7ea375a974ea3",
+      "ownerFamily": ".sequence-sgrna-frame.is-* .sequence-sgrna-guide-pam-boundary",
+      "property": "stroke",
+      "literal": "#075e2f",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7e93bfc05c77d9d4"
+      ]
+    },
+    {
+      "groupId": "efc48b8fa0d07287",
+      "ownerFamily": ".common-feature-color-header",
+      "property": "background",
+      "literal": "#c6f",
+      "destinationOrRegistry": "registry:Feature color header encodes biological feature class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "068d664f6aef0a9c"
+      ]
+    },
+    {
+      "groupId": "f032ce96fb179907",
+      "ownerFamily": ".protein-alignment-map-legend i.is-*",
+      "property": "background",
+      "literal": "#93c5fd",
+      "destinationOrRegistry": "registry:Protein alignment map fill encodes residue match, similarity, gap, or frameshift class.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "292a9b864624429c"
+      ]
+    },
+    {
+      "groupId": "f17203f7c5eb14b8",
+      "ownerFamily": "object:features.labPlasmid.color",
+      "property": "color",
+      "literal": "#64748b",
+      "destinationOrRegistry": "registry:Sample M13 primer colors encode forward versus reverse primer identity in demo constructs.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/domain/fixtures.ts"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "2da9ce3884c6c78d"
+      ]
+    },
+    {
+      "groupId": "f21682c947705142",
+      "ownerFamily": ".linear-enzyme-callout text.enzyme-callout-name.is-*",
+      "property": "fill",
+      "literal": "#15803d",
+      "destinationOrRegistry": "registry:Restriction enzyme callout ink encodes cut site geometry or end compatibility.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "cc68d9c7214180b1"
+      ]
+    },
+    {
+      "groupId": "f5ca9679795fccd8",
+      "ownerFamily": ".sgrna-cloning-oligo-sequence mark",
+      "property": "background",
+      "literal": "#dcefdc",
+      "destinationOrRegistry": "registry:sgRNA cloning insert colors distinguish guide RNA, scaffold RNA, and annealed oligo strands.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "21964677585c28d8"
+      ]
+    },
+    {
+      "groupId": "f66131ab3ef46a43",
+      "ownerFamily": ".history-glyph-region.is-*",
+      "property": "stroke",
+      "literal": "#c45c26",
+      "destinationOrRegistry": "registry:History glyph tint encodes prior edit or feature class in the timeline minimap.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "ed65fa02a0e582c0"
+      ]
+    },
+    {
+      "groupId": "f84e3970590a5d81",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "background",
+      "literal": "rgb(226 232 240 / 16%)",
+      "destinationOrRegistry": "registry:Trace channel stroke or fill encodes called base identity in chromatogram views.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "37ac7a88bc60d8be"
+      ]
+    },
+    {
+      "groupId": "fc7a5136ffe832df",
+      "ownerFamily": ":root[data-color-scheme] …",
+      "property": "fill",
+      "literal": "#10233c",
+      "destinationOrRegistry": "registry:Sequence or trace tint encodes read, primer, or variant identity.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "7eac1081a2b80543"
+      ]
+    },
+    {
+      "groupId": "ff1e830040a62b5c",
+      "ownerFamily": ".sequence-sgrna-frame rect.sequence-sgrna-frame-closed",
+      "property": "fill",
+      "literal": "#f3fff5",
+      "destinationOrRegistry": "registry:sgRNA sequence highlight encodes guide RNA nucleotides or targeted frame on the map.",
+      "roleHonesty": "Registered scientific paint; enforced scanner should exempt this row.",
+      "nonScientificRawOutcome": "scientific-data",
+      "files": [
+        "src/App.css"
+      ],
+      "rawCount": 1,
+      "enforcedCount": 0,
+      "findingIds": [
+        "17b6b72f4cc736a7"
+      ]
+    }
+  ]
+}

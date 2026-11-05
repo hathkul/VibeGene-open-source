@@ -1,0 +1,125 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "VibeGene",
+  "version": "1.7.3",
+  "identifier": "com.example.vibegene",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build:desktop"
+  },
+  "app": {
+    "windows": [],
+    "security": {
+      "csp": null
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "",
+      "endpoints": ["https://vibe-gene.com/updates/{{target}}-{{arch}}.json"],
+      "requireSignedVersion": true
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["dmg", "app"],
+    "category": "Education",
+    "shortDescription": "Local-first plasmid and sequence workbench",
+    "longDescription": "VibeGene is a free local-first plasmid and sequence workbench for research labs.",
+    "fileAssociations": [
+      {
+        "ext": ["dna"],
+        "name": "SnapGene DNA",
+        "description": "SnapGene DNA file",
+        "role": "Editor",
+        "mimeType": "application/vnd.snapgene.dna",
+        "rank": "Default",
+        "exportedType": {
+          "identifier": "com.example.vibegene.dna",
+          "conformsTo": ["public.data"]
+        }
+      },
+      {
+        "ext": ["prot"],
+        "name": "SnapGene Protein",
+        "description": "SnapGene protein file",
+        "role": "Editor",
+        "mimeType": "application/vnd.snapgene.protein",
+        "rank": "Default",
+        "exportedType": {
+          "identifier": "com.example.vibegene.prot",
+          "conformsTo": ["public.data"]
+        }
+      },
+      {
+        "ext": ["gb", "gbk", "gbff", "genbank", "ape"],
+        "name": "GenBank",
+        "description": "GenBank sequence file",
+        "role": "Editor",
+        "mimeType": "chemical/seq-na-genbank",
+        "rank": "Alternate",
+        "exportedType": {
+          "identifier": "com.example.vibegene.genbank",
+          "conformsTo": ["public.plain-text", "public.data"]
+        }
+      },
+      {
+        "ext": ["gp", "gpff"],
+        "name": "GenPept Protein",
+        "description": "GenPept protein sequence file",
+        "role": "Editor",
+        "mimeType": "chemical/seq-aa-genpept",
+        "rank": "Alternate",
+        "exportedType": {
+          "identifier": "com.example.vibegene.genpept",
+          "conformsTo": ["public.plain-text", "public.data"]
+        }
+      },
+      {
+        "ext": ["fasta", "fa", "fna", "fas"],
+        "name": "FASTA",
+        "description": "FASTA sequence file",
+        "role": "Editor",
+        "mimeType": "chemical/seq-na-fasta",
+        "rank": "Alternate",
+        "exportedType": {
+          "identifier": "com.example.vibegene.fasta",
+          "conformsTo": ["public.plain-text", "public.data"]
+        }
+      },
+      {
+        "ext": ["faa", "aa", "pep", "protein"],
+        "name": "Protein FASTA",
+        "description": "Protein FASTA sequence file",
+        "role": "Editor",
+        "mimeType": "chemical/seq-aa-fasta",
+        "rank": "Alternate",
+        "exportedType": {
+          "identifier": "com.example.vibegene.protein-fasta",
+          "conformsTo": ["public.plain-text", "public.data"]
+        }
+      },
+      {
+        "ext": ["json"],
+        "name": "VibeGene Project",
+        "description": "VibeGene project JSON",
+        "role": "Editor",
+        "mimeType": "application/json",
+        "rank": "Alternate"
+      }
+    ],
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "signingIdentity": "-"
+    },
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

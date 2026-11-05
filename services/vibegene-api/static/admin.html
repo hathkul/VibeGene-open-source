@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VibeGene Admin</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4efe6;
+      --panel: #fffdf8;
+      --ink: #2a241c;
+      --muted: #6d6458;
+      --line: #d8cebf;
+      --accent: #3f5d3a;
+      --warn: #8a2f2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 14px/1.45 ui-sans-serif, system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(63, 93, 58, 0.08), transparent 40%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      padding: 20px 24px 8px;
+    }
+    h1 { margin: 0; font-size: 1.45rem; }
+    h2 { margin: 0 0 10px; font-size: 1.05rem; }
+    .muted { color: var(--muted); }
+    main {
+      display: grid;
+      gap: 16px;
+      padding: 8px 24px 32px;
+      max-width: min(1400px, 100%);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+    }
+    .card, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(40, 30, 16, 0.04);
+    }
+    .card .value { font-size: 1.8rem; font-weight: 750; margin-top: 4px; }
+    .table-wrap {
+      overflow: auto;
+      max-width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    table.installs-table {
+      width: max(100%, 960px);
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    table.installs-table th,
+    table.installs-table td {
+      text-align: left;
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 13px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      position: relative;
+    }
+    table.installs-table th {
+      color: var(--muted);
+      font-weight: 650;
+      user-select: none;
+      background: #faf7f1;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    table.installs-table td.col-id,
+    table.installs-table th.col-id {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: clip;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+    }
+    .col-resizer {
+      position: absolute;
+      top: 0;
+      right: -3px;
+      width: 8px;
+      height: 100%;
+      cursor: col-resize;
+      z-index: 2;
+    }
+    .col-resizer:hover,
+    body.is-col-resizing .col-resizer {
+      background: rgba(63, 93, 58, 0.25);
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      text-align: left;
+      padding: 8px 6px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 13px;
+    }
+    th { color: var(--muted); font-weight: 650; }
+    .report {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      background: #fff;
+    }
+    .report.resolved { opacity: 0.62; }
+    .report h3 { margin: 0 0 6px; font-size: 15px; }
+    .report pre {
+      white-space: pre-wrap;
+      margin: 8px 0;
+      font: 13px/1.4 ui-sans-serif, system-ui, sans-serif;
+    }
+    button {
+      border: 1px solid var(--line);
+      background: #f7f2e9;
+      border-radius: 6px;
+      padding: 6px 10px;
+      cursor: pointer;
+      font: inherit;
+    }
+    button.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .error { color: var(--warn); padding: 24px; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    code { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>VibeGene Admin</h1>
+      <div class="muted" id="generated">Loading…</div>
+    </div>
+    <button type="button" id="refresh">Refresh</button>
+  </header>
+  <main>
+    <section class="cards" id="cards"></section>
+    <section class="panel">
+      <h2>Versions (active 30d)</h2>
+      <div id="versions" class="muted">—</div>
+    </section>
+    <section class="panel">
+      <div class="toolbar">
+        <h2 style="flex:1;margin:0">Bug reports</h2>
+        <label><input type="checkbox" id="hideResolved" checked /> Hide resolved</label>
+      </div>
+      <div id="reports"></div>
+    </section>
+    <section class="panel">
+      <h2>Recent installs</h2>
+      <p class="muted" style="margin:0 0 8px;font-size:12px">Drag column edges to resize. IDs are shown in full.</p>
+      <div class="table-wrap">
+        <table class="installs-table" id="installsTable">
+          <colgroup id="installsCols">
+            <col data-key="last" style="width:160px" />
+            <col data-key="first" style="width:160px" />
+            <col data-key="version" style="width:110px" />
+            <col data-key="platform" style="width:100px" />
+            <col data-key="tz" style="width:140px" />
+            <col data-key="beats" style="width:64px" />
+            <col data-key="id" style="width:320px" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th data-key="last">Last seen<span class="col-resizer" data-key="last"></span></th>
+              <th data-key="first">First seen<span class="col-resizer" data-key="first"></span></th>
+              <th data-key="version">Version<span class="col-resizer" data-key="version"></span></th>
+              <th data-key="platform">Platform<span class="col-resizer" data-key="platform"></span></th>
+              <th data-key="tz">TZ<span class="col-resizer" data-key="tz"></span></th>
+              <th data-key="beats">Beats<span class="col-resizer" data-key="beats"></span></th>
+              <th class="col-id" data-key="id">ID<span class="col-resizer" data-key="id"></span></th>
+            </tr>
+          </thead>
+          <tbody id="installs"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script>
+    const cardsEl = document.getElementById('cards')
+    const versionsEl = document.getElementById('versions')
+    const reportsEl = document.getElementById('reports')
+    const installsEl = document.getElementById('installs')
+    const installsColsEl = document.getElementById('installsCols')
+    const generatedEl = document.getElementById('generated')
+    const hideResolvedEl = document.getElementById('hideResolved')
+    const COL_WIDTHS_KEY = 'vibegene-admin:install-col-widths'
+    const DEFAULT_COL_WIDTHS = {
+      last: 160,
+      first: 160,
+      version: 110,
+      platform: 100,
+      tz: 140,
+      beats: 64,
+      id: 320,
+    }
+
+    function fmt(ts) {
+      if (!ts) return '—'
+      return new Date(ts * 1000).toLocaleString()
+    }
+
+    function readColWidths() {
+      try {
+        const raw = localStorage.getItem(COL_WIDTHS_KEY)
+        if (!raw) return { ...DEFAULT_COL_WIDTHS }
+        return { ...DEFAULT_COL_WIDTHS, ...JSON.parse(raw) }
+      } catch {
+        return { ...DEFAULT_COL_WIDTHS }
+      }
+    }
+
+    function applyColWidths(widths) {
+      Array.from(installsColsEl.querySelectorAll('col')).forEach((col) => {
+        const key = col.dataset.key
+        const px = Math.max(48, Number(widths[key]) || DEFAULT_COL_WIDTHS[key] || 100)
+        col.style.width = px + 'px'
+      })
+    }
+
+    function saveColWidths(widths) {
+      try {
+        localStorage.setItem(COL_WIDTHS_KEY, JSON.stringify(widths))
+      } catch {
+        // ignore
+      }
+    }
+
+    function initColumnResize() {
+      let widths = readColWidths()
+      applyColWidths(widths)
+
+      document.querySelectorAll('#installsTable .col-resizer').forEach((handle) => {
+        handle.addEventListener('mousedown', (event) => {
+          event.preventDefault()
+          event.stopPropagation()
+          const key = handle.dataset.key
+          const startX = event.clientX
+          const startWidth = Number(widths[key]) || DEFAULT_COL_WIDTHS[key] || 100
+          document.body.classList.add('is-col-resizing')
+
+          function onMove(moveEvent) {
+            const next = Math.max(48, startWidth + (moveEvent.clientX - startX))
+            widths = { ...widths, [key]: next }
+            applyColWidths(widths)
+          }
+
+          function onUp() {
+            document.body.classList.remove('is-col-resizing')
+            window.removeEventListener('mousemove', onMove)
+            window.removeEventListener('mouseup', onUp)
+            saveColWidths(widths)
+          }
+
+          window.addEventListener('mousemove', onMove)
+          window.addEventListener('mouseup', onUp)
+        })
+      })
+    }
+
+    async function api(path, options) {
+      const res = await fetch(path, {
+        ...options,
+        cache: 'no-store',
+        credentials: 'same-origin',
+      })
+      if (!res.ok) throw new Error(path + ' → ' + res.status)
+      return res.json()
+    }
+
+    async function toggleResolved(id, resolved) {
+      await api('/api/v1/admin/reports/' + id, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ resolved }),
+      })
+      await load()
+    }
+
+    async function load() {
+      try {
+        const [stats, reportsPayload] = await Promise.all([
+          api('/api/v1/admin/stats'),
+          api('/api/v1/admin/reports'),
+        ])
+        generatedEl.textContent = 'Updated ' + fmt(stats.generatedAt)
+        cardsEl.innerHTML = [
+          ['Total installs', stats.totalInstalls],
+          ['Active 7d', stats.active7d],
+          ['Active 30d', stats.active30d],
+          ['New 7d', stats.new7d],
+          ['Open reports', stats.openReports],
+        ].map(([label, value]) => (
+          '<div class="card"><div class="muted">' + label + '</div><div class="value">' + value + '</div></div>'
+        )).join('')
+
+        versionsEl.textContent = (stats.versions30d || []).length
+          ? stats.versions30d.map((row) => row.version + ' (' + row.count + ')').join(' · ')
+          : 'No recent heartbeats yet.'
+
+        const hideResolved = hideResolvedEl.checked
+        const reports = (reportsPayload.reports || []).filter((r) => !hideResolved || !r.resolved)
+        reportsEl.innerHTML = reports.length ? reports.map((r) => `
+          <article class="report ${r.resolved ? 'resolved' : ''}">
+            <h3>${escapeHtml(r.title)}</h3>
+            <div class="muted">${fmt(r.created_at)} · ${escapeHtml(r.app_version || 'unknown')} · ${escapeHtml(r.platform || 'unknown')}${r.email ? ' · ' + escapeHtml(r.email) : ''}</div>
+            <pre>${escapeHtml(r.description || '')}</pre>
+            ${r.status_note ? '<div class="muted">Status note: ' + escapeHtml(r.status_note) + '</div>' : ''}
+            ${r.diagnostics ? '<details style="margin-top:8px"><summary class="muted">Diagnostics</summary><pre>' + escapeHtml(r.diagnostics) + '</pre></details>' : ''}
+            <div class="toolbar" style="margin-top:8px">
+              <button type="button" class="primary" data-id="${r.id}" data-resolved="${r.resolved ? '0' : '1'}">
+                ${r.resolved ? 'Reopen' : 'Mark resolved'}
+              </button>
+              <span class="muted">#${r.id} · install <code>${escapeHtml(r.install_id || '—')}</code></span>
+            </div>
+          </article>
+        `).join('') : '<div class="muted">No reports yet.</div>'
+
+        reportsEl.querySelectorAll('button[data-id]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            void toggleResolved(Number(btn.dataset.id), btn.dataset.resolved === '1')
+          })
+        })
+
+        installsEl.innerHTML = (stats.recentInstalls || []).map((row) => `
+          <tr>
+            <td>${fmt(row.last_seen)}</td>
+            <td>${fmt(row.first_seen)}</td>
+            <td>${escapeHtml(row.app_version || '—')}</td>
+            <td>${escapeHtml(row.platform || '—')}</td>
+            <td>${escapeHtml(row.timezone || '—')}</td>
+            <td>${row.heartbeat_count}</td>
+            <td class="col-id"><code>${escapeHtml(row.install_id || '—')}</code></td>
+          </tr>
+        `).join('')
+      } catch (error) {
+        document.body.innerHTML = '<p class="error">Failed to load admin data. Check credentials / API.<br/>' + escapeHtml(String(error)) + '</p>'
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+    }
+
+    document.getElementById('refresh').addEventListener('click', () => void load())
+    hideResolvedEl.addEventListener('change', () => void load())
+    initColumnResize()
+    void load()
+  </script>
+</body>
+</html>

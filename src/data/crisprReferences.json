@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "provenance": "Curated from the user-provided SnapGene CRISPR collection under CRISPR Plasmids/. Only short invariant guide-scaffold feature sequences and cassette metadata are included; full source plasmid sequences remain local and are not redistributed.",
+  "scaffolds": [
+    {
+      "id": "spcas9-standard-76",
+      "name": "SpCas9 standard sgRNA scaffold",
+      "family": "SpCas9",
+      "sequence": "GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC",
+      "sources": ["pX330.dna", "pSpCas9(BB)-2A-Puro (PX459) V2.0.dna", "lentiCRISPR v2.dna", "lentiGuide-Puro.dna", "PX552.dna", "MLM3636.dna"],
+      "notes": "Invariant 76 nt scaffold feature found in six local SnapGene vectors; existing common-feature library also contains this canonical scaffold."
+    },
+    {
+      "id": "spcas9-ms2-136",
+      "name": "SpCas9 MS2-loop sgRNA scaffold",
+      "family": "SpCas9",
+      "sequence": "GTTTTAGAGCTAGGCCAACATGAGGATCACCCATGTCTGCAGGGCCTAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGGCCAACATGAGGATCACCCATGTCTGCAGGGCCAAGTGGCACCGAGTCGGTGC",
+      "sources": ["sgRNA(MS2) cloning backbone.dna", "lenti sgRNA(MS2)_zeo backbone.dna"],
+      "notes": "136 nt extended scaffold with MS2 hairpin sequences; match independently from the standard scaffold."
+    },
+    {
+      "id": "sacas9-standard-76",
+      "name": "SaCas9 sgRNA scaffold",
+      "family": "SaCas9",
+      "sequence": "GTTTTAGTACTCTGGAAACAGAATCTACTAAAACAAGGCAAAATGCCGTGTTTATCTCGTCAACTTGTTGGCGAGA",
+      "sources": ["pX601.dna", "pX602.dna"],
+      "notes": "76 nt SaCas9 scaffold found in forward and reverse cassette orientations."
+    }
+  ],
+  "emptyVectorPatterns": [
+    { "name": "pX330", "source": "pX330.dna", "length": 8484, "scaffoldId": "spcas9-standard-76", "enzyme": "BbsI", "architecture": "direct-spacer", "slotLength": 18, "totalEnzymeSites": 2 },
+    { "name": "PX459 V2.0", "source": "pSpCas9(BB)-2A-Puro (PX459) V2.0.dna", "length": 9175, "scaffoldId": "spcas9-standard-76", "enzyme": "BbsI", "architecture": "direct-spacer", "slotLength": 18, "totalEnzymeSites": 2 },
+    { "name": "sgRNA(MS2) cloning backbone", "source": "sgRNA(MS2) cloning backbone.dna", "length": 3008, "scaffoldId": "spcas9-ms2-136", "enzyme": "BbsI", "architecture": "direct-spacer", "slotLength": 18, "totalEnzymeSites": 2 },
+    { "name": "lentiCRISPR v2", "source": "lentiCRISPR v2.dna", "length": 14873, "scaffoldId": "spcas9-standard-76", "enzyme": "BsmBI", "architecture": "removable-stuffer", "slotLength": 1881, "totalEnzymeSites": 2 },
+    { "name": "lentiGuide-Puro", "source": "lentiGuide-Puro.dna", "length": 10183, "scaffoldId": "spcas9-standard-76", "enzyme": "BsmBI", "architecture": "removable-stuffer", "slotLength": 1881, "totalEnzymeSites": 2 },
+    { "name": "lenti sgRNA(MS2)_zeo backbone", "source": "lenti sgRNA(MS2)_zeo backbone.dna", "length": 9996, "scaffoldId": "spcas9-ms2-136", "enzyme": "BsmBI", "architecture": "direct-spacer", "slotLength": 20, "totalEnzymeSites": 2 },
+    { "name": "pX601", "source": "pX601.dna", "length": 7446, "scaffoldId": "sacas9-standard-76", "enzyme": "BsaI", "architecture": "direct-spacer", "slotLength": 20, "totalEnzymeSites": 2 },
+    { "name": "PX552", "source": "PX552.dna", "length": 5303, "scaffoldId": "spcas9-standard-76", "enzyme": "SapI", "architecture": "direct-spacer", "slotLength": 18, "totalEnzymeSites": 2 },
+    { "name": "MLM3636", "source": "MLM3636.dna", "length": 2278, "scaffoldId": "spcas9-standard-76", "enzyme": "BsmBI", "architecture": "direct-spacer", "slotLength": 21, "totalEnzymeSites": 2 },
+    { "name": "pCLIP-gRNA-EFS-Puro", "source": "pCLIP-gRNA-EFS-Puro.dna", "length": 8666, "scaffoldId": "spcas9-standard-76", "enzyme": "BsmBI", "architecture": "removable-stuffer", "slotLength": 1881, "totalEnzymeSites": 2 }
+  ]
+}

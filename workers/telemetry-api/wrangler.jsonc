@@ -1,0 +1,54 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "vibegene-telemetry-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "api.vibe-gene.com",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vibegene-telemetry",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "HEARTBEAT_RATE_LIMITER",
+      "namespace_id": "10080",
+      "simple": { "limit": 10, "period": 60 }
+    },
+    {
+      "name": "REPORT_RATE_LIMITER",
+      "namespace_id": "10081",
+      "simple": { "limit": 5, "period": 60 }
+    },
+    {
+      "name": "BLAST_RATE_LIMITER",
+      "namespace_id": "10082",
+      "simple": { "limit": 30, "period": 60 }
+    }
+  ],
+  "vars": {
+    "TURNSTILE_SITEKEY": "0x4AAAAAAEj0eCjA_tCCAsO-",
+    "TURNSTILE_ACTION": "bug_report",
+    "TURNSTILE_HOSTNAMES": "vibe-gene.com,ru.vibe-gene.com,vibegene.pages.dev"
+  },
+  "triggers": {
+    "crons": ["17 3 * * *"]
+  },
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 0.1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 }
+  },
+  "send_metrics": false
+}

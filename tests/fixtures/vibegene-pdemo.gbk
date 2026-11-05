@@ -1,0 +1,34 @@
+LOCUS       VibeGene-pDemo       901 bp    DNA     circular 24 MAY 2026
+DEFINITION  Representative research-lab plasmid with promoter, reporter, MCS, origin, resistance marker, primers, and common restriction sites..
+ACCESSION   .
+VERSION     .
+FEATURES             Location/Qualifiers
+     promoter        67..145
+                     /label="lac promoter"
+     misc_feature    1..64
+                     /label="multiple cloning site"
+     CDS             146..860
+                     /label="sfGFP-like reporter"
+                     /note="Synthetic reporter-style CDS fixture for ORF, translation, and annotation testing."
+     rep_origin      881..1010
+                     /label="pMB1 ori"
+     CDS             complement(1011..1134)
+                     /label="AmpR fragment"
+ORIGIN
+        1 gaattcgcta gcatgaccat gattacgcca agcttgcggc cgctcgaggg tctcactagt
+       61 ttgacaatta atcatcggct cgtataatgt gtggaattgt gagcggataa caatttcaca
+      121 caggaaacag ctatgacatg agtaaaggag aagaactttt cactggagtt gtcccaattc
+      181 ttgttgaatt agatggtgat gttaatgggc acaaattttc tgtcagtgga gagggtgaag
+      241 gtgatgcaac atacggaaaa tctaccctta aatttatttg cactactgga aaacctgttc
+      301 catggccaac acttgtcact actttctctt atggtgttca atgcttttca agatacccag
+      361 atcatatgaa acagcatgac tttttcaaga gtgccatgcc cgaaggttat gtacaggaac
+      421 gcactatatc tttcaaagat gacgggacct acaagacgcg tgctgaagtc aagtttgaag
+      481 gtgataccct tgttaatcgt atcgagttaa aaggtattga ttttaaagaa gatggaaaca
+      541 ttctcggaca caaactcgag tacaactata actcacacaa tgtatacatc atggcagaca
+      601 aacaaaagaa tggaatcaaa gctaacttca aaattagaca caacattgaa gatggatccg
+      661 ttcaactagc agaccattat caacaaaata ctccaattgg cgatggccct gtccttttac
+      721 cagacaacca ttacctgtcg acacaatctg ccctttcgaa agatcccaac gaaaagagag
+      781 accacatggt ccttcttgag tttgtaacag ctgctgggat tacacatggc atggatgaac
+      841 tatacaaata aaagcttggt accggatccc tgcagcatat ggcggccgct ctagagtcga
+      901 c
+//

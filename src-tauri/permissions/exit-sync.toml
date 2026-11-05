@@ -1,0 +1,22 @@
+[[permission]]
+identifier = "allow-exit-sync-lifecycle"
+description = "Allows the frontend to coordinate and complete a database sync before native app exit."
+commands.allow = [
+  "acquire_exit_sync_lock",
+  "document_open_launch_active",
+  "desktop_update_info",
+  "update_install_in_progress",
+  "begin_user_window_open",
+  "end_user_window_open",
+  "begin_update_install",
+  "cancel_update_install",
+  "restart_after_update",
+  "exit_sync_revision",
+  "mark_exit_sync_complete",
+  "quit_app",
+  "hide_desktop_window",
+  "record_folder_sync_diagnostic",
+  "authorize_folder_sync",
+  "refresh_exit_sync_lock",
+  "release_exit_sync_lock",
+]

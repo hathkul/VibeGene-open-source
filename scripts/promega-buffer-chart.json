@@ -1,0 +1,2148 @@
+{
+  "AatII": {
+    "promegaName": "AatII",
+    "catalogName": "AatII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "j",
+    "suppliedBuffer": "10× Buffer J",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "10-25",
+      "c": "<10",
+      "d": "<10",
+      "e": "10-25",
+      "h": "<10",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AatII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccI": {
+    "promegaName": "AccI",
+    "catalogName": "AccI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "g",
+    "suppliedBuffer": "10× Buffer G",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "25-50",
+      "c": "25-50",
+      "d": "10-25",
+      "e": "<10",
+      "h": "<10",
+      "multicore": "25-50"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AccI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccIII": {
+    "promegaName": "AccIII",
+    "catalogName": "AccIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "f",
+    "suppliedBuffer": "10× Buffer F",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "25-50",
+      "d": "25-50",
+      "multicore": "<10"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=AccIII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Acc65I": {
+    "promegaName": "Acc65I",
+    "catalogName": "Acc65I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "c": "75-100",
+      "d": "100",
+      "e": "75-100",
+      "h": "100-125*",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Acc65I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AccB7I": {
+    "promegaName": "AccB7I",
+    "catalogName": "AccB7I",
+    "alsoKnownAs": "PflMI",
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "c": "100*",
+      "d": "<10",
+      "e": "100",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AccB7I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AgeI": {
+    "promegaName": "AgeI",
+    "catalogName": "AgeI",
+    "alsoKnownAs": "AgeI-HF",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "c": "25-50",
+      "d": "50-75",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AgeI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AluI": {
+    "promegaName": "AluI",
+    "catalogName": "AluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "10-25",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AluI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Alw44I": {
+    "promegaName": "Alw44I",
+    "catalogName": "Alw44I",
+    "alsoKnownAs": "VneI",
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "25-50",
+      "c": "100",
+      "d": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Alw44I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ApaI": {
+    "promegaName": "ApaI",
+    "catalogName": "ApaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "<10",
+      "e": "10-25",
+      "h": "<10",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=ApaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaI": {
+    "promegaName": "AvaI",
+    "catalogName": "AvaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "c": "50-75",
+      "d": "25-50",
+      "e": "100",
+      "h": "10-25",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AvaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "AvaII": {
+    "promegaName": "AvaII",
+    "catalogName": "AvaII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "50-75",
+      "c": "100",
+      "d": "25-50",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=AvaII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BalI": {
+    "promegaName": "BalI",
+    "catalogName": "BalI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "g",
+    "suppliedBuffer": "10× Buffer G",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "<10",
+      "c": "<10",
+      "d": "<10",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BalI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BamHI": {
+    "promegaName": "BamHI",
+    "catalogName": "BamHI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "75-100*",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "50-75",
+      "e": "100",
+      "h": "50-75",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BamHI&pagesize=25",
+    "methylation": {
+      "dam": "Blocked when overlapping GATC is methylated",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanI": {
+    "promegaName": "BanI",
+    "catalogName": "BanI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "g",
+    "suppliedBuffer": "10× Buffer G",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "c": "10-25",
+      "d": "<10",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=BanI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BanII": {
+    "promegaName": "BanII",
+    "catalogName": "BanII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BanII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BbuI": {
+    "promegaName": "BbuI",
+    "catalogName": "BbuI",
+    "alsoKnownAs": "SphI",
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "<10",
+      "e": "10-25",
+      "h": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BbuI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BclI": {
+    "promegaName": "BclI",
+    "catalogName": "BclI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "75-100",
+      "c": "100",
+      "d": "50-75",
+      "e": "50-75",
+      "h": "50-75",
+      "multicore": "10-25"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=BclI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglI": {
+    "promegaName": "BglI",
+    "catalogName": "BglI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "75-100",
+      "d": "100",
+      "e": "25-50",
+      "h": "75-100",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BglI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BglII": {
+    "promegaName": "BglII",
+    "catalogName": "BglII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "100",
+      "multicore": "<10"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=BglII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsaMI": {
+    "promegaName": "BsaMI",
+    "catalogName": "BsaMI",
+    "alsoKnownAs": "BsmAI",
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=BsaMI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsp1286I": {
+    "promegaName": "Bsp1286I",
+    "catalogName": "Bsp1286I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "c": "25-50",
+      "d": "10-25",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Bsp1286I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BsrSI": {
+    "promegaName": "BsrSI",
+    "catalogName": "BsrSI",
+    "alsoKnownAs": "BsrBI",
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "10-25",
+      "d": "100",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=BsrSI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BssHII": {
+    "promegaName": "BssHII",
+    "catalogName": "BssHII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Buffer H",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "50-75",
+      "c": "75-100",
+      "d": "50-75",
+      "h": "100",
+      "multicore": "75-100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=BssHII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bst98I": {
+    "promegaName": "Bst98I",
+    "catalogName": "Bst98I",
+    "alsoKnownAs": "BstUI",
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "10-25",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Bst98I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstEII": {
+    "promegaName": "BstEII",
+    "catalogName": "BstEII",
+    "alsoKnownAs": "BstEII-HF",
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "100",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "productUrl": "https://www.promega.com/search/?q=BstEII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstOI": {
+    "promegaName": "BstOI",
+    "catalogName": "BstOI",
+    "alsoKnownAs": "BstNI",
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "100",
+      "d": "25-50",
+      "multicore": "<10"
+    },
+    "heatInactivation": null,
+    "incubationC": 60,
+    "productUrl": "https://www.promega.com/search/?q=BstOI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstXI": {
+    "promegaName": "BstXI",
+    "catalogName": "BstXI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "25-50",
+      "d": "100",
+      "e": "100",
+      "h": "75-100",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=BstXI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "BstZI": {
+    "promegaName": "BstZI",
+    "catalogName": "BstZI",
+    "alsoKnownAs": "EagI-HF",
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "10-25",
+      "d": "100",
+      "e": "10-25",
+      "h": "75-100",
+      "multicore": "10-25"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=BstZI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Bsu36I": {
+    "promegaName": "Bsu36I",
+    "catalogName": "Bsu36I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "25-50",
+      "e": "100",
+      "multicore": "50-75"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Bsu36I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CfoI": {
+    "promegaName": "CfoI",
+    "catalogName": "CfoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=CfoI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ClaI": {
+    "promegaName": "ClaI",
+    "catalogName": "ClaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "c": "100",
+      "d": "75-100",
+      "e": "100",
+      "h": "50-75",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=ClaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "CspI": {
+    "promegaName": "CspI",
+    "catalogName": "CspI",
+    "alsoKnownAs": "SmaI",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "25-50",
+      "d": "50-75",
+      "e": "100",
+      "h": "100-125*",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 30,
+    "productUrl": "https://www.promega.com/search/?q=CspI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Csp45I": {
+    "promegaName": "Csp45I",
+    "catalogName": "Csp45I",
+    "alsoKnownAs": "SfuI",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "c": "50-75",
+      "d": "25-50",
+      "e": "100",
+      "h": "25-50",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Csp45I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DdeI": {
+    "promegaName": "DdeI",
+    "catalogName": "DdeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=DdeI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DpnI": {
+    "promegaName": "DpnI",
+    "catalogName": "DpnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "75-100",
+      "d": "50-75",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=DpnI&pagesize=25",
+    "methylation": {
+      "dam": "Requires Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "DraI": {
+    "promegaName": "DraI",
+    "catalogName": "DraI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "50-75",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=DraI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EclHKI": {
+    "promegaName": "EclHKI",
+    "catalogName": "EclHKI",
+    "alsoKnownAs": "SacII",
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "75-100",
+      "d": "10-25",
+      "e": "100",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=EclHKI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Eco47III": {
+    "promegaName": "Eco47III",
+    "catalogName": "Eco47III",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Eco47III&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoICRI": {
+    "promegaName": "EcoICRI",
+    "catalogName": "EcoICRI",
+    "alsoKnownAs": "SacI",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "c": "75-100",
+      "d": "<10",
+      "e": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=EcoICRI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "EcoRI": {
+    "promegaName": "EcoRI",
+    "catalogName": "EcoRI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Buffer H",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "50-75",
+      "e": "75-100",
+      "h": "100",
+      "multicore": "100*"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=EcoRI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeII": {
+    "promegaName": "HaeII",
+    "catalogName": "HaeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "50-75",
+      "d": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HaeII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HaeIII": {
+    "promegaName": "HaeIII",
+    "catalogName": "HaeIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "c": "100",
+      "d": "50-75",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HaeIII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HhaI": {
+    "promegaName": "HhaI",
+    "catalogName": "HhaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "c": "100",
+      "d": "50-75",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HhaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HincII": {
+    "promegaName": "HincII",
+    "catalogName": "HincII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "c": "25-50",
+      "d": "50-75",
+      "e": "75-100",
+      "h": "50-75",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HincII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HindIII": {
+    "promegaName": "HindIII",
+    "catalogName": "HindIII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "c": "75-100",
+      "d": "10-25",
+      "e": "100",
+      "h": "25-50",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HindIII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HinfI": {
+    "promegaName": "HinfI",
+    "catalogName": "HinfI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "75-100",
+      "d": "75-100",
+      "multicore": "50-75"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HinfI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaI": {
+    "promegaName": "HpaI",
+    "catalogName": "HpaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "j",
+    "suppliedBuffer": "10× Buffer J",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "50-75",
+      "c": "25-50",
+      "d": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HpaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "HpaII": {
+    "promegaName": "HpaII",
+    "catalogName": "HpaII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=HpaII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Blocked by Dcm methylation",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hsp92I": {
+    "promegaName": "Hsp92I",
+    "catalogName": "Hsp92I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "f",
+    "suppliedBuffer": "10× Buffer F",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "75-100",
+      "c": "50-75",
+      "d": "25-50",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Hsp92I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Hsp92II": {
+    "promegaName": "Hsp92II",
+    "catalogName": "Hsp92II",
+    "alsoKnownAs": "HpaII",
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "25-50",
+      "d": "<10",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Hsp92II&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "KpnI": {
+    "promegaName": "KpnI",
+    "catalogName": "KpnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "j",
+    "suppliedBuffer": "10× Buffer J",
+    "bufferActivity": {
+      "a": "100*",
+      "b": "25-50",
+      "c": "25-50",
+      "d": "<10",
+      "e": "25-50",
+      "h": "<10",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=KpnI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboI": {
+    "promegaName": "MboI",
+    "catalogName": "MboI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "75-100",
+      "c": "100",
+      "d": "50-75",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=MboI&pagesize=25",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MboII": {
+    "promegaName": "MboII",
+    "catalogName": "MboII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "100",
+      "c": "50-75",
+      "d": "75-100",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=MboII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MluI": {
+    "promegaName": "MluI",
+    "catalogName": "MluI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "100",
+      "e": "25-50",
+      "h": "100-125*",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=MluI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspI": {
+    "promegaName": "MspI",
+    "catalogName": "MspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=MspI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "Cleaves methylated and unmethylated CCGG",
+      "ecoKI": "No Effect"
+    }
+  },
+  "MspA1I": {
+    "promegaName": "MspA1I",
+    "catalogName": "MspA1I",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100*",
+      "c": "100",
+      "d": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=MspA1I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NaeI": {
+    "promegaName": "NaeI",
+    "catalogName": "NaeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "c": "25-50",
+      "d": "<10",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NaeI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NarI": {
+    "promegaName": "NarI",
+    "catalogName": "NarI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "g",
+    "suppliedBuffer": "10× Buffer G",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "50-75",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NarI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NciI": {
+    "promegaName": "NciI",
+    "catalogName": "NciI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "100*",
+      "b": "100",
+      "c": "25-50",
+      "d": "25-50",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NciI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NcoI": {
+    "promegaName": "NcoI",
+    "catalogName": "NcoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "100",
+      "e": "100",
+      "h": "100-125*",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NcoI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeI": {
+    "promegaName": "NdeI",
+    "catalogName": "NdeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "25-50",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NdeI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NdeII": {
+    "promegaName": "NdeII",
+    "catalogName": "NdeII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "10-25",
+      "d": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NdeII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NheI": {
+    "promegaName": "NheI",
+    "catalogName": "NheI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "10-25",
+      "e": "75-100",
+      "h": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NheI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NotI": {
+    "promegaName": "NotI",
+    "catalogName": "NotI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "25-50",
+      "d": "100",
+      "e": "25-50",
+      "h": "100-125*",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NotI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NruI": {
+    "promegaName": "NruI",
+    "catalogName": "NruI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "<10",
+      "d": "50-75",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NruI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "NsiI": {
+    "promegaName": "NsiI",
+    "catalogName": "NsiI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "100",
+      "e": "25-50",
+      "h": ">125*",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=NsiI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PstI": {
+    "promegaName": "PstI",
+    "catalogName": "PstI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "h",
+    "suppliedBuffer": "10× Buffer H",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "50-75",
+      "e": "25-50",
+      "h": "100",
+      "multicore": "25-50"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=PstI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuI": {
+    "promegaName": "PvuI",
+    "catalogName": "PvuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "100",
+      "multicore": "<10"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=PvuI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "PvuII": {
+    "promegaName": "PvuII",
+    "catalogName": "PvuII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "c": "50-75",
+      "d": "25-50",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=PvuII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "RsaI": {
+    "promegaName": "RsaI",
+    "catalogName": "RsaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "c": "100",
+      "d": "<10",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=RsaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacI": {
+    "promegaName": "SacI",
+    "catalogName": "SacI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "j",
+    "suppliedBuffer": "10× Buffer J",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "25-50",
+      "c": "25-50",
+      "d": "<10",
+      "e": "100",
+      "h": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SacI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SacII": {
+    "promegaName": "SacII",
+    "catalogName": "SacII",
+    "alsoKnownAs": null,
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "100",
+      "b": "50-75",
+      "c": "100",
+      "d": "50-75",
+      "e": "25-50",
+      "h": ">125*",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SacII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SalI": {
+    "promegaName": "SalI",
+    "catalogName": "SalI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "10-25",
+      "c": "25-50",
+      "d": "100",
+      "e": "25-50",
+      "h": "25-50",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SalI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Sau3AI": {
+    "promegaName": "Sau3AI",
+    "catalogName": "Sau3AI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "100",
+      "c": "75-100",
+      "d": "<10",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=Sau3AI&pagesize=25",
+    "methylation": {
+      "dam": "Blocked by Dam methylation",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "ScaI": {
+    "promegaName": "ScaI",
+    "catalogName": "ScaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "100*",
+      "c": "50-75",
+      "d": "75-100",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=ScaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SfiI": {
+    "promegaName": "SfiI",
+    "catalogName": "SfiI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "25-50",
+      "e": "75-100",
+      "h": "50-75",
+      "multicore": "75-100"
+    },
+    "heatInactivation": null,
+    "incubationC": 50,
+    "productUrl": "https://www.promega.com/search/?q=SfiI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SgfI": {
+    "promegaName": "SgfI",
+    "catalogName": "SgfI",
+    "alsoKnownAs": "PpuMI",
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "c": "100",
+      "d": "<10",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min (partial inactivation)",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SgfI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SinI": {
+    "promegaName": "SinI",
+    "catalogName": "SinI",
+    "alsoKnownAs": "AvaII",
+    "preferredBuffer": "a",
+    "suppliedBuffer": "10× Buffer A",
+    "bufferActivity": {
+      "a": "100",
+      "b": "75-100",
+      "c": "50-75",
+      "d": "10-25",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SinI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SmaI": {
+    "promegaName": "SmaI",
+    "catalogName": "SmaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "j",
+    "suppliedBuffer": "10× Buffer J",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "<10",
+      "c": "<10",
+      "d": "<10",
+      "e": "<10",
+      "h": "<10",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 25,
+    "productUrl": "https://www.promega.com/search/?q=SmaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SnaBI": {
+    "promegaName": "SnaBI",
+    "catalogName": "SnaBI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "50-75",
+      "d": "<10",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SnaBI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SpeI": {
+    "promegaName": "SpeI",
+    "catalogName": "SpeI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "75-100",
+      "e": "100",
+      "h": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SpeI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SphI": {
+    "promegaName": "SphI",
+    "catalogName": "SphI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "k",
+    "suppliedBuffer": "10× Buffer K",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "75-100",
+      "c": "100*",
+      "d": "75-100",
+      "e": "100",
+      "h": ">125*",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SphI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "SspI": {
+    "promegaName": "SspI",
+    "catalogName": "SspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "50-75",
+      "c": "50-75",
+      "d": "75-100",
+      "e": "100",
+      "h": "100-125*",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=SspI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StuI": {
+    "promegaName": "StuI",
+    "catalogName": "StuI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "50-75",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=StuI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "StyI": {
+    "promegaName": "StyI",
+    "catalogName": "StyI",
+    "alsoKnownAs": "StyI-HF",
+    "preferredBuffer": "f",
+    "suppliedBuffer": "10× Buffer F",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "75-100",
+      "e": "10-25",
+      "h": "50-75",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=StyI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "TaqI": {
+    "promegaName": "TaqI",
+    "catalogName": "TaqI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "e",
+    "suppliedBuffer": "10× Buffer E",
+    "bufferActivity": {
+      "a": "10-25",
+      "b": "25-50",
+      "c": "50-75",
+      "d": "50-75",
+      "e": "100",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=TaqI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tru9I": {
+    "promegaName": "Tru9I",
+    "catalogName": "Tru9I",
+    "alsoKnownAs": "MseI",
+    "preferredBuffer": "f",
+    "suppliedBuffer": "10× Buffer F",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "50-75",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "25-50"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=Tru9I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "Tth111I": {
+    "promegaName": "Tth111I",
+    "catalogName": "Tth111I",
+    "alsoKnownAs": "AspI",
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "75-100",
+      "d": "25-50",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 65,
+    "productUrl": "https://www.promega.com/search/?q=Tth111I&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "VspI": {
+    "promegaName": "VspI",
+    "catalogName": "VspI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "<10",
+      "b": "25-50",
+      "c": "75-100",
+      "d": "100",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=VspI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XbaI": {
+    "promegaName": "XbaI",
+    "catalogName": "XbaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "100",
+      "e": "100",
+      "h": "100-125*",
+      "multicore": "100"
+    },
+    "heatInactivation": null,
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=XbaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoI": {
+    "promegaName": "XhoI",
+    "catalogName": "XhoI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "d",
+    "suppliedBuffer": "10× Buffer D",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "75-100",
+      "c": "75-100",
+      "d": "100",
+      "e": "25-50",
+      "h": "100-125*",
+      "multicore": "10-25"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=XhoI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XhoII": {
+    "promegaName": "XhoII",
+    "catalogName": "XhoII",
+    "alsoKnownAs": "MflI",
+    "preferredBuffer": "c",
+    "suppliedBuffer": "10× Buffer C",
+    "bufferActivity": {
+      "a": "25-50",
+      "b": "25-50",
+      "c": "100",
+      "d": "10-25",
+      "multicore": "<10"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=XhoII&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmaI": {
+    "promegaName": "XmaI",
+    "catalogName": "XmaI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "50-75",
+      "b": "100",
+      "c": "25-50",
+      "d": "<10",
+      "e": "25-50",
+      "h": "<10",
+      "multicore": "50-75"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=XmaI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  },
+  "XmnI": {
+    "promegaName": "XmnI",
+    "catalogName": "XmnI",
+    "alsoKnownAs": null,
+    "preferredBuffer": "b",
+    "suppliedBuffer": "10× Buffer B",
+    "bufferActivity": {
+      "a": "75-100",
+      "b": "100",
+      "c": "75-100",
+      "d": "10-25",
+      "multicore": "75-100"
+    },
+    "heatInactivation": "65°C for 15 min",
+    "incubationC": 37,
+    "productUrl": "https://www.promega.com/search/?q=XmnI&pagesize=25",
+    "methylation": {
+      "dam": "No Effect",
+      "dcm": "No Effect",
+      "ecoKI": "No Effect"
+    }
+  }
+}
