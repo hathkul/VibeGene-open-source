@@ -13,24 +13,8 @@ export type WhatsNewSection = {
 
 export const WHATS_NEW_SECTIONS: WhatsNewSection[] = [
   {
-    title: 'More accurate trace alignments',
-    body: 'Large deletions are better represented in sequencing trace alignments, with improved chromatogram display around gaps and on reverse strands.',
-  },
-  {
-    title: 'Sequencing traces preserved',
-    body: 'SnapGene trace visibility is preserved, and sequencing traces are retained in cloning history and when cloning between windows.',
-  },
-  {
-    title: 'Richer feature notes and qualifiers',
-    body: 'Format feature notes and qualifier values, edit repeated qualifiers separately, and insert symbols from the new symbol picker.',
-  },
-  {
-    title: 'Clearer enzyme cut sites',
-    body: 'Restriction cuts beyond the ends of linear sequences and negative coordinates are handled more accurately. Enzyme hints are better positioned on screen.',
-  },
-  {
-    title: 'Document names in window titles',
-    body: 'The current document filename appears in the workspace window title, making open windows easier to identify.',
+    title: 'Search in Database',
+    body: 'Find sequences, primers, and coding sequences in the Database window. Search within the current location or across the Database to get to the items you need faster.',
   },
 ]
 

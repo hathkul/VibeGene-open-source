@@ -14,10 +14,9 @@ export function WhatsNewDialog({ onDismiss }: WhatsNewDialogProps) {
         aria-labelledby="whats-new-title"
         onPointerDown={(event) => event.stopPropagation()}
       >
-        <h3 id="whats-new-title">{WHATS_NEW_VERSION} — Better traces and feature notes</h3>
+        <h3 id="whats-new-title">{WHATS_NEW_VERSION} — Search in Database</h3>
         <p className="whats-new-lead">
-          VibeGene <strong>{WHATS_NEW_VERSION}</strong> improves sequencing traces, feature
-          annotations, and restriction enzyme displays.
+          VibeGene <strong>{WHATS_NEW_VERSION}</strong> adds search to the Database window.
         </p>
 
         <div className="whats-new-scroll">
