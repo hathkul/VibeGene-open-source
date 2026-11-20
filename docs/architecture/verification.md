@@ -99,6 +99,7 @@ git diff --check
 4. **Review the final range and status.** Ensure the tree is clean apart from known unrelated files and that architecture/file-size baselines only decreased.
 5. **Merge and push once.** Push the batch to `main`, then let GitHub CI provide the final independent full gate.
 6. **Handle CI failures narrowly.** Inspect the failing job, fix only the demonstrated issue, rerun its focused proof, and let CI repeat the merge gate. Do not restart unrelated manual matrices.
+7. **Enforce public privacy and release provenance.** Incoming private Tier 3 batches must follow [public promotion and release policy](public-promotion.md): publish only a privacy-reviewed export, never private Git history. Inspect direct public contributions for secrets and private user/research data before pushing too. Confirm public CI or report the blocker. New release tags and builds originate from validated source in `hathkul/vibegene-open-source`; a batch merge alone does not request a release.
 
 ## Suggested instructions to give an agent
 
@@ -112,7 +113,7 @@ For a checkpoint:
 
 For release of the batch:
 
-> Run Tier 3 once for the validated batch. Sync with main, run the complete gate plus required conditional evidence, review the final range, then merge and push to main and confirm GitHub CI.
+> Run Tier 3 once for the validated batch. Sync with public main, run the complete gate plus required conditional evidence, review the final range for privacy and scope, then merge/push and confirm public CI. Incoming private batches must be sanitized exports without private history. If a release is requested, tag and build only from the validated public repository.
 
 ## Evidence expected from a fix
 

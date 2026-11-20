@@ -1,5 +1,15 @@
 # Desktop update releases
 
+New releases must be tagged and built from validated source in
+`hathkul/vibegene-open-source`, after any incoming private Tier 3 batch has passed
+its [privacy review and public promotion](architecture/public-promotion.md).
+Run release workflows in this public repository and use
+`gh release ... --repo hathkul/vibegene-open-source` explicitly. Local signed
+builds must also use a clean checkout of the public release tag/SHA. Do not
+publish binaries built from private-only sources or dispatch private release
+workflows. Website/updater hosting may mirror verified public-release artifacts
+without changing their bytes.
+
 The updater is disabled unless `VIBEGENE_UPDATER_PUBLIC_KEY` is set when the
 desktop executable is compiled. Never embed a test key in a production build.
 The corresponding private key must be stored securely outside the repository;

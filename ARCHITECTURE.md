@@ -154,7 +154,7 @@ Verification is tiered so unrelated repository-wide checks are not repeated afte
 
 - **Tier 1 — implementation loop:** reproduce, make one narrow change, record or add its regression case, and use only the cheapest focused proof needed for that fix. A trivial low-risk fix may be committed without executing tests immediately when its test is explicitly queued for the batch checkpoint.
 - **Tier 2 — batch checkpoint:** after roughly 5–10 coherent fixes, complete any queued regression tests and run the union of affected tests, relevant static checks, and one live smoke per changed surface. Do not run unrelated gates.
-- **Tier 3 — merge gate:** once per batch, run the complete CI-equivalent gate and any conditional browser/Tauri/parser/performance evidence required by the accumulated changes, then merge to `main`.
+- **Tier 3 — merge gate:** once per batch, run the complete CI-equivalent gate and any conditional browser/Tauri/parser/performance evidence required by the accumulated changes, then merge to `main` and confirm CI. Incoming private batches require a privacy-reviewed export under the [public promotion policy](docs/architecture/public-promotion.md), never private history. New releases are tagged and built from validated source in `hathkul/vibegene-open-source`.
 
 Do not run the full suite, production build, browser matrix, or every static guard after each minor edit. High-risk persistence, history, parser, database-migration, native-lifecycle, shared-renderer, dependency, or build-configuration changes end the fast loop and receive an immediate Tier 2 checkpoint; they still need only one Tier 3 gate before merge. Full CI remains the merge authority.
 

@@ -1,0 +1,20 @@
+---
+description: Privacy-safe public integration and public-source releases
+alwaysApply: true
+---
+
+# Git sync for VibeGene public source
+
+Follow `docs/architecture/verification.md` and `docs/architecture/public-promotion.md`.
+
+- This checkout is `hathkul/vibegene-open-source`; verify the remote before writes.
+- Work on scoped batch branches, preserve unrelated edits, and use Tier 1/2/3.
+- Inspect every proposed public diff and its metadata for secrets and private user/research data before pushing. Never assume a fixture or binary is redistributable because it is tracked.
+- Private Tier 3 batches arrive only as privacy-reviewed exports based on current public main. Never merge, mirror, or push private branches/tags/history into this repository.
+- Preserve public-specific configuration, license, notices, and workflows. Record sensitive exclusions and private/public SHA mappings only in private evidence.
+- Merge through normal protection and passing public CI; no force-push or bypass. Report a blocked promotion rather than claiming it succeeded.
+- Direct public contributions follow the same privacy and CI gates; they do not require access to the private repository.
+- New tags, GitHub Releases, and builds originate here from a validated public SHA/tag. Select `--repo hathkul/vibegene-open-source` explicitly for release commands and workflow dispatches.
+- Local signed builds must use a clean public release checkout; credentials stay outside files/logs. Never publish private-source binaries or create a release merely because a batch was promoted.
+
+Remote: `https://github.com/hathkul/vibegene-open-source.git`
