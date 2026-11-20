@@ -13,6 +13,14 @@ const specificity = {
 afterEach(async () => { await db.commonPrimers.clear() })
 
 describe('common primer specificity', () => {
+  it('keeps each construct source when identical database primers are deduplicated', () => {
+    const row = dedupePrimerHits([
+      { key: 'same', name: 'Primer', sequence: 'ACGT', color: '', description: '', projectId: 'one', projectName: 'First', folderId: null },
+      { key: 'same', name: 'Primer', sequence: 'ACGT', color: '', description: '', projectId: 'two', projectName: 'Second', folderId: null },
+    ])[0]!
+    expect(row.sources.map((source) => source.projectId)).toEqual(['one', 'two'])
+  })
+
   it('persists, reloads through the database dialog, and deletes a saved result', async () => {
     const primer = await upsertCommonPrimer({ name: 'Primer', sequence: specificity.primerSequence })
     await setCommonPrimerSpecificity(primer.id, specificity)

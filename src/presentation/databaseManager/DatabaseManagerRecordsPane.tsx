@@ -40,7 +40,7 @@ export function DatabaseManagerRecordsPane({
   commands,
 }: DatabaseManagerRecordsPaneProps) {
   return (
-    <div className="db-file-list" ref={fileListRef}>
+    <div className={`db-file-list${viewMode === 'cdses' ? ' is-cds-list' : ''}`} ref={fileListRef}>
       {viewMode === 'primers' ? (
         <DatabasePrimersTablePane model={primersModel} commands={commands.primers} />
       ) : viewMode === 'cdses' ? (

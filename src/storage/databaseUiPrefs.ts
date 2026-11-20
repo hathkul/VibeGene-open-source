@@ -134,7 +134,7 @@ export const DEFAULT_DATABASE_PROTEIN_COLUMN_WIDTHS: Record<DatabaseProteinColum
   mass: 88,
   product: 150,
   files: 140,
-  actions: 88,
+  actions: 120,
 }
 
 export const DATABASE_PROTEIN_COLUMN_MIN_WIDTH: Record<DatabaseProteinColumnId, number> = {
@@ -144,7 +144,7 @@ export const DATABASE_PROTEIN_COLUMN_MIN_WIDTH: Record<DatabaseProteinColumnId, 
   mass: 64,
   product: 72,
   files: 72,
-  actions: 72,
+  actions: 120,
 }
 
 export type DatabaseUiSettings = {

@@ -84,8 +84,7 @@ export function DatabaseProteinsTablePane({ model, commands }: DatabaseProteinsT
               aria-label="Select all proteins in this view"
             />
           </th>
-          {columnOrder.map((columnId, index) => {
-            const isLast = index === columnOrder.length - 1
+          {columnOrder.map((columnId) => {
             const numClass = columnId === 'length' || columnId === 'mass' ? 'db-primer-num' : undefined
             return (
               <DbDraggableTh
@@ -110,13 +109,11 @@ export function DatabaseProteinsTablePane({ model, commands }: DatabaseProteinsT
                     onSort={(col) => commands.onSort(col as DatabaseManagerProteinSortColumn)}
                   />
                 )}
-                {!isLast ? (
-                  <DbColumnResizeHandle
-                    columnId={columnId}
-                    width={columnWidths[columnId]}
-                    onResize={commands.onResizeColumn}
-                  />
-                ) : null}
+                <DbColumnResizeHandle
+                  columnId={columnId}
+                  width={columnWidths[columnId]}
+                  onResize={commands.onResizeColumn}
+                />
               </DbDraggableTh>
             )
           })}

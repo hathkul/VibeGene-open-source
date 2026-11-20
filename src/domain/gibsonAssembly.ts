@@ -1,7 +1,9 @@
 import { longestEndOverlap } from './bridgePcr'
+import { readingFrameAfterMapping } from './cdsTranslationFrame'
 import { normalizeConstructProperties } from './constructProperties'
 import { defaultDnaEnds } from './dnaEnds'
 import { mergeAbuttingAssemblyFeatures } from './featureMerge'
+import { flipFeature } from './flipRecord'
 import {
   createPcrProductRecord,
   directedPcrAmpliconForRange,
@@ -761,14 +763,11 @@ export function gibsonSelectedStretchBp(
 
 function reverseFeatures(features: SequenceFeature[], length: number): SequenceFeature[] {
   return features.map((feature) => ({
-    ...feature,
+    ...flipFeature(feature, length),
     id: createId('feat'),
-    locations: feature.locations.map((location) => ({
-      ...location,
-      start: length - location.end,
-      end: length - location.start,
-      strand: location.strand === 'forward' ? ('reverse' as const) : ('forward' as const),
-    })),
+    ...(feature.sourceTranslationAnchor !== undefined
+      ? { sourceTranslationAnchor: length - 1 - feature.sourceTranslationAnchor }
+      : {}),
   }))
 }
 
@@ -777,6 +776,7 @@ function offsetFeatures(features: SequenceFeature[], offset: number): SequenceFe
   return features.map((feature) => ({
     ...feature,
     id: createId('feat'),
+    ...(feature.sourceTranslationAnchor !== undefined ? { sourceTranslationAnchor: feature.sourceTranslationAnchor + offset } : {}),
     locations: feature.locations.map((location) => ({
       ...location,
       start: location.start + offset,
@@ -835,24 +835,30 @@ function clipFeaturesToWindow(
   windowStart: number,
   windowEnd: number,
 ): SequenceFeature[] {
-  return features
-    .map((feature) => ({
-      ...feature,
-      id: createId('feat'),
-      locations: feature.locations
-        .map((location) => ({
-          ...location,
-          start: Math.max(windowStart, location.start),
-          end: Math.min(windowEnd, location.end),
-        }))
-        .filter((location) => location.end > location.start)
-        .map((location) => ({
-          ...location,
-          start: location.start - windowStart,
-          end: location.end - windowStart,
+  return features.flatMap((feature) => {
+    const mapped = feature.locations.flatMap((location, index) => {
+      const start = Math.max(windowStart, location.start)
+      const end = Math.min(windowEnd, location.end)
+      return end > start ? [{ location: { ...location, start: start - windowStart, end: end - windowStart }, index }] : []
+    })
+    if (!mapped.length) return []
+    const next: SequenceFeature = { ...feature, id: createId('feat'), locations: mapped.map((entry) => entry.location) }
+    const anchor = feature.sourceTranslationAnchor
+    if (anchor !== undefined && anchor >= windowStart && anchor < windowEnd) next.sourceTranslationAnchor = anchor - windowStart
+    else delete next.sourceTranslationAnchor
+    if (feature.translation) {
+      next.translation = {
+        ...feature.translation,
+        readingFrame: readingFrameAfterMapping({ locations: feature.locations, translation: feature.translation },
+          (position) => position >= windowStart && position < windowEnd ? position - windowStart : null,
+        ) ?? feature.translation.readingFrame,
+        segmentNumbering: mapped.map(({ index }) => ({
+          ...(feature.translation?.segmentNumbering[index] ?? { startAt: 1, skip: false }),
         })),
-    }))
-    .filter((feature) => feature.locations.length > 0)
+      }
+    }
+    return [next]
+  })
 }
 
 function clipPrimersToWindow(primers: Primer[], windowStart: number, windowEnd: number): Primer[] {
@@ -1773,7 +1779,38 @@ export function assembleGibsonProduct(input: {
     updatedAt: nowIso(),
   }
 
-  const children = analysis.orderedParts.map((part) => parentalHistoryNode(part.source))
+  const children = analysis.orderedParts.map((part, index) => {
+    const resolved = input.parts.find((candidate) => candidate.configIndex === part.configIndex)
+    const preparation = part.linearizationDetails
+    if (preparation.method === 'direct') return parentalHistoryNode(part.source)
+    let prepared: HistoryNode | undefined
+    if (preparation.method === 'pcr' && resolved?.selectedAmplicon) {
+      const product = createPcrProductRecord({
+        template: part.source, amplicon: resolved.selectedAmplicon, name: `Fragment ${index + 1}`,
+        forwardPrimer: { ...preparation.forwardPrimer, phosphorylated: false },
+        reversePrimer: { ...preparation.reversePrimer, phosphorylated: false },
+        polymerase: preparation.polymerase as PcrPolymeraseMode,
+      })
+      prepared = product.history
+    } else if (preparation.method === 'restriction' && part.orientation === 'forward') {
+      prepared = {
+        id: createId('history'), name: `Fragment ${index + 1}.dna`, seqLen: part.sequence.length,
+        circular: false, operation: 'restrictionDigest', resurrectable: false, hideHistory: false,
+        oligos: [], regeneratedSites: [], features: historyFeaturesFromProduct(part.features),
+        sequence: part.sequence, primers: part.primers, children: [parentalHistoryNode(part.source)],
+        inputSummaries: [{ manipulation: 'gibson', assemblyPart: { role: part.role, orientation: part.orientation,
+          length: part.sequence.length, linearization: preparation } }],
+      }
+    }
+    if (!prepared) return parentalHistoryNode(part.source)
+    if (part.orientation === 'forward') return prepared
+    return {
+      id: createId('history'), name: `Fragment ${index + 1} (reversed).dna`, seqLen: part.sequence.length,
+      circular: false, operation: 'flip', resurrectable: false, hideHistory: false, oligos: [],
+      regeneratedSites: [], inputSummaries: [], features: historyFeaturesFromProduct(part.features),
+      sequence: part.sequence, primers: part.primers, children: [prepared],
+    }
+  })
 
   const history: HistoryNode = {
     id: createId('history'),

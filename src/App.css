@@ -1669,6 +1669,88 @@
   white-space: nowrap;
 }
 
+.protein-map-header .protein-translation-origin,
+.protein-summary .protein-translation-origin {
+  display: inline-block;
+  flex: 0 1 auto;
+  max-width: min(340px, 55vw);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button.protein-translation-origin {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 7px;
+  color: var(--muted);
+  background: var(--vg-info-surface);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.protein-map-header button.protein-translation-origin,
+.protein-summary button.protein-translation-origin {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.protein-map-header button.protein-translation-origin span,
+.protein-summary button.protein-translation-origin span {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+}
+
+.protein-translation-origin-first {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.protein-translation-origin-more { flex: none; white-space: nowrap; }
+
+.protein-map-header button.protein-translation-origin {
+  padding: 1px 6px;
+  font-size: 10px;
+}
+
+.protein-origin-backdrop { padding: 20px; }
+.protein-origin-dialog {
+  box-sizing: border-box;
+  width: min(480px, 100%);
+  max-height: min(520px, 85vh);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid var(--vg-border);
+  border-radius: 8px;
+  background: var(--vg-surface-panel);
+  color: var(--vg-text);
+  box-shadow: var(--vg-shadow-overlay);
+}
+.protein-origin-dialog h2 { margin: 0; font-size: 16px; }
+.protein-origin-dialog ul { margin: 0; padding-left: 22px; overflow: auto; overflow-wrap: anywhere; }
+.protein-origin-dialog li + li { margin-top: 6px; }
+.protein-origin-source {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--app-focus);
+  font: inherit;
+  text-align: left;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.protein-origin-source:disabled { color: var(--vg-text-muted); text-decoration: none; cursor: default; }
+.protein-origin-dialog small { color: var(--vg-text-muted); }
+.protein-origin-actions { display: flex; justify-content: flex-end; }
+
 .protein-sequence-view {
   box-sizing: border-box;
   width: 100%;
@@ -6281,6 +6363,22 @@ html.vg-hybrid-fit-content .preferences-dialog.is-dialog-draggable {
   font-weight: 600;
   letter-spacing: 0.01em;
   color: var(--vg-text);
+}
+
+.about-description {
+  max-width: 34rem;
+  line-height: 1.5;
+  user-select: text;
+}
+
+.about-description h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.about-description p {
+  margin: 0;
+  font-size: 0.875rem;
 }
 
 .telegram-group-link {
@@ -14395,7 +14493,7 @@ button.hedge-parent-site.is-enzyme:hover {
   padding-top: 18px;
 }
 .hparents.is-single > .hbranch.has-contribution {
-  padding-top: 78px;
+  padding-top: 18px;
 }
 .hparents.is-single > .hbranch::before {
   content: '';
@@ -14407,16 +14505,13 @@ button.hedge-parent-site.is-enzyme:hover {
   height: 18px;
   background: var(--htree-line);
 }
-.hparents.is-single > .hbranch.has-contribution::before {
-  height: 78px;
-}
 
 /* multiple parents: horizontal bus + drop to each parent */
 .hparents.is-multi > .hbranch {
   padding-top: 18px;
 }
 .hparents.is-multi > .hbranch.has-contribution {
-  padding-top: 78px;
+  padding-top: 18px;
 }
 .hparents.is-multi > .hbranch::before,
 .hparents.is-multi > .hbranch::after {
@@ -14426,10 +14521,6 @@ button.hedge-parent-site.is-enzyme:hover {
   width: 50%;
   height: 18px;
   border-top: 2px solid var(--htree-line);
-}
-.hparents.is-multi > .hbranch.has-contribution::before,
-.hparents.is-multi > .hbranch.has-contribution::after {
-  height: 78px;
 }
 .hparents.is-multi > .hbranch::before {
   right: 50%;
@@ -14447,12 +14538,21 @@ button.hedge-parent-site.is-enzyme:hover {
 
 /* Sit the per-parent badge on the stem (opaque bg covers the line) */
 .hparents > .hbranch.has-contribution > .hedge-parent {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   width: max-content;
   max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.hparents > .hbranch.has-contribution > .hedge-parent::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -19px;
+  bottom: -11px;
+  width: 2px;
+  background: var(--htree-line);
+  z-index: -1;
 }
 
 .description-panel {
@@ -24944,6 +25044,30 @@ body.agarose-gel-resizing-y .agarose-gel-height-splitter {
   min-height: 0;
 }
 
+.db-search-bar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.db-search-bar input {
+  flex: 0 0 220px;
+  width: 220px;
+  box-sizing: border-box;
+  height: 30px;
+  min-height: 0;
+  padding: 3px 8px;
+  font-size: 12px;
+  appearance: none;
+}
+
+.db-search-bar select {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 170px;
+}
+
 .db-main-toolbar {
   position: relative;
   z-index: 5;
@@ -25233,6 +25357,14 @@ body.agarose-gel-resizing-y .agarose-gel-height-splitter {
      Padding here creates gaps where rows show through while scrolling. */
   padding: 0 0 16px;
   background: var(--app-field);
+}
+
+.db-file-list.is-cds-list {
+  overflow-x: auto;
+}
+
+.db-file-list.is-cds-list .db-file-table th:last-child .db-col-resize-handle {
+  right: 0;
 }
 
 .db-table-pagination {
@@ -26923,8 +27055,13 @@ html.vg-hybrid-window .common-feature-view-pane .cloning-record-workspace {
 
   html:not(.vg-hybrid-window) .db-toolbar-mode-group > .db-toolbar-mode-main,
   html:not(.vg-hybrid-window) .db-toolbar-mode-group > .db-toolbar-mode-chevron,
-  html:not(.vg-hybrid-window) .db-view-mode-group button {
+  html:not(.vg-hybrid-window) .db-view-mode-group button,
+  html:not(.vg-hybrid-window) .db-search-bar input {
     min-height: 40px;
+  }
+
+  html:not(.vg-hybrid-window) .db-search-bar input {
+    height: 40px;
   }
 
   html:not(.vg-hybrid-window) .enzyme-info-header {

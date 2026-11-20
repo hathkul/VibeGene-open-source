@@ -7,7 +7,7 @@ import { proteinFeaturesOverlappingRange } from '../../domain/proteinFeatures'
 import { assignProteinAnnotationLanes, defaultProteinBondColor, proteinBondDescription, proteinBondDisplayLabel, proteinBondLabelCenterOffsets, proteinBondLaneMetrics, proteinBondSegmentsForRow, proteinBondStrokeWidth, type ProteinBondRowSegment } from '../../domain/proteinBonds'
 import { formatRange, sanitizeProtein } from '../../domain/sequence'
 import { strandColorAtPosition } from '../../domain/snapgeneStrandColors'
-import { type SequenceRecord } from '../../domain/types'
+import { type ProteinTranslationSource, type SequenceRecord } from '../../domain/types'
 import { formatSequenceLength } from '../../domain/moleculeCapabilities'
 import { proteinResidueBoundaryAtClientX, proteinResidueBoundaryFromPointer } from '../../domain/proteinSequenceSelection'
 import { shouldHandleProteinSequenceEditorKey } from '../../domain/proteinSequenceKeyboard'
@@ -26,7 +26,7 @@ import {
 } from '../sequence'
 import { ProteinSequenceVisualControlsPanel } from './ProteinVisualControls'
 import type { ProteinSequenceVisualSettings } from './proteinVisualSettings'
-import { proteinTranslationOriginLabel } from './proteinShared'
+import { ProteinTranslationOrigin } from './ProteinTranslationOrigin'
 
 export function ProteinSequenceBondLayer({
   rowStart,
@@ -202,6 +202,7 @@ export function ProteinSequenceBondLayer({
 
 export function ProteinSequencePane({
   record,
+  onOpenTranslationSourceDna,
   selectedRange,
   motifHits,
   activeHitIndex,
@@ -235,6 +236,7 @@ export function ProteinSequencePane({
   onViewRangeChange,
 }: {
   record: SequenceRecord
+  onOpenTranslationSourceDna?: (source: ProteinTranslationSource) => void
   selectedRange: SelectionRange | null
   motifHits: number[]
   activeHitIndex: number
@@ -319,7 +321,6 @@ export function ProteinSequencePane({
       return estimatedLabelWidth > residueCellWidth
     }),
   )
-  const translationOrigin = proteinTranslationOriginLabel(record)
   const rows = useMemo(() => {
     const result: Array<{ start: number; residues: string[] }> = []
     const rangeStart = viewRange?.start ?? 0
@@ -704,7 +705,7 @@ export function ProteinSequencePane({
           <span>Average mass: {formatProteinMass(record.sequence)}</span>
           <span>{record.features.length.toLocaleString()} features</span>
           <span>{(record.protein?.bonds.length ?? 0).toLocaleString()} bonds</span>
-          {translationOrigin ? <span>{translationOrigin}</span> : null}
+          <ProteinTranslationOrigin record={record} onOpenSource={onOpenTranslationSourceDna} />
         </div>
         <BinderStructureControl
           sequence={record.sequence}

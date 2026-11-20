@@ -36,7 +36,7 @@ type ProteinInput = {
       | 'onBinderNumberingChange'
       | 'onBinderStructureChange'
       | 'onBondEdit' | 'onStatus' | 'onDisplaySettingsChange' | 'onSaveVisualSettings'
-      | 'onRevertVisualSettings' | 'onZoomSliderValueChange' | 'onViewRangeChange'
+      | 'onRevertVisualSettings' | 'onZoomSliderValueChange' | 'onViewRangeChange' | 'onOpenTranslationSourceDna'
     >
 }
 
@@ -156,6 +156,7 @@ export function createWorkspaceMapModel(context: WorkspaceMapModelContext): Work
       },
       pane: {
         record: protein.record, selectedRange: protein.selectedRange, motifHits: protein.motifHits,
+        onOpenTranslationSourceDna: protein.actions.onOpenTranslationSourceDna,
         activeHitIndex: protein.activeHitIndex, searchQuery: protein.searchQuery,
         selectedFeatureId: protein.selectedFeatureId, onRangeSelect: protein.actions.onRangeSelect,
         onFeatureSelect: protein.actions.onFeatureSelect, onFeatureEdit: protein.actions.onFeatureEdit,

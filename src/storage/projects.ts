@@ -150,6 +150,8 @@ export type ProjectSummaryPageQuery = {
   direction: 'asc' | 'desc'
   page: number
   pageSize: number
+  /** Case-insensitive text search across filename, construct name and tags. */
+  search?: string
   /** Displayed nested folder paths, needed only for Folder sorting. */
   folderSortKeys?: Readonly<Record<string, string>>
 }
@@ -1338,8 +1340,10 @@ export async function queryProjectSummaryPage(
 ): Promise<ProjectSummaryPage> {
   const pageSize = Math.max(1, Math.floor(query.pageSize))
   const requestedPage = Math.max(0, Math.floor(query.page))
+  const search = query.search?.trim().toLocaleLowerCase() ?? ''
   const matchesScope = (project: StoredProjectSummary) =>
-    projectMatchesBrowseScope(project, query.scope)
+    projectMatchesBrowseScope(project, query.scope) && (!search ||
+      [project.name, project.fileName, ...(project.tags ?? [])].some((value) => value?.toLocaleLowerCase().includes(search)))
 
   return db.transaction('r', [db.projects, db.projectFileBlobs], async () => {
     const total = await db.projects

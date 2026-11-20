@@ -47,7 +47,7 @@ export type WorkspaceSequenceModelContext = {
       | 'onFeatureEdit' | 'onAnnotateBinder' | 'onBondSelect' | 'onBondEdit' | 'onDisplaySettingsChange'
       | 'onBinderNumberingChange'
       | 'onBinderStructureChange'
-      | 'onSaveVisualSettings' | 'onRevertVisualSettings' | 'onZoomSliderValueChange' | 'onViewRangeChange'
+      | 'onSaveVisualSettings' | 'onRevertVisualSettings' | 'onZoomSliderValueChange' | 'onViewRangeChange' | 'onOpenTranslationSourceDna'
     >
     onAlignmentDisplaySettingsChange: ProteinAlignmentProps['onDisplaySettingsChange']
   } | null
@@ -185,7 +185,7 @@ export function createWorkspaceSequenceModel(context: WorkspaceSequenceModelCont
         onStatus: protein.actions.onStatus, onUndo: protein.actions.onUndo, onRedo: protein.actions.onRedo,
         selectedFeatureId: protein.selectedFeatureId, selectedBondId: protein.selectedBondId,
         onFeatureSelect: protein.actions.onFeatureSelect, onFeatureEdit: protein.actions.onFeatureEdit,
-        onAnnotateBinder: protein.actions.onAnnotateBinder, onBinderNumberingChange: protein.actions.onBinderNumberingChange,
+        onAnnotateBinder: protein.actions.onAnnotateBinder, onOpenTranslationSourceDna: protein.actions.onOpenTranslationSourceDna, onBinderNumberingChange: protein.actions.onBinderNumberingChange,
         binderNumbering, onBondSelect: protein.actions.onBondSelect,
         binderStructure, onBinderStructureChange: protein.actions.onBinderStructureChange,
         onBondEdit: protein.actions.onBondEdit, showFeatures: protein.displaySettings.features.visible,

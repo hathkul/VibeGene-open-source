@@ -34,6 +34,10 @@ export function AboutDialog({ onDismiss }: AboutDialogProps) {
             <img className="about-beta" src="/beta-badge.png" alt="β" width="193" height="369" />
           </div>
           <p className="about-version">Version {APP_VERSION}</p>
+          <section className="about-description">
+            <h4>DNA editing, virtual cloning and sequence analysis</h4>
+            <p>VibeGene is free molecular biology software with a familiar interface. Visualize and annotate plasmids, plan virtual cloning experiments, design primers, and align Sanger sequencing traces to your constructs. Work with DNA, RNA and protein sequences in your browser or on desktop.</p>
+          </section>
         </div>
         <div className="translation-dialog-footer about-footer">
           <div className="translation-actions">

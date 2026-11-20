@@ -1,4 +1,5 @@
 import { DatabaseFolderSyncStatus } from './DatabaseFolderSyncStatus'
+import type { ReactNode } from 'react'
 import { DatabaseManagerToolbar } from './DatabaseManagerToolbar'
 import type {
   DatabaseFolderSyncStatusCommands,
@@ -12,6 +13,7 @@ import type {
 export type DatabaseManagerToolbarRegionProps = {
   model: DatabaseManagerToolbarModel
   commands: DatabaseManagerToolbarCommands
+  searchControl?: ReactNode
   folderSync: {
     visible: boolean
     model: DatabaseFolderSyncStatusModel
@@ -23,10 +25,11 @@ export function DatabaseManagerToolbarRegion({
   model,
   commands,
   folderSync,
+  searchControl,
 }: DatabaseManagerToolbarRegionProps) {
   return (
     <>
-      <DatabaseManagerToolbar model={model} commands={commands} />
+      <DatabaseManagerToolbar model={model} commands={commands} searchControl={searchControl} />
       {folderSync.visible ? (
         <DatabaseFolderSyncStatus model={folderSync.model} commands={folderSync.commands} />
       ) : null}

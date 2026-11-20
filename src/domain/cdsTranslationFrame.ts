@@ -108,6 +108,35 @@ export function readingFrameFromTranslationAnchor(
   return strand === 'forward' ? magnitude : ((-magnitude) as FeatureReadingFrame)
 }
 
+/** Preserve codon phase when coding bases are clipped and mapped to new coordinates. */
+export function readingFrameAfterMapping(
+  feature: Pick<SequenceFeature, 'locations'> & { translation: FeatureTranslationOptions },
+  mapPosition: (position: number) => number | null,
+): FeatureReadingFrame | null {
+  const reverse = feature.translation.readingFrame < 0
+  const segments = feature.locations.map((location, index) => ({ location, index }))
+    .sort((a, b) => reverse ? b.location.start - a.location.start : a.location.start - b.location.start)
+  let ordinal = 0
+  let firstMapped: number | null = null
+  let firstOrdinal = 0
+  for (const { location, index } of segments) {
+    if (feature.translation.segmentNumbering[index]?.skip) continue
+    for (let pos = reverse ? location.end - 1 : location.start;
+      reverse ? pos >= location.start : pos < location.end;
+      pos += reverse ? -1 : 1) {
+      const mapped = mapPosition(pos)
+      if (mapped !== null && (firstMapped === null || (reverse ? mapped > firstMapped : mapped < firstMapped))) {
+        firstMapped = mapped
+        firstOrdinal = ordinal
+      }
+      ordinal += 1
+    }
+  }
+  if (firstMapped === null) return null
+  const offset = ((Math.abs(feature.translation.readingFrame) - 1 - firstOrdinal) % 3 + 3) % 3
+  return ((reverse ? -1 : 1) * (offset + 1)) as FeatureReadingFrame
+}
+
 export function areTranslatedCdsInSameFrame(
   upstream: SequenceFeature & { translation: FeatureTranslationOptions },
   downstream: SequenceFeature & { translation: FeatureTranslationOptions },

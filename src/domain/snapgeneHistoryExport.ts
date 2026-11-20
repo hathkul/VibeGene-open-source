@@ -98,6 +98,11 @@ function exportHistoryNodeOpenAttrs(node: HistoryNode, molecule: MoleculeType): 
 
 function exportHistoryNodeInner(node: HistoryNode, molecule: MoleculeType): string {
   const inner: string[] = []
+  if (node.polymerase) inner.push(`<Parameter name="polymerase" val="${xmlEscape(node.polymerase)}"/>`)
+  for (const oligo of node.oligos) {
+    const description = oligo.description ? ` description="${xmlEscape(oligo.description)}"` : ''
+    inner.push(`<Oligo name="${xmlEscape(oligo.name)}" sequence="${xmlEscape(oligo.sequence)}"${description}/>`)
+  }
   if (node.sgRnaCloning) {
     inner.push(`<Parameter name="vibegeneSgRnaCloning" val="${xmlEscape(JSON.stringify(node.sgRnaCloning))}"/>`)
   }

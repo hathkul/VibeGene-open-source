@@ -5,7 +5,7 @@ import {
   resolveDisplayableLayoutsForPrimer,
 } from './primerSequenceLayout'
 import { snapshotParentalHistoryNode } from './snapgeneHistoryExport'
-import { firstTranslatedCodonPosition, readingFrameFromTranslationAnchor, readingFramePreservingAminoAcids } from './cdsTranslationFrame'
+import { firstTranslatedCodonPosition, readingFrameAfterMapping } from './cdsTranslationFrame'
 import { addOperation, createId, extractRange, normalizeDna, nowIso, reverseComplement } from './sequence'
 import type {
   DnaEnds,
@@ -417,7 +417,7 @@ function clipFeaturesToAmplicon(
   const result: SequenceFeature[] = []
   for (const feature of features) {
     if (feature.visible === false) continue
-    const locations = feature.locations.flatMap((location) => {
+    const mappedSegments = feature.locations.flatMap((location, index) => {
       if (location.end <= location.start) return []
       return clipIntervalToAmplicon(
         location.start,
@@ -426,8 +426,9 @@ function clipFeaturesToAmplicon(
         forwardPrimerLength,
         reversePrimerLength,
         templateLength,
-      ).map((span) => ({ ...span, strand: location.strand }))
+      ).map((span) => ({ location: { ...span, strand: location.strand }, index }))
     })
+    const locations = mappedSegments.map((entry) => entry.location)
     if (!locations.length) continue
     const nextFeature: SequenceFeature = {
       ...feature,
@@ -446,12 +447,15 @@ function clipFeaturesToAmplicon(
         templateLength,
       )
       if (anchor !== null) nextFeature.sourceTranslationAnchor = anchor
+      else delete nextFeature.sourceTranslationAnchor
       nextFeature.translation = {
         ...nextFeature.translation,
-        readingFrame:
-          anchor === null
-            ? readingFramePreservingAminoAcids(translatedFeature, locations)
-            : readingFrameFromTranslationAnchor(anchor, locations[0]!.strand, locations),
+        segmentNumbering: mappedSegments.map(({ index }) => ({
+          ...(feature.translation?.segmentNumbering[index] ?? { startAt: 1, skip: false }),
+        })),
+        readingFrame: readingFrameAfterMapping(translatedFeature, (position) =>
+          mapTemplateIndexToPcrProduct(position, amplicon, forwardPrimerLength, reversePrimerLength, templateLength),
+        ) ?? nextFeature.translation.readingFrame,
       }
     }
     result.push(nextFeature)

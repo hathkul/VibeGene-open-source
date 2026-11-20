@@ -5,6 +5,13 @@ export type FlexibleColumnLayout<T extends string> = {
   minWidths?: Partial<Record<T, number>>
 }
 
+/** Keep numeric CDS fields compact, leaving the flexible sequence column room. */
+export const CDS_NUMERIC_COLUMN_MAX_WIDTH = 160
+
+export function boundedCdsNumericColumnWidths<T extends { length: number; mass: number }>(widths: T): T {
+  return { ...widths, length: Math.min(widths.length, CDS_NUMERIC_COLUMN_MAX_WIDTH), mass: Math.min(widths.mass, CDS_NUMERIC_COLUMN_MAX_WIDTH) }
+}
+
 export function fixedColumnsSum<T extends string>(
   widths: Record<T, number>,
   flexColumnId: T,

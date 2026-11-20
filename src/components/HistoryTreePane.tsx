@@ -30,6 +30,7 @@ import {
   initialCollapsedHistoryIds,
 } from '../domain/historyTreeExpansion'
 import { historyMinimapScrollPosition } from '../domain/historyMinimap'
+import { gibsonHistoryForDisplay } from '../domain/gibsonHistoryDisplay'
 import type { HistoryInputSummary, HistoryNode, HistoryOligo } from '../domain/types'
 
 type OperationMeta = {
@@ -68,6 +69,7 @@ const operationMeta: Record<string, OperationMeta> = {
   insertFragments: { label: 'Insert fragments', className: 'op-clone' },
   ligateFragments: { label: 'Ligate fragments', className: 'op-clone' },
   gibsonAssembly: { label: 'Gibson assembly', className: 'op-clone' },
+  restrictionDigest: { label: 'Restriction digest', className: 'op-clone' },
   taCloning: { label: 'TA cloning', className: 'op-clone' },
   gcCloning: { label: 'GC cloning', className: 'op-clone' },
   gatewayBp: { label: 'Gateway BP cloning', className: 'op-clone' },
@@ -94,12 +96,14 @@ function metaFor(operation: string): OperationMeta {
 function ParentEdgeLabel({
   summary,
   seqLen,
+  compact = false,
   onInspectDigest,
   onInspectPrimer,
   onInspectEnzyme,
 }: {
   summary: HistoryInputSummary | undefined
   seqLen: number
+  compact?: boolean
   onInspectDigest?: (enzymeNames: string[]) => void
   onInspectPrimer: (oligo: HistoryOligo) => void
   onInspectEnzyme: (enzymeName: string) => void
@@ -147,7 +151,7 @@ function ParentEdgeLabel({
     >
       {roleText ? <span className="hedge-parent-role">{roleText}</span> : null}
       {flipped ? <span className="hedge-parent-note">flipped</span> : null}
-      {assemblyPart ? (
+      {assemblyPart && !compact ? (
         <>
           <span className="hedge-parent-range">
             {assemblyPart.linearization.method === 'pcr' ? 'PCR'
@@ -179,7 +183,7 @@ function ParentEdgeLabel({
             </div>
           )}
         </>
-      ) : summary?.manipulation === 'gibson' ? (
+      ) : !assemblyPart && summary?.manipulation === 'gibson' ? (
         <span className="hedge-parent-range">Preparation not recorded</span>
       ) : null}
       {showEnzymeSites ? (
@@ -325,6 +329,7 @@ function OperationInfo({
               type="button"
               className="hop-primer"
               title={`${oligo.name} — double-click for primer properties`}
+              onClick={(event) => { if (event.detail === 0) onInspectPrimer(oligo) }}
               onDoubleClick={() => onInspectPrimer(oligo)}
             >
               {oligo.name}
@@ -749,6 +754,7 @@ function HistoryBranch({
         <ParentEdgeLabel
           summary={contribution}
           seqLen={node.seqLen}
+          compact={Boolean(contribution.assemblyPart && node.children.length && !node.circular && node.seqLen === contribution.assemblyPart.length)}
           onInspectPrimer={onInspectPrimer}
           onInspectEnzyme={onInspectEnzyme}
           onInspectDigest={
@@ -774,6 +780,7 @@ function HistoryBranch({
           <button
             type="button"
             className={`hcard-name${sequenceUndecoded ? ' is-undecoded' : ''}`}
+            disabled={node.id.startsWith('vg-preparation:')}
             title={
               sequenceUndecoded
                 ? `${node.name} — sequence not decoded; bases unknown`
@@ -959,7 +966,7 @@ function HistoryTreeMinimap({
 }
 
 export function HistoryTreePane({
-  root,
+  root: originalRoot,
   libraryRecipeMembers = [],
   onOpenConstruct,
   onInspectPrimer,
@@ -975,6 +982,7 @@ export function HistoryTreePane({
   onInspectRestrictionDigest?: (node: HistoryNode, enzymeNames: string[]) => void
   onOpenAnnealedInsert?: (node: HistoryNode, guideId: string) => void
 }) {
+  const root = useMemo(() => gibsonHistoryForDisplay(originalRoot), [originalRoot])
   const defaultCollapsedIds = useMemo(() => initialCollapsedHistoryIds(root), [root])
   const [collapsedIds, setCollapsedIds] = useState<Set<string>>(
     () => new Set(defaultCollapsedIds),

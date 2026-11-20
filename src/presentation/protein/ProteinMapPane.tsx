@@ -11,7 +11,7 @@ import { defaultProteinBondColor, proteinBondDescription, proteinBondStrokeWidth
 import { layoutProteinMapBonds, layoutProteinMapFeatures, proteinMapBondPath, proteinMapBoundaryAtFraction, proteinMapTickStep } from '../../domain/proteinMap'
 import { formatRange, sanitizeProtein } from '../../domain/sequence'
 import { strandColorAtPosition } from '../../domain/snapgeneStrandColors'
-import { type SequenceRecord } from '../../domain/types'
+import { type ProteinTranslationSource, type SequenceRecord } from '../../domain/types'
 import { estimateLinearInlineFeatureLabelWidthPx } from '../../domain/linearFeatureLabels'
 import { formatSequenceLength } from '../../domain/moleculeCapabilities'
 import { MOBILE_PROTEIN_MAP_TOUCH_HINT, MOBILE_PROTEIN_MAP_ZOOMED_TOUCH_HINT } from '../../ui/mobilePairSelection'
@@ -28,7 +28,7 @@ import {
   type ProteinColorCode,
   type SelectionRange,
 } from '../sequence'
-import { proteinTranslationOriginLabel } from './proteinShared'
+import { ProteinTranslationOrigin } from './ProteinTranslationOrigin'
 
 const emptyProteinComparisonSources: ProteinComparisonSource[] = []
 const emptyProteinComparisonVariableRegions: ProteinComparisonVariableRegion[] = []
@@ -97,6 +97,7 @@ export function ProteinMapVisualControlsPanel({
 
 export function ProteinMapPane({
   record,
+  onOpenTranslationSourceDna,
   selectedRange,
   motifHits,
   activeHitIndex,
@@ -127,6 +128,7 @@ export function ProteinMapPane({
   onViewRangeChange,
 }: {
   record: SequenceRecord
+  onOpenTranslationSourceDna?: (source: ProteinTranslationSource) => void
   selectedRange: SelectionRange | null
   motifHits: number[]
   activeHitIndex: number
@@ -172,7 +174,6 @@ export function ProteinMapPane({
     ? localBinderApplication.numbering
     : null
   const appliedBinderNumbering = binderNumbering ?? localNumbering
-  const translationOrigin = proteinTranslationOriginLabel(record)
   const titleFontSizePx = proteinMapVisual.titleFontSizePx
   const titleFontWeight = proteinMapVisual.titleFontWeight
   const rulerFontSizePx = proteinMapVisual.rulerFontSizePx
@@ -619,7 +620,7 @@ export function ProteinMapPane({
           <span>{formatSequenceLength(sequenceLength, 'protein')}</span>
           <span>{record.features.length.toLocaleString()} features</span>
           <span>{(record.protein?.bonds.length ?? 0).toLocaleString()} bonds</span>
-          {translationOrigin ? <span>{translationOrigin}</span> : null}
+          <ProteinTranslationOrigin record={record} onOpenSource={onOpenTranslationSourceDna} />
           {showAlignments ? (
             <span>{alignedComparisonCount} alignment{alignedComparisonCount === 1 ? '' : 's'}{comparisonPending ? ' · aligning…' : ''}</span>
           ) : null}

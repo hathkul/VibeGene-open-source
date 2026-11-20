@@ -18,6 +18,7 @@ import type {
 export type DatabaseManagerRecordsPaneAssemblyInput = {
   viewMode: DatabaseViewMode
   browse: DatabaseBrowseMode
+  searching?: boolean
   constructPick: DatabaseManagerConstructPickContext | null
   libraryMemberPick: DatabaseManagerLibraryMemberPickContext | null
   primerScanBusy: boolean
@@ -83,7 +84,7 @@ export function assembleDatabaseManagerRecordsPaneModels(input: DatabaseManagerR
     viewMode: input.viewMode,
     browseKind: input.browse.kind === 'builtin' ? ('builtin' as const) : ('files' as const),
     primersModel: {
-      empty: buildDatabaseManagerPrimersEmptyState({
+      empty: input.searching && !input.primerScanBusy && input.visiblePrimerCount === 0 ? { kind: 'empty' as const, message: 'No matching primers.' } : buildDatabaseManagerPrimersEmptyState({
         primerScanBusy: input.primerScanBusy,
         primerHitCount: input.primerHitCount,
         visiblePrimerCount: input.visiblePrimerCount,
@@ -102,7 +103,7 @@ export function assembleDatabaseManagerRecordsPaneModels(input: DatabaseManagerR
       columnReorder: input.primers.columnReorder,
     },
     proteinsModel: {
-      empty: buildDatabaseManagerProteinsEmptyState({
+      empty: input.searching && !input.proteinScanBusy && input.visibleProteinCount === 0 ? { kind: 'empty' as const, message: 'No matching translated CDSes.' } : buildDatabaseManagerProteinsEmptyState({
         proteinScanBusy: input.proteinScanBusy,
         proteinHitCount: input.proteinHitCount,
         visibleProteinCount: input.visibleProteinCount,
@@ -120,11 +121,11 @@ export function assembleDatabaseManagerRecordsPaneModels(input: DatabaseManagerR
       columnReorder: input.proteins.columnReorder,
     },
     builtinModel: {
-      emptyMessage: buildDatabaseManagerBuiltinEmptyMessage(input.visibleBuiltInCount),
+      emptyMessage: input.searching && input.visibleBuiltInCount === 0 ? 'No matching built-in plasmids.' : buildDatabaseManagerBuiltinEmptyMessage(input.visibleBuiltInCount),
       rows: input.builtin.rows,
     },
     filesModel: {
-      empty: buildDatabaseManagerFilesEmptyState({
+      empty: input.searching && !input.projectPageLoading && input.paginationTotal === 0 ? { kind: 'empty' as const, message: 'No matching files.' } : buildDatabaseManagerFilesEmptyState({
         projectPageLoading: input.projectPageLoading,
         visibleProjectCount: input.visibleProjectCount,
         paginationTotal: input.paginationTotal,

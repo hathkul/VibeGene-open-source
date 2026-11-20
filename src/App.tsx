@@ -54,6 +54,7 @@ import { useActiveWorkspaceTabRoutingLifecycle } from './presentation/hooks/useA
 import { useProjectRefreshLifecycle } from './presentation/hooks/useProjectRefreshLifecycle'
 import { useSaveToolbarModePersistenceLifecycle } from './presentation/hooks/useSaveToolbarModePersistenceLifecycle'
 import { useWorkspaceDocumentTitleLifecycle } from './presentation/hooks/useWorkspaceDocumentTitleLifecycle'
+import { browserDocumentTitle } from './presentation/browserDocumentTitle'
 import { useHybridDatabasePayloadLifecycle } from './presentation/hooks/useHybridDatabasePayloadLifecycle'
 import { useRegisteredAppKeyboardShortcutLifecycle } from './presentation/hooks/useRegisteredAppKeyboardShortcutLifecycle'
 import { useCloseOnOutsidePointer } from './presentation/hooks/useCloseOnOutsidePointer'
@@ -311,7 +312,7 @@ async function downloadBytes(
 const MAX_HISTORY_ENTRIES = 100
 
 function applyBrowserDocumentTitle(title: string) {
-  document.title = title
+  document.title = browserDocumentTitle(title, isTauriRuntime())
 }
 
 function App() {
@@ -3508,6 +3509,7 @@ function App() {
                   onFeatureSelect: selectFeatureById,
                   onFeatureEdit: openFeatureEditorForFeature,
                   onAnnotateBinder: annotateProteinBinder,
+                  onOpenTranslationSourceDna: openTranslationSourceDnaCommand,
                   onBinderNumberingChange: updateProteinBinderNumbering,
                   onBinderStructureChange: updateProteinBinderStructure,
                   onAlignmentCacheEntry: updateProteinComparisonAlignmentCacheEntry,
@@ -3630,6 +3632,7 @@ function App() {
                   onVariableRegionsChange: updateProteinComparisonVariableRegions,
                   onAlignmentCacheEntry: updateProteinComparisonAlignmentCacheEntry,
                   onAnnotateBinder: annotateProteinBinder,
+                  onOpenTranslationSourceDna: openTranslationSourceDnaCommand,
                   onBinderNumberingChange: updateProteinBinderNumbering,
                   onBinderStructureChange: updateProteinBinderStructure,
                   onStatus: setStatus,

@@ -8,6 +8,7 @@ import { contributionGeometry, digestEnzymeNamesFromHistorySummary } from '../do
 import { exportSnapGene, parseFasta, parseSnapGene } from '../domain/parsers'
 import { reverseComplement } from '../domain/sequence'
 import { initSnapGeneLzma } from '../domain/snapgeneLzma'
+import { gibsonHistoryForDisplay } from '../domain/gibsonHistoryDisplay'
 import { HistoryTreePane } from './HistoryTreePane'
 
 function assembledProduct() {
@@ -65,7 +66,14 @@ describe('homology assembly history', () => {
         forwardPrimer: { name: 'Forward & primer' }, reversePrimer: { name: 'Reverse primer' }, polymerase: 'blunt',
       })
       expect(summaries[2]?.assemblyPart?.linearization).toEqual({ method: 'restriction', leftEnzyme: 'EcoRI', rightEnzyme: 'BamHI' })
-      expect(record.history!.children.map((child) => child.name)).toEqual(['direct-source.dna', 'pcr-source.dna', 'digest-source.dna'])
+      expect(record.history!.children.map((child) => child.name)).toEqual(['direct-source.dna', 'Fragment 2.dna', 'Fragment 3.dna'])
+      expect(record.history!.children[1]?.children[0]?.name).toBe('pcr-source.dna')
+      expect(record.history!.children[2]?.children[0]?.name).toBe('digest-source.dna')
+      expect(record.history!.children[1]?.sequence).toBeTruthy()
+      expect(record.history!.children[2]?.sequence).toBeTruthy()
+      expect(record.history!.children[1]?.oligos.map((oligo) => oligo.name)).toEqual(['Forward & primer', 'Reverse primer'])
+      expect(record.history!.children[1]?.sequence).toBe(product.history!.children[1]?.sequence)
+      expect(record.history!.children[2]?.sequence).toBe(product.history!.children[2]?.sequence)
     }
     const assembly = product.history!
     const edited = {
@@ -86,7 +94,7 @@ describe('homology assembly history', () => {
   it('shows each input method and opens its primer and enzyme details', async () => {
     const savedHistory = parseSnapGene(exportSnapGene(assembledProduct()), 'test.dna').history!
     // Multiple assembly parts may come from the same source history node.
-    const history = { ...savedHistory, children: savedHistory.children.map((child) => ({ ...child, id: 'same-source' })) }
+    const history = savedHistory
     const onInspectPrimer = vi.fn()
     const onInspectEnzyme = vi.fn()
     Object.assign(globalThis, { IS_REACT_ACT_ENVIRONMENT: true })
@@ -95,21 +103,15 @@ describe('homology assembly history', () => {
     root = createRoot(host)
     await act(async () => root!.render(<HistoryTreePane root={history} onOpenConstruct={vi.fn()} onInspectPrimer={onInspectPrimer} onInspectEnzyme={onInspectEnzyme} />))
     const labels = [...host.querySelectorAll<HTMLElement>('.hedge-parent')]
-    expect(labels).toHaveLength(3)
+    expect(labels).toHaveLength(5)
     expect(labels[0]?.textContent).toContain('Used directly')
-    expect(labels[1]?.textContent).toContain('PCR')
-    expect(labels[1]?.textContent).toContain('Forward & primer')
-    expect(labels[2]?.textContent).toContain('Restriction digest')
-    expect(labels[2]?.textContent).toContain('EcoRI')
-    await act(async () => labels[1]!.querySelector('button')!.dispatchEvent(new MouseEvent('dblclick', { bubbles: true })))
+    expect(host.textContent).toContain('PCR amplification')
+    expect(host.textContent).toContain('Fragment 2.dna')
+    const primer = [...host.querySelectorAll<HTMLButtonElement>('.hop-primer')].find((button) => button.textContent === 'Forward & primer')!
+    const enzyme = [...host.querySelectorAll<HTMLButtonElement>('.hedge-parent-site.is-enzyme')].find((button) => button.textContent === 'EcoRI')!
+    await act(async () => primer.dispatchEvent(new MouseEvent('dblclick', { bubbles: true })))
     expect(onInspectPrimer).toHaveBeenCalledWith(expect.objectContaining({ name: 'Forward & primer' }))
-    await act(async () => labels[2]!.querySelector('button')!.dispatchEvent(new MouseEvent('dblclick', { bubbles: true })))
-    expect(onInspectEnzyme).toHaveBeenCalledWith('EcoRI')
-    onInspectPrimer.mockClear()
-    onInspectEnzyme.mockClear()
-    await act(async () => labels[1]!.querySelector<HTMLButtonElement>('button')!.click())
-    await act(async () => labels[2]!.querySelector<HTMLButtonElement>('button')!.click())
-    expect(onInspectPrimer).toHaveBeenCalledWith(expect.objectContaining({ name: 'Forward & primer' }))
+    await act(async () => enzyme.dispatchEvent(new MouseEvent('dblclick', { bubbles: true })))
     expect(onInspectEnzyme).toHaveBeenCalledWith('EcoRI')
   })
 
@@ -117,5 +119,16 @@ describe('homology assembly history', () => {
     const summary = { manipulation: 'gibson', name1: 'source construct', val1: '1', val2: 'forward' }
     expect(contributionGeometry(summary, 1000)).toEqual({ sites: [], region: null, role: null })
     expect(digestEnzymeNamesFromHistorySummary(summary)).toEqual([])
+  })
+
+  it('presents older flat histories without inventing fragment sequences or mutating saved history', () => {
+    const original = assembledProduct().history!
+    const flat = { ...original, children: original.children.map((child) => child.children[0] ?? child) }
+    const displayed = gibsonHistoryForDisplay(flat)
+    expect(displayed.children[1]?.name).toContain('sequence unavailable')
+    expect(displayed.children[1]?.sequence).toBeUndefined()
+    expect(displayed.children[1]?.oligos[0]?.name).toBe('Forward & primer')
+    expect(displayed.children[1]?.children[0]).toEqual(flat.children[1])
+    expect(flat.children[1]?.operation).not.toBe('amplifyFragment')
   })
 })

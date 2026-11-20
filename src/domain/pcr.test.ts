@@ -68,4 +68,25 @@ describe('PCR product provenance and naming', () => {
     expect(product.name).toBe('Named product')
     expect(product.history?.name).toBe('Named product.dna')
   })
+
+  it('preserves source codon phase when a primer overhang replaces the clipped CDS start', () => {
+    const feature: SequenceFeature = {
+      id: 'cds', name: 'Test CDS', type: 'CDS', color: themeFixturePalette.greenPrimary,
+      locations: [{ start: 22, end: 180, strand: 'forward' }],
+      translateInSequenceView: true,
+      translation: { geneticCode: 'Standard', firstCodonAsMet: false, readingFrame: 1,
+        consecutiveNumbering: true, segmentNumbering: [{ startAt: 1, skip: false }] },
+    }
+    const template = { ...templateWithFeature(feature), sequence: 'A'.repeat(200) }
+    const product = createPcrProductRecord({
+      template, name: 'Test fragment', polymerase: 'blunt',
+      amplicon: { id: 'amp', regionStart: 112, regionEnd: 190, productSize: 102, sequence: 'A'.repeat(102),
+        forwardAnnealStart: 112, forwardAnnealEnd: 131, reverseAnnealStart: 184, reverseAnnealEnd: 190 },
+      forwardPrimer: { name: 'F', sequence: 'A'.repeat(43), phosphorylated: false },
+      reversePrimer: { name: 'R', sequence: 'A'.repeat(6), phosphorylated: false },
+    })
+    expect(product.features[0]?.locations[0]).toMatchObject({ start: 24 })
+    expect(product.features[0]?.translation?.readingFrame).toBe(1)
+    expect(product.features[0]?.sourceTranslationAnchor).toBeUndefined()
+  })
 })

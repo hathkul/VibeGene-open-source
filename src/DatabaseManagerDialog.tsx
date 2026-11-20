@@ -41,6 +41,7 @@ import { exportDatabaseLibrary } from './desktop/exportDatabaseLibrary'
 import { exportProjectById, exportSelectedProjects } from './desktop/databaseManagerProjectExport'
 import { importDatabaseLibrary, importFolderLibrary } from './desktop/importDatabaseLibrary'
 import { applyFolderScopedSync, preflightFolderScopedSync, reconcileMappedFolderDesktop } from './desktop/folderScopedSync'
+import { matchesDatabaseEntrySearch } from './application/databaseManager/entrySearch'
 import { isTauriRuntime } from './desktop/tauriRuntime'
 import { isHybridWindowRuntime } from './desktop/hybridWindows'
 import { syncNativeWindowTitle } from './desktop/windowTitle'
@@ -163,7 +164,7 @@ import {
   databaseWindowTitle,
   type DatabaseBrowseMode,
 } from './application/databaseManager/browsePresentation'
-import { effectiveFlexibleColumnWidths } from './application/databaseManager/columnWidthPlanning'
+import { boundedCdsNumericColumnWidths, CDS_NUMERIC_COLUMN_MAX_WIDTH, effectiveFlexibleColumnWidths } from './application/databaseManager/columnWidthPlanning'
 import { primerFileNamesSortKey, proteinFileNamesSortKey } from './application/databaseManager/sourceSortKeys'
 import { type FolderSyncIntent } from './application/databaseManager/folderSyncPresentation'
 import {
@@ -361,6 +362,8 @@ export function DatabaseManagerDialog({
 }: DatabaseManagerDialogProps) {
   const [folders, setFolders] = useState<StoredFolder[]>([])
   const [browse, setBrowse] = useState<BrowseMode>({ kind: 'all' })
+  const [databaseSearch, setDatabaseSearch] = useState('')
+  const [databaseSearchScope, setDatabaseSearchScope] = useState<'current' | 'global'>('current')
   const [pagination, setPagination] = useState({ key: '', page: 0 })
   const [projectPage, setProjectPage] = useState<{
     key: string
@@ -949,6 +952,10 @@ export function DatabaseManagerDialog({
   }
 
   const tree = useMemo(() => buildFolderTree(folders), [folders])
+  const searchTerm = databaseSearch.trim().toLocaleLowerCase()
+  const resultsBrowse = useMemo<BrowseMode>(() =>
+    searchTerm && databaseSearchScope === 'global' ? { kind: 'all' } : browse,
+  [browse, databaseSearchScope, searchTerm])
   const fileModeProjects = useMemo(
     () => projects.filter((project) => moleculeBelongsInDatabaseFileView(project.molecule, viewMode)),
     [projects, viewMode],
@@ -959,28 +966,28 @@ export function DatabaseManagerDialog({
   const sidebarTags = viewMode === 'primers' ? allPrimerTags : fileView ? allTags : []
 
   const visibleBuiltIn = useMemo(() => {
-    if (browse.kind !== 'builtin') return []
-    return builtInPlasmids.filter((entry) => entryMatchesBuiltInGroup(entry, browse.group))
-  }, [browse, builtInPlasmids])
+    if (resultsBrowse.kind !== 'builtin') return []
+    return builtInPlasmids.filter((entry) => entryMatchesBuiltInGroup(entry, resultsBrowse.group) && (!searchTerm || entry.label.toLocaleLowerCase().includes(searchTerm)))
+  }, [resultsBrowse, builtInPlasmids, searchTerm])
 
   const visiblePrimers = useMemo(() => {
     let scoped: DatabasePrimerHit[]
-    if (browse.kind === 'all') scoped = primerHits
-    else if (browse.kind === 'common') {
+    if (resultsBrowse.kind === 'all') scoped = primerHits
+    else if (resultsBrowse.kind === 'common') {
       scoped = primerHits.filter((hit) => hit.projectId === COMMON_PRIMERS_SOURCE_ID)
-    } else if (browse.kind === 'unfiled') {
+    } else if (resultsBrowse.kind === 'unfiled') {
       scoped = primerHits.filter((hit) => !hit.folderId && hit.projectId !== COMMON_PRIMERS_SOURCE_ID)
-    } else if (browse.kind === 'folder') {
-      scoped = primerHits.filter((hit) => hit.folderId === browse.folderId)
-    } else if (browse.kind === 'builtin') {
+    } else if (resultsBrowse.kind === 'folder') {
+      scoped = primerHits.filter((hit) => hit.folderId === resultsBrowse.folderId)
+    } else if (resultsBrowse.kind === 'builtin') {
       scoped = []
     } else {
-      const tagKey = browse.tag.toLowerCase()
+      const tagKey = resultsBrowse.tag.toLowerCase()
       scoped = primerHits.filter((hit) =>
         tagsForPrimerKey(primerTagMap, hit.key).some((tag) => tag.toLowerCase() === tagKey),
       )
     }
-    const rows = dedupePrimerHits(scoped)
+    const rows = dedupePrimerHits(scoped).filter((row) => matchesDatabaseEntrySearch(searchTerm, row, tagsForPrimerKey(primerTagMap, row.key)))
     const sign = primerSortDirection === 'asc' ? 1 : -1
     return [...rows].sort((left, right) => {
       if (primerSortColumn === 'files') {
@@ -1018,19 +1025,19 @@ export function DatabaseManagerDialog({
       }
       return sign * cmp || left.name.localeCompare(right.name, undefined, { sensitivity: 'base' }) || left.key.localeCompare(right.key)
     })
-  }, [browse, primerHits, primerSortColumn, primerSortDirection, primerTagMap])
+  }, [resultsBrowse, searchTerm, primerHits, primerSortColumn, primerSortDirection, primerTagMap])
 
   const visibleProteins = useMemo(() => {
     let scoped: DatabaseProteinHit[]
-    if (browse.kind === 'all') scoped = proteinHits
-    else if (browse.kind === 'unfiled') {
+    if (resultsBrowse.kind === 'all') scoped = proteinHits
+    else if (resultsBrowse.kind === 'unfiled') {
       scoped = proteinHits.filter((hit) => !hit.folderId)
-    } else if (browse.kind === 'folder') {
-      scoped = proteinHits.filter((hit) => hit.folderId === browse.folderId)
+    } else if (resultsBrowse.kind === 'folder') {
+      scoped = proteinHits.filter((hit) => hit.folderId === resultsBrowse.folderId)
     } else {
       scoped = []
     }
-    const rows = dedupeProteinHits(scoped)
+    const rows = dedupeProteinHits(scoped).filter((row) => matchesDatabaseEntrySearch(searchTerm, row))
     const sign = proteinSortDirection === 'asc' ? 1 : -1
     return [...rows].sort((left, right) => {
       if (proteinSortColumn === 'files') {
@@ -1065,19 +1072,20 @@ export function DatabaseManagerDialog({
         left.key.localeCompare(right.key)
       )
     })
-  }, [browse, proteinHits, proteinSortColumn, proteinSortDirection])
+  }, [resultsBrowse, searchTerm, proteinHits, proteinSortColumn, proteinSortDirection])
 
   const browsePaginationKey =
-    browse.kind === 'folder'
-      ? `folder:${browse.folderId}`
-      : browse.kind === 'tag'
-        ? `tag:${browse.tag.toLowerCase()}`
-        : browse.kind === 'builtin'
-          ? `builtin:${browse.group}`
-          : browse.kind
+    resultsBrowse.kind === 'folder'
+      ? `folder:${resultsBrowse.folderId}`
+      : resultsBrowse.kind === 'tag'
+        ? `tag:${resultsBrowse.tag.toLowerCase()}`
+        : resultsBrowse.kind === 'builtin'
+          ? `builtin:${resultsBrowse.group}`
+          : resultsBrowse.kind
   const paginationKey = [
     viewMode,
     browsePaginationKey,
+    searchTerm,
     viewMode === 'primers'
       ? `${primerSortColumn}:${primerSortDirection}`
       : viewMode === 'cdses'
@@ -1089,7 +1097,7 @@ export function DatabaseManagerDialog({
       ? visiblePrimers.length
       : viewMode === 'cdses'
         ? visibleProteins.length
-        : browse.kind === 'builtin'
+        : resultsBrowse.kind === 'builtin'
           ? visibleBuiltIn.length
           : projectPage.key === paginationKey ? projectPage.total : 0
   const requestedPage = pagination.key === paginationKey ? pagination.page : 0
@@ -1104,7 +1112,7 @@ export function DatabaseManagerDialog({
       ? projectPage.rows
       : NO_VISIBLE_PROJECT_PAGE
   const projectPageLoading =
-    fileView && browse.kind !== 'builtin' && browse.kind !== 'common' &&
+    fileView && resultsBrowse.kind !== 'builtin' && resultsBrowse.kind !== 'common' &&
     (projectPage.key !== paginationKey || projectPage.page !== paginationPage)
   const paginatedProjects = visibleProjects
   const paginatedPrimers = visiblePrimers.slice(paginationStart, paginationEnd)
@@ -1112,13 +1120,13 @@ export function DatabaseManagerDialog({
   const paginatedBuiltIn = visibleBuiltIn.slice(paginationStart, paginationEnd)
 
   useEffect(() => {
-    if (!fileView || browse.kind === 'builtin' || browse.kind === 'common') return
+    if (!fileView || resultsBrowse.kind === 'builtin' || resultsBrowse.kind === 'common') return
     let cancelled = false
-    const scope = browse.kind === 'folder'
-      ? { kind: 'folder' as const, folderId: browse.folderId }
-      : browse.kind === 'tag'
-        ? { kind: 'tag' as const, tag: browse.tag }
-        : browse.kind === 'unfiled'
+    const scope = resultsBrowse.kind === 'folder'
+      ? { kind: 'folder' as const, folderId: resultsBrowse.folderId }
+      : resultsBrowse.kind === 'tag'
+        ? { kind: 'tag' as const, tag: resultsBrowse.tag }
+        : resultsBrowse.kind === 'unfiled'
           ? { kind: 'unfiled' as const }
           : { kind: 'all' as const }
     const folderSortKeys = sortColumn === 'folder'
@@ -1135,6 +1143,7 @@ export function DatabaseManagerDialog({
       direction: sortDirection,
       page: requestedPage,
       pageSize: DATABASE_TABLE_PAGE_SIZE,
+      search: searchTerm,
       folderSortKeys,
     }).then((result) => {
       if (cancelled) return
@@ -1162,10 +1171,10 @@ export function DatabaseManagerDialog({
     return () => {
       cancelled = true
     }
-  }, [browse, fileView, folders, onStatus, paginationKey, paginationPage, projects, requestedPage, sortColumn, sortDirection, viewMode])
+  }, [resultsBrowse, searchTerm, fileView, folders, onStatus, paginationKey, paginationPage, projects, requestedPage, sortColumn, sortDirection, viewMode])
 
   useEffect(() => {
-    if (!fileView || browse.kind === 'builtin' || browse.kind === 'common') return
+    if (!fileView || resultsBrowse.kind === 'builtin' || resultsBrowse.kind === 'common') return
     const node = fileListRef.current
     if (!node) return
     const loadNextPage = () => {
@@ -1185,7 +1194,7 @@ export function DatabaseManagerDialog({
     node.addEventListener('scroll', loadNextPage, { passive: true })
     loadNextPage()
     return () => node.removeEventListener('scroll', loadNextPage)
-  }, [browse.kind, fileView, paginationKey, paginationPage, paginationPageCount, projectPageLoading])
+  }, [resultsBrowse.kind, fileView, paginationKey, paginationPage, paginationPageCount, projectPageLoading])
 
   useLayoutEffect(() => {
     const node = fileListRef.current
@@ -1814,7 +1823,7 @@ export function DatabaseManagerDialog({
   const effectiveProteinWidths = useMemo(
     () =>
       effectiveFlexibleColumnWidths(
-        proteinColumnWidths,
+        boundedCdsNumericColumnWidths(proteinColumnWidths),
         tableViewportWidth,
         databaseProteinFlexColumnId,
         databaseProteinColumnSizing,
@@ -2122,7 +2131,7 @@ export function DatabaseManagerDialog({
   function resizeProteinColumn(columnId: ProteinColumnId, nextWidth: number) {
     setProteinColumnWidths((current) => {
       const effective = effectiveFlexibleColumnWidths(
-        current,
+        boundedCdsNumericColumnWidths(current),
         tableViewportWidth,
         databaseProteinFlexColumnId,
         databaseProteinColumnSizing,
@@ -2131,15 +2140,18 @@ export function DatabaseManagerDialog({
       const neighborId = proteinColumnOrder[index + 1]
 
       if (!neighborId) {
-        const clamped = Math.max(PROTEIN_COLUMN_MIN_WIDTH[columnId], Math.round(nextWidth))
+        const max = columnId === 'length' || columnId === 'mass' ? CDS_NUMERIC_COLUMN_MAX_WIDTH : Infinity
+        const clamped = Math.min(max, Math.max(PROTEIN_COLUMN_MIN_WIDTH[columnId], Math.round(nextWidth)))
         return current[columnId] === clamped ? current : { ...current, [columnId]: clamped }
       }
 
       const delta = Math.round(nextWidth) - effective[columnId]
       if (delta === 0) return current
 
-      const maxDelta = effective[neighborId] - PROTEIN_COLUMN_MIN_WIDTH[neighborId]
-      const minDelta = PROTEIN_COLUMN_MIN_WIDTH[columnId] - effective[columnId]
+      const columnMax = columnId === 'length' || columnId === 'mass' ? CDS_NUMERIC_COLUMN_MAX_WIDTH : Infinity
+      const neighborMax = neighborId === 'length' || neighborId === 'mass' ? CDS_NUMERIC_COLUMN_MAX_WIDTH : Infinity
+      const maxDelta = Math.min(effective[neighborId] - PROTEIN_COLUMN_MIN_WIDTH[neighborId], columnMax - effective[columnId])
+      const minDelta = Math.max(PROTEIN_COLUMN_MIN_WIDTH[columnId] - effective[columnId], effective[neighborId] - neighborMax)
       const applied = Math.max(minDelta, Math.min(maxDelta, delta))
       if (applied === 0) return current
 
@@ -2604,7 +2616,8 @@ export function DatabaseManagerDialog({
 
   const recordsPaneModels = assembleDatabaseManagerRecordsPaneModels({
     viewMode,
-    browse,
+    browse: resultsBrowse,
+    searching: Boolean(searchTerm),
     constructPick: constructPickContext,
     libraryMemberPick: libraryMemberPick ?? null,
     primerScanBusy,
@@ -2870,6 +2883,7 @@ export function DatabaseManagerDialog({
             onPointerCancel: endSidebarResize,
           }}
           main={{
+            search: { value: databaseSearch, scope: databaseSearchScope, onChange: setDatabaseSearch, onScopeChange: setDatabaseSearchScope },
             toolbar: {
               model: toolbarPresentationModel as DatabaseManagerToolbarModel,
               commands: toolbarCommands,

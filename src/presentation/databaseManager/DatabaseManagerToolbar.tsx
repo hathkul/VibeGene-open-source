@@ -15,6 +15,7 @@ import {
   Trash2,
   Upload,
 } from 'lucide-react'
+import type { ReactNode } from 'react'
 import { DbSelectionExportMenu } from './DbExportMenus'
 import { DbToolbarMenuProvider, DbToolbarModeGroup } from './DbToolbarModeGroup'
 import type { DatabaseManagerToolbarCommands, DatabaseManagerToolbarModel } from './databaseManagerToolbarTypes'
@@ -22,9 +23,10 @@ import type { DatabaseManagerToolbarCommands, DatabaseManagerToolbarModel } from
 export type DatabaseManagerToolbarProps = {
   model: DatabaseManagerToolbarModel
   commands: DatabaseManagerToolbarCommands
+  searchControl?: ReactNode
 }
 
-export function DatabaseManagerToolbar({ model, commands }: DatabaseManagerToolbarProps) {
+export function DatabaseManagerToolbar({ model, commands, searchControl }: DatabaseManagerToolbarProps) {
   const { intent, pick, viewMode, sync, historyRecovery, fileSelection, primerSelection, proteinSelection } =
     model
   const manageOnly = intent === 'manage'
@@ -325,6 +327,7 @@ export function DatabaseManagerToolbar({ model, commands }: DatabaseManagerToolb
           ) : null}
         </div>
       </DbToolbarMenuProvider>
+      {searchControl}
     </div>
   )
 }
